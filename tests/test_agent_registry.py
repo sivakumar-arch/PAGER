@@ -9,6 +9,7 @@ import pytest
 from src.models.agent import Agent
 from src.models.query import AnalyzedQuery
 from src.pager.agent_registry import AgentRegistry
+from src.utils.config_loader import ConfigLoadError
 
 
 @pytest.fixture
@@ -73,13 +74,13 @@ class TestRegistryLoading:
         assert "procedure_agent" in ids
 
     def test_file_not_found_raises(self):
-        with pytest.raises(FileNotFoundError):
+        with pytest.raises(ConfigLoadError):
             AgentRegistry("nonexistent/path/agents.yaml")
 
     def test_missing_agents_key_raises(self, tmp_path):
         bad_yaml = tmp_path / "bad.yaml"
         bad_yaml.write_text("not_agents:\n  - id: test\n")
-        with pytest.raises(ValueError, match="missing 'agents' key"):
+        with pytest.raises(ConfigLoadError, match="missing required top-level"):
             AgentRegistry(str(bad_yaml))
 
     def test_agents_are_pydantic_validated(self, minimal_yaml):

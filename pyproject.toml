@@ -60,13 +60,11 @@ python_files = ["test_*.py"]
 python_classes = ["Test*"]
 python_functions = ["test_*"]
 addopts = [
-    "--cov=src",
-    "--cov-report=term-missing",
-    "--cov-report=html",
-    "--cov-report=xml",
     "--verbose",
     "--strict-markers",
 ]
+# Coverage is opt-in: run with --cov=src --cov-report=term-missing
+# Example: pytest --cov=src --cov-report=term-missing tests/
 markers = [
     "unit: Unit tests — fast, no external dependencies",
     "integration: Integration tests — requires OPA, agent configs",

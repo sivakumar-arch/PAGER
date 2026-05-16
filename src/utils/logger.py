@@ -1,107 +1,69 @@
-"""PAGER structured logging utility.
+"""Structured logging utility for PAGER.
 
-Provides a consistent logging interface across all PAGER components.
-Outputs structured JSON in production mode for log aggregation systems
-(e.g. ELK, Datadog) and plain text in development mode.
+Wraps Python's standard logging with a clean interface that supports
+structured key-value context via keyword arguments.
 """
 
-import json
 import logging
 import sys
-from datetime import datetime, timezone
 from typing import Any
 
 
-class StructuredFormatter(logging.Formatter):
-    """JSON log formatter for structured/machine-readable output."""
-
-    def format(self, record: logging.LogRecord) -> str:
-        log_entry: dict[str, Any] = {
-            "timestamp": datetime.now(tz=timezone.utc).isoformat(),
-            "level": record.levelname,
-            "logger": record.name,
-            "message": record.getMessage(),
-        }
-
-        # Include extra fields attached to the log record
-        extra_fields = {
-            k: v
-            for k, v in record.__dict__.items()
-            if k
-            not in {
-                "name",
-                "msg",
-                "args",
-                "levelname",
-                "levelno",
-                "pathname",
-                "filename",
-                "module",
-                "exc_info",
-                "exc_text",
-                "stack_info",
-                "lineno",
-                "funcName",
-                "created",
-                "msecs",
-                "relativeCreated",
-                "thread",
-                "threadName",
-                "processName",
-                "process",
-                "message",
-                "taskName",
-            }
-        }
-        if extra_fields:
-            log_entry["context"] = extra_fields
-
-        if record.exc_info:
-            log_entry["exception"] = self.formatException(record.exc_info)
-
-        return json.dumps(log_entry)
-
-
-def get_logger(
-    name: str,
-    level: str = "INFO",
-    structured: bool = False,
-) -> logging.Logger:
-    """Get a configured PAGER logger.
+def get_logger(name: str, level: str = "INFO") -> "PAGERLogger":
+    """Get a structured logger for a PAGER module.
 
     Args:
-        name: Logger name — use __name__ in each module.
-        level: Log level string: DEBUG | INFO | WARNING | ERROR.
-        structured: If True, output JSON. If False, output plain text.
+        name: Logger name (use __name__ in each module).
+        level: Log level string (DEBUG, INFO, WARNING, ERROR).
 
     Returns:
-        Configured Logger instance.
-
-    Example:
-        logger = get_logger(__name__)
-        logger.info("Agent selected", extra={"agent_id": "labs_agent"})
+        PAGERLogger instance.
     """
-    logger = logging.getLogger(name)
+    return PAGERLogger(name=name, level=level)
 
-    # Avoid adding duplicate handlers if logger already configured
-    if logger.handlers:
-        return logger
 
-    logger.setLevel(getattr(logging, level.upper(), logging.INFO))
+class PAGERLogger:
+    """Thin wrapper around stdlib logging with structured kwargs support.
 
-    handler = logging.StreamHandler(sys.stdout)
+    Allows calling logger.info("msg", key=value, key2=value2) and formats
+    the kwargs as appended key=value pairs in the log message.
 
-    if structured:
-        handler.setFormatter(StructuredFormatter())
-    else:
-        handler.setFormatter(
-            logging.Formatter(
+    This avoids Python 3.13's stricter _log() signature which rejects
+    unexpected keyword arguments.
+    """
+
+    def __init__(self, name: str, level: str = "INFO") -> None:
+        self._logger = logging.getLogger(name)
+
+        if not self._logger.handlers:
+            handler = logging.StreamHandler(sys.stdout)
+            formatter = logging.Formatter(
                 fmt="%(asctime)s | %(levelname)-8s | %(name)s | %(message)s",
                 datefmt="%Y-%m-%d %H:%M:%S",
             )
-        )
+            handler.setFormatter(formatter)
+            self._logger.addHandler(handler)
 
-    logger.addHandler(handler)
-    logger.propagate = False
+        self._logger.setLevel(getattr(logging, level.upper(), logging.INFO))
 
-    return logger
+    def _fmt(self, message: str, kwargs: dict[str, Any]) -> str:
+        """Format message with structured key=value pairs appended."""
+        if not kwargs:
+            return message
+        pairs = " | ".join(f"{k}={v}" for k, v in kwargs.items())
+        return f"{message} | {pairs}"
+
+    def debug(self, message: str, **kwargs: Any) -> None:
+        self._logger.debug(self._fmt(message, kwargs))
+
+    def info(self, message: str, **kwargs: Any) -> None:
+        self._logger.info(self._fmt(message, kwargs))
+
+    def warning(self, message: str, **kwargs: Any) -> None:
+        self._logger.warning(self._fmt(message, kwargs))
+
+    def error(self, message: str, **kwargs: Any) -> None:
+        self._logger.error(self._fmt(message, kwargs))
+
+    def critical(self, message: str, **kwargs: Any) -> None:
+        self._logger.critical(self._fmt(message, kwargs))

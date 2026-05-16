@@ -14,7 +14,7 @@ Design rationale (Section 4.7):
 """
 
 import json
-from datetime import datetime
+from datetime import datetime, timezone
 from pathlib import Path
 
 from src.models.execution import ExecutionResult
@@ -88,7 +88,7 @@ class FeedbackCollector:
             ground_truth_agent: Expected agent ID (evaluation only).
         """
         record = {
-            "timestamp": datetime.utcnow().isoformat(),
+            "timestamp": datetime.now(timezone.utc).isoformat(),
             "task_type": query.task_type,
             "query": {
                 "raw": query.raw_query,

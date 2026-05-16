@@ -4,7 +4,7 @@ Represents the structured output of ExecutionCoordinator — the agent's
 response, measured latency, and success/error status.
 """
 
-from datetime import datetime
+from datetime import datetime, timezone
 
 from pydantic import BaseModel, Field
 
@@ -50,7 +50,7 @@ class ExecutionResult(BaseModel):
 
     # --- Metadata ---
     executed_at: datetime = Field(
-        default_factory=datetime.utcnow,
+        default_factory=lambda: datetime.now(timezone.utc),
         description="Timestamp when execution began (UTC)",
     )
 

@@ -4,7 +4,7 @@ Represents the structured output of PolicyEngine — which agents passed
 all policies, which were denied and why, and soft hints for ConflictResolver.
 """
 
-from datetime import datetime
+from datetime import datetime, timezone
 
 from pydantic import BaseModel, Field
 
@@ -71,7 +71,7 @@ class PolicyEvaluationResult(BaseModel):
 
     # --- Metadata ---
     evaluated_at: datetime = Field(
-        default_factory=datetime.utcnow,
+        default_factory=lambda: datetime.now(timezone.utc),
         description="Timestamp of policy evaluation (UTC)",
     )
     total_agents_evaluated: int = Field(

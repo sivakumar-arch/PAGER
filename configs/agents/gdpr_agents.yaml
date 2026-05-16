@@ -18,6 +18,7 @@ agents:
       - data_processor
       - data_controller
     data_residency: "EU"
+    data_access_level: 2
     consent_aware: true
     cost_per_query: 0.08
     avg_latency_ms: 140
@@ -37,6 +38,7 @@ agents:
       - data_processor
       - data_controller
     data_residency: "multi-region"
+    data_access_level: 2
     consent_aware: true
     cost_per_query: 0.12
     avg_latency_ms: 190
@@ -54,6 +56,7 @@ agents:
     authorized_roles:
       - data_processor
     data_residency: "US"
+    data_access_level: 2
     consent_aware: false
     cost_per_query: 0.05
     avg_latency_ms: 80
@@ -73,6 +76,7 @@ agents:
       - marketing_manager
       - campaign_manager
     data_residency: "EU"
+    data_access_level: 1
     consent_aware: true
     cost_per_query: 0.02
     avg_latency_ms: 60
@@ -94,6 +98,7 @@ agents:
       - campaign_manager
       - sales_manager
     data_residency: "EU"
+    data_access_level: 1
     consent_aware: true
     cost_per_query: 0.05
     avg_latency_ms: 110
@@ -111,6 +116,7 @@ agents:
     authorized_roles:
       - marketing_manager
     data_residency: "US"
+    data_access_level: 1
     consent_aware: false
     cost_per_query: 0.01
     avg_latency_ms: 40

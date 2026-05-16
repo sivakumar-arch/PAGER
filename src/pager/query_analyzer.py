@@ -46,20 +46,20 @@ _CAPABILITY_PATTERNS: list[_CapabilityPattern] = [
     ),
     # Task 3: Vital Signs (POST /Observation)
     _CapabilityPattern(
-        keywords=("vital", "blood pressure", "heart rate", "temperature",
-                  "respiratory rate", "oxygen saturation", "spo2", "bmi",
-                  "weight", "height", "pulse"),
+        keywords=("vital signs", "blood pressure", "heart rate", "temperature",
+                  "respiratory rate", "oxygen saturation", "pulse rate",
+                  "record vital", "patient weight", "patient height"),
         capabilities=("POST /Observation", "vital_signs", "blood_pressure"),
         sensitivity="high",
         intent="ordering",
     ),
     # Task 4, 6, 7, 10: Lab Results (GET /Observation)
     _CapabilityPattern(
-        keywords=("lab", "magnesium", "glucose", "hba1c", "hemoglobin",
-                  "creatinine", "sodium", "potassium", "cholesterol",
+        keywords=("lab result", "lab value", "magnesium", "glucose", "hba1c",
+                  "hemoglobin", "creatinine", "sodium", "potassium", "cholesterol",
                   "triglyceride", "albumin", "bilirubin", "platelet",
-                  "white blood cell", "wbc", "red blood cell", "rbc",
-                  "test result", "level", "value"),
+                  "white blood cell", "red blood cell",
+                  "test result", "most recent"),
         capabilities=("GET /Observation", "lab_results", "diagnostic_data"),
         sensitivity="high",
         intent="retrieval",

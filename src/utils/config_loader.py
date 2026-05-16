@@ -10,7 +10,7 @@ from typing import Any
 
 import yaml
 
-from pager.utils.logger import get_logger
+from src.utils.logger import get_logger
 
 logger = get_logger(__name__)
 
@@ -68,7 +68,7 @@ def load_yaml(path: str | Path) -> dict[str, Any]:
     return parsed  # type: ignore[return-value]
 
 
-def load_agent_config(path: str | Path) -> list[dict[str, Any]]:
+def load_agents_config(path: str | Path) -> list[dict[str, Any]]:
     """Load and validate an agent registry YAML file.
 
     Args:
@@ -122,3 +122,23 @@ def load_pager_config(path: str | Path = "configs/pager_config.yaml") -> dict[st
         )
 
     return config["pager"]  # type: ignore[return-value]
+
+def save_yaml(data: dict[str, Any], path: str | Path) -> None:
+    """Save a dictionary as a YAML file.
+
+    Args:
+        data: Dictionary to serialize.
+        path: Output file path.
+
+    Raises:
+        ConfigLoadError: If file cannot be written.
+    """
+    file_path = Path(path)
+    file_path.parent.mkdir(parents=True, exist_ok=True)
+
+    try:
+        with open(file_path, "w", encoding="utf-8") as f:
+            yaml.safe_dump(data, f, default_flow_style=False, sort_keys=False)
+        logger.debug(f"Saved config to {file_path}")
+    except OSError as e:
+        raise ConfigLoadError(f"Cannot write configuration file {file_path}: {e}") from e

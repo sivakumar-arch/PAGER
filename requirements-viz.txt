@@ -1,0 +1,10 @@
+# PAGER Visualization Requirements
+# Only needed for Phase 4 results analysis and paper figures
+# Install: pip install -r requirements-viz.txt
+#
+# If you hit build errors, try:
+#   brew install freetype pkg-config  (macOS)
+#   sudo apt-get install libfreetype6-dev  (Linux)
+
+matplotlib==3.9.0
+seaborn==0.13.2

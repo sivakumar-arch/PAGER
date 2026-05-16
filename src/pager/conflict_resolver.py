@@ -324,6 +324,8 @@ class ConflictResolver:
                 AgentScore(
                     agent_id=agent.id,
                     score=score,
+                    cost_per_query=agent.cost_per_query,
+                    avg_latency_ms=agent.avg_latency_ms,
                     cost_score=1 - norm_cost,
                     latency_score=1 - norm_lat,
                     quality_score=norm_qual,

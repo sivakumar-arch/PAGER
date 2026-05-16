@@ -28,7 +28,7 @@ agents:
       - doctor
       - admin
       - receptionist
-    data_access_level: public          # name, DOB, MRN — non-clinical
+    data_access_level: 2  # 1=public, 2=clinical, 3=restricted
     data_sensitivity: medium
     cost_per_query: 0.03
     avg_latency_ms: 120
@@ -46,7 +46,7 @@ agents:
     authorized_roles:
       - nurse
       - doctor
-    data_access_level: clinical        # vital signs — clinical data
+    data_access_level: 2  # 1=public, 2=clinical, 3=restricted
     data_sensitivity: high
     cost_per_query: 0.04
     avg_latency_ms: 95
@@ -65,7 +65,7 @@ agents:
       - nurse
       - doctor
       - lab_technician
-    data_access_level: clinical        # lab results — sensitive clinical data
+    data_access_level: 3  # 1=public, 2=clinical, 3=restricted
     data_sensitivity: high
     cost_per_query: 0.05
     avg_latency_ms: 150
@@ -83,7 +83,7 @@ agents:
     gdpr_compliant: false
     authorized_roles:
       - doctor                           # prescribing authority required
-    data_access_level: restricted        # prescriptions — highest sensitivity
+    data_access_level: 3  # 1=public, 2=clinical, 3=restricted
     data_sensitivity: high
     cost_per_query: 0.08
     avg_latency_ms: 200
@@ -100,7 +100,7 @@ agents:
     gdpr_compliant: false
     authorized_roles:
       - doctor                           # procedure ordering requires doctor
-    data_access_level: restricted        # surgical/procedure orders
+    data_access_level: 3  # 1=public, 2=clinical, 3=restricted
     data_sensitivity: high
     cost_per_query: 0.06
     avg_latency_ms: 180
