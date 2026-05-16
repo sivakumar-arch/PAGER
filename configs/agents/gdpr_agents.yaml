@@ -1,0 +1,119 @@
+# =============================================================================
+# PAGER: GDPR Agent Registry
+# 3 agents for cross-domain GDPR validation scenarios
+#
+# Scenario 1 (Data Residency):  EU Data Agent, Global Data Agent (US filtered)
+# Scenario 2 (Consent):         Marketing Agent, CRM Agent (Bulk Email filtered)
+# =============================================================================
+
+agents:
+  - id: eu_data_agent
+    name: "EU Data Agent"
+    capabilities:
+      - personal_data_processing
+      - eu_data_storage
+    hipaa_compliant: false
+    gdpr_compliant: true
+    authorized_roles:
+      - data_processor
+      - data_controller
+    data_residency: "EU"
+    consent_aware: true
+    cost_per_query: 0.08
+    avg_latency_ms: 140
+    quality_score: 0.91
+    endpoint: "mock://eu_data"
+    max_concurrent: 30
+
+  - id: global_data_agent
+    name: "Global Data Agent"
+    capabilities:
+      - personal_data_processing
+      - eu_data_storage
+      - us_data_storage
+    hipaa_compliant: false
+    gdpr_compliant: true
+    authorized_roles:
+      - data_processor
+      - data_controller
+    data_residency: "multi-region"
+    consent_aware: true
+    cost_per_query: 0.12
+    avg_latency_ms: 190
+    quality_score: 0.94
+    endpoint: "mock://global_data"
+    max_concurrent: 50
+
+  - id: us_data_agent
+    name: "US Data Agent"
+    capabilities:
+      - personal_data_processing
+      - us_data_storage
+    hipaa_compliant: false
+    gdpr_compliant: false             # not GDPR compliant
+    authorized_roles:
+      - data_processor
+    data_residency: "US"
+    consent_aware: false
+    cost_per_query: 0.05
+    avg_latency_ms: 80
+    quality_score: 0.88
+    endpoint: "mock://us_data"
+    max_concurrent: 60
+
+  - id: marketing_agent
+    name: "Marketing Agent"
+    capabilities:
+      - email_campaigns
+      - consent_management
+      - marketing_automation
+    hipaa_compliant: false
+    gdpr_compliant: true
+    authorized_roles:
+      - marketing_manager
+      - campaign_manager
+    data_residency: "EU"
+    consent_aware: true
+    cost_per_query: 0.02
+    avg_latency_ms: 60
+    quality_score: 0.90
+    endpoint: "mock://marketing"
+    max_concurrent: 80
+
+  - id: crm_agent
+    name: "CRM Agent"
+    capabilities:
+      - email_campaigns
+      - consent_management
+      - customer_segmentation
+      - crm_integration
+    hipaa_compliant: false
+    gdpr_compliant: true
+    authorized_roles:
+      - marketing_manager
+      - campaign_manager
+      - sales_manager
+    data_residency: "EU"
+    consent_aware: true
+    cost_per_query: 0.05
+    avg_latency_ms: 110
+    quality_score: 0.93
+    endpoint: "mock://crm"
+    max_concurrent: 40
+
+  - id: bulk_email_agent
+    name: "Bulk Email Agent"
+    capabilities:
+      - email_campaigns
+      - bulk_sending
+    hipaa_compliant: false
+    gdpr_compliant: false             # no consent management
+    authorized_roles:
+      - marketing_manager
+    data_residency: "US"
+    consent_aware: false
+    cost_per_query: 0.01
+    avg_latency_ms: 40
+    quality_score: 0.75
+    endpoint: "mock://bulk_email"
+    max_concurrent: 200

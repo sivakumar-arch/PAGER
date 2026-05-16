@@ -1,0 +1,98 @@
+# =============================================================================
+# PAGER: Policy-Aware aGent RoutER
+# .gitignore
+# =============================================================================
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual Environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Testing & Coverage
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+coverage.xml
+.tox/
+.nox/
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# OPA
+*.bundle
+*.tar.gz
+.opa/
+
+# Environment & Secrets (CRITICAL — never commit)
+.env
+.env.local
+secrets.yaml
+*_api_key.txt
+openai_key.txt
+anthropic_key.txt
+**/api_keys.json
+**/*_secret*.yaml
+
+# Experiment outputs (generated, not source)
+data/results/*.json
+data/results/*.csv
+data/feedback/*.json
+!data/results/.gitkeep
+!data/feedback/.gitkeep
+!data/medagentbench/.gitkeep
+
+# Logs
+logs/
+*.log
+
+# OS
+.DS_Store
+.AppleDouble
+.LSOverride
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+*~
+
+# Private working notes
+docs/*_private.md
+docs/decisions_private.md

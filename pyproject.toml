@@ -1,0 +1,94 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "pager"
+version = "0.1.0"
+description = "PAGER: Policy-Aware aGent RoutER for Enterprise Multi-Agent Systems"
+authors = [{name = "Siva Kumar Chintham"}]
+license = {text = "MIT"}
+requires-python = ">=3.11"
+readme = "README.md"
+
+# =============================================================================
+# Black — code formatting
+# =============================================================================
+[tool.black]
+line-length = 88
+target-version = ["py311"]
+include = '\.pyi?$'
+extend-exclude = '''
+/(
+  \.eggs | \.git | \.venv | build | dist
+)/
+'''
+
+# =============================================================================
+# Ruff — linting (replaces flake8, isort, pyupgrade)
+# =============================================================================
+[tool.ruff]
+line-length = 88
+target-version = "py311"
+exclude = [".git", ".venv", "__pycache__", "build", "dist"]
+
+[tool.ruff.lint]
+select = [
+    "E",   # pycodestyle errors
+    "W",   # pycodestyle warnings
+    "F",   # pyflakes
+    "I",   # isort
+    "B",   # flake8-bugbear
+    "UP",  # pyupgrade
+    "C4",  # flake8-comprehensions
+    "SIM", # flake8-simplify
+]
+ignore = [
+    "E501",  # line length — handled by Black
+    "B008",  # function calls in default args
+]
+
+[tool.ruff.lint.per-file-ignores]
+"__init__.py" = ["F401"]  # re-exports in __init__ are intentional
+
+# =============================================================================
+# pytest — test runner
+# =============================================================================
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+python_files = ["test_*.py"]
+python_classes = ["Test*"]
+python_functions = ["test_*"]
+addopts = [
+    "--cov=src",
+    "--cov-report=term-missing",
+    "--cov-report=html",
+    "--cov-report=xml",
+    "--verbose",
+    "--strict-markers",
+]
+markers = [
+    "unit: Unit tests — fast, no external dependencies",
+    "integration: Integration tests — requires OPA, agent configs",
+    "slow: Slow tests — LLM API calls or large dataset processing",
+]
+
+# =============================================================================
+# Coverage
+# =============================================================================
+[tool.coverage.run]
+source = ["src"]
+omit = [
+    "tests/*",
+    "**/__init__.py",
+]
+
+[tool.coverage.report]
+exclude_lines = [
+    "pragma: no cover",
+    "def __repr__",
+    "raise AssertionError",
+    "raise NotImplementedError",
+    "if __name__ == .__main__.:",
+    "if TYPE_CHECKING:",
+]

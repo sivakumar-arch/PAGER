@@ -1,0 +1,109 @@
+# =============================================================================
+# PAGER: Healthcare Agent Registry
+# 5 agents mapped to MedAgentBench task types via FHIR API capabilities
+#
+# Task → Agent ground truth mapping:
+#   Task 1  (patient lookup)       → patient_demographics_agent
+#   Task 2  (patient age)          → patient_demographics_agent
+#   Task 3  (record vitals)        → vitals_agent
+#   Task 4  (recent lab value)     → labs_agent
+#   Task 5  (check lab + order)    → medication_agent
+#   Task 6  (average lab value)    → labs_agent
+#   Task 7  (most recent lab)      → labs_agent
+#   Task 8  (order procedure)      → procedure_agent
+#   Task 9  (complex workflow)     → medication_agent
+#   Task 10 (HbA1C + order)        → labs_agent
+# =============================================================================
+
+agents:
+  - id: patient_demographics_agent
+    name: "Patient Demographics Agent"
+    capabilities:
+      - "GET /Patient"
+      - "GET /Patient/{id}"
+    hipaa_compliant: true
+    gdpr_compliant: false
+    authorized_roles:
+      - nurse
+      - doctor
+      - admin
+      - receptionist
+    data_access_level: public          # name, DOB, MRN — non-clinical
+    data_sensitivity: medium
+    cost_per_query: 0.03
+    avg_latency_ms: 120
+    quality_score: 0.89
+    endpoint: "mock://patient_demographics"
+    max_concurrent: 50
+
+  - id: vitals_agent
+    name: "Vitals Agent"
+    capabilities:
+      - "POST /Observation"
+      - "GET /Observation"
+    hipaa_compliant: true
+    gdpr_compliant: false
+    authorized_roles:
+      - nurse
+      - doctor
+    data_access_level: clinical        # vital signs — clinical data
+    data_sensitivity: high
+    cost_per_query: 0.04
+    avg_latency_ms: 95
+    quality_score: 0.92
+    endpoint: "mock://vitals"
+    max_concurrent: 40
+
+  - id: labs_agent
+    name: "Labs Agent"
+    capabilities:
+      - "GET /Observation"
+      - "GET /Observation?category=laboratory"
+    hipaa_compliant: true
+    gdpr_compliant: false
+    authorized_roles:
+      - nurse
+      - doctor
+      - lab_technician
+    data_access_level: clinical        # lab results — sensitive clinical data
+    data_sensitivity: high
+    cost_per_query: 0.05
+    avg_latency_ms: 150
+    quality_score: 0.95
+    endpoint: "mock://labs"
+    max_concurrent: 30
+
+  - id: medication_agent
+    name: "Medication Agent"
+    capabilities:
+      - "POST /MedicationRequest"
+      - "GET /MedicationRequest"
+      - "GET /Observation"                # reads labs before ordering
+    hipaa_compliant: true
+    gdpr_compliant: false
+    authorized_roles:
+      - doctor                           # prescribing authority required
+    data_access_level: restricted        # prescriptions — highest sensitivity
+    data_sensitivity: high
+    cost_per_query: 0.08
+    avg_latency_ms: 200
+    quality_score: 0.97
+    endpoint: "mock://medication"
+    max_concurrent: 20
+
+  - id: procedure_agent
+    name: "Procedure Agent"
+    capabilities:
+      - "POST /ServiceRequest"
+      - "GET /ServiceRequest"
+    hipaa_compliant: true
+    gdpr_compliant: false
+    authorized_roles:
+      - doctor                           # procedure ordering requires doctor
+    data_access_level: restricted        # surgical/procedure orders
+    data_sensitivity: high
+    cost_per_query: 0.06
+    avg_latency_ms: 180
+    quality_score: 0.93
+    endpoint: "mock://procedure"
+    max_concurrent: 25

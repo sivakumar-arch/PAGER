@@ -1,0 +1,50 @@
+# =============================================================================
+# PAGER: Global Configuration
+# =============================================================================
+
+pager:
+  version: "0.1.0"
+
+  # --- Agent Registry ---
+  agent_configs:
+    healthcare: "configs/agents/healthcare_agents.yaml"
+    gdpr: "configs/agents/gdpr_agents.yaml"
+
+  # --- Policy Engine ---
+  policy_dirs:
+    hipaa: "policies/hipaa"
+    gdpr: "policies/gdpr"
+
+  # --- Conflict Resolution ---
+  # Default strategy. Valid values:
+  #   cost_aware | latency_aware | quality_aware | weighted | round_robin
+  default_conflict_strategy: "weighted"
+
+  # Weighted strategy configuration
+  # Weights are fully configurable per deployment context.
+  # For general enterprise evaluation, we use w_c=0.4, w_l=0.3, w_q=0.3,
+  # reflecting typical enterprise priorities where cost efficiency is primary.
+  # See Section 6.3 of the paper for sensitivity analysis across configurations.
+  weighted_strategy:
+    cost_weight: 0.4
+    latency_weight: 0.3
+    quality_weight: 0.3
+
+  # --- Execution ---
+  execution:
+    timeout_seconds: 30
+    max_retries: 2
+    retry_delay_seconds: 1
+
+  # --- Feedback ---
+  feedback:
+    enabled: true
+    output_dir: "data/feedback"
+    filename: "feedback.json"
+
+  # --- Logging ---
+  logging:
+    level: "INFO"           # DEBUG | INFO | WARNING | ERROR
+    format: "structured"    # structured (JSON) | plain
+    output: "console"       # console | file | both
+    log_dir: "logs"
