@@ -93,16 +93,14 @@ pytest --co -q  # list tests without running
 
 ### Environment Variables
 
-```bash
-# Copy template and fill in your keys (only needed for Phase 4 evaluation)
-cp .env.example .env
-```
+Create a `.env` file in the project root (only needed for Phase 4 LLM evaluation):
 
-`.env` format:
 ```
 OPENAI_API_KEY=sk-...
 ANTHROPIC_API_KEY=sk-ant-...
 ```
+
+> `.env` is gitignored — never commit API keys.
 
 ### Run Tests
 
@@ -197,9 +195,8 @@ PAGER/
 │   └── run_evaluation.py            # Entry point: runs all 3 experiments
 │
 ├── data/
-│   ├── medagentbench/
-│   │   ├── test_data_v2.json        # 300 MedAgentBench questions
-│   │   └── funcs_v1.json            # FHIR API definitions
+│   ├── medagentbench/               # Dataset files — NOT tracked in git (see Dataset section)
+│   │   └── README.md                # Download instructions for dataset files
 │   ├── feedback/                    # Runtime routing logs (gitignored)
 │   └── results/                     # Experiment outputs (gitignored)
 │
@@ -241,6 +238,29 @@ PAGER is evaluated on **MedAgentBench** (75 questions sampled from 300, balanced
 # Run full evaluation (Phase 4)
 python experiments/run_evaluation.py
 ```
+
+---
+
+## Dataset
+
+PAGER is evaluated on **MedAgentBench** — a benchmark of 300 structured EHR queries across 10 FHIR task types.
+
+**Dataset files are not included in this repository.** Download them separately and place in `data/medagentbench/`:
+
+| File | Description |
+|------|-------------|
+| `test_data_v2.json` | 300 MedAgentBench evaluation questions |
+| `funcs_v1.json` | FHIR API function definitions |
+
+**Source**: [MedAgentBench](https://github.com/gersteinlab/MedAgentBench) — Gersteinlab, Yale University.
+
+```bash
+# After downloading, verify placement:
+ls data/medagentbench/
+# Expected: test_data_v2.json  funcs_v1.json  README.md
+```
+
+> Dataset files are gitignored to respect licensing and avoid bloating repository history.
 
 ---
 

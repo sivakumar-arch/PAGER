@@ -96,3 +96,6 @@ Desktop.ini
 # Private working notes
 docs/*_private.md
 docs/decisions_private.md
+
+# Dataset files (third-party, not redistributed)
+data/medagentbench/*.json
