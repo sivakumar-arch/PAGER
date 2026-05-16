@@ -1,16 +1,13 @@
 package pager.hipaa
 
-# =============================================================================
-# Policy 1: PII Access Control (Hard Constraint)
-# Queries containing PII require a HIPAA-compliant agent.
-# =============================================================================
+import rego.v1
 
-# Deny non-compliant agents for PII queries
-deny[msg] {
-    input.query.contains_pii == true
-    input.agent.hipaa_compliant == false
-    msg := sprintf(
-        "HIPAA: Agent '%v' is not HIPAA-compliant and cannot process PII data",
-        [input.agent.id],
-    )
+
+# Policy 1: PII Access Control (Hard Constraint)
+# Queries containing PII require HIPAA-compliant agents
+
+deny contains msg if {
+    input.query.contains_pii
+    not input.agent.hipaa_compliant
+    msg := sprintf("HIPAA violation: Agent '%v' is not HIPAA-compliant and cannot access PII data", [input.agent.name])
 }

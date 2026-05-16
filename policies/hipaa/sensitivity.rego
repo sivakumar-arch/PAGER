@@ -1,25 +1,21 @@
 package pager.hipaa
 
-# =============================================================================
-# Policy 3: Data Sensitivity Enforcement (Hard Constraint)
-# High-sensitivity queries require agents with restricted or clinical access.
-# =============================================================================
+import rego.v1
 
-# Deny if query sensitivity is high but agent access level is insufficient
-deny[msg] {
+
+# Policy 3: Data Sensitivity Levels (Hard Constraint)
+# Agent's data access level must meet query sensitivity requirements
+
+deny contains msg if {
     input.query.data_sensitivity == "high"
-    not sufficient_access_level
-    msg := sprintf(
-        "HIPAA: Agent '%v' has insufficient data access level '%v' for high-sensitivity query",
-        [input.agent.id, input.agent.data_access_level],
-    )
+    input.agent.data_access_level < 3
+    msg := sprintf("Data sensitivity violation: Agent '%v' (level %v) cannot access high-sensitivity data (requires level 3)",
+                   [input.agent.name, input.agent.data_access_level])
 }
 
-# Sufficient access: clinical or restricted level handles high-sensitivity data
-sufficient_access_level {
-    input.agent.data_access_level == "clinical"
-}
-
-sufficient_access_level {
-    input.agent.data_access_level == "restricted"
+deny contains msg if {
+    input.query.data_sensitivity == "medium"
+    input.agent.data_access_level < 2
+    msg := sprintf("Data sensitivity violation: Agent '%v' (level %v) cannot access medium-sensitivity data (requires level 2)",
+                   [input.agent.name, input.agent.data_access_level])
 }

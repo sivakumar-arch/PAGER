@@ -1,21 +1,19 @@
 package pager.hipaa
 
-# =============================================================================
-# Policy 2: Role-Based Authorization (Hard Constraint)
-# Users may only access agents their role is authorized to use.
-# =============================================================================
+import rego.v1
 
-# Deny if user role is not in the agent's authorized_roles list
-deny[msg] {
-    input.agent.authorized_roles != []
+
+# Policy 2: Role-Based Authorization (Hard Constraint)
+# User role must be in agent's authorized roles list
+
+deny contains msg if {
+    count(input.agent.authorized_roles) > 0
     not role_authorized
-    msg := sprintf(
-        "HIPAA: Role '%v' is not authorized to use agent '%v'",
-        [input.user.role, input.agent.id],
-    )
+    msg := sprintf("Authorization violation: User role '%v' is not authorized for agent '%v'. Authorized roles: %v",
+                   [input.context.user_role, input.agent.name, input.agent.authorized_roles])
 }
 
-# Helper: check if user's role appears in agent's authorized_roles
-role_authorized {
-    input.user.role == input.agent.authorized_roles[_]
+role_authorized if {
+    some role in input.agent.authorized_roles
+    role == input.context.user_role
 }

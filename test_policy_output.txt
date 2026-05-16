@@ -1,0 +1,55 @@
+============================= test session starts ==============================
+platform darwin -- Python 3.13.5, pytest-8.2.2, pluggy-1.6.0 -- /Users/schintham/Padmavathi/books/PAGER Papers/PAGER/.venv/bin/python
+cachedir: .pytest_cache
+rootdir: /Users/schintham/Padmavathi/books/PAGER Papers/PAGER
+configfile: pyproject.toml
+plugins: cov-5.0.0, mock-3.14.0, anyio-4.13.0
+collecting ... collected 20 items
+
+tests/test_policy_engine.py::TestPolicyEngineInit::test_loads_all_hipaa_policies PASSED [  5%]
+tests/test_policy_engine.py::TestPolicyEngineInit::test_loads_gdpr_policies FAILED [ 10%]
+tests/test_policy_engine.py::TestPolicyEngineInit::test_missing_policy_dir_raises PASSED [ 15%]
+tests/test_policy_engine.py::TestPolicyEngineInit::test_repr_format PASSED [ 20%]
+tests/test_policy_engine.py::TestPIIAccessPolicy::test_hipaa_compliant_agent_passes_pii_query PASSED [ 25%]
+tests/test_policy_engine.py::TestPIIAccessPolicy::test_non_hipaa_agent_denied_on_pii_query PASSED [ 30%]
+tests/test_policy_engine.py::TestPIIAccessPolicy::test_non_hipaa_agent_passes_non_pii_query PASSED [ 35%]
+tests/test_policy_engine.py::TestPIIAccessPolicy::test_mixed_agents_correct_split PASSED [ 40%]
+tests/test_policy_engine.py::TestAuthorizationPolicy::test_authorized_role_passes PASSED [ 45%]
+tests/test_policy_engine.py::TestAuthorizationPolicy::test_unauthorized_role_denied PASSED [ 50%]
+tests/test_policy_engine.py::TestAuthorizationPolicy::test_medication_agent_requires_doctor_or_pharmacist PASSED [ 55%]
+tests/test_policy_engine.py::TestSensitivityPolicy::test_high_sensitivity_requires_level_3 PASSED [ 60%]
+tests/test_policy_engine.py::TestSensitivityPolicy::test_level_3_agent_passes_high_sensitivity PASSED [ 65%]
+tests/test_policy_engine.py::TestMultiAgentEvaluation::test_all_healthcare_agents_pass_for_authorized_nurse PASSED [ 70%]
+tests/test_policy_engine.py::TestMultiAgentEvaluation::test_compliance_rate_all_pass PASSED [ 75%]
+tests/test_policy_engine.py::TestMultiAgentEvaluation::test_empty_agents_returns_empty_result PASSED [ 80%]
+tests/test_policy_engine.py::TestAuditTrail::test_policy_trace_populated PASSED [ 85%]
+tests/test_policy_engine.py::TestAuditTrail::test_violation_references_policy_file PASSED [ 90%]
+tests/test_policy_engine.py::TestGDPRPolicies::test_eu_agent_passes_eu_query PASSED [ 95%]
+tests/test_policy_engine.py::TestGDPRPolicies::test_non_eu_agent_denied_for_eu_query PASSED [100%]
+
+=================================== FAILURES ===================================
+________________ TestPolicyEngineInit.test_loads_gdpr_policies _________________
+
+self = <tests.test_policy_engine.TestPolicyEngineInit object at 0x106116d50>
+gdpr_engine = PolicyEngine(policies=['authorization', 'data_residency'])
+
+    def test_loads_gdpr_policies(self, gdpr_engine):
+        assert gdpr_engine.policy_count() == 2
+        assert "data_residency" in gdpr_engine.policy_names()
+>       assert "consent" in gdpr_engine.policy_names()
+E       AssertionError: assert 'consent' in ['authorization', 'data_residency']
+E        +  where ['authorization', 'data_residency'] = <bound method PolicyEngine.policy_names of PolicyEngine(policies=['authorization', 'data_residency'])>()
+E        +    where <bound method PolicyEngine.policy_names of PolicyEngine(policies=['authorization', 'data_residency'])> = PolicyEngine(policies=['authorization', 'data_residency']).policy_names
+
+tests/test_policy_engine.py:69: AssertionError
+---------------------------- Captured stdout setup -----------------------------
+2026-05-16 01:01:46 | INFO     | src.pager.policy_engine | OPA CLI verified | version=Version: 1.16.2
+2026-05-16 01:01:46 | INFO     | src.pager.policy_engine | PolicyEngine initialized | policy_count=2 | policies=['authorization', 'data_residency']
+------------------------------ Captured log setup ------------------------------
+INFO     src.pager.policy_engine:logger.py:60 OPA CLI verified | version=Version: 1.16.2
+INFO     src.pager.policy_engine:logger.py:60 PolicyEngine initialized | policy_count=2 | policies=['authorization', 'data_residency']
+=========================== short test summary info ============================
+FAILED tests/test_policy_engine.py::TestPolicyEngineInit::test_loads_gdpr_policies - AssertionError: assert 'consent' in ['authorization', 'data_residency']
+ +  where ['authorization', 'data_residency'] = <bound method PolicyEngine.policy_names of PolicyEngine(policies=['authorization', 'data_residency'])>()
+ +    where <bound method PolicyEngine.policy_names of PolicyEngine(policies=['authorization', 'data_residency'])> = PolicyEngine(policies=['authorization', 'data_residency']).policy_names
+========================= 1 failed, 19 passed in 5.03s =========================

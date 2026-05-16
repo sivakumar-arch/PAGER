@@ -1,15 +1,14 @@
 package pager.gdpr
 
-# =============================================================================
-# Policy 7: Consent Verification (Hard Constraint)
-# Marketing queries require a consent-aware agent.
-# =============================================================================
+import rego.v1
 
-deny[msg] {
-    input.query.requires_consent == true
-    input.agent.consent_aware == false
-    msg := sprintf(
-        "GDPR: Agent '%v' is not consent-aware and cannot process marketing queries",
-        [input.agent.id],
-    )
+
+# Policy 7: Consent Verification (Hard Constraint - GDPR)
+# Operations requiring consent must use consent-aware agents
+
+deny contains msg if {
+    input.query.requires_consent
+    not input.agent.consent_aware
+    msg := sprintf("GDPR violation: Consent-required operations need consent-aware agents. Agent '%v' is not consent-aware",
+                   [input.agent.name])
 }
