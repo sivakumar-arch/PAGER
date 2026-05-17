@@ -133,4 +133,4 @@ tests/test_query_analyzer.py::TestContextPassthrough::test_task_type_preserved P
 tests/test_query_analyzer.py::TestContextPassthrough::test_raw_query_preserved PASSED [ 99%]
 tests/test_query_analyzer.py::TestContextPassthrough::test_deterministic_output PASSED [100%]
 
-============================= 126 passed in 4.55s ==============================
+============================= 126 passed in 4.63s ==============================
