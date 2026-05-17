@@ -53,18 +53,32 @@ _CAPABILITY_PATTERNS: list[_CapabilityPattern] = [
         sensitivity="high",
         intent="ordering",
     ),
+    # Task 5 & 9: Conditional lab-check + medication ordering
+    # MUST be before labs pattern — "if low, order replacement" primary intent is ordering
+    # Labs keywords (magnesium, potassium) appear in same query but ordering is the action
+    _CapabilityPattern(
+        keywords=("if low", "if high", "if abnormal", "order replacement",
+                  "order potassium", "order magnesium", "replete",
+                  "replacement potassium", "replacement magnesium",
+                  "replacement electrolyte"),
+        capabilities=("POST /MedicationRequest", "GET /MedicationRequest",
+                      "medication_ordering", "prescription_management"),
+        sensitivity="high",
+        intent="ordering",
+    ),
     # Task 4, 6, 7, 10: Lab Results (GET /Observation)
     _CapabilityPattern(
         keywords=("lab result", "lab value", "magnesium", "glucose", "hba1c",
                   "hemoglobin", "creatinine", "sodium", "potassium", "cholesterol",
                   "triglyceride", "albumin", "bilirubin", "platelet",
                   "white blood cell", "red blood cell",
-                  "test result", "most recent"),
+                  "test result", "most recent", "cbg", "capillary blood glucose",
+                  "average cbg", "serum", "level"),
         capabilities=("GET /Observation", "lab_results", "diagnostic_data"),
         sensitivity="high",
         intent="retrieval",
     ),
-    # Task 5 & 9: Medications (POST/GET /MedicationRequest)
+    # Task 5 & 9: Direct medication queries (no conditional)
     _CapabilityPattern(
         keywords=("medication", "drug", "prescription", "dose", "dosage",
                   "medicine", "pharmaceutical", "pill", "tablet", "injection",
