@@ -99,3 +99,4 @@ docs/decisions_private.md
 
 # Dataset files (third-party, not redistributed)
 data/medagentbench/*.json
+data/results/*.txt

@@ -30,10 +30,14 @@ class RoutingDecision:
     # Routing correctness
     is_correct: bool = field(init=False)
 
-    # Policy compliance (baselines don't enforce — always False)
+    # Policy compliance (baselines don't enforce)
     policy_enforced: bool = False
     has_violations: bool = False
     violation_messages: list[str] = field(default_factory=list)
+
+    # Conflict resolution tracking
+    # True only when 2+ agents were capable — real ConflictResolver scenario
+    had_conflict: bool = False
 
     # Performance
     latency_ms: float = 0.0

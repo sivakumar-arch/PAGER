@@ -63,11 +63,15 @@ SAMPLES_PER_TASK: dict[int, int] = {
 def load_dataset(data_path: str | Path) -> list[dict]:
     """Load MedAgentBench test_data_v2.json.
 
-    Args:
-        data_path: Path to test_data_v2.json
+    MedAgentBench field names:
+        id:          "task1_1", "task2_3" etc. — task type embedded in ID
+        instruction: the natural language question text
+        context:     additional context (often empty)
+        sol:         list of acceptable answers
+        eval_MRN:    patient MRN for evaluation
 
     Returns:
-        List of question dicts with keys: id, question, task_type, etc.
+        List of records with task_type extracted from ID.
     """
     data_path = Path(data_path)
     if not data_path.exists():
@@ -78,6 +82,14 @@ def load_dataset(data_path: str | Path) -> list[dict]:
 
     with open(data_path) as f:
         data = json.load(f)
+
+    # Extract task_type from ID field (e.g. "task3_7" → task_type=3)
+    import re
+    for record in data:
+        m = re.match(r"task(\d+)_", record.get("id", ""))
+        record["task_type"] = int(m.group(1)) if m else None
+        # Normalize question field name
+        record["question"] = record.get("instruction", "")
 
     logger.info("Dataset loaded", path=str(data_path), count=len(data))
     return data
@@ -91,12 +103,12 @@ def sample_questions(
     """Sample questions with balanced task coverage.
 
     Args:
-        dataset: Full MedAgentBench dataset.
+        dataset: Full MedAgentBench dataset (after load_dataset normalization).
         samples_per_task: Dict of task_type → n_samples. Uses default if None.
         seed: Random seed for reproducibility.
 
     Returns:
-        Sampled list of question dicts, each enriched with ground_truth_agent
+        Sampled list of question dicts enriched with ground_truth_agent
         and user_role fields.
     """
     if samples_per_task is None:
@@ -107,9 +119,8 @@ def sample_questions(
     # Group by task type
     by_task: dict[int, list[dict]] = {}
     for q in dataset:
-        task = q.get("task_type") or q.get("task")
+        task = q.get("task_type")
         if task is not None:
-            task = int(task)
             by_task.setdefault(task, []).append(q)
 
     sampled = []

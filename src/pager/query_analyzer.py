@@ -37,20 +37,27 @@ class _CapabilityPattern:
 # ---------------------------------------------------------------------------
 _CAPABILITY_PATTERNS: list[_CapabilityPattern] = [
     # Task 1 & 2: Patient Demographics (GET /Patient)
+    # Note: "mrn" removed — it appears in ALL task queries as patient identifier,
+    # not as a signal for demographics intent. Use specific demographics terms only.
     _CapabilityPattern(
-        keywords=("mrn", "medical record", "date of birth", "dob", "patient name",
-                  "demographics", "patient id", "address", "phone", "contact"),
+        keywords=("medical record number", "date of birth", "dob", "patient name",
+                  "demographics", "patient id", "address", "phone", "contact",
+                  "what is the mrn", "what's the mrn", "find the mrn",
+                  "age of the patient", "patient age", "date of birth",
+                  "who is patient"),
         capabilities=("GET /Patient", "patient_lookup", "demographics_retrieval"),
         sensitivity="medium",
         intent="lookup",
     ),
     # Task 3: Vital Signs (POST /Observation)
+    # Sensitivity = medium: recording vitals is routine clinical data,
+    # not restricted-level (level 3). Nurses record vitals routinely.
     _CapabilityPattern(
         keywords=("vital signs", "blood pressure", "heart rate", "temperature",
                   "respiratory rate", "oxygen saturation", "pulse rate",
                   "record vital", "patient weight", "patient height"),
         capabilities=("POST /Observation", "vital_signs", "blood_pressure"),
-        sensitivity="high",
+        sensitivity="medium",
         intent="ordering",
     ),
     # Task 5 & 9: Conditional lab-check + medication ordering

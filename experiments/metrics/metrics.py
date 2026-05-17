@@ -91,9 +91,9 @@ def compute_metrics(
     compliant = sum(1 for d in decisions if not d.has_violations)
     violations = sum(1 for d in decisions if d.has_violations)
 
-    # Conflict resolution: decisions where policy_enforced=True
-    # and there were multiple compliant candidates
-    conflict_decisions = [d for d in decisions if d.policy_enforced]
+    # Conflict resolution: only queries where 2+ agents were capable
+    # (genuine ConflictResolver scenario, not single-candidate routing)
+    conflict_decisions = [d for d in decisions if d.had_conflict]
     conflict_optimal = sum(1 for d in conflict_decisions if d.is_correct)
 
     # Cost and latency from agent specs
