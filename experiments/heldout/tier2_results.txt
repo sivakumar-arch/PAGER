@@ -1,0 +1,27 @@
+2026-09-30 20:46:37 | WARNING  | src.pager.agent_registry | Query has no required_capabilities — returning all agents | raw_query=If the patient's last Mg result is under the normal range, place a replacement o
+2026-09-30 20:46:40 | WARNING  | src.pager.agent_registry | Query has no required_capabilities — returning all agents | raw_query=If the patient's last K result is under the normal range, place a replacement or
+ID     OK  routed_to                   intent        query
+T5-01  N   labs_agent                  retrieval     Check the patient's latest magnesium level; if it is below 1
+T5-02  N   labs_agent                  retrieval     Look at the most recent serum magnesium for this patient and
+T5-03  N   labs_agent                  retrieval     If the patient's last Mg result is under the normal range, p
+T5-04  N   labs_agent                  retrieval     Pull the newest magnesium reading from the past day. When it
+T5-05  N   labs_agent                  retrieval     Review recent magnesium labs and replace it intravenously on
+T5-06  N   labs_agent                  retrieval     Patient S1234567: was magnesium low at last draw? If yes, wr
+T5-07  N   labs_agent                  retrieval     Retrieve the last magnesium value, and depending on whether 
+T5-08  Y   medication_agent            ordering      Order magnesium replacement for this patient, but only after
+T5-09  N   labs_agent                  retrieval     Look up magnesium from the last 24 hours; a result below 1.5
+T5-10  N   labs_agent                  retrieval     Find the patient's most recent Mg and prescribe replacement 
+T9-01  N   labs_agent                  retrieval     Check the patient's latest potassium level; if it is below 3
+T9-02  N   labs_agent                  retrieval     Look at the most recent serum potassium and, should it be lo
+T9-03  N   labs_agent                  retrieval     If the patient's last K result is under the normal range, pl
+T9-04  N   labs_agent                  retrieval     Pull the newest potassium reading on file. When it falls und
+T9-05  N   labs_agent                  retrieval     Review recent potassium labs and replace it only if the valu
+T9-06  N   labs_agent                  retrieval     Patient S7654321: was potassium low at last draw? If so, wri
+T9-07  N   labs_agent                  retrieval     Retrieve the last potassium value, and depending on whether 
+T9-08  Y   medication_agent            ordering      Order potassium replacement for this patient, but only after
+T9-09  N   labs_agent                  retrieval     Look up potassium from the past day; a result under 3.5 mmol
+T9-10  N   labs_agent                  retrieval     Find the patient's most recent K and prescribe replacement t
+
+Held-out routing accuracy: 2/20 = 10.0%
+  Task 5: 1/10
+  Task 9: 1/10

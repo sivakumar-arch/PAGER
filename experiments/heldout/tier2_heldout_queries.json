@@ -1,0 +1,26 @@
+{
+  "_note": "Held-out paraphrases for Tasks 5/9 (lab check -> conditional medication order). Written WITHOUT consulting the pattern table. Freeze this file before running; do not edit after seeing results. expected_agent assumes ground truth for Tasks 5/9 is the same as in your MedAgentBench ground-truth file -- VERIFY against it before running.",
+  "expected_agent": "medication_agent",
+  "queries": [
+    {"id": "T5-01", "task": 5, "text": "Check the patient's latest magnesium level; if it is below 1.5 mg/dL, order IV magnesium replacement."},
+    {"id": "T5-02", "task": 5, "text": "Look at the most recent serum magnesium for this patient and, should it be low, prescribe a magnesium supplement."},
+    {"id": "T5-03", "task": 5, "text": "If the patient's last Mg result is under the normal range, place a replacement order; otherwise do nothing."},
+    {"id": "T5-04", "task": 5, "text": "Pull the newest magnesium reading from the past day. When it falls under 1.5, start magnesium repletion."},
+    {"id": "T5-05", "task": 5, "text": "Review recent magnesium labs and replace it intravenously only if the value is deficient."},
+    {"id": "T5-06", "task": 5, "text": "Patient S1234567: was magnesium low at last draw? If yes, write the order for replacement dosing."},
+    {"id": "T5-07", "task": 5, "text": "Retrieve the last magnesium value, and depending on whether it is below threshold, order the appropriate IV dose."},
+    {"id": "T5-08", "task": 5, "text": "Order magnesium replacement for this patient, but only after verifying that their latest level is actually low."},
+    {"id": "T5-09", "task": 5, "text": "Look up magnesium from the last 24 hours; a result below 1.5 mg/dL should trigger a replacement prescription."},
+    {"id": "T5-10", "task": 5, "text": "Find the patient's most recent Mg and prescribe replacement therapy when it is deficient."},
+    {"id": "T9-01", "task": 9, "text": "Check the patient's latest potassium level; if it is below 3.5 mmol/L, order oral potassium replacement and a follow-up lab."},
+    {"id": "T9-02", "task": 9, "text": "Look at the most recent serum potassium and, should it be low, prescribe potassium chloride."},
+    {"id": "T9-03", "task": 9, "text": "If the patient's last K result is under the normal range, place a replacement order; otherwise take no action."},
+    {"id": "T9-04", "task": 9, "text": "Pull the newest potassium reading on file. When it falls under 3.5, start potassium repletion and schedule a recheck."},
+    {"id": "T9-05", "task": 9, "text": "Review recent potassium labs and replace it only if the value is deficient."},
+    {"id": "T9-06", "task": 9, "text": "Patient S7654321: was potassium low at last draw? If so, write the replacement order and a repeat lab request."},
+    {"id": "T9-07", "task": 9, "text": "Retrieve the last potassium value, and depending on whether it is below threshold, order the proper oral dose."},
+    {"id": "T9-08", "task": 9, "text": "Order potassium replacement for this patient, but only after confirming that their latest level is actually low."},
+    {"id": "T9-09", "task": 9, "text": "Look up potassium from the past day; a result under 3.5 mmol/L should trigger a replacement prescription."},
+    {"id": "T9-10", "task": 9, "text": "Find the patient's most recent K and prescribe replacement therapy plus a follow-up draw when it is deficient."}
+  ]
+}
