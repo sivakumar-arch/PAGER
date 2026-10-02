@@ -1,0 +1,52 @@
+[
+  {
+    "router": "PAGER",
+    "total": 77,
+    "routing_accuracy_pct": 100.0,
+    "policy_compliance_pct": 100.0,
+    "auth_violation_pct": 0.0,
+    "conflict_resolution_pct": 100.0,
+    "avg_cost_usd": 0.0448,
+    "avg_latency_ms": 96.6
+  },
+  {
+    "router": "Random",
+    "total": 77,
+    "routing_accuracy_pct": 24.7,
+    "policy_compliance_pct": 45.5,
+    "auth_violation_pct": 54.5,
+    "conflict_resolution_pct": 14.3,
+    "avg_cost_usd": 0.0416,
+    "avg_latency_ms": 93.8
+  },
+  {
+    "router": "Round-Robin",
+    "total": 77,
+    "routing_accuracy_pct": 19.5,
+    "policy_compliance_pct": 48.1,
+    "auth_violation_pct": 51.9,
+    "conflict_resolution_pct": 14.3,
+    "avg_cost_usd": 0.0462,
+    "avg_latency_ms": 100.3
+  },
+  {
+    "router": "Rule-Based",
+    "total": 77,
+    "routing_accuracy_pct": 71.4,
+    "policy_compliance_pct": 89.6,
+    "auth_violation_pct": 10.4,
+    "conflict_resolution_pct": 100.0,
+    "avg_cost_usd": 0.0388,
+    "avg_latency_ms": 87.8
+  },
+  {
+    "router": "Embedding",
+    "total": 77,
+    "routing_accuracy_pct": 41.6,
+    "policy_compliance_pct": 68.8,
+    "auth_violation_pct": 31.2,
+    "conflict_resolution_pct": 0.0,
+    "avg_cost_usd": 0.0287,
+    "avg_latency_ms": 74.7
+  }
+]

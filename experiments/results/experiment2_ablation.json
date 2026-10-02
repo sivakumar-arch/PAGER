@@ -1,0 +1,32 @@
+[
+  {
+    "router": "PAGER-Full",
+    "total": 77,
+    "routing_accuracy_pct": 100.0,
+    "policy_compliance_pct": 100.0,
+    "auth_violation_pct": 0.0,
+    "conflict_resolution_pct": 100.0,
+    "avg_cost_usd": 0.0448,
+    "avg_latency_ms": 96.6
+  },
+  {
+    "router": "PAGER-NoPolicy",
+    "total": 77,
+    "routing_accuracy_pct": 100.0,
+    "policy_compliance_pct": 100.0,
+    "auth_violation_pct": 0.0,
+    "conflict_resolution_pct": 100.0,
+    "avg_cost_usd": 0.0448,
+    "avg_latency_ms": 96.6
+  },
+  {
+    "router": "PAGER-NoConflict",
+    "total": 77,
+    "routing_accuracy_pct": 94.8,
+    "policy_compliance_pct": 100.0,
+    "auth_violation_pct": 0.0,
+    "conflict_resolution_pct": 42.9,
+    "avg_cost_usd": 0.0458,
+    "avg_latency_ms": 97.7
+  }
+]

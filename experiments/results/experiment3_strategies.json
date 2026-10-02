@@ -1,0 +1,106 @@
+{
+  "strategy_comparison": [
+    {
+      "router": "cost_aware",
+      "total": 7,
+      "routing_accuracy_pct": 100.0,
+      "policy_compliance_pct": 100.0,
+      "auth_violation_pct": 0.0,
+      "conflict_resolution_pct": 100.0,
+      "avg_cost_usd": 0.03,
+      "avg_latency_ms": 80.0
+    },
+    {
+      "router": "latency_aware",
+      "total": 7,
+      "routing_accuracy_pct": 100.0,
+      "policy_compliance_pct": 100.0,
+      "auth_violation_pct": 0.0,
+      "conflict_resolution_pct": 100.0,
+      "avg_cost_usd": 0.03,
+      "avg_latency_ms": 80.0
+    },
+    {
+      "router": "quality_aware",
+      "total": 7,
+      "routing_accuracy_pct": 0.0,
+      "policy_compliance_pct": 100.0,
+      "auth_violation_pct": 0.0,
+      "conflict_resolution_pct": 0.0,
+      "avg_cost_usd": 0.05,
+      "avg_latency_ms": 100.0
+    },
+    {
+      "router": "weighted",
+      "total": 7,
+      "routing_accuracy_pct": 100.0,
+      "policy_compliance_pct": 100.0,
+      "auth_violation_pct": 0.0,
+      "conflict_resolution_pct": 100.0,
+      "avg_cost_usd": 0.03,
+      "avg_latency_ms": 80.0
+    },
+    {
+      "router": "round_robin",
+      "total": 7,
+      "routing_accuracy_pct": 42.9,
+      "policy_compliance_pct": 100.0,
+      "auth_violation_pct": 0.0,
+      "conflict_resolution_pct": 42.9,
+      "avg_cost_usd": 0.0414,
+      "avg_latency_ms": 91.4
+    }
+  ],
+  "weight_sensitivity": [
+    {
+      "router": "Cost-heavy",
+      "total": 7,
+      "routing_accuracy_pct": 100.0,
+      "policy_compliance_pct": 100.0,
+      "auth_violation_pct": 0.0,
+      "conflict_resolution_pct": 100.0,
+      "avg_cost_usd": 0.03,
+      "avg_latency_ms": 80.0
+    },
+    {
+      "router": "Balanced",
+      "total": 7,
+      "routing_accuracy_pct": 100.0,
+      "policy_compliance_pct": 100.0,
+      "auth_violation_pct": 0.0,
+      "conflict_resolution_pct": 100.0,
+      "avg_cost_usd": 0.03,
+      "avg_latency_ms": 80.0
+    },
+    {
+      "router": "Default",
+      "total": 7,
+      "routing_accuracy_pct": 100.0,
+      "policy_compliance_pct": 100.0,
+      "auth_violation_pct": 0.0,
+      "conflict_resolution_pct": 100.0,
+      "avg_cost_usd": 0.03,
+      "avg_latency_ms": 80.0
+    },
+    {
+      "router": "Quality-heavy",
+      "total": 7,
+      "routing_accuracy_pct": 0.0,
+      "policy_compliance_pct": 100.0,
+      "auth_violation_pct": 0.0,
+      "conflict_resolution_pct": 0.0,
+      "avg_cost_usd": 0.05,
+      "avg_latency_ms": 100.0
+    },
+    {
+      "router": "Latency-heavy",
+      "total": 7,
+      "routing_accuracy_pct": 100.0,
+      "policy_compliance_pct": 100.0,
+      "auth_violation_pct": 0.0,
+      "conflict_resolution_pct": 100.0,
+      "avg_cost_usd": 0.03,
+      "avg_latency_ms": 80.0
+    }
+  ]
+}

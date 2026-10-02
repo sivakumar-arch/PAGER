@@ -1,0 +1,521 @@
+2026-05-17 00:00:14 | INFO     | __main__ | Loading MedAgentBench dataset...
+2026-05-17 00:00:14 | INFO     | experiments.dataset | Dataset loaded | path=data/medagentbench/test_data_v2.json | count=300
+2026-05-17 00:00:14 | INFO     | experiments.dataset | Questions sampled | total=77 | tasks=[1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+2026-05-17 00:00:14 | INFO     | __main__ | Evaluation set: 77 MedAgentBench + 2 GDPR = 79 total
+2026-05-17 00:00:14 | INFO     | src.pager.agent_registry | AgentRegistry loaded | config=configs/agents/healthcare_agents.yaml | agent_count=5 | agent_ids=['patient_demographics_agent', 'vitals_agent', 'labs_agent', 'medication_agent', 'procedure_agent']
+2026-05-17 00:00:14 | INFO     | __main__ | ============================================================
+2026-05-17 00:00:14 | INFO     | __main__ | EXPERIMENT 3: Strategy Comparison + Sensitivity Analysis
+2026-05-17 00:00:14 | INFO     | __main__ | ============================================================
+2026-05-17 00:00:14 | INFO     | src.pager.agent_registry | AgentRegistry loaded | config=configs/agents/healthcare_agents.yaml | agent_count=5 | agent_ids=['patient_demographics_agent', 'vitals_agent', 'labs_agent', 'medication_agent', 'procedure_agent']
+2026-05-17 00:00:14 | INFO     | src.pager.query_analyzer | QueryAnalyzer initialized | mode=rule-based
+2026-05-17 00:00:14 | INFO     | __main__ | Task distribution in sampled questions: {1: 8, 2: 8, 3: 7, 4: 8, 5: 7, 6: 8, 7: 8, 8: 8, 9: 7, 10: 8}
+2026-05-17 00:00:14 | INFO     | __main__ | Task 3 sample query: I just measured the blood pressure for patient with MRN of S1353305, and it is "
+2026-05-17 00:00:14 | INFO     | __main__ | Task 3 capabilities: ['POST /Observation', 'vital_signs', 'blood_pressure']
+2026-05-17 00:00:14 | INFO     | __main__ | Task 3 capable agents: ['vitals_agent', 'labs_agent']
+2026-05-17 00:00:14 | INFO     | __main__ | Conflict questions identified: 7 (queries with 2+ capable agents)
+2026-05-17 00:00:14 | INFO     | src.pager.core | Initializing PAGER | version=0.1.0 | domain=healthcare
+2026-05-17 00:00:14 | INFO     | src.pager.query_analyzer | QueryAnalyzer initialized | mode=rule-based
+2026-05-17 00:00:14 | INFO     | src.pager.agent_registry | AgentRegistry loaded | config=configs/agents/healthcare_agents.yaml | agent_count=5 | agent_ids=['patient_demographics_agent', 'vitals_agent', 'labs_agent', 'medication_agent', 'procedure_agent']
+2026-05-17 00:00:14 | INFO     | src.pager.policy_engine | OPA CLI verified | version=Version: 1.16.2
+2026-05-17 00:00:14 | INFO     | src.pager.policy_engine | PolicyEngine initialized | policy_count=5 | policies=['authorization', 'cost_optimization', 'pii_access', 'sensitivity', 'sla_requirements']
+2026-05-17 00:00:14 | INFO     | src.pager.conflict_resolver | ConflictResolver initialized | strategy=weighted | weights=cost=0.4/lat=0.3/qual=0.3
+2026-05-17 00:00:14 | INFO     | src.pager.execution_coordinator | ExecutionCoordinator initialized | timeout=30 | max_retries=2
+2026-05-17 00:00:14 | INFO     | src.pager.feedback_collector | FeedbackCollector initialized | output=data/feedback/feedback.json
+2026-05-17 00:00:14 | INFO     | src.pager.core | PAGER initialized successfully | agents=5 | policies=5 | strategy=weighted
+2026-05-17 00:00:14 | INFO     | src.pager.query_analyzer | QueryAnalyzer initialized | mode=rule-based
+2026-05-17 00:00:14 | INFO     | src.pager.agent_registry | AgentRegistry loaded | config=configs/agents/healthcare_agents.yaml | agent_count=5 | agent_ids=['patient_demographics_agent', 'vitals_agent', 'labs_agent', 'medication_agent', 'procedure_agent']
+2026-05-17 00:00:14 | INFO     | src.pager.core | Routing query | query=I just measured the blood pressure for patient with MRN of S1353305, and it is " | user_role=nurse | task_type=3
+2026-05-17 00:00:15 | INFO     | src.pager.policy_engine | Policy evaluation complete | total=2 | compliant=2 | denied=0
+2026-05-17 00:00:15 | INFO     | src.pager.conflict_resolver | Resolving conflict | strategy=cost_aware | candidates=['vitals_agent', 'labs_agent']
+2026-05-17 00:00:15 | INFO     | src.pager.conflict_resolver | Conflict resolved | selected=vitals_agent | strategy=cost_aware | candidates=2 | tie_broken=False
+2026-05-17 00:00:15 | INFO     | src.pager.execution_coordinator | Agent execution succeeded | agent=vitals_agent | latency_ms=0.0 | attempt=1
+2026-05-17 00:00:15 | INFO     | src.pager.core | Routing complete | selected=vitals_agent | success=True | latency_ms=0.0
+2026-05-17 00:00:15 | INFO     | src.pager.query_analyzer | QueryAnalyzer initialized | mode=rule-based
+2026-05-17 00:00:15 | INFO     | src.pager.agent_registry | AgentRegistry loaded | config=configs/agents/healthcare_agents.yaml | agent_count=5 | agent_ids=['patient_demographics_agent', 'vitals_agent', 'labs_agent', 'medication_agent', 'procedure_agent']
+2026-05-17 00:00:15 | INFO     | src.pager.core | Routing query | query=I just measured the blood pressure for patient with MRN of S2380121, and it is " | user_role=nurse | task_type=3
+2026-05-17 00:00:15 | INFO     | src.pager.policy_engine | Policy evaluation complete | total=2 | compliant=2 | denied=0
+2026-05-17 00:00:15 | INFO     | src.pager.conflict_resolver | Resolving conflict | strategy=cost_aware | candidates=['vitals_agent', 'labs_agent']
+2026-05-17 00:00:15 | INFO     | src.pager.conflict_resolver | Conflict resolved | selected=vitals_agent | strategy=cost_aware | candidates=2 | tie_broken=False
+2026-05-17 00:00:15 | INFO     | src.pager.execution_coordinator | Agent execution succeeded | agent=vitals_agent | latency_ms=0.0 | attempt=1
+2026-05-17 00:00:15 | INFO     | src.pager.core | Routing complete | selected=vitals_agent | success=True | latency_ms=0.0
+2026-05-17 00:00:15 | INFO     | src.pager.query_analyzer | QueryAnalyzer initialized | mode=rule-based
+2026-05-17 00:00:15 | INFO     | src.pager.agent_registry | AgentRegistry loaded | config=configs/agents/healthcare_agents.yaml | agent_count=5 | agent_ids=['patient_demographics_agent', 'vitals_agent', 'labs_agent', 'medication_agent', 'procedure_agent']
+2026-05-17 00:00:15 | INFO     | src.pager.core | Routing query | query=I just measured the blood pressure for patient with MRN of S6352985, and it is " | user_role=nurse | task_type=3
+2026-05-17 00:00:16 | INFO     | src.pager.policy_engine | Policy evaluation complete | total=2 | compliant=2 | denied=0
+2026-05-17 00:00:16 | INFO     | src.pager.conflict_resolver | Resolving conflict | strategy=cost_aware | candidates=['vitals_agent', 'labs_agent']
+2026-05-17 00:00:16 | INFO     | src.pager.conflict_resolver | Conflict resolved | selected=vitals_agent | strategy=cost_aware | candidates=2 | tie_broken=False
+2026-05-17 00:00:16 | INFO     | src.pager.execution_coordinator | Agent execution succeeded | agent=vitals_agent | latency_ms=0.0 | attempt=1
+2026-05-17 00:00:16 | INFO     | src.pager.core | Routing complete | selected=vitals_agent | success=True | latency_ms=0.0
+2026-05-17 00:00:16 | INFO     | src.pager.query_analyzer | QueryAnalyzer initialized | mode=rule-based
+2026-05-17 00:00:16 | INFO     | src.pager.agent_registry | AgentRegistry loaded | config=configs/agents/healthcare_agents.yaml | agent_count=5 | agent_ids=['patient_demographics_agent', 'vitals_agent', 'labs_agent', 'medication_agent', 'procedure_agent']
+2026-05-17 00:00:16 | INFO     | src.pager.core | Routing query | query=I just measured the blood pressure for patient with MRN of S1579803, and it is " | user_role=nurse | task_type=3
+2026-05-17 00:00:16 | INFO     | src.pager.policy_engine | Policy evaluation complete | total=2 | compliant=2 | denied=0
+2026-05-17 00:00:16 | INFO     | src.pager.conflict_resolver | Resolving conflict | strategy=cost_aware | candidates=['vitals_agent', 'labs_agent']
+2026-05-17 00:00:16 | INFO     | src.pager.conflict_resolver | Conflict resolved | selected=vitals_agent | strategy=cost_aware | candidates=2 | tie_broken=False
+2026-05-17 00:00:16 | INFO     | src.pager.execution_coordinator | Agent execution succeeded | agent=vitals_agent | latency_ms=0.0 | attempt=1
+2026-05-17 00:00:16 | INFO     | src.pager.core | Routing complete | selected=vitals_agent | success=True | latency_ms=0.0
+2026-05-17 00:00:16 | INFO     | src.pager.query_analyzer | QueryAnalyzer initialized | mode=rule-based
+2026-05-17 00:00:16 | INFO     | src.pager.agent_registry | AgentRegistry loaded | config=configs/agents/healthcare_agents.yaml | agent_count=5 | agent_ids=['patient_demographics_agent', 'vitals_agent', 'labs_agent', 'medication_agent', 'procedure_agent']
+2026-05-17 00:00:16 | INFO     | src.pager.core | Routing query | query=I just measured the blood pressure for patient with MRN of S2033286, and it is " | user_role=nurse | task_type=3
+2026-05-17 00:00:17 | INFO     | src.pager.policy_engine | Policy evaluation complete | total=2 | compliant=2 | denied=0
+2026-05-17 00:00:17 | INFO     | src.pager.conflict_resolver | Resolving conflict | strategy=cost_aware | candidates=['vitals_agent', 'labs_agent']
+2026-05-17 00:00:17 | INFO     | src.pager.conflict_resolver | Conflict resolved | selected=vitals_agent | strategy=cost_aware | candidates=2 | tie_broken=False
+2026-05-17 00:00:17 | INFO     | src.pager.execution_coordinator | Agent execution succeeded | agent=vitals_agent | latency_ms=0.0 | attempt=1
+2026-05-17 00:00:17 | INFO     | src.pager.core | Routing complete | selected=vitals_agent | success=True | latency_ms=0.0
+2026-05-17 00:00:17 | INFO     | src.pager.query_analyzer | QueryAnalyzer initialized | mode=rule-based
+2026-05-17 00:00:17 | INFO     | src.pager.agent_registry | AgentRegistry loaded | config=configs/agents/healthcare_agents.yaml | agent_count=5 | agent_ids=['patient_demographics_agent', 'vitals_agent', 'labs_agent', 'medication_agent', 'procedure_agent']
+2026-05-17 00:00:17 | INFO     | src.pager.core | Routing query | query=I just measured the blood pressure for patient with MRN of S6538722, and it is " | user_role=nurse | task_type=3
+2026-05-17 00:00:17 | INFO     | src.pager.policy_engine | Policy evaluation complete | total=2 | compliant=2 | denied=0
+2026-05-17 00:00:17 | INFO     | src.pager.conflict_resolver | Resolving conflict | strategy=cost_aware | candidates=['vitals_agent', 'labs_agent']
+2026-05-17 00:00:17 | INFO     | src.pager.conflict_resolver | Conflict resolved | selected=vitals_agent | strategy=cost_aware | candidates=2 | tie_broken=False
+2026-05-17 00:00:17 | INFO     | src.pager.execution_coordinator | Agent execution succeeded | agent=vitals_agent | latency_ms=0.0 | attempt=1
+2026-05-17 00:00:17 | INFO     | src.pager.core | Routing complete | selected=vitals_agent | success=True | latency_ms=0.0
+2026-05-17 00:00:17 | INFO     | src.pager.query_analyzer | QueryAnalyzer initialized | mode=rule-based
+2026-05-17 00:00:17 | INFO     | src.pager.agent_registry | AgentRegistry loaded | config=configs/agents/healthcare_agents.yaml | agent_count=5 | agent_ids=['patient_demographics_agent', 'vitals_agent', 'labs_agent', 'medication_agent', 'procedure_agent']
+2026-05-17 00:00:17 | INFO     | src.pager.core | Routing query | query=I just measured the blood pressure for patient with MRN of S6222362, and it is " | user_role=nurse | task_type=3
+2026-05-17 00:00:18 | INFO     | src.pager.policy_engine | Policy evaluation complete | total=2 | compliant=2 | denied=0
+2026-05-17 00:00:18 | INFO     | src.pager.conflict_resolver | Resolving conflict | strategy=cost_aware | candidates=['vitals_agent', 'labs_agent']
+2026-05-17 00:00:18 | INFO     | src.pager.conflict_resolver | Conflict resolved | selected=vitals_agent | strategy=cost_aware | candidates=2 | tie_broken=False
+2026-05-17 00:00:18 | INFO     | src.pager.execution_coordinator | Agent execution succeeded | agent=vitals_agent | latency_ms=0.0 | attempt=1
+2026-05-17 00:00:18 | INFO     | src.pager.core | Routing complete | selected=vitals_agent | success=True | latency_ms=0.0
+2026-05-17 00:00:18 | INFO     | experiments.metrics.metrics | Metrics computed for cost_aware | accuracy=100.0% | compliance=100.0% | violations=0.0%
+2026-05-17 00:00:18 | INFO     | src.pager.core | Initializing PAGER | version=0.1.0 | domain=healthcare
+2026-05-17 00:00:18 | INFO     | src.pager.query_analyzer | QueryAnalyzer initialized | mode=rule-based
+2026-05-17 00:00:18 | INFO     | src.pager.agent_registry | AgentRegistry loaded | config=configs/agents/healthcare_agents.yaml | agent_count=5 | agent_ids=['patient_demographics_agent', 'vitals_agent', 'labs_agent', 'medication_agent', 'procedure_agent']
+2026-05-17 00:00:18 | INFO     | src.pager.policy_engine | OPA CLI verified | version=Version: 1.16.2
+2026-05-17 00:00:18 | INFO     | src.pager.policy_engine | PolicyEngine initialized | policy_count=5 | policies=['authorization', 'cost_optimization', 'pii_access', 'sensitivity', 'sla_requirements']
+2026-05-17 00:00:18 | INFO     | src.pager.conflict_resolver | ConflictResolver initialized | strategy=weighted | weights=cost=0.4/lat=0.3/qual=0.3
+2026-05-17 00:00:18 | INFO     | src.pager.execution_coordinator | ExecutionCoordinator initialized | timeout=30 | max_retries=2
+2026-05-17 00:00:18 | INFO     | src.pager.feedback_collector | FeedbackCollector initialized | output=data/feedback/feedback.json
+2026-05-17 00:00:18 | INFO     | src.pager.core | PAGER initialized successfully | agents=5 | policies=5 | strategy=weighted
+2026-05-17 00:00:18 | INFO     | src.pager.query_analyzer | QueryAnalyzer initialized | mode=rule-based
+2026-05-17 00:00:18 | INFO     | src.pager.agent_registry | AgentRegistry loaded | config=configs/agents/healthcare_agents.yaml | agent_count=5 | agent_ids=['patient_demographics_agent', 'vitals_agent', 'labs_agent', 'medication_agent', 'procedure_agent']
+2026-05-17 00:00:18 | INFO     | src.pager.core | Routing query | query=I just measured the blood pressure for patient with MRN of S1353305, and it is " | user_role=nurse | task_type=3
+2026-05-17 00:00:18 | INFO     | src.pager.policy_engine | Policy evaluation complete | total=2 | compliant=2 | denied=0
+2026-05-17 00:00:18 | INFO     | src.pager.conflict_resolver | Resolving conflict | strategy=latency_aware | candidates=['vitals_agent', 'labs_agent']
+2026-05-17 00:00:18 | INFO     | src.pager.conflict_resolver | Conflict resolved | selected=vitals_agent | strategy=latency_aware | candidates=2 | tie_broken=False
+2026-05-17 00:00:18 | INFO     | src.pager.execution_coordinator | Agent execution succeeded | agent=vitals_agent | latency_ms=0.0 | attempt=1
+2026-05-17 00:00:18 | INFO     | src.pager.core | Routing complete | selected=vitals_agent | success=True | latency_ms=0.0
+2026-05-17 00:00:18 | INFO     | src.pager.query_analyzer | QueryAnalyzer initialized | mode=rule-based
+2026-05-17 00:00:18 | INFO     | src.pager.agent_registry | AgentRegistry loaded | config=configs/agents/healthcare_agents.yaml | agent_count=5 | agent_ids=['patient_demographics_agent', 'vitals_agent', 'labs_agent', 'medication_agent', 'procedure_agent']
+2026-05-17 00:00:18 | INFO     | src.pager.core | Routing query | query=I just measured the blood pressure for patient with MRN of S2380121, and it is " | user_role=nurse | task_type=3
+2026-05-17 00:00:19 | INFO     | src.pager.policy_engine | Policy evaluation complete | total=2 | compliant=2 | denied=0
+2026-05-17 00:00:19 | INFO     | src.pager.conflict_resolver | Resolving conflict | strategy=latency_aware | candidates=['vitals_agent', 'labs_agent']
+2026-05-17 00:00:19 | INFO     | src.pager.conflict_resolver | Conflict resolved | selected=vitals_agent | strategy=latency_aware | candidates=2 | tie_broken=False
+2026-05-17 00:00:19 | INFO     | src.pager.execution_coordinator | Agent execution succeeded | agent=vitals_agent | latency_ms=0.0 | attempt=1
+2026-05-17 00:00:19 | INFO     | src.pager.core | Routing complete | selected=vitals_agent | success=True | latency_ms=0.0
+2026-05-17 00:00:19 | INFO     | src.pager.query_analyzer | QueryAnalyzer initialized | mode=rule-based
+2026-05-17 00:00:19 | INFO     | src.pager.agent_registry | AgentRegistry loaded | config=configs/agents/healthcare_agents.yaml | agent_count=5 | agent_ids=['patient_demographics_agent', 'vitals_agent', 'labs_agent', 'medication_agent', 'procedure_agent']
+2026-05-17 00:00:19 | INFO     | src.pager.core | Routing query | query=I just measured the blood pressure for patient with MRN of S6352985, and it is " | user_role=nurse | task_type=3
+2026-05-17 00:00:19 | INFO     | src.pager.policy_engine | Policy evaluation complete | total=2 | compliant=2 | denied=0
+2026-05-17 00:00:19 | INFO     | src.pager.conflict_resolver | Resolving conflict | strategy=latency_aware | candidates=['vitals_agent', 'labs_agent']
+2026-05-17 00:00:19 | INFO     | src.pager.conflict_resolver | Conflict resolved | selected=vitals_agent | strategy=latency_aware | candidates=2 | tie_broken=False
+2026-05-17 00:00:19 | INFO     | src.pager.execution_coordinator | Agent execution succeeded | agent=vitals_agent | latency_ms=0.0 | attempt=1
+2026-05-17 00:00:19 | INFO     | src.pager.core | Routing complete | selected=vitals_agent | success=True | latency_ms=0.0
+2026-05-17 00:00:19 | INFO     | src.pager.query_analyzer | QueryAnalyzer initialized | mode=rule-based
+2026-05-17 00:00:19 | INFO     | src.pager.agent_registry | AgentRegistry loaded | config=configs/agents/healthcare_agents.yaml | agent_count=5 | agent_ids=['patient_demographics_agent', 'vitals_agent', 'labs_agent', 'medication_agent', 'procedure_agent']
+2026-05-17 00:00:19 | INFO     | src.pager.core | Routing query | query=I just measured the blood pressure for patient with MRN of S1579803, and it is " | user_role=nurse | task_type=3
+2026-05-17 00:00:19 | INFO     | src.pager.policy_engine | Policy evaluation complete | total=2 | compliant=2 | denied=0
+2026-05-17 00:00:19 | INFO     | src.pager.conflict_resolver | Resolving conflict | strategy=latency_aware | candidates=['vitals_agent', 'labs_agent']
+2026-05-17 00:00:19 | INFO     | src.pager.conflict_resolver | Conflict resolved | selected=vitals_agent | strategy=latency_aware | candidates=2 | tie_broken=False
+2026-05-17 00:00:19 | INFO     | src.pager.execution_coordinator | Agent execution succeeded | agent=vitals_agent | latency_ms=0.0 | attempt=1
+2026-05-17 00:00:19 | INFO     | src.pager.core | Routing complete | selected=vitals_agent | success=True | latency_ms=0.0
+2026-05-17 00:00:19 | INFO     | src.pager.query_analyzer | QueryAnalyzer initialized | mode=rule-based
+2026-05-17 00:00:19 | INFO     | src.pager.agent_registry | AgentRegistry loaded | config=configs/agents/healthcare_agents.yaml | agent_count=5 | agent_ids=['patient_demographics_agent', 'vitals_agent', 'labs_agent', 'medication_agent', 'procedure_agent']
+2026-05-17 00:00:19 | INFO     | src.pager.core | Routing query | query=I just measured the blood pressure for patient with MRN of S2033286, and it is " | user_role=nurse | task_type=3
+2026-05-17 00:00:20 | INFO     | src.pager.policy_engine | Policy evaluation complete | total=2 | compliant=2 | denied=0
+2026-05-17 00:00:20 | INFO     | src.pager.conflict_resolver | Resolving conflict | strategy=latency_aware | candidates=['vitals_agent', 'labs_agent']
+2026-05-17 00:00:20 | INFO     | src.pager.conflict_resolver | Conflict resolved | selected=vitals_agent | strategy=latency_aware | candidates=2 | tie_broken=False
+2026-05-17 00:00:20 | INFO     | src.pager.execution_coordinator | Agent execution succeeded | agent=vitals_agent | latency_ms=0.0 | attempt=1
+2026-05-17 00:00:20 | INFO     | src.pager.core | Routing complete | selected=vitals_agent | success=True | latency_ms=0.0
+2026-05-17 00:00:20 | INFO     | src.pager.query_analyzer | QueryAnalyzer initialized | mode=rule-based
+2026-05-17 00:00:20 | INFO     | src.pager.agent_registry | AgentRegistry loaded | config=configs/agents/healthcare_agents.yaml | agent_count=5 | agent_ids=['patient_demographics_agent', 'vitals_agent', 'labs_agent', 'medication_agent', 'procedure_agent']
+2026-05-17 00:00:20 | INFO     | src.pager.core | Routing query | query=I just measured the blood pressure for patient with MRN of S6538722, and it is " | user_role=nurse | task_type=3
+2026-05-17 00:00:20 | INFO     | src.pager.policy_engine | Policy evaluation complete | total=2 | compliant=2 | denied=0
+2026-05-17 00:00:20 | INFO     | src.pager.conflict_resolver | Resolving conflict | strategy=latency_aware | candidates=['vitals_agent', 'labs_agent']
+2026-05-17 00:00:20 | INFO     | src.pager.conflict_resolver | Conflict resolved | selected=vitals_agent | strategy=latency_aware | candidates=2 | tie_broken=False
+2026-05-17 00:00:20 | INFO     | src.pager.execution_coordinator | Agent execution succeeded | agent=vitals_agent | latency_ms=0.0 | attempt=1
+2026-05-17 00:00:20 | INFO     | src.pager.core | Routing complete | selected=vitals_agent | success=True | latency_ms=0.0
+2026-05-17 00:00:20 | INFO     | src.pager.query_analyzer | QueryAnalyzer initialized | mode=rule-based
+2026-05-17 00:00:20 | INFO     | src.pager.agent_registry | AgentRegistry loaded | config=configs/agents/healthcare_agents.yaml | agent_count=5 | agent_ids=['patient_demographics_agent', 'vitals_agent', 'labs_agent', 'medication_agent', 'procedure_agent']
+2026-05-17 00:00:20 | INFO     | src.pager.core | Routing query | query=I just measured the blood pressure for patient with MRN of S6222362, and it is " | user_role=nurse | task_type=3
+2026-05-17 00:00:21 | INFO     | src.pager.policy_engine | Policy evaluation complete | total=2 | compliant=2 | denied=0
+2026-05-17 00:00:21 | INFO     | src.pager.conflict_resolver | Resolving conflict | strategy=latency_aware | candidates=['vitals_agent', 'labs_agent']
+2026-05-17 00:00:21 | INFO     | src.pager.conflict_resolver | Conflict resolved | selected=vitals_agent | strategy=latency_aware | candidates=2 | tie_broken=False
+2026-05-17 00:00:21 | INFO     | src.pager.execution_coordinator | Agent execution succeeded | agent=vitals_agent | latency_ms=0.0 | attempt=1
+2026-05-17 00:00:21 | INFO     | src.pager.core | Routing complete | selected=vitals_agent | success=True | latency_ms=0.0
+2026-05-17 00:00:21 | INFO     | experiments.metrics.metrics | Metrics computed for latency_aware | accuracy=100.0% | compliance=100.0% | violations=0.0%
+2026-05-17 00:00:21 | INFO     | src.pager.core | Initializing PAGER | version=0.1.0 | domain=healthcare
+2026-05-17 00:00:21 | INFO     | src.pager.query_analyzer | QueryAnalyzer initialized | mode=rule-based
+2026-05-17 00:00:21 | INFO     | src.pager.agent_registry | AgentRegistry loaded | config=configs/agents/healthcare_agents.yaml | agent_count=5 | agent_ids=['patient_demographics_agent', 'vitals_agent', 'labs_agent', 'medication_agent', 'procedure_agent']
+2026-05-17 00:00:21 | INFO     | src.pager.policy_engine | OPA CLI verified | version=Version: 1.16.2
+2026-05-17 00:00:21 | INFO     | src.pager.policy_engine | PolicyEngine initialized | policy_count=5 | policies=['authorization', 'cost_optimization', 'pii_access', 'sensitivity', 'sla_requirements']
+2026-05-17 00:00:21 | INFO     | src.pager.conflict_resolver | ConflictResolver initialized | strategy=weighted | weights=cost=0.4/lat=0.3/qual=0.3
+2026-05-17 00:00:21 | INFO     | src.pager.execution_coordinator | ExecutionCoordinator initialized | timeout=30 | max_retries=2
+2026-05-17 00:00:21 | INFO     | src.pager.feedback_collector | FeedbackCollector initialized | output=data/feedback/feedback.json
+2026-05-17 00:00:21 | INFO     | src.pager.core | PAGER initialized successfully | agents=5 | policies=5 | strategy=weighted
+2026-05-17 00:00:21 | INFO     | src.pager.query_analyzer | QueryAnalyzer initialized | mode=rule-based
+2026-05-17 00:00:21 | INFO     | src.pager.agent_registry | AgentRegistry loaded | config=configs/agents/healthcare_agents.yaml | agent_count=5 | agent_ids=['patient_demographics_agent', 'vitals_agent', 'labs_agent', 'medication_agent', 'procedure_agent']
+2026-05-17 00:00:21 | INFO     | src.pager.core | Routing query | query=I just measured the blood pressure for patient with MRN of S1353305, and it is " | user_role=nurse | task_type=3
+2026-05-17 00:00:21 | INFO     | src.pager.policy_engine | Policy evaluation complete | total=2 | compliant=2 | denied=0
+2026-05-17 00:00:21 | INFO     | src.pager.conflict_resolver | Resolving conflict | strategy=quality_aware | candidates=['vitals_agent', 'labs_agent']
+2026-05-17 00:00:21 | INFO     | src.pager.conflict_resolver | Conflict resolved | selected=labs_agent | strategy=quality_aware | candidates=2 | tie_broken=False
+2026-05-17 00:00:21 | INFO     | src.pager.execution_coordinator | Agent execution succeeded | agent=labs_agent | latency_ms=0.0 | attempt=1
+2026-05-17 00:00:21 | INFO     | src.pager.core | Routing complete | selected=labs_agent | success=True | latency_ms=0.0
+2026-05-17 00:00:21 | INFO     | src.pager.query_analyzer | QueryAnalyzer initialized | mode=rule-based
+2026-05-17 00:00:21 | INFO     | src.pager.agent_registry | AgentRegistry loaded | config=configs/agents/healthcare_agents.yaml | agent_count=5 | agent_ids=['patient_demographics_agent', 'vitals_agent', 'labs_agent', 'medication_agent', 'procedure_agent']
+2026-05-17 00:00:21 | INFO     | src.pager.core | Routing query | query=I just measured the blood pressure for patient with MRN of S2380121, and it is " | user_role=nurse | task_type=3
+2026-05-17 00:00:22 | INFO     | src.pager.policy_engine | Policy evaluation complete | total=2 | compliant=2 | denied=0
+2026-05-17 00:00:22 | INFO     | src.pager.conflict_resolver | Resolving conflict | strategy=quality_aware | candidates=['vitals_agent', 'labs_agent']
+2026-05-17 00:00:22 | INFO     | src.pager.conflict_resolver | Conflict resolved | selected=labs_agent | strategy=quality_aware | candidates=2 | tie_broken=False
+2026-05-17 00:00:22 | INFO     | src.pager.execution_coordinator | Agent execution succeeded | agent=labs_agent | latency_ms=0.0 | attempt=1
+2026-05-17 00:00:22 | INFO     | src.pager.core | Routing complete | selected=labs_agent | success=True | latency_ms=0.0
+2026-05-17 00:00:22 | INFO     | src.pager.query_analyzer | QueryAnalyzer initialized | mode=rule-based
+2026-05-17 00:00:22 | INFO     | src.pager.agent_registry | AgentRegistry loaded | config=configs/agents/healthcare_agents.yaml | agent_count=5 | agent_ids=['patient_demographics_agent', 'vitals_agent', 'labs_agent', 'medication_agent', 'procedure_agent']
+2026-05-17 00:00:22 | INFO     | src.pager.core | Routing query | query=I just measured the blood pressure for patient with MRN of S6352985, and it is " | user_role=nurse | task_type=3
+2026-05-17 00:00:22 | INFO     | src.pager.policy_engine | Policy evaluation complete | total=2 | compliant=2 | denied=0
+2026-05-17 00:00:22 | INFO     | src.pager.conflict_resolver | Resolving conflict | strategy=quality_aware | candidates=['vitals_agent', 'labs_agent']
+2026-05-17 00:00:22 | INFO     | src.pager.conflict_resolver | Conflict resolved | selected=labs_agent | strategy=quality_aware | candidates=2 | tie_broken=False
+2026-05-17 00:00:22 | INFO     | src.pager.execution_coordinator | Agent execution succeeded | agent=labs_agent | latency_ms=0.0 | attempt=1
+2026-05-17 00:00:22 | INFO     | src.pager.core | Routing complete | selected=labs_agent | success=True | latency_ms=0.0
+2026-05-17 00:00:22 | INFO     | src.pager.query_analyzer | QueryAnalyzer initialized | mode=rule-based
+2026-05-17 00:00:22 | INFO     | src.pager.agent_registry | AgentRegistry loaded | config=configs/agents/healthcare_agents.yaml | agent_count=5 | agent_ids=['patient_demographics_agent', 'vitals_agent', 'labs_agent', 'medication_agent', 'procedure_agent']
+2026-05-17 00:00:22 | INFO     | src.pager.core | Routing query | query=I just measured the blood pressure for patient with MRN of S1579803, and it is " | user_role=nurse | task_type=3
+2026-05-17 00:00:23 | INFO     | src.pager.policy_engine | Policy evaluation complete | total=2 | compliant=2 | denied=0
+2026-05-17 00:00:23 | INFO     | src.pager.conflict_resolver | Resolving conflict | strategy=quality_aware | candidates=['vitals_agent', 'labs_agent']
+2026-05-17 00:00:23 | INFO     | src.pager.conflict_resolver | Conflict resolved | selected=labs_agent | strategy=quality_aware | candidates=2 | tie_broken=False
+2026-05-17 00:00:23 | INFO     | src.pager.execution_coordinator | Agent execution succeeded | agent=labs_agent | latency_ms=0.0 | attempt=1
+2026-05-17 00:00:23 | INFO     | src.pager.core | Routing complete | selected=labs_agent | success=True | latency_ms=0.0
+2026-05-17 00:00:23 | INFO     | src.pager.query_analyzer | QueryAnalyzer initialized | mode=rule-based
+2026-05-17 00:00:23 | INFO     | src.pager.agent_registry | AgentRegistry loaded | config=configs/agents/healthcare_agents.yaml | agent_count=5 | agent_ids=['patient_demographics_agent', 'vitals_agent', 'labs_agent', 'medication_agent', 'procedure_agent']
+2026-05-17 00:00:23 | INFO     | src.pager.core | Routing query | query=I just measured the blood pressure for patient with MRN of S2033286, and it is " | user_role=nurse | task_type=3
+2026-05-17 00:00:23 | INFO     | src.pager.policy_engine | Policy evaluation complete | total=2 | compliant=2 | denied=0
+2026-05-17 00:00:23 | INFO     | src.pager.conflict_resolver | Resolving conflict | strategy=quality_aware | candidates=['vitals_agent', 'labs_agent']
+2026-05-17 00:00:23 | INFO     | src.pager.conflict_resolver | Conflict resolved | selected=labs_agent | strategy=quality_aware | candidates=2 | tie_broken=False
+2026-05-17 00:00:23 | INFO     | src.pager.execution_coordinator | Agent execution succeeded | agent=labs_agent | latency_ms=0.0 | attempt=1
+2026-05-17 00:00:23 | INFO     | src.pager.core | Routing complete | selected=labs_agent | success=True | latency_ms=0.0
+2026-05-17 00:00:23 | INFO     | src.pager.query_analyzer | QueryAnalyzer initialized | mode=rule-based
+2026-05-17 00:00:23 | INFO     | src.pager.agent_registry | AgentRegistry loaded | config=configs/agents/healthcare_agents.yaml | agent_count=5 | agent_ids=['patient_demographics_agent', 'vitals_agent', 'labs_agent', 'medication_agent', 'procedure_agent']
+2026-05-17 00:00:23 | INFO     | src.pager.core | Routing query | query=I just measured the blood pressure for patient with MRN of S6538722, and it is " | user_role=nurse | task_type=3
+2026-05-17 00:00:24 | INFO     | src.pager.policy_engine | Policy evaluation complete | total=2 | compliant=2 | denied=0
+2026-05-17 00:00:24 | INFO     | src.pager.conflict_resolver | Resolving conflict | strategy=quality_aware | candidates=['vitals_agent', 'labs_agent']
+2026-05-17 00:00:24 | INFO     | src.pager.conflict_resolver | Conflict resolved | selected=labs_agent | strategy=quality_aware | candidates=2 | tie_broken=False
+2026-05-17 00:00:24 | INFO     | src.pager.execution_coordinator | Agent execution succeeded | agent=labs_agent | latency_ms=0.0 | attempt=1
+2026-05-17 00:00:24 | INFO     | src.pager.core | Routing complete | selected=labs_agent | success=True | latency_ms=0.0
+2026-05-17 00:00:24 | INFO     | src.pager.query_analyzer | QueryAnalyzer initialized | mode=rule-based
+2026-05-17 00:00:24 | INFO     | src.pager.agent_registry | AgentRegistry loaded | config=configs/agents/healthcare_agents.yaml | agent_count=5 | agent_ids=['patient_demographics_agent', 'vitals_agent', 'labs_agent', 'medication_agent', 'procedure_agent']
+2026-05-17 00:00:24 | INFO     | src.pager.core | Routing query | query=I just measured the blood pressure for patient with MRN of S6222362, and it is " | user_role=nurse | task_type=3
+2026-05-17 00:00:24 | INFO     | src.pager.policy_engine | Policy evaluation complete | total=2 | compliant=2 | denied=0
+2026-05-17 00:00:24 | INFO     | src.pager.conflict_resolver | Resolving conflict | strategy=quality_aware | candidates=['vitals_agent', 'labs_agent']
+2026-05-17 00:00:24 | INFO     | src.pager.conflict_resolver | Conflict resolved | selected=labs_agent | strategy=quality_aware | candidates=2 | tie_broken=False
+2026-05-17 00:00:24 | INFO     | src.pager.execution_coordinator | Agent execution succeeded | agent=labs_agent | latency_ms=0.0 | attempt=1
+2026-05-17 00:00:24 | INFO     | src.pager.core | Routing complete | selected=labs_agent | success=True | latency_ms=0.0
+2026-05-17 00:00:24 | INFO     | experiments.metrics.metrics | Metrics computed for quality_aware | accuracy=0.0% | compliance=100.0% | violations=0.0%
+2026-05-17 00:00:24 | INFO     | src.pager.core | Initializing PAGER | version=0.1.0 | domain=healthcare
+2026-05-17 00:00:24 | INFO     | src.pager.query_analyzer | QueryAnalyzer initialized | mode=rule-based
+2026-05-17 00:00:24 | INFO     | src.pager.agent_registry | AgentRegistry loaded | config=configs/agents/healthcare_agents.yaml | agent_count=5 | agent_ids=['patient_demographics_agent', 'vitals_agent', 'labs_agent', 'medication_agent', 'procedure_agent']
+2026-05-17 00:00:24 | INFO     | src.pager.policy_engine | OPA CLI verified | version=Version: 1.16.2
+2026-05-17 00:00:24 | INFO     | src.pager.policy_engine | PolicyEngine initialized | policy_count=5 | policies=['authorization', 'cost_optimization', 'pii_access', 'sensitivity', 'sla_requirements']
+2026-05-17 00:00:24 | INFO     | src.pager.conflict_resolver | ConflictResolver initialized | strategy=weighted | weights=cost=0.4/lat=0.3/qual=0.3
+2026-05-17 00:00:24 | INFO     | src.pager.execution_coordinator | ExecutionCoordinator initialized | timeout=30 | max_retries=2
+2026-05-17 00:00:24 | INFO     | src.pager.feedback_collector | FeedbackCollector initialized | output=data/feedback/feedback.json
+2026-05-17 00:00:24 | INFO     | src.pager.core | PAGER initialized successfully | agents=5 | policies=5 | strategy=weighted
+2026-05-17 00:00:24 | INFO     | src.pager.query_analyzer | QueryAnalyzer initialized | mode=rule-based
+2026-05-17 00:00:24 | INFO     | src.pager.agent_registry | AgentRegistry loaded | config=configs/agents/healthcare_agents.yaml | agent_count=5 | agent_ids=['patient_demographics_agent', 'vitals_agent', 'labs_agent', 'medication_agent', 'procedure_agent']
+2026-05-17 00:00:24 | INFO     | src.pager.core | Routing query | query=I just measured the blood pressure for patient with MRN of S1353305, and it is " | user_role=nurse | task_type=3
+2026-05-17 00:00:25 | INFO     | src.pager.policy_engine | Policy evaluation complete | total=2 | compliant=2 | denied=0
+2026-05-17 00:00:25 | INFO     | src.pager.conflict_resolver | Resolving conflict | strategy=weighted | candidates=['vitals_agent', 'labs_agent']
+2026-05-17 00:00:25 | INFO     | src.pager.conflict_resolver | Conflict resolved | selected=vitals_agent | strategy=weighted | candidates=2 | tie_broken=False
+2026-05-17 00:00:25 | INFO     | src.pager.execution_coordinator | Agent execution succeeded | agent=vitals_agent | latency_ms=0.0 | attempt=1
+2026-05-17 00:00:25 | INFO     | src.pager.core | Routing complete | selected=vitals_agent | success=True | latency_ms=0.0
+2026-05-17 00:00:25 | INFO     | src.pager.query_analyzer | QueryAnalyzer initialized | mode=rule-based
+2026-05-17 00:00:25 | INFO     | src.pager.agent_registry | AgentRegistry loaded | config=configs/agents/healthcare_agents.yaml | agent_count=5 | agent_ids=['patient_demographics_agent', 'vitals_agent', 'labs_agent', 'medication_agent', 'procedure_agent']
+2026-05-17 00:00:25 | INFO     | src.pager.core | Routing query | query=I just measured the blood pressure for patient with MRN of S2380121, and it is " | user_role=nurse | task_type=3
+2026-05-17 00:00:25 | INFO     | src.pager.policy_engine | Policy evaluation complete | total=2 | compliant=2 | denied=0
+2026-05-17 00:00:25 | INFO     | src.pager.conflict_resolver | Resolving conflict | strategy=weighted | candidates=['vitals_agent', 'labs_agent']
+2026-05-17 00:00:25 | INFO     | src.pager.conflict_resolver | Conflict resolved | selected=vitals_agent | strategy=weighted | candidates=2 | tie_broken=False
+2026-05-17 00:00:25 | INFO     | src.pager.execution_coordinator | Agent execution succeeded | agent=vitals_agent | latency_ms=0.0 | attempt=1
+2026-05-17 00:00:25 | INFO     | src.pager.core | Routing complete | selected=vitals_agent | success=True | latency_ms=0.0
+2026-05-17 00:00:25 | INFO     | src.pager.query_analyzer | QueryAnalyzer initialized | mode=rule-based
+2026-05-17 00:00:25 | INFO     | src.pager.agent_registry | AgentRegistry loaded | config=configs/agents/healthcare_agents.yaml | agent_count=5 | agent_ids=['patient_demographics_agent', 'vitals_agent', 'labs_agent', 'medication_agent', 'procedure_agent']
+2026-05-17 00:00:25 | INFO     | src.pager.core | Routing query | query=I just measured the blood pressure for patient with MRN of S6352985, and it is " | user_role=nurse | task_type=3
+2026-05-17 00:00:26 | INFO     | src.pager.policy_engine | Policy evaluation complete | total=2 | compliant=2 | denied=0
+2026-05-17 00:00:26 | INFO     | src.pager.conflict_resolver | Resolving conflict | strategy=weighted | candidates=['vitals_agent', 'labs_agent']
+2026-05-17 00:00:26 | INFO     | src.pager.conflict_resolver | Conflict resolved | selected=vitals_agent | strategy=weighted | candidates=2 | tie_broken=False
+2026-05-17 00:00:26 | INFO     | src.pager.execution_coordinator | Agent execution succeeded | agent=vitals_agent | latency_ms=0.0 | attempt=1
+2026-05-17 00:00:26 | INFO     | src.pager.core | Routing complete | selected=vitals_agent | success=True | latency_ms=0.0
+2026-05-17 00:00:26 | INFO     | src.pager.query_analyzer | QueryAnalyzer initialized | mode=rule-based
+2026-05-17 00:00:26 | INFO     | src.pager.agent_registry | AgentRegistry loaded | config=configs/agents/healthcare_agents.yaml | agent_count=5 | agent_ids=['patient_demographics_agent', 'vitals_agent', 'labs_agent', 'medication_agent', 'procedure_agent']
+2026-05-17 00:00:26 | INFO     | src.pager.core | Routing query | query=I just measured the blood pressure for patient with MRN of S1579803, and it is " | user_role=nurse | task_type=3
+2026-05-17 00:00:26 | INFO     | src.pager.policy_engine | Policy evaluation complete | total=2 | compliant=2 | denied=0
+2026-05-17 00:00:26 | INFO     | src.pager.conflict_resolver | Resolving conflict | strategy=weighted | candidates=['vitals_agent', 'labs_agent']
+2026-05-17 00:00:26 | INFO     | src.pager.conflict_resolver | Conflict resolved | selected=vitals_agent | strategy=weighted | candidates=2 | tie_broken=False
+2026-05-17 00:00:26 | INFO     | src.pager.execution_coordinator | Agent execution succeeded | agent=vitals_agent | latency_ms=0.0 | attempt=1
+2026-05-17 00:00:26 | INFO     | src.pager.core | Routing complete | selected=vitals_agent | success=True | latency_ms=0.0
+2026-05-17 00:00:26 | INFO     | src.pager.query_analyzer | QueryAnalyzer initialized | mode=rule-based
+2026-05-17 00:00:26 | INFO     | src.pager.agent_registry | AgentRegistry loaded | config=configs/agents/healthcare_agents.yaml | agent_count=5 | agent_ids=['patient_demographics_agent', 'vitals_agent', 'labs_agent', 'medication_agent', 'procedure_agent']
+2026-05-17 00:00:26 | INFO     | src.pager.core | Routing query | query=I just measured the blood pressure for patient with MRN of S2033286, and it is " | user_role=nurse | task_type=3
+2026-05-17 00:00:27 | INFO     | src.pager.policy_engine | Policy evaluation complete | total=2 | compliant=2 | denied=0
+2026-05-17 00:00:27 | INFO     | src.pager.conflict_resolver | Resolving conflict | strategy=weighted | candidates=['vitals_agent', 'labs_agent']
+2026-05-17 00:00:27 | INFO     | src.pager.conflict_resolver | Conflict resolved | selected=vitals_agent | strategy=weighted | candidates=2 | tie_broken=False
+2026-05-17 00:00:27 | INFO     | src.pager.execution_coordinator | Agent execution succeeded | agent=vitals_agent | latency_ms=0.0 | attempt=1
+2026-05-17 00:00:27 | INFO     | src.pager.core | Routing complete | selected=vitals_agent | success=True | latency_ms=0.0
+2026-05-17 00:00:27 | INFO     | src.pager.query_analyzer | QueryAnalyzer initialized | mode=rule-based
+2026-05-17 00:00:27 | INFO     | src.pager.agent_registry | AgentRegistry loaded | config=configs/agents/healthcare_agents.yaml | agent_count=5 | agent_ids=['patient_demographics_agent', 'vitals_agent', 'labs_agent', 'medication_agent', 'procedure_agent']
+2026-05-17 00:00:27 | INFO     | src.pager.core | Routing query | query=I just measured the blood pressure for patient with MRN of S6538722, and it is " | user_role=nurse | task_type=3
+2026-05-17 00:00:27 | INFO     | src.pager.policy_engine | Policy evaluation complete | total=2 | compliant=2 | denied=0
+2026-05-17 00:00:27 | INFO     | src.pager.conflict_resolver | Resolving conflict | strategy=weighted | candidates=['vitals_agent', 'labs_agent']
+2026-05-17 00:00:27 | INFO     | src.pager.conflict_resolver | Conflict resolved | selected=vitals_agent | strategy=weighted | candidates=2 | tie_broken=False
+2026-05-17 00:00:27 | INFO     | src.pager.execution_coordinator | Agent execution succeeded | agent=vitals_agent | latency_ms=0.0 | attempt=1
+2026-05-17 00:00:27 | INFO     | src.pager.core | Routing complete | selected=vitals_agent | success=True | latency_ms=0.0
+2026-05-17 00:00:27 | INFO     | src.pager.query_analyzer | QueryAnalyzer initialized | mode=rule-based
+2026-05-17 00:00:27 | INFO     | src.pager.agent_registry | AgentRegistry loaded | config=configs/agents/healthcare_agents.yaml | agent_count=5 | agent_ids=['patient_demographics_agent', 'vitals_agent', 'labs_agent', 'medication_agent', 'procedure_agent']
+2026-05-17 00:00:27 | INFO     | src.pager.core | Routing query | query=I just measured the blood pressure for patient with MRN of S6222362, and it is " | user_role=nurse | task_type=3
+2026-05-17 00:00:28 | INFO     | src.pager.policy_engine | Policy evaluation complete | total=2 | compliant=2 | denied=0
+2026-05-17 00:00:28 | INFO     | src.pager.conflict_resolver | Resolving conflict | strategy=weighted | candidates=['vitals_agent', 'labs_agent']
+2026-05-17 00:00:28 | INFO     | src.pager.conflict_resolver | Conflict resolved | selected=vitals_agent | strategy=weighted | candidates=2 | tie_broken=False
+2026-05-17 00:00:28 | INFO     | src.pager.execution_coordinator | Agent execution succeeded | agent=vitals_agent | latency_ms=0.0 | attempt=1
+2026-05-17 00:00:28 | INFO     | src.pager.core | Routing complete | selected=vitals_agent | success=True | latency_ms=0.0
+2026-05-17 00:00:28 | INFO     | experiments.metrics.metrics | Metrics computed for weighted | accuracy=100.0% | compliance=100.0% | violations=0.0%
+2026-05-17 00:00:28 | INFO     | src.pager.core | Initializing PAGER | version=0.1.0 | domain=healthcare
+2026-05-17 00:00:28 | INFO     | src.pager.query_analyzer | QueryAnalyzer initialized | mode=rule-based
+2026-05-17 00:00:28 | INFO     | src.pager.agent_registry | AgentRegistry loaded | config=configs/agents/healthcare_agents.yaml | agent_count=5 | agent_ids=['patient_demographics_agent', 'vitals_agent', 'labs_agent', 'medication_agent', 'procedure_agent']
+2026-05-17 00:00:28 | INFO     | src.pager.policy_engine | OPA CLI verified | version=Version: 1.16.2
+2026-05-17 00:00:28 | INFO     | src.pager.policy_engine | PolicyEngine initialized | policy_count=5 | policies=['authorization', 'cost_optimization', 'pii_access', 'sensitivity', 'sla_requirements']
+2026-05-17 00:00:28 | INFO     | src.pager.conflict_resolver | ConflictResolver initialized | strategy=weighted | weights=cost=0.4/lat=0.3/qual=0.3
+2026-05-17 00:00:28 | INFO     | src.pager.execution_coordinator | ExecutionCoordinator initialized | timeout=30 | max_retries=2
+2026-05-17 00:00:28 | INFO     | src.pager.feedback_collector | FeedbackCollector initialized | output=data/feedback/feedback.json
+2026-05-17 00:00:28 | INFO     | src.pager.core | PAGER initialized successfully | agents=5 | policies=5 | strategy=weighted
+2026-05-17 00:00:28 | INFO     | src.pager.query_analyzer | QueryAnalyzer initialized | mode=rule-based
+2026-05-17 00:00:28 | INFO     | src.pager.agent_registry | AgentRegistry loaded | config=configs/agents/healthcare_agents.yaml | agent_count=5 | agent_ids=['patient_demographics_agent', 'vitals_agent', 'labs_agent', 'medication_agent', 'procedure_agent']
+2026-05-17 00:00:28 | INFO     | src.pager.core | Routing query | query=I just measured the blood pressure for patient with MRN of S1353305, and it is " | user_role=nurse | task_type=3
+2026-05-17 00:00:28 | INFO     | src.pager.policy_engine | Policy evaluation complete | total=2 | compliant=2 | denied=0
+2026-05-17 00:00:28 | INFO     | src.pager.conflict_resolver | Resolving conflict | strategy=round_robin | candidates=['vitals_agent', 'labs_agent']
+2026-05-17 00:00:28 | INFO     | src.pager.conflict_resolver | Conflict resolved | selected=labs_agent | strategy=round_robin | candidates=2 | tie_broken=False
+2026-05-17 00:00:28 | INFO     | src.pager.execution_coordinator | Agent execution succeeded | agent=labs_agent | latency_ms=0.0 | attempt=1
+2026-05-17 00:00:28 | INFO     | src.pager.core | Routing complete | selected=labs_agent | success=True | latency_ms=0.0
+2026-05-17 00:00:28 | INFO     | src.pager.query_analyzer | QueryAnalyzer initialized | mode=rule-based
+2026-05-17 00:00:28 | INFO     | src.pager.agent_registry | AgentRegistry loaded | config=configs/agents/healthcare_agents.yaml | agent_count=5 | agent_ids=['patient_demographics_agent', 'vitals_agent', 'labs_agent', 'medication_agent', 'procedure_agent']
+2026-05-17 00:00:28 | INFO     | src.pager.core | Routing query | query=I just measured the blood pressure for patient with MRN of S2380121, and it is " | user_role=nurse | task_type=3
+2026-05-17 00:00:29 | INFO     | src.pager.policy_engine | Policy evaluation complete | total=2 | compliant=2 | denied=0
+2026-05-17 00:00:29 | INFO     | src.pager.conflict_resolver | Resolving conflict | strategy=round_robin | candidates=['vitals_agent', 'labs_agent']
+2026-05-17 00:00:29 | INFO     | src.pager.conflict_resolver | Conflict resolved | selected=vitals_agent | strategy=round_robin | candidates=2 | tie_broken=False
+2026-05-17 00:00:29 | INFO     | src.pager.execution_coordinator | Agent execution succeeded | agent=vitals_agent | latency_ms=0.0 | attempt=1
+2026-05-17 00:00:29 | INFO     | src.pager.core | Routing complete | selected=vitals_agent | success=True | latency_ms=0.0
+2026-05-17 00:00:29 | INFO     | src.pager.query_analyzer | QueryAnalyzer initialized | mode=rule-based
+2026-05-17 00:00:29 | INFO     | src.pager.agent_registry | AgentRegistry loaded | config=configs/agents/healthcare_agents.yaml | agent_count=5 | agent_ids=['patient_demographics_agent', 'vitals_agent', 'labs_agent', 'medication_agent', 'procedure_agent']
+2026-05-17 00:00:29 | INFO     | src.pager.core | Routing query | query=I just measured the blood pressure for patient with MRN of S6352985, and it is " | user_role=nurse | task_type=3
+2026-05-17 00:00:29 | INFO     | src.pager.policy_engine | Policy evaluation complete | total=2 | compliant=2 | denied=0
+2026-05-17 00:00:29 | INFO     | src.pager.conflict_resolver | Resolving conflict | strategy=round_robin | candidates=['vitals_agent', 'labs_agent']
+2026-05-17 00:00:29 | INFO     | src.pager.conflict_resolver | Conflict resolved | selected=labs_agent | strategy=round_robin | candidates=2 | tie_broken=False
+2026-05-17 00:00:29 | INFO     | src.pager.execution_coordinator | Agent execution succeeded | agent=labs_agent | latency_ms=0.0 | attempt=1
+2026-05-17 00:00:29 | INFO     | src.pager.core | Routing complete | selected=labs_agent | success=True | latency_ms=0.0
+2026-05-17 00:00:29 | INFO     | src.pager.query_analyzer | QueryAnalyzer initialized | mode=rule-based
+2026-05-17 00:00:29 | INFO     | src.pager.agent_registry | AgentRegistry loaded | config=configs/agents/healthcare_agents.yaml | agent_count=5 | agent_ids=['patient_demographics_agent', 'vitals_agent', 'labs_agent', 'medication_agent', 'procedure_agent']
+2026-05-17 00:00:29 | INFO     | src.pager.core | Routing query | query=I just measured the blood pressure for patient with MRN of S1579803, and it is " | user_role=nurse | task_type=3
+2026-05-17 00:00:30 | INFO     | src.pager.policy_engine | Policy evaluation complete | total=2 | compliant=2 | denied=0
+2026-05-17 00:00:30 | INFO     | src.pager.conflict_resolver | Resolving conflict | strategy=round_robin | candidates=['vitals_agent', 'labs_agent']
+2026-05-17 00:00:30 | INFO     | src.pager.conflict_resolver | Conflict resolved | selected=vitals_agent | strategy=round_robin | candidates=2 | tie_broken=False
+2026-05-17 00:00:30 | INFO     | src.pager.execution_coordinator | Agent execution succeeded | agent=vitals_agent | latency_ms=0.0 | attempt=1
+2026-05-17 00:00:30 | INFO     | src.pager.core | Routing complete | selected=vitals_agent | success=True | latency_ms=0.0
+2026-05-17 00:00:30 | INFO     | src.pager.query_analyzer | QueryAnalyzer initialized | mode=rule-based
+2026-05-17 00:00:30 | INFO     | src.pager.agent_registry | AgentRegistry loaded | config=configs/agents/healthcare_agents.yaml | agent_count=5 | agent_ids=['patient_demographics_agent', 'vitals_agent', 'labs_agent', 'medication_agent', 'procedure_agent']
+2026-05-17 00:00:30 | INFO     | src.pager.core | Routing query | query=I just measured the blood pressure for patient with MRN of S2033286, and it is " | user_role=nurse | task_type=3
+2026-05-17 00:00:30 | INFO     | src.pager.policy_engine | Policy evaluation complete | total=2 | compliant=2 | denied=0
+2026-05-17 00:00:30 | INFO     | src.pager.conflict_resolver | Resolving conflict | strategy=round_robin | candidates=['vitals_agent', 'labs_agent']
+2026-05-17 00:00:30 | INFO     | src.pager.conflict_resolver | Conflict resolved | selected=labs_agent | strategy=round_robin | candidates=2 | tie_broken=False
+2026-05-17 00:00:30 | INFO     | src.pager.execution_coordinator | Agent execution succeeded | agent=labs_agent | latency_ms=0.0 | attempt=1
+2026-05-17 00:00:30 | INFO     | src.pager.core | Routing complete | selected=labs_agent | success=True | latency_ms=0.0
+2026-05-17 00:00:30 | INFO     | src.pager.query_analyzer | QueryAnalyzer initialized | mode=rule-based
+2026-05-17 00:00:30 | INFO     | src.pager.agent_registry | AgentRegistry loaded | config=configs/agents/healthcare_agents.yaml | agent_count=5 | agent_ids=['patient_demographics_agent', 'vitals_agent', 'labs_agent', 'medication_agent', 'procedure_agent']
+2026-05-17 00:00:30 | INFO     | src.pager.core | Routing query | query=I just measured the blood pressure for patient with MRN of S6538722, and it is " | user_role=nurse | task_type=3
+2026-05-17 00:00:31 | INFO     | src.pager.policy_engine | Policy evaluation complete | total=2 | compliant=2 | denied=0
+2026-05-17 00:00:31 | INFO     | src.pager.conflict_resolver | Resolving conflict | strategy=round_robin | candidates=['vitals_agent', 'labs_agent']
+2026-05-17 00:00:31 | INFO     | src.pager.conflict_resolver | Conflict resolved | selected=vitals_agent | strategy=round_robin | candidates=2 | tie_broken=False
+2026-05-17 00:00:31 | INFO     | src.pager.execution_coordinator | Agent execution succeeded | agent=vitals_agent | latency_ms=0.0 | attempt=1
+2026-05-17 00:00:31 | INFO     | src.pager.core | Routing complete | selected=vitals_agent | success=True | latency_ms=0.0
+2026-05-17 00:00:31 | INFO     | src.pager.query_analyzer | QueryAnalyzer initialized | mode=rule-based
+2026-05-17 00:00:31 | INFO     | src.pager.agent_registry | AgentRegistry loaded | config=configs/agents/healthcare_agents.yaml | agent_count=5 | agent_ids=['patient_demographics_agent', 'vitals_agent', 'labs_agent', 'medication_agent', 'procedure_agent']
+2026-05-17 00:00:31 | INFO     | src.pager.core | Routing query | query=I just measured the blood pressure for patient with MRN of S6222362, and it is " | user_role=nurse | task_type=3
+2026-05-17 00:00:31 | INFO     | src.pager.policy_engine | Policy evaluation complete | total=2 | compliant=2 | denied=0
+2026-05-17 00:00:31 | INFO     | src.pager.conflict_resolver | Resolving conflict | strategy=round_robin | candidates=['vitals_agent', 'labs_agent']
+2026-05-17 00:00:31 | INFO     | src.pager.conflict_resolver | Conflict resolved | selected=labs_agent | strategy=round_robin | candidates=2 | tie_broken=False
+2026-05-17 00:00:31 | INFO     | src.pager.execution_coordinator | Agent execution succeeded | agent=labs_agent | latency_ms=0.0 | attempt=1
+2026-05-17 00:00:31 | INFO     | src.pager.core | Routing complete | selected=labs_agent | success=True | latency_ms=0.0
+2026-05-17 00:00:31 | INFO     | experiments.metrics.metrics | Metrics computed for round_robin | accuracy=42.9% | compliance=100.0% | violations=0.0%
+
+--- Strategy Comparison ---
+
+=====================================================================================
+Metric                                cost_awarelatency_awarequality_aware    weighted round_robin
+-------------------------------------------------------------------------------------
+Routing Accuracy (%)                       100.0       100.0         0.0       100.0        42.9
+Policy Compliance (%)                      100.0       100.0       100.0       100.0       100.0
+Auth Violations (%)                          0.0         0.0         0.0         0.0         0.0
+Conflict Resolution (%)                    100.0       100.0         0.0       100.0        42.9
+Avg Cost ($/query)                        0.0300      0.0300      0.0500      0.0300      0.0414
+Avg Latency (ms)                            80.0        80.0       100.0        80.0        91.4
+=====================================================================================
+
+2026-05-17 00:00:31 | INFO     | src.pager.agent_registry | AgentRegistry loaded | config=configs/agents/healthcare_agents.yaml | agent_count=5 | agent_ids=['patient_demographics_agent', 'vitals_agent', 'labs_agent', 'medication_agent', 'procedure_agent']
+2026-05-17 00:00:31 | INFO     | src.pager.policy_engine | OPA CLI verified | version=Version: 1.16.2
+2026-05-17 00:00:31 | INFO     | src.pager.policy_engine | PolicyEngine initialized | policy_count=5 | policies=['authorization', 'cost_optimization', 'pii_access', 'sensitivity', 'sla_requirements']
+2026-05-17 00:00:31 | INFO     | src.pager.conflict_resolver | ConflictResolver initialized | strategy=weighted | weights=cost=0.6/lat=0.2/qual=0.2
+2026-05-17 00:00:31 | INFO     | src.pager.execution_coordinator | ExecutionCoordinator initialized | timeout=30 | max_retries=2
+2026-05-17 00:00:31 | INFO     | src.pager.feedback_collector | FeedbackCollector initialized (in-memory only, persistence disabled)
+2026-05-17 00:00:31 | INFO     | src.pager.query_analyzer | QueryAnalyzer initialized | mode=rule-based
+2026-05-17 00:00:32 | INFO     | src.pager.policy_engine | Policy evaluation complete | total=2 | compliant=2 | denied=0
+2026-05-17 00:00:32 | INFO     | src.pager.conflict_resolver | Resolving conflict | strategy=weighted | candidates=['vitals_agent', 'labs_agent']
+2026-05-17 00:00:32 | INFO     | src.pager.conflict_resolver | Conflict resolved | selected=vitals_agent | strategy=weighted | candidates=2 | tie_broken=False
+2026-05-17 00:00:32 | INFO     | src.pager.policy_engine | Policy evaluation complete | total=2 | compliant=2 | denied=0
+2026-05-17 00:00:32 | INFO     | src.pager.conflict_resolver | Resolving conflict | strategy=weighted | candidates=['vitals_agent', 'labs_agent']
+2026-05-17 00:00:32 | INFO     | src.pager.conflict_resolver | Conflict resolved | selected=vitals_agent | strategy=weighted | candidates=2 | tie_broken=False
+2026-05-17 00:00:33 | INFO     | src.pager.policy_engine | Policy evaluation complete | total=2 | compliant=2 | denied=0
+2026-05-17 00:00:33 | INFO     | src.pager.conflict_resolver | Resolving conflict | strategy=weighted | candidates=['vitals_agent', 'labs_agent']
+2026-05-17 00:00:33 | INFO     | src.pager.conflict_resolver | Conflict resolved | selected=vitals_agent | strategy=weighted | candidates=2 | tie_broken=False
+2026-05-17 00:00:33 | INFO     | src.pager.policy_engine | Policy evaluation complete | total=2 | compliant=2 | denied=0
+2026-05-17 00:00:33 | INFO     | src.pager.conflict_resolver | Resolving conflict | strategy=weighted | candidates=['vitals_agent', 'labs_agent']
+2026-05-17 00:00:33 | INFO     | src.pager.conflict_resolver | Conflict resolved | selected=vitals_agent | strategy=weighted | candidates=2 | tie_broken=False
+2026-05-17 00:00:34 | INFO     | src.pager.policy_engine | Policy evaluation complete | total=2 | compliant=2 | denied=0
+2026-05-17 00:00:34 | INFO     | src.pager.conflict_resolver | Resolving conflict | strategy=weighted | candidates=['vitals_agent', 'labs_agent']
+2026-05-17 00:00:34 | INFO     | src.pager.conflict_resolver | Conflict resolved | selected=vitals_agent | strategy=weighted | candidates=2 | tie_broken=False
+2026-05-17 00:00:34 | INFO     | src.pager.policy_engine | Policy evaluation complete | total=2 | compliant=2 | denied=0
+2026-05-17 00:00:34 | INFO     | src.pager.conflict_resolver | Resolving conflict | strategy=weighted | candidates=['vitals_agent', 'labs_agent']
+2026-05-17 00:00:34 | INFO     | src.pager.conflict_resolver | Conflict resolved | selected=vitals_agent | strategy=weighted | candidates=2 | tie_broken=False
+2026-05-17 00:00:35 | INFO     | src.pager.policy_engine | Policy evaluation complete | total=2 | compliant=2 | denied=0
+2026-05-17 00:00:35 | INFO     | src.pager.conflict_resolver | Resolving conflict | strategy=weighted | candidates=['vitals_agent', 'labs_agent']
+2026-05-17 00:00:35 | INFO     | src.pager.conflict_resolver | Conflict resolved | selected=vitals_agent | strategy=weighted | candidates=2 | tie_broken=False
+2026-05-17 00:00:35 | INFO     | experiments.metrics.metrics | Metrics computed for Cost-heavy | accuracy=100.0% | compliance=100.0% | violations=0.0%
+2026-05-17 00:00:35 | INFO     | src.pager.agent_registry | AgentRegistry loaded | config=configs/agents/healthcare_agents.yaml | agent_count=5 | agent_ids=['patient_demographics_agent', 'vitals_agent', 'labs_agent', 'medication_agent', 'procedure_agent']
+2026-05-17 00:00:35 | INFO     | src.pager.policy_engine | OPA CLI verified | version=Version: 1.16.2
+2026-05-17 00:00:35 | INFO     | src.pager.policy_engine | PolicyEngine initialized | policy_count=5 | policies=['authorization', 'cost_optimization', 'pii_access', 'sensitivity', 'sla_requirements']
+2026-05-17 00:00:35 | INFO     | src.pager.conflict_resolver | ConflictResolver initialized | strategy=weighted | weights=cost=0.33/lat=0.33/qual=0.34
+2026-05-17 00:00:35 | INFO     | src.pager.execution_coordinator | ExecutionCoordinator initialized | timeout=30 | max_retries=2
+2026-05-17 00:00:35 | INFO     | src.pager.feedback_collector | FeedbackCollector initialized (in-memory only, persistence disabled)
+2026-05-17 00:00:35 | INFO     | src.pager.query_analyzer | QueryAnalyzer initialized | mode=rule-based
+2026-05-17 00:00:35 | INFO     | src.pager.policy_engine | Policy evaluation complete | total=2 | compliant=2 | denied=0
+2026-05-17 00:00:35 | INFO     | src.pager.conflict_resolver | Resolving conflict | strategy=weighted | candidates=['vitals_agent', 'labs_agent']
+2026-05-17 00:00:35 | INFO     | src.pager.conflict_resolver | Conflict resolved | selected=vitals_agent | strategy=weighted | candidates=2 | tie_broken=False
+2026-05-17 00:00:36 | INFO     | src.pager.policy_engine | Policy evaluation complete | total=2 | compliant=2 | denied=0
+2026-05-17 00:00:36 | INFO     | src.pager.conflict_resolver | Resolving conflict | strategy=weighted | candidates=['vitals_agent', 'labs_agent']
+2026-05-17 00:00:36 | INFO     | src.pager.conflict_resolver | Conflict resolved | selected=vitals_agent | strategy=weighted | candidates=2 | tie_broken=False
+2026-05-17 00:00:36 | INFO     | src.pager.policy_engine | Policy evaluation complete | total=2 | compliant=2 | denied=0
+2026-05-17 00:00:36 | INFO     | src.pager.conflict_resolver | Resolving conflict | strategy=weighted | candidates=['vitals_agent', 'labs_agent']
+2026-05-17 00:00:36 | INFO     | src.pager.conflict_resolver | Conflict resolved | selected=vitals_agent | strategy=weighted | candidates=2 | tie_broken=False
+2026-05-17 00:00:37 | INFO     | src.pager.policy_engine | Policy evaluation complete | total=2 | compliant=2 | denied=0
+2026-05-17 00:00:37 | INFO     | src.pager.conflict_resolver | Resolving conflict | strategy=weighted | candidates=['vitals_agent', 'labs_agent']
+2026-05-17 00:00:37 | INFO     | src.pager.conflict_resolver | Conflict resolved | selected=vitals_agent | strategy=weighted | candidates=2 | tie_broken=False
+2026-05-17 00:00:37 | INFO     | src.pager.policy_engine | Policy evaluation complete | total=2 | compliant=2 | denied=0
+2026-05-17 00:00:37 | INFO     | src.pager.conflict_resolver | Resolving conflict | strategy=weighted | candidates=['vitals_agent', 'labs_agent']
+2026-05-17 00:00:37 | INFO     | src.pager.conflict_resolver | Conflict resolved | selected=vitals_agent | strategy=weighted | candidates=2 | tie_broken=False
+2026-05-17 00:00:38 | INFO     | src.pager.policy_engine | Policy evaluation complete | total=2 | compliant=2 | denied=0
+2026-05-17 00:00:38 | INFO     | src.pager.conflict_resolver | Resolving conflict | strategy=weighted | candidates=['vitals_agent', 'labs_agent']
+2026-05-17 00:00:38 | INFO     | src.pager.conflict_resolver | Conflict resolved | selected=vitals_agent | strategy=weighted | candidates=2 | tie_broken=False
+2026-05-17 00:00:38 | INFO     | src.pager.policy_engine | Policy evaluation complete | total=2 | compliant=2 | denied=0
+2026-05-17 00:00:38 | INFO     | src.pager.conflict_resolver | Resolving conflict | strategy=weighted | candidates=['vitals_agent', 'labs_agent']
+2026-05-17 00:00:38 | INFO     | src.pager.conflict_resolver | Conflict resolved | selected=vitals_agent | strategy=weighted | candidates=2 | tie_broken=False
+2026-05-17 00:00:38 | INFO     | experiments.metrics.metrics | Metrics computed for Balanced | accuracy=100.0% | compliance=100.0% | violations=0.0%
+2026-05-17 00:00:38 | INFO     | src.pager.agent_registry | AgentRegistry loaded | config=configs/agents/healthcare_agents.yaml | agent_count=5 | agent_ids=['patient_demographics_agent', 'vitals_agent', 'labs_agent', 'medication_agent', 'procedure_agent']
+2026-05-17 00:00:38 | INFO     | src.pager.policy_engine | OPA CLI verified | version=Version: 1.16.2
+2026-05-17 00:00:38 | INFO     | src.pager.policy_engine | PolicyEngine initialized | policy_count=5 | policies=['authorization', 'cost_optimization', 'pii_access', 'sensitivity', 'sla_requirements']
+2026-05-17 00:00:38 | INFO     | src.pager.conflict_resolver | ConflictResolver initialized | strategy=weighted | weights=cost=0.4/lat=0.3/qual=0.3
+2026-05-17 00:00:38 | INFO     | src.pager.execution_coordinator | ExecutionCoordinator initialized | timeout=30 | max_retries=2
+2026-05-17 00:00:38 | INFO     | src.pager.feedback_collector | FeedbackCollector initialized (in-memory only, persistence disabled)
+2026-05-17 00:00:38 | INFO     | src.pager.query_analyzer | QueryAnalyzer initialized | mode=rule-based
+2026-05-17 00:00:39 | INFO     | src.pager.policy_engine | Policy evaluation complete | total=2 | compliant=2 | denied=0
+2026-05-17 00:00:39 | INFO     | src.pager.conflict_resolver | Resolving conflict | strategy=weighted | candidates=['vitals_agent', 'labs_agent']
+2026-05-17 00:00:39 | INFO     | src.pager.conflict_resolver | Conflict resolved | selected=vitals_agent | strategy=weighted | candidates=2 | tie_broken=False
+2026-05-17 00:00:39 | INFO     | src.pager.policy_engine | Policy evaluation complete | total=2 | compliant=2 | denied=0
+2026-05-17 00:00:39 | INFO     | src.pager.conflict_resolver | Resolving conflict | strategy=weighted | candidates=['vitals_agent', 'labs_agent']
+2026-05-17 00:00:39 | INFO     | src.pager.conflict_resolver | Conflict resolved | selected=vitals_agent | strategy=weighted | candidates=2 | tie_broken=False
+2026-05-17 00:00:40 | INFO     | src.pager.policy_engine | Policy evaluation complete | total=2 | compliant=2 | denied=0
+2026-05-17 00:00:40 | INFO     | src.pager.conflict_resolver | Resolving conflict | strategy=weighted | candidates=['vitals_agent', 'labs_agent']
+2026-05-17 00:00:40 | INFO     | src.pager.conflict_resolver | Conflict resolved | selected=vitals_agent | strategy=weighted | candidates=2 | tie_broken=False
+2026-05-17 00:00:40 | INFO     | src.pager.policy_engine | Policy evaluation complete | total=2 | compliant=2 | denied=0
+2026-05-17 00:00:40 | INFO     | src.pager.conflict_resolver | Resolving conflict | strategy=weighted | candidates=['vitals_agent', 'labs_agent']
+2026-05-17 00:00:40 | INFO     | src.pager.conflict_resolver | Conflict resolved | selected=vitals_agent | strategy=weighted | candidates=2 | tie_broken=False
+2026-05-17 00:00:41 | INFO     | src.pager.policy_engine | Policy evaluation complete | total=2 | compliant=2 | denied=0
+2026-05-17 00:00:41 | INFO     | src.pager.conflict_resolver | Resolving conflict | strategy=weighted | candidates=['vitals_agent', 'labs_agent']
+2026-05-17 00:00:41 | INFO     | src.pager.conflict_resolver | Conflict resolved | selected=vitals_agent | strategy=weighted | candidates=2 | tie_broken=False
+2026-05-17 00:00:41 | INFO     | src.pager.policy_engine | Policy evaluation complete | total=2 | compliant=2 | denied=0
+2026-05-17 00:00:41 | INFO     | src.pager.conflict_resolver | Resolving conflict | strategy=weighted | candidates=['vitals_agent', 'labs_agent']
+2026-05-17 00:00:41 | INFO     | src.pager.conflict_resolver | Conflict resolved | selected=vitals_agent | strategy=weighted | candidates=2 | tie_broken=False
+2026-05-17 00:00:41 | INFO     | src.pager.policy_engine | Policy evaluation complete | total=2 | compliant=2 | denied=0
+2026-05-17 00:00:41 | INFO     | src.pager.conflict_resolver | Resolving conflict | strategy=weighted | candidates=['vitals_agent', 'labs_agent']
+2026-05-17 00:00:41 | INFO     | src.pager.conflict_resolver | Conflict resolved | selected=vitals_agent | strategy=weighted | candidates=2 | tie_broken=False
+2026-05-17 00:00:41 | INFO     | experiments.metrics.metrics | Metrics computed for Default | accuracy=100.0% | compliance=100.0% | violations=0.0%
+2026-05-17 00:00:41 | INFO     | src.pager.agent_registry | AgentRegistry loaded | config=configs/agents/healthcare_agents.yaml | agent_count=5 | agent_ids=['patient_demographics_agent', 'vitals_agent', 'labs_agent', 'medication_agent', 'procedure_agent']
+2026-05-17 00:00:41 | INFO     | src.pager.policy_engine | OPA CLI verified | version=Version: 1.16.2
+2026-05-17 00:00:41 | INFO     | src.pager.policy_engine | PolicyEngine initialized | policy_count=5 | policies=['authorization', 'cost_optimization', 'pii_access', 'sensitivity', 'sla_requirements']
+2026-05-17 00:00:41 | INFO     | src.pager.conflict_resolver | ConflictResolver initialized | strategy=weighted | weights=cost=0.2/lat=0.2/qual=0.6
+2026-05-17 00:00:41 | INFO     | src.pager.execution_coordinator | ExecutionCoordinator initialized | timeout=30 | max_retries=2
+2026-05-17 00:00:41 | INFO     | src.pager.feedback_collector | FeedbackCollector initialized (in-memory only, persistence disabled)
+2026-05-17 00:00:41 | INFO     | src.pager.query_analyzer | QueryAnalyzer initialized | mode=rule-based
+2026-05-17 00:00:42 | INFO     | src.pager.policy_engine | Policy evaluation complete | total=2 | compliant=2 | denied=0
+2026-05-17 00:00:42 | INFO     | src.pager.conflict_resolver | Resolving conflict | strategy=weighted | candidates=['vitals_agent', 'labs_agent']
+2026-05-17 00:00:42 | INFO     | src.pager.conflict_resolver | Conflict resolved | selected=labs_agent | strategy=weighted | candidates=2 | tie_broken=False
+2026-05-17 00:00:42 | INFO     | src.pager.policy_engine | Policy evaluation complete | total=2 | compliant=2 | denied=0
+2026-05-17 00:00:42 | INFO     | src.pager.conflict_resolver | Resolving conflict | strategy=weighted | candidates=['vitals_agent', 'labs_agent']
+2026-05-17 00:00:42 | INFO     | src.pager.conflict_resolver | Conflict resolved | selected=labs_agent | strategy=weighted | candidates=2 | tie_broken=False
+2026-05-17 00:00:43 | INFO     | src.pager.policy_engine | Policy evaluation complete | total=2 | compliant=2 | denied=0
+2026-05-17 00:00:43 | INFO     | src.pager.conflict_resolver | Resolving conflict | strategy=weighted | candidates=['vitals_agent', 'labs_agent']
+2026-05-17 00:00:43 | INFO     | src.pager.conflict_resolver | Conflict resolved | selected=labs_agent | strategy=weighted | candidates=2 | tie_broken=False
+2026-05-17 00:00:43 | INFO     | src.pager.policy_engine | Policy evaluation complete | total=2 | compliant=2 | denied=0
+2026-05-17 00:00:43 | INFO     | src.pager.conflict_resolver | Resolving conflict | strategy=weighted | candidates=['vitals_agent', 'labs_agent']
+2026-05-17 00:00:43 | INFO     | src.pager.conflict_resolver | Conflict resolved | selected=labs_agent | strategy=weighted | candidates=2 | tie_broken=False
+2026-05-17 00:00:44 | INFO     | src.pager.policy_engine | Policy evaluation complete | total=2 | compliant=2 | denied=0
+2026-05-17 00:00:44 | INFO     | src.pager.conflict_resolver | Resolving conflict | strategy=weighted | candidates=['vitals_agent', 'labs_agent']
+2026-05-17 00:00:44 | INFO     | src.pager.conflict_resolver | Conflict resolved | selected=labs_agent | strategy=weighted | candidates=2 | tie_broken=False
+2026-05-17 00:00:44 | INFO     | src.pager.policy_engine | Policy evaluation complete | total=2 | compliant=2 | denied=0
+2026-05-17 00:00:44 | INFO     | src.pager.conflict_resolver | Resolving conflict | strategy=weighted | candidates=['vitals_agent', 'labs_agent']
+2026-05-17 00:00:44 | INFO     | src.pager.conflict_resolver | Conflict resolved | selected=labs_agent | strategy=weighted | candidates=2 | tie_broken=False
+2026-05-17 00:00:45 | INFO     | src.pager.policy_engine | Policy evaluation complete | total=2 | compliant=2 | denied=0
+2026-05-17 00:00:45 | INFO     | src.pager.conflict_resolver | Resolving conflict | strategy=weighted | candidates=['vitals_agent', 'labs_agent']
+2026-05-17 00:00:45 | INFO     | src.pager.conflict_resolver | Conflict resolved | selected=labs_agent | strategy=weighted | candidates=2 | tie_broken=False
+2026-05-17 00:00:45 | INFO     | experiments.metrics.metrics | Metrics computed for Quality-heavy | accuracy=0.0% | compliance=100.0% | violations=0.0%
+2026-05-17 00:00:45 | INFO     | src.pager.agent_registry | AgentRegistry loaded | config=configs/agents/healthcare_agents.yaml | agent_count=5 | agent_ids=['patient_demographics_agent', 'vitals_agent', 'labs_agent', 'medication_agent', 'procedure_agent']
+2026-05-17 00:00:45 | INFO     | src.pager.policy_engine | OPA CLI verified | version=Version: 1.16.2
+2026-05-17 00:00:45 | INFO     | src.pager.policy_engine | PolicyEngine initialized | policy_count=5 | policies=['authorization', 'cost_optimization', 'pii_access', 'sensitivity', 'sla_requirements']
+2026-05-17 00:00:45 | INFO     | src.pager.conflict_resolver | ConflictResolver initialized | strategy=weighted | weights=cost=0.2/lat=0.6/qual=0.2
+2026-05-17 00:00:45 | INFO     | src.pager.execution_coordinator | ExecutionCoordinator initialized | timeout=30 | max_retries=2
+2026-05-17 00:00:45 | INFO     | src.pager.feedback_collector | FeedbackCollector initialized (in-memory only, persistence disabled)
+2026-05-17 00:00:45 | INFO     | src.pager.query_analyzer | QueryAnalyzer initialized | mode=rule-based
+2026-05-17 00:00:45 | INFO     | src.pager.policy_engine | Policy evaluation complete | total=2 | compliant=2 | denied=0
+2026-05-17 00:00:45 | INFO     | src.pager.conflict_resolver | Resolving conflict | strategy=weighted | candidates=['vitals_agent', 'labs_agent']
+2026-05-17 00:00:45 | INFO     | src.pager.conflict_resolver | Conflict resolved | selected=vitals_agent | strategy=weighted | candidates=2 | tie_broken=False
+2026-05-17 00:00:46 | INFO     | src.pager.policy_engine | Policy evaluation complete | total=2 | compliant=2 | denied=0
+2026-05-17 00:00:46 | INFO     | src.pager.conflict_resolver | Resolving conflict | strategy=weighted | candidates=['vitals_agent', 'labs_agent']
+2026-05-17 00:00:46 | INFO     | src.pager.conflict_resolver | Conflict resolved | selected=vitals_agent | strategy=weighted | candidates=2 | tie_broken=False
+2026-05-17 00:00:46 | INFO     | src.pager.policy_engine | Policy evaluation complete | total=2 | compliant=2 | denied=0
+2026-05-17 00:00:46 | INFO     | src.pager.conflict_resolver | Resolving conflict | strategy=weighted | candidates=['vitals_agent', 'labs_agent']
+2026-05-17 00:00:46 | INFO     | src.pager.conflict_resolver | Conflict resolved | selected=vitals_agent | strategy=weighted | candidates=2 | tie_broken=False
+2026-05-17 00:00:47 | INFO     | src.pager.policy_engine | Policy evaluation complete | total=2 | compliant=2 | denied=0
+2026-05-17 00:00:47 | INFO     | src.pager.conflict_resolver | Resolving conflict | strategy=weighted | candidates=['vitals_agent', 'labs_agent']
+2026-05-17 00:00:47 | INFO     | src.pager.conflict_resolver | Conflict resolved | selected=vitals_agent | strategy=weighted | candidates=2 | tie_broken=False
+2026-05-17 00:00:47 | INFO     | src.pager.policy_engine | Policy evaluation complete | total=2 | compliant=2 | denied=0
+2026-05-17 00:00:47 | INFO     | src.pager.conflict_resolver | Resolving conflict | strategy=weighted | candidates=['vitals_agent', 'labs_agent']
+2026-05-17 00:00:47 | INFO     | src.pager.conflict_resolver | Conflict resolved | selected=vitals_agent | strategy=weighted | candidates=2 | tie_broken=False
+2026-05-17 00:00:48 | INFO     | src.pager.policy_engine | Policy evaluation complete | total=2 | compliant=2 | denied=0
+2026-05-17 00:00:48 | INFO     | src.pager.conflict_resolver | Resolving conflict | strategy=weighted | candidates=['vitals_agent', 'labs_agent']
+2026-05-17 00:00:48 | INFO     | src.pager.conflict_resolver | Conflict resolved | selected=vitals_agent | strategy=weighted | candidates=2 | tie_broken=False
+2026-05-17 00:00:48 | INFO     | src.pager.policy_engine | Policy evaluation complete | total=2 | compliant=2 | denied=0
+2026-05-17 00:00:48 | INFO     | src.pager.conflict_resolver | Resolving conflict | strategy=weighted | candidates=['vitals_agent', 'labs_agent']
+2026-05-17 00:00:48 | INFO     | src.pager.conflict_resolver | Conflict resolved | selected=vitals_agent | strategy=weighted | candidates=2 | tie_broken=False
+2026-05-17 00:00:48 | INFO     | experiments.metrics.metrics | Metrics computed for Latency-heavy | accuracy=100.0% | compliance=100.0% | violations=0.0%
+
+--- Weight Sensitivity Analysis ---
+
+=====================================================================================
+Metric                                Cost-heavy    Balanced     DefaultQuality-heavyLatency-heavy
+-------------------------------------------------------------------------------------
+Routing Accuracy (%)                       100.0       100.0       100.0         0.0       100.0
+Policy Compliance (%)                      100.0       100.0       100.0       100.0       100.0
+Auth Violations (%)                          0.0         0.0         0.0         0.0         0.0
+Conflict Resolution (%)                      0.0         0.0         0.0         0.0         0.0
+Avg Cost ($/query)                        0.0300      0.0300      0.0300      0.0500      0.0300
+Avg Latency (ms)                            80.0        80.0        80.0       100.0        80.0
+=====================================================================================
+
+2026-05-17 00:00:48 | INFO     | __main__ | Results saved to data/results/experiment3_strategies.json
+2026-05-17 00:00:48 | INFO     | __main__ | Evaluation complete. Results saved to data/results/
+2026-05-17 00:00:48 | INFO     | __main__ | Evaluation complete. Results saved to data/results/

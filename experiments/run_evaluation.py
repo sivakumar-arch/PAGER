@@ -365,6 +365,7 @@ def run_experiment2(questions: list[dict], agents_by_id: dict) -> list[Evaluatio
             user_role=user_role,
             policy_enforced=False,
             has_violations=has_violations,
+            had_conflict=len(capable) > 1,
         ))
 
     all_metrics.append(compute_metrics(no_policy_decisions, "PAGER-NoPolicy", agents_by_id))
@@ -373,6 +374,7 @@ def run_experiment2(questions: list[dict], agents_by_id: dict) -> list[Evaluatio
     import random
     policy_engine = PolicyEngine(policy_dirs=POLICY_DIRS_HIPAA)
     analyzer_noconflict = QueryAnalyzer()
+    registry_noconflict = AgentRegistry(AGENT_CONFIG)
     no_conflict_decisions = []
     rng = random.Random(42)
 
@@ -387,10 +389,13 @@ def run_experiment2(questions: list[dict], agents_by_id: dict) -> list[Evaluatio
             user_role=user_role,
             task_type=task_type,
         )
+        capable = []
         try:
-            policy_result = policy_engine.evaluate(query=analyzed, agents=agents)
+            # Same capability pre-filter as full PAGER; only the ConflictResolver is removed.
+            capable = registry_noconflict.get_capable_agents(analyzed)
+            policy_result = policy_engine.evaluate(query=analyzed, agents=capable)
             compliant_ids = policy_result.compliant_agents
-            compliant_agents = [a for a in agents if a.id in compliant_ids]
+            compliant_agents = [a for a in capable if a.id in compliant_ids]
             selected_id = rng.choice(compliant_agents).id if compliant_agents else agents[0].id
             # Violation = selected agent was denied (not: ANY agent was denied)
             has_violations = selected_id in policy_result.violations
@@ -407,6 +412,7 @@ def run_experiment2(questions: list[dict], agents_by_id: dict) -> list[Evaluatio
             user_role=user_role,
             policy_enforced=True,
             has_violations=has_violations,
+            had_conflict=len(capable) > 1,
         ))
 
     all_metrics.append(compute_metrics(no_conflict_decisions, "PAGER-NoConflict", agents_by_id))
@@ -543,6 +549,7 @@ def run_experiment3(questions: list[dict], agents_by_id: dict) -> dict:
                 user_role=user_role,
                 policy_enforced=True,
                 has_violations=bool(policy_result.violations),
+                had_conflict=len(capable) > 1,
             ))
 
         metrics = compute_metrics(decisions, label, agents_by_id)
