@@ -1,0 +1,3601 @@
+id,task,router,selected
+task1_1,1,PAGER,patient_demographics_agent
+task1_2,1,PAGER,patient_demographics_agent
+task1_3,1,PAGER,patient_demographics_agent
+task1_4,1,PAGER,patient_demographics_agent
+task1_5,1,PAGER,patient_demographics_agent
+task1_6,1,PAGER,patient_demographics_agent
+task1_7,1,PAGER,patient_demographics_agent
+task1_8,1,PAGER,patient_demographics_agent
+task1_9,1,PAGER,patient_demographics_agent
+task1_10,1,PAGER,patient_demographics_agent
+task1_11,1,PAGER,patient_demographics_agent
+task1_12,1,PAGER,patient_demographics_agent
+task1_13,1,PAGER,patient_demographics_agent
+task1_14,1,PAGER,patient_demographics_agent
+task1_15,1,PAGER,patient_demographics_agent
+task1_16,1,PAGER,patient_demographics_agent
+task1_17,1,PAGER,patient_demographics_agent
+task1_18,1,PAGER,patient_demographics_agent
+task1_19,1,PAGER,patient_demographics_agent
+task1_20,1,PAGER,patient_demographics_agent
+task1_21,1,PAGER,patient_demographics_agent
+task1_22,1,PAGER,patient_demographics_agent
+task1_23,1,PAGER,patient_demographics_agent
+task1_24,1,PAGER,patient_demographics_agent
+task1_25,1,PAGER,patient_demographics_agent
+task1_26,1,PAGER,patient_demographics_agent
+task1_27,1,PAGER,patient_demographics_agent
+task1_28,1,PAGER,patient_demographics_agent
+task1_29,1,PAGER,patient_demographics_agent
+task1_30,1,PAGER,patient_demographics_agent
+task2_1,2,PAGER,patient_demographics_agent
+task2_2,2,PAGER,patient_demographics_agent
+task2_3,2,PAGER,patient_demographics_agent
+task2_4,2,PAGER,patient_demographics_agent
+task2_5,2,PAGER,patient_demographics_agent
+task2_6,2,PAGER,patient_demographics_agent
+task2_7,2,PAGER,patient_demographics_agent
+task2_8,2,PAGER,patient_demographics_agent
+task2_9,2,PAGER,patient_demographics_agent
+task2_10,2,PAGER,patient_demographics_agent
+task2_11,2,PAGER,patient_demographics_agent
+task2_12,2,PAGER,patient_demographics_agent
+task2_13,2,PAGER,patient_demographics_agent
+task2_14,2,PAGER,patient_demographics_agent
+task2_15,2,PAGER,patient_demographics_agent
+task2_16,2,PAGER,patient_demographics_agent
+task2_17,2,PAGER,patient_demographics_agent
+task2_18,2,PAGER,patient_demographics_agent
+task2_19,2,PAGER,patient_demographics_agent
+task2_20,2,PAGER,patient_demographics_agent
+task2_21,2,PAGER,patient_demographics_agent
+task2_22,2,PAGER,patient_demographics_agent
+task2_23,2,PAGER,patient_demographics_agent
+task2_24,2,PAGER,patient_demographics_agent
+task2_25,2,PAGER,patient_demographics_agent
+task2_26,2,PAGER,patient_demographics_agent
+task2_27,2,PAGER,patient_demographics_agent
+task2_28,2,PAGER,patient_demographics_agent
+task2_29,2,PAGER,patient_demographics_agent
+task2_30,2,PAGER,patient_demographics_agent
+task3_1,3,PAGER,vitals_agent
+task3_2,3,PAGER,vitals_agent
+task3_3,3,PAGER,vitals_agent
+task3_4,3,PAGER,vitals_agent
+task3_5,3,PAGER,vitals_agent
+task3_6,3,PAGER,vitals_agent
+task3_7,3,PAGER,vitals_agent
+task3_8,3,PAGER,vitals_agent
+task3_9,3,PAGER,vitals_agent
+task3_10,3,PAGER,vitals_agent
+task3_11,3,PAGER,vitals_agent
+task3_12,3,PAGER,vitals_agent
+task3_13,3,PAGER,vitals_agent
+task3_14,3,PAGER,vitals_agent
+task3_15,3,PAGER,vitals_agent
+task3_16,3,PAGER,vitals_agent
+task3_17,3,PAGER,vitals_agent
+task3_18,3,PAGER,vitals_agent
+task3_19,3,PAGER,vitals_agent
+task3_20,3,PAGER,vitals_agent
+task3_21,3,PAGER,vitals_agent
+task3_22,3,PAGER,vitals_agent
+task3_23,3,PAGER,vitals_agent
+task3_24,3,PAGER,vitals_agent
+task3_25,3,PAGER,vitals_agent
+task3_26,3,PAGER,vitals_agent
+task3_27,3,PAGER,vitals_agent
+task3_28,3,PAGER,vitals_agent
+task3_29,3,PAGER,vitals_agent
+task3_30,3,PAGER,vitals_agent
+task4_1,4,PAGER,labs_agent
+task4_2,4,PAGER,labs_agent
+task4_3,4,PAGER,labs_agent
+task4_4,4,PAGER,labs_agent
+task4_5,4,PAGER,labs_agent
+task4_6,4,PAGER,labs_agent
+task4_7,4,PAGER,labs_agent
+task4_8,4,PAGER,labs_agent
+task4_9,4,PAGER,labs_agent
+task4_10,4,PAGER,labs_agent
+task4_11,4,PAGER,labs_agent
+task4_12,4,PAGER,labs_agent
+task4_13,4,PAGER,labs_agent
+task4_14,4,PAGER,labs_agent
+task4_15,4,PAGER,labs_agent
+task4_16,4,PAGER,labs_agent
+task4_17,4,PAGER,labs_agent
+task4_18,4,PAGER,labs_agent
+task4_19,4,PAGER,labs_agent
+task4_20,4,PAGER,labs_agent
+task4_21,4,PAGER,labs_agent
+task4_22,4,PAGER,labs_agent
+task4_23,4,PAGER,labs_agent
+task4_24,4,PAGER,labs_agent
+task4_25,4,PAGER,labs_agent
+task4_26,4,PAGER,labs_agent
+task4_27,4,PAGER,labs_agent
+task4_28,4,PAGER,labs_agent
+task4_29,4,PAGER,labs_agent
+task4_30,4,PAGER,labs_agent
+task5_1,5,PAGER,medication_agent
+task5_2,5,PAGER,medication_agent
+task5_3,5,PAGER,medication_agent
+task5_4,5,PAGER,medication_agent
+task5_5,5,PAGER,medication_agent
+task5_6,5,PAGER,medication_agent
+task5_7,5,PAGER,medication_agent
+task5_8,5,PAGER,medication_agent
+task5_9,5,PAGER,medication_agent
+task5_10,5,PAGER,medication_agent
+task5_11,5,PAGER,medication_agent
+task5_12,5,PAGER,medication_agent
+task5_13,5,PAGER,medication_agent
+task5_14,5,PAGER,medication_agent
+task5_15,5,PAGER,medication_agent
+task5_16,5,PAGER,medication_agent
+task5_17,5,PAGER,medication_agent
+task5_18,5,PAGER,medication_agent
+task5_19,5,PAGER,medication_agent
+task5_20,5,PAGER,medication_agent
+task5_21,5,PAGER,medication_agent
+task5_22,5,PAGER,medication_agent
+task5_23,5,PAGER,medication_agent
+task5_24,5,PAGER,medication_agent
+task5_25,5,PAGER,medication_agent
+task5_26,5,PAGER,medication_agent
+task5_27,5,PAGER,medication_agent
+task5_28,5,PAGER,medication_agent
+task5_29,5,PAGER,medication_agent
+task5_30,5,PAGER,medication_agent
+task6_1,6,PAGER,labs_agent
+task6_2,6,PAGER,labs_agent
+task6_3,6,PAGER,labs_agent
+task6_4,6,PAGER,labs_agent
+task6_5,6,PAGER,labs_agent
+task6_6,6,PAGER,labs_agent
+task6_7,6,PAGER,labs_agent
+task6_8,6,PAGER,labs_agent
+task6_9,6,PAGER,labs_agent
+task6_10,6,PAGER,labs_agent
+task6_11,6,PAGER,labs_agent
+task6_12,6,PAGER,labs_agent
+task6_13,6,PAGER,labs_agent
+task6_14,6,PAGER,labs_agent
+task6_15,6,PAGER,labs_agent
+task6_16,6,PAGER,labs_agent
+task6_17,6,PAGER,labs_agent
+task6_18,6,PAGER,labs_agent
+task6_19,6,PAGER,labs_agent
+task6_20,6,PAGER,labs_agent
+task6_21,6,PAGER,labs_agent
+task6_22,6,PAGER,labs_agent
+task6_23,6,PAGER,labs_agent
+task6_24,6,PAGER,labs_agent
+task6_25,6,PAGER,labs_agent
+task6_26,6,PAGER,labs_agent
+task6_27,6,PAGER,labs_agent
+task6_28,6,PAGER,labs_agent
+task6_29,6,PAGER,labs_agent
+task6_30,6,PAGER,labs_agent
+task7_1,7,PAGER,labs_agent
+task7_2,7,PAGER,labs_agent
+task7_3,7,PAGER,labs_agent
+task7_4,7,PAGER,labs_agent
+task7_5,7,PAGER,labs_agent
+task7_6,7,PAGER,labs_agent
+task7_7,7,PAGER,labs_agent
+task7_8,7,PAGER,labs_agent
+task7_9,7,PAGER,labs_agent
+task7_10,7,PAGER,labs_agent
+task7_11,7,PAGER,labs_agent
+task7_12,7,PAGER,labs_agent
+task7_13,7,PAGER,labs_agent
+task7_14,7,PAGER,labs_agent
+task7_15,7,PAGER,labs_agent
+task7_16,7,PAGER,labs_agent
+task7_17,7,PAGER,labs_agent
+task7_18,7,PAGER,labs_agent
+task7_19,7,PAGER,labs_agent
+task7_20,7,PAGER,labs_agent
+task7_21,7,PAGER,labs_agent
+task7_22,7,PAGER,labs_agent
+task7_23,7,PAGER,labs_agent
+task7_24,7,PAGER,labs_agent
+task7_25,7,PAGER,labs_agent
+task7_26,7,PAGER,labs_agent
+task7_27,7,PAGER,labs_agent
+task7_28,7,PAGER,labs_agent
+task7_29,7,PAGER,labs_agent
+task7_30,7,PAGER,labs_agent
+task8_1,8,PAGER,__deny__
+task8_2,8,PAGER,__deny__
+task8_3,8,PAGER,__deny__
+task8_4,8,PAGER,__deny__
+task8_5,8,PAGER,__deny__
+task8_6,8,PAGER,__deny__
+task8_7,8,PAGER,__deny__
+task8_8,8,PAGER,__deny__
+task8_9,8,PAGER,__deny__
+task8_10,8,PAGER,__deny__
+task8_11,8,PAGER,__deny__
+task8_12,8,PAGER,__deny__
+task8_13,8,PAGER,__deny__
+task8_14,8,PAGER,__deny__
+task8_15,8,PAGER,__deny__
+task8_16,8,PAGER,__deny__
+task8_17,8,PAGER,__deny__
+task8_18,8,PAGER,__deny__
+task8_19,8,PAGER,__deny__
+task8_20,8,PAGER,__deny__
+task8_21,8,PAGER,__deny__
+task8_22,8,PAGER,__deny__
+task8_23,8,PAGER,__deny__
+task8_24,8,PAGER,__deny__
+task8_25,8,PAGER,__deny__
+task8_26,8,PAGER,__deny__
+task8_27,8,PAGER,__deny__
+task8_28,8,PAGER,__deny__
+task8_29,8,PAGER,__deny__
+task8_30,8,PAGER,__deny__
+task9_1,9,PAGER,medication_agent
+task9_2,9,PAGER,medication_agent
+task9_3,9,PAGER,medication_agent
+task9_4,9,PAGER,medication_agent
+task9_5,9,PAGER,medication_agent
+task9_6,9,PAGER,medication_agent
+task9_7,9,PAGER,medication_agent
+task9_8,9,PAGER,medication_agent
+task9_9,9,PAGER,medication_agent
+task9_10,9,PAGER,medication_agent
+task9_11,9,PAGER,medication_agent
+task9_12,9,PAGER,medication_agent
+task9_13,9,PAGER,medication_agent
+task9_14,9,PAGER,medication_agent
+task9_15,9,PAGER,medication_agent
+task9_16,9,PAGER,medication_agent
+task9_17,9,PAGER,medication_agent
+task9_18,9,PAGER,medication_agent
+task9_19,9,PAGER,medication_agent
+task9_20,9,PAGER,medication_agent
+task9_21,9,PAGER,medication_agent
+task9_22,9,PAGER,medication_agent
+task9_23,9,PAGER,medication_agent
+task9_24,9,PAGER,medication_agent
+task9_25,9,PAGER,medication_agent
+task9_26,9,PAGER,medication_agent
+task9_27,9,PAGER,medication_agent
+task9_28,9,PAGER,medication_agent
+task9_29,9,PAGER,medication_agent
+task9_30,9,PAGER,medication_agent
+task10_1,10,PAGER,labs_agent
+task10_2,10,PAGER,labs_agent
+task10_3,10,PAGER,labs_agent
+task10_4,10,PAGER,labs_agent
+task10_5,10,PAGER,labs_agent
+task10_6,10,PAGER,labs_agent
+task10_7,10,PAGER,labs_agent
+task10_8,10,PAGER,labs_agent
+task10_9,10,PAGER,labs_agent
+task10_10,10,PAGER,labs_agent
+task10_11,10,PAGER,labs_agent
+task10_12,10,PAGER,labs_agent
+task10_13,10,PAGER,labs_agent
+task10_14,10,PAGER,labs_agent
+task10_15,10,PAGER,labs_agent
+task10_16,10,PAGER,labs_agent
+task10_17,10,PAGER,labs_agent
+task10_18,10,PAGER,labs_agent
+task10_19,10,PAGER,labs_agent
+task10_20,10,PAGER,labs_agent
+task10_21,10,PAGER,labs_agent
+task10_22,10,PAGER,labs_agent
+task10_23,10,PAGER,labs_agent
+task10_24,10,PAGER,labs_agent
+task10_25,10,PAGER,labs_agent
+task10_26,10,PAGER,labs_agent
+task10_27,10,PAGER,labs_agent
+task10_28,10,PAGER,labs_agent
+task10_29,10,PAGER,labs_agent
+task10_30,10,PAGER,labs_agent
+task1_1,1,PAGER-NoPolicy,demographics_agent_uncert
+task1_2,1,PAGER-NoPolicy,demographics_agent_uncert
+task1_3,1,PAGER-NoPolicy,demographics_agent_uncert
+task1_4,1,PAGER-NoPolicy,demographics_agent_uncert
+task1_5,1,PAGER-NoPolicy,demographics_agent_uncert
+task1_6,1,PAGER-NoPolicy,demographics_agent_uncert
+task1_7,1,PAGER-NoPolicy,demographics_agent_uncert
+task1_8,1,PAGER-NoPolicy,demographics_agent_uncert
+task1_9,1,PAGER-NoPolicy,demographics_agent_uncert
+task1_10,1,PAGER-NoPolicy,demographics_agent_uncert
+task1_11,1,PAGER-NoPolicy,demographics_agent_uncert
+task1_12,1,PAGER-NoPolicy,demographics_agent_uncert
+task1_13,1,PAGER-NoPolicy,demographics_agent_uncert
+task1_14,1,PAGER-NoPolicy,demographics_agent_uncert
+task1_15,1,PAGER-NoPolicy,demographics_agent_uncert
+task1_16,1,PAGER-NoPolicy,demographics_agent_uncert
+task1_17,1,PAGER-NoPolicy,demographics_agent_uncert
+task1_18,1,PAGER-NoPolicy,demographics_agent_uncert
+task1_19,1,PAGER-NoPolicy,demographics_agent_uncert
+task1_20,1,PAGER-NoPolicy,demographics_agent_uncert
+task1_21,1,PAGER-NoPolicy,demographics_agent_uncert
+task1_22,1,PAGER-NoPolicy,demographics_agent_uncert
+task1_23,1,PAGER-NoPolicy,demographics_agent_uncert
+task1_24,1,PAGER-NoPolicy,demographics_agent_uncert
+task1_25,1,PAGER-NoPolicy,demographics_agent_uncert
+task1_26,1,PAGER-NoPolicy,demographics_agent_uncert
+task1_27,1,PAGER-NoPolicy,demographics_agent_uncert
+task1_28,1,PAGER-NoPolicy,demographics_agent_uncert
+task1_29,1,PAGER-NoPolicy,demographics_agent_uncert
+task1_30,1,PAGER-NoPolicy,demographics_agent_uncert
+task2_1,2,PAGER-NoPolicy,demographics_agent_uncert
+task2_2,2,PAGER-NoPolicy,demographics_agent_uncert
+task2_3,2,PAGER-NoPolicy,demographics_agent_uncert
+task2_4,2,PAGER-NoPolicy,demographics_agent_uncert
+task2_5,2,PAGER-NoPolicy,demographics_agent_uncert
+task2_6,2,PAGER-NoPolicy,demographics_agent_uncert
+task2_7,2,PAGER-NoPolicy,demographics_agent_uncert
+task2_8,2,PAGER-NoPolicy,demographics_agent_uncert
+task2_9,2,PAGER-NoPolicy,demographics_agent_uncert
+task2_10,2,PAGER-NoPolicy,demographics_agent_uncert
+task2_11,2,PAGER-NoPolicy,demographics_agent_uncert
+task2_12,2,PAGER-NoPolicy,demographics_agent_uncert
+task2_13,2,PAGER-NoPolicy,demographics_agent_uncert
+task2_14,2,PAGER-NoPolicy,demographics_agent_uncert
+task2_15,2,PAGER-NoPolicy,demographics_agent_uncert
+task2_16,2,PAGER-NoPolicy,demographics_agent_uncert
+task2_17,2,PAGER-NoPolicy,demographics_agent_uncert
+task2_18,2,PAGER-NoPolicy,demographics_agent_uncert
+task2_19,2,PAGER-NoPolicy,demographics_agent_uncert
+task2_20,2,PAGER-NoPolicy,demographics_agent_uncert
+task2_21,2,PAGER-NoPolicy,demographics_agent_uncert
+task2_22,2,PAGER-NoPolicy,demographics_agent_uncert
+task2_23,2,PAGER-NoPolicy,demographics_agent_uncert
+task2_24,2,PAGER-NoPolicy,demographics_agent_uncert
+task2_25,2,PAGER-NoPolicy,demographics_agent_uncert
+task2_26,2,PAGER-NoPolicy,demographics_agent_uncert
+task2_27,2,PAGER-NoPolicy,demographics_agent_uncert
+task2_28,2,PAGER-NoPolicy,demographics_agent_uncert
+task2_29,2,PAGER-NoPolicy,demographics_agent_uncert
+task2_30,2,PAGER-NoPolicy,demographics_agent_uncert
+task3_1,3,PAGER-NoPolicy,vitals_agent_uncert
+task3_2,3,PAGER-NoPolicy,vitals_agent_uncert
+task3_3,3,PAGER-NoPolicy,vitals_agent_uncert
+task3_4,3,PAGER-NoPolicy,vitals_agent_uncert
+task3_5,3,PAGER-NoPolicy,vitals_agent_uncert
+task3_6,3,PAGER-NoPolicy,vitals_agent_uncert
+task3_7,3,PAGER-NoPolicy,vitals_agent_uncert
+task3_8,3,PAGER-NoPolicy,vitals_agent_uncert
+task3_9,3,PAGER-NoPolicy,vitals_agent_uncert
+task3_10,3,PAGER-NoPolicy,vitals_agent_uncert
+task3_11,3,PAGER-NoPolicy,vitals_agent_uncert
+task3_12,3,PAGER-NoPolicy,vitals_agent_uncert
+task3_13,3,PAGER-NoPolicy,vitals_agent_uncert
+task3_14,3,PAGER-NoPolicy,vitals_agent_uncert
+task3_15,3,PAGER-NoPolicy,vitals_agent_uncert
+task3_16,3,PAGER-NoPolicy,vitals_agent_uncert
+task3_17,3,PAGER-NoPolicy,vitals_agent_uncert
+task3_18,3,PAGER-NoPolicy,vitals_agent_uncert
+task3_19,3,PAGER-NoPolicy,vitals_agent_uncert
+task3_20,3,PAGER-NoPolicy,vitals_agent_uncert
+task3_21,3,PAGER-NoPolicy,vitals_agent_uncert
+task3_22,3,PAGER-NoPolicy,vitals_agent_uncert
+task3_23,3,PAGER-NoPolicy,vitals_agent_uncert
+task3_24,3,PAGER-NoPolicy,vitals_agent_uncert
+task3_25,3,PAGER-NoPolicy,vitals_agent_uncert
+task3_26,3,PAGER-NoPolicy,vitals_agent_uncert
+task3_27,3,PAGER-NoPolicy,vitals_agent_uncert
+task3_28,3,PAGER-NoPolicy,vitals_agent_uncert
+task3_29,3,PAGER-NoPolicy,vitals_agent_uncert
+task3_30,3,PAGER-NoPolicy,vitals_agent_uncert
+task4_1,4,PAGER-NoPolicy,labs_agent_lowclear
+task4_2,4,PAGER-NoPolicy,labs_agent_lowclear
+task4_3,4,PAGER-NoPolicy,labs_agent_lowclear
+task4_4,4,PAGER-NoPolicy,labs_agent_lowclear
+task4_5,4,PAGER-NoPolicy,labs_agent_lowclear
+task4_6,4,PAGER-NoPolicy,labs_agent_lowclear
+task4_7,4,PAGER-NoPolicy,labs_agent_lowclear
+task4_8,4,PAGER-NoPolicy,labs_agent_lowclear
+task4_9,4,PAGER-NoPolicy,labs_agent_lowclear
+task4_10,4,PAGER-NoPolicy,labs_agent_lowclear
+task4_11,4,PAGER-NoPolicy,labs_agent_lowclear
+task4_12,4,PAGER-NoPolicy,labs_agent_lowclear
+task4_13,4,PAGER-NoPolicy,labs_agent_lowclear
+task4_14,4,PAGER-NoPolicy,labs_agent_lowclear
+task4_15,4,PAGER-NoPolicy,labs_agent_lowclear
+task4_16,4,PAGER-NoPolicy,labs_agent_lowclear
+task4_17,4,PAGER-NoPolicy,labs_agent_lowclear
+task4_18,4,PAGER-NoPolicy,labs_agent_lowclear
+task4_19,4,PAGER-NoPolicy,labs_agent_lowclear
+task4_20,4,PAGER-NoPolicy,labs_agent_lowclear
+task4_21,4,PAGER-NoPolicy,labs_agent_lowclear
+task4_22,4,PAGER-NoPolicy,labs_agent_lowclear
+task4_23,4,PAGER-NoPolicy,labs_agent_lowclear
+task4_24,4,PAGER-NoPolicy,labs_agent_lowclear
+task4_25,4,PAGER-NoPolicy,labs_agent_lowclear
+task4_26,4,PAGER-NoPolicy,labs_agent_lowclear
+task4_27,4,PAGER-NoPolicy,labs_agent_lowclear
+task4_28,4,PAGER-NoPolicy,labs_agent_lowclear
+task4_29,4,PAGER-NoPolicy,labs_agent_lowclear
+task4_30,4,PAGER-NoPolicy,labs_agent_lowclear
+task5_1,5,PAGER-NoPolicy,medication_agent_norole
+task5_2,5,PAGER-NoPolicy,medication_agent_norole
+task5_3,5,PAGER-NoPolicy,medication_agent_norole
+task5_4,5,PAGER-NoPolicy,medication_agent_norole
+task5_5,5,PAGER-NoPolicy,medication_agent_norole
+task5_6,5,PAGER-NoPolicy,medication_agent_norole
+task5_7,5,PAGER-NoPolicy,medication_agent_norole
+task5_8,5,PAGER-NoPolicy,medication_agent_norole
+task5_9,5,PAGER-NoPolicy,medication_agent_norole
+task5_10,5,PAGER-NoPolicy,medication_agent_norole
+task5_11,5,PAGER-NoPolicy,medication_agent_norole
+task5_12,5,PAGER-NoPolicy,medication_agent_norole
+task5_13,5,PAGER-NoPolicy,medication_agent_norole
+task5_14,5,PAGER-NoPolicy,medication_agent_norole
+task5_15,5,PAGER-NoPolicy,medication_agent_norole
+task5_16,5,PAGER-NoPolicy,medication_agent_norole
+task5_17,5,PAGER-NoPolicy,medication_agent_norole
+task5_18,5,PAGER-NoPolicy,medication_agent_norole
+task5_19,5,PAGER-NoPolicy,medication_agent_norole
+task5_20,5,PAGER-NoPolicy,medication_agent_norole
+task5_21,5,PAGER-NoPolicy,medication_agent_norole
+task5_22,5,PAGER-NoPolicy,medication_agent_norole
+task5_23,5,PAGER-NoPolicy,medication_agent_norole
+task5_24,5,PAGER-NoPolicy,medication_agent_norole
+task5_25,5,PAGER-NoPolicy,medication_agent_norole
+task5_26,5,PAGER-NoPolicy,medication_agent_norole
+task5_27,5,PAGER-NoPolicy,medication_agent_norole
+task5_28,5,PAGER-NoPolicy,medication_agent_norole
+task5_29,5,PAGER-NoPolicy,medication_agent_norole
+task5_30,5,PAGER-NoPolicy,medication_agent_norole
+task6_1,6,PAGER-NoPolicy,labs_agent_lowclear
+task6_2,6,PAGER-NoPolicy,labs_agent_lowclear
+task6_3,6,PAGER-NoPolicy,labs_agent_lowclear
+task6_4,6,PAGER-NoPolicy,labs_agent_lowclear
+task6_5,6,PAGER-NoPolicy,labs_agent_lowclear
+task6_6,6,PAGER-NoPolicy,labs_agent_lowclear
+task6_7,6,PAGER-NoPolicy,labs_agent_lowclear
+task6_8,6,PAGER-NoPolicy,labs_agent_lowclear
+task6_9,6,PAGER-NoPolicy,labs_agent_lowclear
+task6_10,6,PAGER-NoPolicy,labs_agent_lowclear
+task6_11,6,PAGER-NoPolicy,labs_agent_lowclear
+task6_12,6,PAGER-NoPolicy,labs_agent_lowclear
+task6_13,6,PAGER-NoPolicy,labs_agent_lowclear
+task6_14,6,PAGER-NoPolicy,labs_agent_lowclear
+task6_15,6,PAGER-NoPolicy,labs_agent_lowclear
+task6_16,6,PAGER-NoPolicy,labs_agent_lowclear
+task6_17,6,PAGER-NoPolicy,labs_agent_lowclear
+task6_18,6,PAGER-NoPolicy,labs_agent_lowclear
+task6_19,6,PAGER-NoPolicy,labs_agent_lowclear
+task6_20,6,PAGER-NoPolicy,labs_agent_lowclear
+task6_21,6,PAGER-NoPolicy,labs_agent_lowclear
+task6_22,6,PAGER-NoPolicy,labs_agent_lowclear
+task6_23,6,PAGER-NoPolicy,labs_agent_lowclear
+task6_24,6,PAGER-NoPolicy,labs_agent_lowclear
+task6_25,6,PAGER-NoPolicy,labs_agent_lowclear
+task6_26,6,PAGER-NoPolicy,labs_agent_lowclear
+task6_27,6,PAGER-NoPolicy,labs_agent_lowclear
+task6_28,6,PAGER-NoPolicy,labs_agent_lowclear
+task6_29,6,PAGER-NoPolicy,labs_agent_lowclear
+task6_30,6,PAGER-NoPolicy,labs_agent_lowclear
+task7_1,7,PAGER-NoPolicy,labs_agent_lowclear
+task7_2,7,PAGER-NoPolicy,labs_agent_lowclear
+task7_3,7,PAGER-NoPolicy,labs_agent_lowclear
+task7_4,7,PAGER-NoPolicy,labs_agent_lowclear
+task7_5,7,PAGER-NoPolicy,labs_agent_lowclear
+task7_6,7,PAGER-NoPolicy,labs_agent_lowclear
+task7_7,7,PAGER-NoPolicy,labs_agent_lowclear
+task7_8,7,PAGER-NoPolicy,labs_agent_lowclear
+task7_9,7,PAGER-NoPolicy,labs_agent_lowclear
+task7_10,7,PAGER-NoPolicy,labs_agent_lowclear
+task7_11,7,PAGER-NoPolicy,labs_agent_lowclear
+task7_12,7,PAGER-NoPolicy,labs_agent_lowclear
+task7_13,7,PAGER-NoPolicy,labs_agent_lowclear
+task7_14,7,PAGER-NoPolicy,labs_agent_lowclear
+task7_15,7,PAGER-NoPolicy,labs_agent_lowclear
+task7_16,7,PAGER-NoPolicy,labs_agent_lowclear
+task7_17,7,PAGER-NoPolicy,labs_agent_lowclear
+task7_18,7,PAGER-NoPolicy,labs_agent_lowclear
+task7_19,7,PAGER-NoPolicy,labs_agent_lowclear
+task7_20,7,PAGER-NoPolicy,labs_agent_lowclear
+task7_21,7,PAGER-NoPolicy,labs_agent_lowclear
+task7_22,7,PAGER-NoPolicy,labs_agent_lowclear
+task7_23,7,PAGER-NoPolicy,labs_agent_lowclear
+task7_24,7,PAGER-NoPolicy,labs_agent_lowclear
+task7_25,7,PAGER-NoPolicy,labs_agent_lowclear
+task7_26,7,PAGER-NoPolicy,labs_agent_lowclear
+task7_27,7,PAGER-NoPolicy,labs_agent_lowclear
+task7_28,7,PAGER-NoPolicy,labs_agent_lowclear
+task7_29,7,PAGER-NoPolicy,labs_agent_lowclear
+task7_30,7,PAGER-NoPolicy,labs_agent_lowclear
+task8_1,8,PAGER-NoPolicy,procedure_agent_uncert
+task8_2,8,PAGER-NoPolicy,procedure_agent_uncert
+task8_3,8,PAGER-NoPolicy,procedure_agent_uncert
+task8_4,8,PAGER-NoPolicy,procedure_agent_uncert
+task8_5,8,PAGER-NoPolicy,procedure_agent_uncert
+task8_6,8,PAGER-NoPolicy,procedure_agent_uncert
+task8_7,8,PAGER-NoPolicy,procedure_agent_uncert
+task8_8,8,PAGER-NoPolicy,procedure_agent_uncert
+task8_9,8,PAGER-NoPolicy,procedure_agent_uncert
+task8_10,8,PAGER-NoPolicy,procedure_agent_uncert
+task8_11,8,PAGER-NoPolicy,procedure_agent_uncert
+task8_12,8,PAGER-NoPolicy,procedure_agent_uncert
+task8_13,8,PAGER-NoPolicy,procedure_agent_uncert
+task8_14,8,PAGER-NoPolicy,procedure_agent_uncert
+task8_15,8,PAGER-NoPolicy,procedure_agent_uncert
+task8_16,8,PAGER-NoPolicy,procedure_agent_uncert
+task8_17,8,PAGER-NoPolicy,procedure_agent_uncert
+task8_18,8,PAGER-NoPolicy,procedure_agent_uncert
+task8_19,8,PAGER-NoPolicy,procedure_agent_uncert
+task8_20,8,PAGER-NoPolicy,procedure_agent_uncert
+task8_21,8,PAGER-NoPolicy,procedure_agent_uncert
+task8_22,8,PAGER-NoPolicy,procedure_agent_uncert
+task8_23,8,PAGER-NoPolicy,procedure_agent_uncert
+task8_24,8,PAGER-NoPolicy,procedure_agent_uncert
+task8_25,8,PAGER-NoPolicy,procedure_agent_uncert
+task8_26,8,PAGER-NoPolicy,procedure_agent_uncert
+task8_27,8,PAGER-NoPolicy,procedure_agent_uncert
+task8_28,8,PAGER-NoPolicy,procedure_agent_uncert
+task8_29,8,PAGER-NoPolicy,procedure_agent_uncert
+task8_30,8,PAGER-NoPolicy,procedure_agent_uncert
+task9_1,9,PAGER-NoPolicy,medication_agent_norole
+task9_2,9,PAGER-NoPolicy,medication_agent_norole
+task9_3,9,PAGER-NoPolicy,medication_agent_norole
+task9_4,9,PAGER-NoPolicy,medication_agent_norole
+task9_5,9,PAGER-NoPolicy,medication_agent_norole
+task9_6,9,PAGER-NoPolicy,medication_agent_norole
+task9_7,9,PAGER-NoPolicy,medication_agent_norole
+task9_8,9,PAGER-NoPolicy,medication_agent_norole
+task9_9,9,PAGER-NoPolicy,medication_agent_norole
+task9_10,9,PAGER-NoPolicy,medication_agent_norole
+task9_11,9,PAGER-NoPolicy,medication_agent_norole
+task9_12,9,PAGER-NoPolicy,medication_agent_norole
+task9_13,9,PAGER-NoPolicy,medication_agent_norole
+task9_14,9,PAGER-NoPolicy,medication_agent_norole
+task9_15,9,PAGER-NoPolicy,medication_agent_norole
+task9_16,9,PAGER-NoPolicy,medication_agent_norole
+task9_17,9,PAGER-NoPolicy,medication_agent_norole
+task9_18,9,PAGER-NoPolicy,medication_agent_norole
+task9_19,9,PAGER-NoPolicy,medication_agent_norole
+task9_20,9,PAGER-NoPolicy,medication_agent_norole
+task9_21,9,PAGER-NoPolicy,medication_agent_norole
+task9_22,9,PAGER-NoPolicy,medication_agent_norole
+task9_23,9,PAGER-NoPolicy,medication_agent_norole
+task9_24,9,PAGER-NoPolicy,medication_agent_norole
+task9_25,9,PAGER-NoPolicy,medication_agent_norole
+task9_26,9,PAGER-NoPolicy,medication_agent_norole
+task9_27,9,PAGER-NoPolicy,medication_agent_norole
+task9_28,9,PAGER-NoPolicy,medication_agent_norole
+task9_29,9,PAGER-NoPolicy,medication_agent_norole
+task9_30,9,PAGER-NoPolicy,medication_agent_norole
+task10_1,10,PAGER-NoPolicy,labs_agent_lowclear
+task10_2,10,PAGER-NoPolicy,labs_agent_lowclear
+task10_3,10,PAGER-NoPolicy,labs_agent_lowclear
+task10_4,10,PAGER-NoPolicy,labs_agent_lowclear
+task10_5,10,PAGER-NoPolicy,labs_agent_lowclear
+task10_6,10,PAGER-NoPolicy,labs_agent_lowclear
+task10_7,10,PAGER-NoPolicy,labs_agent_lowclear
+task10_8,10,PAGER-NoPolicy,labs_agent_lowclear
+task10_9,10,PAGER-NoPolicy,labs_agent_lowclear
+task10_10,10,PAGER-NoPolicy,labs_agent_lowclear
+task10_11,10,PAGER-NoPolicy,labs_agent_lowclear
+task10_12,10,PAGER-NoPolicy,labs_agent_lowclear
+task10_13,10,PAGER-NoPolicy,labs_agent_lowclear
+task10_14,10,PAGER-NoPolicy,labs_agent_lowclear
+task10_15,10,PAGER-NoPolicy,labs_agent_lowclear
+task10_16,10,PAGER-NoPolicy,labs_agent_lowclear
+task10_17,10,PAGER-NoPolicy,labs_agent_lowclear
+task10_18,10,PAGER-NoPolicy,labs_agent_lowclear
+task10_19,10,PAGER-NoPolicy,labs_agent_lowclear
+task10_20,10,PAGER-NoPolicy,labs_agent_lowclear
+task10_21,10,PAGER-NoPolicy,labs_agent_lowclear
+task10_22,10,PAGER-NoPolicy,labs_agent_lowclear
+task10_23,10,PAGER-NoPolicy,labs_agent_lowclear
+task10_24,10,PAGER-NoPolicy,labs_agent_lowclear
+task10_25,10,PAGER-NoPolicy,labs_agent_lowclear
+task10_26,10,PAGER-NoPolicy,labs_agent_lowclear
+task10_27,10,PAGER-NoPolicy,labs_agent_lowclear
+task10_28,10,PAGER-NoPolicy,labs_agent_lowclear
+task10_29,10,PAGER-NoPolicy,labs_agent_lowclear
+task10_30,10,PAGER-NoPolicy,labs_agent_lowclear
+task1_1,1,Random,vitals_agent
+task1_2,1,Random,patient_demographics_agent
+task1_3,1,Random,demographics_agent_uncert
+task1_4,1,Random,medication_agent
+task1_5,1,Random,medication_agent
+task1_6,1,Random,labs_agent
+task1_7,1,Random,vitals_agent
+task1_8,1,Random,procedure_agent_uncert
+task1_9,1,Random,vitals_agent
+task1_10,1,Random,labs_agent_lowclear
+task1_11,1,Random,patient_demographics_agent
+task1_12,1,Random,patient_demographics_agent
+task1_13,1,Random,vitals_agent
+task1_14,1,Random,medication_agent
+task1_15,1,Random,medication_agent
+task1_16,1,Random,procedure_agent_uncert
+task1_17,1,Random,patient_demographics_agent
+task1_18,1,Random,procedure_agent_uncert
+task1_19,1,Random,medication_agent
+task1_20,1,Random,procedure_agent_uncert
+task1_21,1,Random,labs_agent_lowclear
+task1_22,1,Random,medication_agent
+task1_23,1,Random,medication_agent_norole
+task1_24,1,Random,demographics_agent_uncert
+task1_25,1,Random,patient_demographics_agent
+task1_26,1,Random,labs_agent
+task1_27,1,Random,labs_agent_lowclear
+task1_28,1,Random,vitals_agent_uncert
+task1_29,1,Random,demographics_agent_uncert
+task1_30,1,Random,labs_agent
+task2_1,2,Random,medication_agent
+task2_2,2,Random,vitals_agent_uncert
+task2_3,2,Random,vitals_agent
+task2_4,2,Random,vitals_agent
+task2_5,2,Random,labs_agent_lowclear
+task2_6,2,Random,vitals_agent
+task2_7,2,Random,vitals_agent_uncert
+task2_8,2,Random,vitals_agent_uncert
+task2_9,2,Random,demographics_agent_uncert
+task2_10,2,Random,patient_demographics_agent
+task2_11,2,Random,medication_agent_norole
+task2_12,2,Random,procedure_agent_uncert
+task2_13,2,Random,vitals_agent
+task2_14,2,Random,labs_agent_lowclear
+task2_15,2,Random,vitals_agent
+task2_16,2,Random,procedure_agent_uncert
+task2_17,2,Random,demographics_agent_uncert
+task2_18,2,Random,vitals_agent_uncert
+task2_19,2,Random,medication_agent
+task2_20,2,Random,vitals_agent
+task2_21,2,Random,patient_demographics_agent
+task2_22,2,Random,medication_agent
+task2_23,2,Random,demographics_agent_uncert
+task2_24,2,Random,vitals_agent
+task2_25,2,Random,medication_agent
+task2_26,2,Random,vitals_agent
+task2_27,2,Random,labs_agent_lowclear
+task2_28,2,Random,demographics_agent_uncert
+task2_29,2,Random,medication_agent_norole
+task2_30,2,Random,vitals_agent_uncert
+task3_1,3,Random,labs_agent
+task3_2,3,Random,vitals_agent_uncert
+task3_3,3,Random,vitals_agent_uncert
+task3_4,3,Random,medication_agent
+task3_5,3,Random,demographics_agent_uncert
+task3_6,3,Random,vitals_agent
+task3_7,3,Random,labs_agent
+task3_8,3,Random,procedure_agent_uncert
+task3_9,3,Random,medication_agent
+task3_10,3,Random,labs_agent
+task3_11,3,Random,medication_agent_norole
+task3_12,3,Random,labs_agent_lowclear
+task3_13,3,Random,demographics_agent_uncert
+task3_14,3,Random,procedure_agent_uncert
+task3_15,3,Random,medication_agent
+task3_16,3,Random,vitals_agent_uncert
+task3_17,3,Random,patient_demographics_agent
+task3_18,3,Random,medication_agent
+task3_19,3,Random,patient_demographics_agent
+task3_20,3,Random,vitals_agent_uncert
+task3_21,3,Random,labs_agent_lowclear
+task3_22,3,Random,demographics_agent_uncert
+task3_23,3,Random,vitals_agent
+task3_24,3,Random,medication_agent
+task3_25,3,Random,vitals_agent_uncert
+task3_26,3,Random,medication_agent
+task3_27,3,Random,medication_agent_norole
+task3_28,3,Random,labs_agent_lowclear
+task3_29,3,Random,medication_agent_norole
+task3_30,3,Random,labs_agent
+task4_1,4,Random,demographics_agent_uncert
+task4_2,4,Random,labs_agent
+task4_3,4,Random,medication_agent
+task4_4,4,Random,procedure_agent_uncert
+task4_5,4,Random,procedure_agent_uncert
+task4_6,4,Random,demographics_agent_uncert
+task4_7,4,Random,labs_agent_lowclear
+task4_8,4,Random,labs_agent_lowclear
+task4_9,4,Random,vitals_agent_uncert
+task4_10,4,Random,medication_agent
+task4_11,4,Random,labs_agent
+task4_12,4,Random,procedure_agent_uncert
+task4_13,4,Random,medication_agent_norole
+task4_14,4,Random,vitals_agent
+task4_15,4,Random,patient_demographics_agent
+task4_16,4,Random,vitals_agent
+task4_17,4,Random,labs_agent
+task4_18,4,Random,labs_agent
+task4_19,4,Random,labs_agent_lowclear
+task4_20,4,Random,vitals_agent
+task4_21,4,Random,labs_agent_lowclear
+task4_22,4,Random,labs_agent_lowclear
+task4_23,4,Random,medication_agent_norole
+task4_24,4,Random,procedure_agent_uncert
+task4_25,4,Random,demographics_agent_uncert
+task4_26,4,Random,procedure_agent_uncert
+task4_27,4,Random,patient_demographics_agent
+task4_28,4,Random,vitals_agent
+task4_29,4,Random,procedure_agent_uncert
+task4_30,4,Random,demographics_agent_uncert
+task5_1,5,Random,vitals_agent_uncert
+task5_2,5,Random,vitals_agent
+task5_3,5,Random,demographics_agent_uncert
+task5_4,5,Random,labs_agent_lowclear
+task5_5,5,Random,labs_agent
+task5_6,5,Random,medication_agent_norole
+task5_7,5,Random,patient_demographics_agent
+task5_8,5,Random,demographics_agent_uncert
+task5_9,5,Random,procedure_agent_uncert
+task5_10,5,Random,labs_agent
+task5_11,5,Random,procedure_agent_uncert
+task5_12,5,Random,vitals_agent
+task5_13,5,Random,demographics_agent_uncert
+task5_14,5,Random,procedure_agent_uncert
+task5_15,5,Random,medication_agent
+task5_16,5,Random,labs_agent
+task5_17,5,Random,vitals_agent_uncert
+task5_18,5,Random,labs_agent
+task5_19,5,Random,procedure_agent_uncert
+task5_20,5,Random,procedure_agent_uncert
+task5_21,5,Random,patient_demographics_agent
+task5_22,5,Random,vitals_agent_uncert
+task5_23,5,Random,medication_agent_norole
+task5_24,5,Random,patient_demographics_agent
+task5_25,5,Random,vitals_agent
+task5_26,5,Random,vitals_agent_uncert
+task5_27,5,Random,demographics_agent_uncert
+task5_28,5,Random,medication_agent
+task5_29,5,Random,patient_demographics_agent
+task5_30,5,Random,medication_agent
+task6_1,6,Random,vitals_agent
+task6_2,6,Random,vitals_agent
+task6_3,6,Random,medication_agent_norole
+task6_4,6,Random,vitals_agent
+task6_5,6,Random,procedure_agent_uncert
+task6_6,6,Random,labs_agent
+task6_7,6,Random,labs_agent
+task6_8,6,Random,medication_agent_norole
+task6_9,6,Random,procedure_agent_uncert
+task6_10,6,Random,labs_agent
+task6_11,6,Random,demographics_agent_uncert
+task6_12,6,Random,procedure_agent_uncert
+task6_13,6,Random,labs_agent_lowclear
+task6_14,6,Random,medication_agent
+task6_15,6,Random,procedure_agent_uncert
+task6_16,6,Random,medication_agent
+task6_17,6,Random,demographics_agent_uncert
+task6_18,6,Random,labs_agent_lowclear
+task6_19,6,Random,vitals_agent_uncert
+task6_20,6,Random,medication_agent_norole
+task6_21,6,Random,procedure_agent_uncert
+task6_22,6,Random,medication_agent_norole
+task6_23,6,Random,vitals_agent
+task6_24,6,Random,medication_agent
+task6_25,6,Random,medication_agent
+task6_26,6,Random,vitals_agent
+task6_27,6,Random,vitals_agent_uncert
+task6_28,6,Random,patient_demographics_agent
+task6_29,6,Random,procedure_agent_uncert
+task6_30,6,Random,medication_agent
+task7_1,7,Random,medication_agent
+task7_2,7,Random,patient_demographics_agent
+task7_3,7,Random,vitals_agent
+task7_4,7,Random,patient_demographics_agent
+task7_5,7,Random,medication_agent
+task7_6,7,Random,vitals_agent
+task7_7,7,Random,patient_demographics_agent
+task7_8,7,Random,vitals_agent_uncert
+task7_9,7,Random,vitals_agent
+task7_10,7,Random,procedure_agent_uncert
+task7_11,7,Random,medication_agent
+task7_12,7,Random,demographics_agent_uncert
+task7_13,7,Random,medication_agent_norole
+task7_14,7,Random,medication_agent
+task7_15,7,Random,procedure_agent_uncert
+task7_16,7,Random,labs_agent
+task7_17,7,Random,medication_agent_norole
+task7_18,7,Random,medication_agent
+task7_19,7,Random,medication_agent_norole
+task7_20,7,Random,labs_agent_lowclear
+task7_21,7,Random,medication_agent
+task7_22,7,Random,vitals_agent
+task7_23,7,Random,vitals_agent
+task7_24,7,Random,labs_agent_lowclear
+task7_25,7,Random,vitals_agent_uncert
+task7_26,7,Random,labs_agent_lowclear
+task7_27,7,Random,labs_agent_lowclear
+task7_28,7,Random,medication_agent_norole
+task7_29,7,Random,patient_demographics_agent
+task7_30,7,Random,vitals_agent
+task8_1,8,Random,patient_demographics_agent
+task8_2,8,Random,labs_agent_lowclear
+task8_3,8,Random,vitals_agent_uncert
+task8_4,8,Random,vitals_agent
+task8_5,8,Random,medication_agent
+task8_6,8,Random,medication_agent
+task8_7,8,Random,medication_agent
+task8_8,8,Random,procedure_agent_uncert
+task8_9,8,Random,medication_agent_norole
+task8_10,8,Random,labs_agent
+task8_11,8,Random,labs_agent_lowclear
+task8_12,8,Random,labs_agent
+task8_13,8,Random,demographics_agent_uncert
+task8_14,8,Random,medication_agent_norole
+task8_15,8,Random,medication_agent
+task8_16,8,Random,vitals_agent
+task8_17,8,Random,medication_agent_norole
+task8_18,8,Random,procedure_agent_uncert
+task8_19,8,Random,vitals_agent
+task8_20,8,Random,patient_demographics_agent
+task8_21,8,Random,procedure_agent_uncert
+task8_22,8,Random,patient_demographics_agent
+task8_23,8,Random,vitals_agent
+task8_24,8,Random,medication_agent
+task8_25,8,Random,labs_agent
+task8_26,8,Random,labs_agent_lowclear
+task8_27,8,Random,medication_agent_norole
+task8_28,8,Random,medication_agent_norole
+task8_29,8,Random,medication_agent
+task8_30,8,Random,labs_agent_lowclear
+task9_1,9,Random,patient_demographics_agent
+task9_2,9,Random,labs_agent
+task9_3,9,Random,labs_agent_lowclear
+task9_4,9,Random,patient_demographics_agent
+task9_5,9,Random,labs_agent_lowclear
+task9_6,9,Random,demographics_agent_uncert
+task9_7,9,Random,medication_agent_norole
+task9_8,9,Random,demographics_agent_uncert
+task9_9,9,Random,labs_agent_lowclear
+task9_10,9,Random,procedure_agent_uncert
+task9_11,9,Random,medication_agent_norole
+task9_12,9,Random,labs_agent
+task9_13,9,Random,medication_agent
+task9_14,9,Random,demographics_agent_uncert
+task9_15,9,Random,medication_agent
+task9_16,9,Random,patient_demographics_agent
+task9_17,9,Random,procedure_agent_uncert
+task9_18,9,Random,patient_demographics_agent
+task9_19,9,Random,vitals_agent_uncert
+task9_20,9,Random,patient_demographics_agent
+task9_21,9,Random,patient_demographics_agent
+task9_22,9,Random,medication_agent_norole
+task9_23,9,Random,procedure_agent_uncert
+task9_24,9,Random,procedure_agent_uncert
+task9_25,9,Random,labs_agent
+task9_26,9,Random,patient_demographics_agent
+task9_27,9,Random,procedure_agent_uncert
+task9_28,9,Random,vitals_agent
+task9_29,9,Random,labs_agent
+task9_30,9,Random,vitals_agent
+task10_1,10,Random,vitals_agent
+task10_2,10,Random,medication_agent
+task10_3,10,Random,labs_agent_lowclear
+task10_4,10,Random,vitals_agent
+task10_5,10,Random,medication_agent
+task10_6,10,Random,patient_demographics_agent
+task10_7,10,Random,vitals_agent
+task10_8,10,Random,labs_agent_lowclear
+task10_9,10,Random,procedure_agent_uncert
+task10_10,10,Random,vitals_agent_uncert
+task10_11,10,Random,demographics_agent_uncert
+task10_12,10,Random,medication_agent
+task10_13,10,Random,vitals_agent_uncert
+task10_14,10,Random,medication_agent
+task10_15,10,Random,demographics_agent_uncert
+task10_16,10,Random,labs_agent_lowclear
+task10_17,10,Random,labs_agent
+task10_18,10,Random,demographics_agent_uncert
+task10_19,10,Random,medication_agent_norole
+task10_20,10,Random,vitals_agent_uncert
+task10_21,10,Random,vitals_agent
+task10_22,10,Random,patient_demographics_agent
+task10_23,10,Random,medication_agent_norole
+task10_24,10,Random,vitals_agent
+task10_25,10,Random,vitals_agent
+task10_26,10,Random,procedure_agent_uncert
+task10_27,10,Random,medication_agent
+task10_28,10,Random,procedure_agent_uncert
+task10_29,10,Random,demographics_agent_uncert
+task10_30,10,Random,labs_agent
+task1_1,1,Round-Robin,demographics_agent_uncert
+task1_2,1,Round-Robin,labs_agent
+task1_3,1,Round-Robin,labs_agent_lowclear
+task1_4,1,Round-Robin,medication_agent
+task1_5,1,Round-Robin,medication_agent_norole
+task1_6,1,Round-Robin,patient_demographics_agent
+task1_7,1,Round-Robin,procedure_agent_uncert
+task1_8,1,Round-Robin,vitals_agent
+task1_9,1,Round-Robin,vitals_agent_uncert
+task1_10,1,Round-Robin,demographics_agent_uncert
+task1_11,1,Round-Robin,labs_agent
+task1_12,1,Round-Robin,labs_agent_lowclear
+task1_13,1,Round-Robin,medication_agent
+task1_14,1,Round-Robin,medication_agent_norole
+task1_15,1,Round-Robin,patient_demographics_agent
+task1_16,1,Round-Robin,procedure_agent_uncert
+task1_17,1,Round-Robin,vitals_agent
+task1_18,1,Round-Robin,vitals_agent_uncert
+task1_19,1,Round-Robin,demographics_agent_uncert
+task1_20,1,Round-Robin,labs_agent
+task1_21,1,Round-Robin,labs_agent_lowclear
+task1_22,1,Round-Robin,medication_agent
+task1_23,1,Round-Robin,medication_agent_norole
+task1_24,1,Round-Robin,patient_demographics_agent
+task1_25,1,Round-Robin,procedure_agent_uncert
+task1_26,1,Round-Robin,vitals_agent
+task1_27,1,Round-Robin,vitals_agent_uncert
+task1_28,1,Round-Robin,demographics_agent_uncert
+task1_29,1,Round-Robin,labs_agent
+task1_30,1,Round-Robin,labs_agent_lowclear
+task2_1,2,Round-Robin,medication_agent
+task2_2,2,Round-Robin,medication_agent_norole
+task2_3,2,Round-Robin,patient_demographics_agent
+task2_4,2,Round-Robin,procedure_agent_uncert
+task2_5,2,Round-Robin,vitals_agent
+task2_6,2,Round-Robin,vitals_agent_uncert
+task2_7,2,Round-Robin,demographics_agent_uncert
+task2_8,2,Round-Robin,labs_agent
+task2_9,2,Round-Robin,labs_agent_lowclear
+task2_10,2,Round-Robin,medication_agent
+task2_11,2,Round-Robin,medication_agent_norole
+task2_12,2,Round-Robin,patient_demographics_agent
+task2_13,2,Round-Robin,procedure_agent_uncert
+task2_14,2,Round-Robin,vitals_agent
+task2_15,2,Round-Robin,vitals_agent_uncert
+task2_16,2,Round-Robin,demographics_agent_uncert
+task2_17,2,Round-Robin,labs_agent
+task2_18,2,Round-Robin,labs_agent_lowclear
+task2_19,2,Round-Robin,medication_agent
+task2_20,2,Round-Robin,medication_agent_norole
+task2_21,2,Round-Robin,patient_demographics_agent
+task2_22,2,Round-Robin,procedure_agent_uncert
+task2_23,2,Round-Robin,vitals_agent
+task2_24,2,Round-Robin,vitals_agent_uncert
+task2_25,2,Round-Robin,demographics_agent_uncert
+task2_26,2,Round-Robin,labs_agent
+task2_27,2,Round-Robin,labs_agent_lowclear
+task2_28,2,Round-Robin,medication_agent
+task2_29,2,Round-Robin,medication_agent_norole
+task2_30,2,Round-Robin,patient_demographics_agent
+task3_1,3,Round-Robin,procedure_agent_uncert
+task3_2,3,Round-Robin,vitals_agent
+task3_3,3,Round-Robin,vitals_agent_uncert
+task3_4,3,Round-Robin,demographics_agent_uncert
+task3_5,3,Round-Robin,labs_agent
+task3_6,3,Round-Robin,labs_agent_lowclear
+task3_7,3,Round-Robin,medication_agent
+task3_8,3,Round-Robin,medication_agent_norole
+task3_9,3,Round-Robin,patient_demographics_agent
+task3_10,3,Round-Robin,procedure_agent_uncert
+task3_11,3,Round-Robin,vitals_agent
+task3_12,3,Round-Robin,vitals_agent_uncert
+task3_13,3,Round-Robin,demographics_agent_uncert
+task3_14,3,Round-Robin,labs_agent
+task3_15,3,Round-Robin,labs_agent_lowclear
+task3_16,3,Round-Robin,medication_agent
+task3_17,3,Round-Robin,medication_agent_norole
+task3_18,3,Round-Robin,patient_demographics_agent
+task3_19,3,Round-Robin,procedure_agent_uncert
+task3_20,3,Round-Robin,vitals_agent
+task3_21,3,Round-Robin,vitals_agent_uncert
+task3_22,3,Round-Robin,demographics_agent_uncert
+task3_23,3,Round-Robin,labs_agent
+task3_24,3,Round-Robin,labs_agent_lowclear
+task3_25,3,Round-Robin,medication_agent
+task3_26,3,Round-Robin,medication_agent_norole
+task3_27,3,Round-Robin,patient_demographics_agent
+task3_28,3,Round-Robin,procedure_agent_uncert
+task3_29,3,Round-Robin,vitals_agent
+task3_30,3,Round-Robin,vitals_agent_uncert
+task4_1,4,Round-Robin,demographics_agent_uncert
+task4_2,4,Round-Robin,labs_agent
+task4_3,4,Round-Robin,labs_agent_lowclear
+task4_4,4,Round-Robin,medication_agent
+task4_5,4,Round-Robin,medication_agent_norole
+task4_6,4,Round-Robin,patient_demographics_agent
+task4_7,4,Round-Robin,procedure_agent_uncert
+task4_8,4,Round-Robin,vitals_agent
+task4_9,4,Round-Robin,vitals_agent_uncert
+task4_10,4,Round-Robin,demographics_agent_uncert
+task4_11,4,Round-Robin,labs_agent
+task4_12,4,Round-Robin,labs_agent_lowclear
+task4_13,4,Round-Robin,medication_agent
+task4_14,4,Round-Robin,medication_agent_norole
+task4_15,4,Round-Robin,patient_demographics_agent
+task4_16,4,Round-Robin,procedure_agent_uncert
+task4_17,4,Round-Robin,vitals_agent
+task4_18,4,Round-Robin,vitals_agent_uncert
+task4_19,4,Round-Robin,demographics_agent_uncert
+task4_20,4,Round-Robin,labs_agent
+task4_21,4,Round-Robin,labs_agent_lowclear
+task4_22,4,Round-Robin,medication_agent
+task4_23,4,Round-Robin,medication_agent_norole
+task4_24,4,Round-Robin,patient_demographics_agent
+task4_25,4,Round-Robin,procedure_agent_uncert
+task4_26,4,Round-Robin,vitals_agent
+task4_27,4,Round-Robin,vitals_agent_uncert
+task4_28,4,Round-Robin,demographics_agent_uncert
+task4_29,4,Round-Robin,labs_agent
+task4_30,4,Round-Robin,labs_agent_lowclear
+task5_1,5,Round-Robin,medication_agent
+task5_2,5,Round-Robin,medication_agent_norole
+task5_3,5,Round-Robin,patient_demographics_agent
+task5_4,5,Round-Robin,procedure_agent_uncert
+task5_5,5,Round-Robin,vitals_agent
+task5_6,5,Round-Robin,vitals_agent_uncert
+task5_7,5,Round-Robin,demographics_agent_uncert
+task5_8,5,Round-Robin,labs_agent
+task5_9,5,Round-Robin,labs_agent_lowclear
+task5_10,5,Round-Robin,medication_agent
+task5_11,5,Round-Robin,medication_agent_norole
+task5_12,5,Round-Robin,patient_demographics_agent
+task5_13,5,Round-Robin,procedure_agent_uncert
+task5_14,5,Round-Robin,vitals_agent
+task5_15,5,Round-Robin,vitals_agent_uncert
+task5_16,5,Round-Robin,demographics_agent_uncert
+task5_17,5,Round-Robin,labs_agent
+task5_18,5,Round-Robin,labs_agent_lowclear
+task5_19,5,Round-Robin,medication_agent
+task5_20,5,Round-Robin,medication_agent_norole
+task5_21,5,Round-Robin,patient_demographics_agent
+task5_22,5,Round-Robin,procedure_agent_uncert
+task5_23,5,Round-Robin,vitals_agent
+task5_24,5,Round-Robin,vitals_agent_uncert
+task5_25,5,Round-Robin,demographics_agent_uncert
+task5_26,5,Round-Robin,labs_agent
+task5_27,5,Round-Robin,labs_agent_lowclear
+task5_28,5,Round-Robin,medication_agent
+task5_29,5,Round-Robin,medication_agent_norole
+task5_30,5,Round-Robin,patient_demographics_agent
+task6_1,6,Round-Robin,procedure_agent_uncert
+task6_2,6,Round-Robin,vitals_agent
+task6_3,6,Round-Robin,vitals_agent_uncert
+task6_4,6,Round-Robin,demographics_agent_uncert
+task6_5,6,Round-Robin,labs_agent
+task6_6,6,Round-Robin,labs_agent_lowclear
+task6_7,6,Round-Robin,medication_agent
+task6_8,6,Round-Robin,medication_agent_norole
+task6_9,6,Round-Robin,patient_demographics_agent
+task6_10,6,Round-Robin,procedure_agent_uncert
+task6_11,6,Round-Robin,vitals_agent
+task6_12,6,Round-Robin,vitals_agent_uncert
+task6_13,6,Round-Robin,demographics_agent_uncert
+task6_14,6,Round-Robin,labs_agent
+task6_15,6,Round-Robin,labs_agent_lowclear
+task6_16,6,Round-Robin,medication_agent
+task6_17,6,Round-Robin,medication_agent_norole
+task6_18,6,Round-Robin,patient_demographics_agent
+task6_19,6,Round-Robin,procedure_agent_uncert
+task6_20,6,Round-Robin,vitals_agent
+task6_21,6,Round-Robin,vitals_agent_uncert
+task6_22,6,Round-Robin,demographics_agent_uncert
+task6_23,6,Round-Robin,labs_agent
+task6_24,6,Round-Robin,labs_agent_lowclear
+task6_25,6,Round-Robin,medication_agent
+task6_26,6,Round-Robin,medication_agent_norole
+task6_27,6,Round-Robin,patient_demographics_agent
+task6_28,6,Round-Robin,procedure_agent_uncert
+task6_29,6,Round-Robin,vitals_agent
+task6_30,6,Round-Robin,vitals_agent_uncert
+task7_1,7,Round-Robin,demographics_agent_uncert
+task7_2,7,Round-Robin,labs_agent
+task7_3,7,Round-Robin,labs_agent_lowclear
+task7_4,7,Round-Robin,medication_agent
+task7_5,7,Round-Robin,medication_agent_norole
+task7_6,7,Round-Robin,patient_demographics_agent
+task7_7,7,Round-Robin,procedure_agent_uncert
+task7_8,7,Round-Robin,vitals_agent
+task7_9,7,Round-Robin,vitals_agent_uncert
+task7_10,7,Round-Robin,demographics_agent_uncert
+task7_11,7,Round-Robin,labs_agent
+task7_12,7,Round-Robin,labs_agent_lowclear
+task7_13,7,Round-Robin,medication_agent
+task7_14,7,Round-Robin,medication_agent_norole
+task7_15,7,Round-Robin,patient_demographics_agent
+task7_16,7,Round-Robin,procedure_agent_uncert
+task7_17,7,Round-Robin,vitals_agent
+task7_18,7,Round-Robin,vitals_agent_uncert
+task7_19,7,Round-Robin,demographics_agent_uncert
+task7_20,7,Round-Robin,labs_agent
+task7_21,7,Round-Robin,labs_agent_lowclear
+task7_22,7,Round-Robin,medication_agent
+task7_23,7,Round-Robin,medication_agent_norole
+task7_24,7,Round-Robin,patient_demographics_agent
+task7_25,7,Round-Robin,procedure_agent_uncert
+task7_26,7,Round-Robin,vitals_agent
+task7_27,7,Round-Robin,vitals_agent_uncert
+task7_28,7,Round-Robin,demographics_agent_uncert
+task7_29,7,Round-Robin,labs_agent
+task7_30,7,Round-Robin,labs_agent_lowclear
+task8_1,8,Round-Robin,medication_agent
+task8_2,8,Round-Robin,medication_agent_norole
+task8_3,8,Round-Robin,patient_demographics_agent
+task8_4,8,Round-Robin,procedure_agent_uncert
+task8_5,8,Round-Robin,vitals_agent
+task8_6,8,Round-Robin,vitals_agent_uncert
+task8_7,8,Round-Robin,demographics_agent_uncert
+task8_8,8,Round-Robin,labs_agent
+task8_9,8,Round-Robin,labs_agent_lowclear
+task8_10,8,Round-Robin,medication_agent
+task8_11,8,Round-Robin,medication_agent_norole
+task8_12,8,Round-Robin,patient_demographics_agent
+task8_13,8,Round-Robin,procedure_agent_uncert
+task8_14,8,Round-Robin,vitals_agent
+task8_15,8,Round-Robin,vitals_agent_uncert
+task8_16,8,Round-Robin,demographics_agent_uncert
+task8_17,8,Round-Robin,labs_agent
+task8_18,8,Round-Robin,labs_agent_lowclear
+task8_19,8,Round-Robin,medication_agent
+task8_20,8,Round-Robin,medication_agent_norole
+task8_21,8,Round-Robin,patient_demographics_agent
+task8_22,8,Round-Robin,procedure_agent_uncert
+task8_23,8,Round-Robin,vitals_agent
+task8_24,8,Round-Robin,vitals_agent_uncert
+task8_25,8,Round-Robin,demographics_agent_uncert
+task8_26,8,Round-Robin,labs_agent
+task8_27,8,Round-Robin,labs_agent_lowclear
+task8_28,8,Round-Robin,medication_agent
+task8_29,8,Round-Robin,medication_agent_norole
+task8_30,8,Round-Robin,patient_demographics_agent
+task9_1,9,Round-Robin,procedure_agent_uncert
+task9_2,9,Round-Robin,vitals_agent
+task9_3,9,Round-Robin,vitals_agent_uncert
+task9_4,9,Round-Robin,demographics_agent_uncert
+task9_5,9,Round-Robin,labs_agent
+task9_6,9,Round-Robin,labs_agent_lowclear
+task9_7,9,Round-Robin,medication_agent
+task9_8,9,Round-Robin,medication_agent_norole
+task9_9,9,Round-Robin,patient_demographics_agent
+task9_10,9,Round-Robin,procedure_agent_uncert
+task9_11,9,Round-Robin,vitals_agent
+task9_12,9,Round-Robin,vitals_agent_uncert
+task9_13,9,Round-Robin,demographics_agent_uncert
+task9_14,9,Round-Robin,labs_agent
+task9_15,9,Round-Robin,labs_agent_lowclear
+task9_16,9,Round-Robin,medication_agent
+task9_17,9,Round-Robin,medication_agent_norole
+task9_18,9,Round-Robin,patient_demographics_agent
+task9_19,9,Round-Robin,procedure_agent_uncert
+task9_20,9,Round-Robin,vitals_agent
+task9_21,9,Round-Robin,vitals_agent_uncert
+task9_22,9,Round-Robin,demographics_agent_uncert
+task9_23,9,Round-Robin,labs_agent
+task9_24,9,Round-Robin,labs_agent_lowclear
+task9_25,9,Round-Robin,medication_agent
+task9_26,9,Round-Robin,medication_agent_norole
+task9_27,9,Round-Robin,patient_demographics_agent
+task9_28,9,Round-Robin,procedure_agent_uncert
+task9_29,9,Round-Robin,vitals_agent
+task9_30,9,Round-Robin,vitals_agent_uncert
+task10_1,10,Round-Robin,demographics_agent_uncert
+task10_2,10,Round-Robin,labs_agent
+task10_3,10,Round-Robin,labs_agent_lowclear
+task10_4,10,Round-Robin,medication_agent
+task10_5,10,Round-Robin,medication_agent_norole
+task10_6,10,Round-Robin,patient_demographics_agent
+task10_7,10,Round-Robin,procedure_agent_uncert
+task10_8,10,Round-Robin,vitals_agent
+task10_9,10,Round-Robin,vitals_agent_uncert
+task10_10,10,Round-Robin,demographics_agent_uncert
+task10_11,10,Round-Robin,labs_agent
+task10_12,10,Round-Robin,labs_agent_lowclear
+task10_13,10,Round-Robin,medication_agent
+task10_14,10,Round-Robin,medication_agent_norole
+task10_15,10,Round-Robin,patient_demographics_agent
+task10_16,10,Round-Robin,procedure_agent_uncert
+task10_17,10,Round-Robin,vitals_agent
+task10_18,10,Round-Robin,vitals_agent_uncert
+task10_19,10,Round-Robin,demographics_agent_uncert
+task10_20,10,Round-Robin,labs_agent
+task10_21,10,Round-Robin,labs_agent_lowclear
+task10_22,10,Round-Robin,medication_agent
+task10_23,10,Round-Robin,medication_agent_norole
+task10_24,10,Round-Robin,patient_demographics_agent
+task10_25,10,Round-Robin,procedure_agent_uncert
+task10_26,10,Round-Robin,vitals_agent
+task10_27,10,Round-Robin,vitals_agent_uncert
+task10_28,10,Round-Robin,demographics_agent_uncert
+task10_29,10,Round-Robin,labs_agent
+task10_30,10,Round-Robin,labs_agent_lowclear
+task1_1,1,Rule-Based (cheapest tie-break),demographics_agent_uncert
+task1_2,1,Rule-Based (cheapest tie-break),demographics_agent_uncert
+task1_3,1,Rule-Based (cheapest tie-break),demographics_agent_uncert
+task1_4,1,Rule-Based (cheapest tie-break),demographics_agent_uncert
+task1_5,1,Rule-Based (cheapest tie-break),demographics_agent_uncert
+task1_6,1,Rule-Based (cheapest tie-break),demographics_agent_uncert
+task1_7,1,Rule-Based (cheapest tie-break),demographics_agent_uncert
+task1_8,1,Rule-Based (cheapest tie-break),demographics_agent_uncert
+task1_9,1,Rule-Based (cheapest tie-break),demographics_agent_uncert
+task1_10,1,Rule-Based (cheapest tie-break),demographics_agent_uncert
+task1_11,1,Rule-Based (cheapest tie-break),demographics_agent_uncert
+task1_12,1,Rule-Based (cheapest tie-break),demographics_agent_uncert
+task1_13,1,Rule-Based (cheapest tie-break),demographics_agent_uncert
+task1_14,1,Rule-Based (cheapest tie-break),demographics_agent_uncert
+task1_15,1,Rule-Based (cheapest tie-break),demographics_agent_uncert
+task1_16,1,Rule-Based (cheapest tie-break),demographics_agent_uncert
+task1_17,1,Rule-Based (cheapest tie-break),demographics_agent_uncert
+task1_18,1,Rule-Based (cheapest tie-break),demographics_agent_uncert
+task1_19,1,Rule-Based (cheapest tie-break),demographics_agent_uncert
+task1_20,1,Rule-Based (cheapest tie-break),demographics_agent_uncert
+task1_21,1,Rule-Based (cheapest tie-break),demographics_agent_uncert
+task1_22,1,Rule-Based (cheapest tie-break),demographics_agent_uncert
+task1_23,1,Rule-Based (cheapest tie-break),demographics_agent_uncert
+task1_24,1,Rule-Based (cheapest tie-break),demographics_agent_uncert
+task1_25,1,Rule-Based (cheapest tie-break),demographics_agent_uncert
+task1_26,1,Rule-Based (cheapest tie-break),demographics_agent_uncert
+task1_27,1,Rule-Based (cheapest tie-break),demographics_agent_uncert
+task1_28,1,Rule-Based (cheapest tie-break),demographics_agent_uncert
+task1_29,1,Rule-Based (cheapest tie-break),demographics_agent_uncert
+task1_30,1,Rule-Based (cheapest tie-break),demographics_agent_uncert
+task2_1,2,Rule-Based (cheapest tie-break),demographics_agent_uncert
+task2_2,2,Rule-Based (cheapest tie-break),demographics_agent_uncert
+task2_3,2,Rule-Based (cheapest tie-break),demographics_agent_uncert
+task2_4,2,Rule-Based (cheapest tie-break),demographics_agent_uncert
+task2_5,2,Rule-Based (cheapest tie-break),demographics_agent_uncert
+task2_6,2,Rule-Based (cheapest tie-break),demographics_agent_uncert
+task2_7,2,Rule-Based (cheapest tie-break),demographics_agent_uncert
+task2_8,2,Rule-Based (cheapest tie-break),demographics_agent_uncert
+task2_9,2,Rule-Based (cheapest tie-break),demographics_agent_uncert
+task2_10,2,Rule-Based (cheapest tie-break),demographics_agent_uncert
+task2_11,2,Rule-Based (cheapest tie-break),demographics_agent_uncert
+task2_12,2,Rule-Based (cheapest tie-break),demographics_agent_uncert
+task2_13,2,Rule-Based (cheapest tie-break),demographics_agent_uncert
+task2_14,2,Rule-Based (cheapest tie-break),demographics_agent_uncert
+task2_15,2,Rule-Based (cheapest tie-break),demographics_agent_uncert
+task2_16,2,Rule-Based (cheapest tie-break),demographics_agent_uncert
+task2_17,2,Rule-Based (cheapest tie-break),demographics_agent_uncert
+task2_18,2,Rule-Based (cheapest tie-break),demographics_agent_uncert
+task2_19,2,Rule-Based (cheapest tie-break),demographics_agent_uncert
+task2_20,2,Rule-Based (cheapest tie-break),demographics_agent_uncert
+task2_21,2,Rule-Based (cheapest tie-break),demographics_agent_uncert
+task2_22,2,Rule-Based (cheapest tie-break),demographics_agent_uncert
+task2_23,2,Rule-Based (cheapest tie-break),demographics_agent_uncert
+task2_24,2,Rule-Based (cheapest tie-break),demographics_agent_uncert
+task2_25,2,Rule-Based (cheapest tie-break),demographics_agent_uncert
+task2_26,2,Rule-Based (cheapest tie-break),demographics_agent_uncert
+task2_27,2,Rule-Based (cheapest tie-break),demographics_agent_uncert
+task2_28,2,Rule-Based (cheapest tie-break),demographics_agent_uncert
+task2_29,2,Rule-Based (cheapest tie-break),demographics_agent_uncert
+task2_30,2,Rule-Based (cheapest tie-break),demographics_agent_uncert
+task3_1,3,Rule-Based (cheapest tie-break),vitals_agent_uncert
+task3_2,3,Rule-Based (cheapest tie-break),vitals_agent_uncert
+task3_3,3,Rule-Based (cheapest tie-break),vitals_agent_uncert
+task3_4,3,Rule-Based (cheapest tie-break),vitals_agent_uncert
+task3_5,3,Rule-Based (cheapest tie-break),vitals_agent_uncert
+task3_6,3,Rule-Based (cheapest tie-break),vitals_agent_uncert
+task3_7,3,Rule-Based (cheapest tie-break),vitals_agent_uncert
+task3_8,3,Rule-Based (cheapest tie-break),vitals_agent_uncert
+task3_9,3,Rule-Based (cheapest tie-break),vitals_agent_uncert
+task3_10,3,Rule-Based (cheapest tie-break),vitals_agent_uncert
+task3_11,3,Rule-Based (cheapest tie-break),vitals_agent_uncert
+task3_12,3,Rule-Based (cheapest tie-break),vitals_agent_uncert
+task3_13,3,Rule-Based (cheapest tie-break),vitals_agent_uncert
+task3_14,3,Rule-Based (cheapest tie-break),vitals_agent_uncert
+task3_15,3,Rule-Based (cheapest tie-break),vitals_agent_uncert
+task3_16,3,Rule-Based (cheapest tie-break),vitals_agent_uncert
+task3_17,3,Rule-Based (cheapest tie-break),vitals_agent_uncert
+task3_18,3,Rule-Based (cheapest tie-break),vitals_agent_uncert
+task3_19,3,Rule-Based (cheapest tie-break),vitals_agent_uncert
+task3_20,3,Rule-Based (cheapest tie-break),vitals_agent_uncert
+task3_21,3,Rule-Based (cheapest tie-break),vitals_agent_uncert
+task3_22,3,Rule-Based (cheapest tie-break),vitals_agent_uncert
+task3_23,3,Rule-Based (cheapest tie-break),vitals_agent_uncert
+task3_24,3,Rule-Based (cheapest tie-break),vitals_agent_uncert
+task3_25,3,Rule-Based (cheapest tie-break),vitals_agent_uncert
+task3_26,3,Rule-Based (cheapest tie-break),vitals_agent_uncert
+task3_27,3,Rule-Based (cheapest tie-break),vitals_agent_uncert
+task3_28,3,Rule-Based (cheapest tie-break),vitals_agent_uncert
+task3_29,3,Rule-Based (cheapest tie-break),vitals_agent_uncert
+task3_30,3,Rule-Based (cheapest tie-break),vitals_agent_uncert
+task4_1,4,Rule-Based (cheapest tie-break),labs_agent_lowclear
+task4_2,4,Rule-Based (cheapest tie-break),labs_agent_lowclear
+task4_3,4,Rule-Based (cheapest tie-break),labs_agent_lowclear
+task4_4,4,Rule-Based (cheapest tie-break),labs_agent_lowclear
+task4_5,4,Rule-Based (cheapest tie-break),labs_agent_lowclear
+task4_6,4,Rule-Based (cheapest tie-break),labs_agent_lowclear
+task4_7,4,Rule-Based (cheapest tie-break),labs_agent_lowclear
+task4_8,4,Rule-Based (cheapest tie-break),labs_agent_lowclear
+task4_9,4,Rule-Based (cheapest tie-break),labs_agent_lowclear
+task4_10,4,Rule-Based (cheapest tie-break),labs_agent_lowclear
+task4_11,4,Rule-Based (cheapest tie-break),labs_agent_lowclear
+task4_12,4,Rule-Based (cheapest tie-break),labs_agent_lowclear
+task4_13,4,Rule-Based (cheapest tie-break),labs_agent_lowclear
+task4_14,4,Rule-Based (cheapest tie-break),labs_agent_lowclear
+task4_15,4,Rule-Based (cheapest tie-break),labs_agent_lowclear
+task4_16,4,Rule-Based (cheapest tie-break),labs_agent_lowclear
+task4_17,4,Rule-Based (cheapest tie-break),labs_agent_lowclear
+task4_18,4,Rule-Based (cheapest tie-break),labs_agent_lowclear
+task4_19,4,Rule-Based (cheapest tie-break),labs_agent_lowclear
+task4_20,4,Rule-Based (cheapest tie-break),labs_agent_lowclear
+task4_21,4,Rule-Based (cheapest tie-break),labs_agent_lowclear
+task4_22,4,Rule-Based (cheapest tie-break),labs_agent_lowclear
+task4_23,4,Rule-Based (cheapest tie-break),labs_agent_lowclear
+task4_24,4,Rule-Based (cheapest tie-break),labs_agent_lowclear
+task4_25,4,Rule-Based (cheapest tie-break),labs_agent_lowclear
+task4_26,4,Rule-Based (cheapest tie-break),labs_agent_lowclear
+task4_27,4,Rule-Based (cheapest tie-break),labs_agent_lowclear
+task4_28,4,Rule-Based (cheapest tie-break),labs_agent_lowclear
+task4_29,4,Rule-Based (cheapest tie-break),labs_agent_lowclear
+task4_30,4,Rule-Based (cheapest tie-break),labs_agent_lowclear
+task5_1,5,Rule-Based (cheapest tie-break),labs_agent_lowclear
+task5_2,5,Rule-Based (cheapest tie-break),labs_agent_lowclear
+task5_3,5,Rule-Based (cheapest tie-break),labs_agent_lowclear
+task5_4,5,Rule-Based (cheapest tie-break),labs_agent_lowclear
+task5_5,5,Rule-Based (cheapest tie-break),labs_agent_lowclear
+task5_6,5,Rule-Based (cheapest tie-break),labs_agent_lowclear
+task5_7,5,Rule-Based (cheapest tie-break),labs_agent_lowclear
+task5_8,5,Rule-Based (cheapest tie-break),labs_agent_lowclear
+task5_9,5,Rule-Based (cheapest tie-break),labs_agent_lowclear
+task5_10,5,Rule-Based (cheapest tie-break),labs_agent_lowclear
+task5_11,5,Rule-Based (cheapest tie-break),labs_agent_lowclear
+task5_12,5,Rule-Based (cheapest tie-break),labs_agent_lowclear
+task5_13,5,Rule-Based (cheapest tie-break),labs_agent_lowclear
+task5_14,5,Rule-Based (cheapest tie-break),labs_agent_lowclear
+task5_15,5,Rule-Based (cheapest tie-break),labs_agent_lowclear
+task5_16,5,Rule-Based (cheapest tie-break),labs_agent_lowclear
+task5_17,5,Rule-Based (cheapest tie-break),labs_agent_lowclear
+task5_18,5,Rule-Based (cheapest tie-break),labs_agent_lowclear
+task5_19,5,Rule-Based (cheapest tie-break),labs_agent_lowclear
+task5_20,5,Rule-Based (cheapest tie-break),labs_agent_lowclear
+task5_21,5,Rule-Based (cheapest tie-break),labs_agent_lowclear
+task5_22,5,Rule-Based (cheapest tie-break),labs_agent_lowclear
+task5_23,5,Rule-Based (cheapest tie-break),labs_agent_lowclear
+task5_24,5,Rule-Based (cheapest tie-break),labs_agent_lowclear
+task5_25,5,Rule-Based (cheapest tie-break),labs_agent_lowclear
+task5_26,5,Rule-Based (cheapest tie-break),labs_agent_lowclear
+task5_27,5,Rule-Based (cheapest tie-break),labs_agent_lowclear
+task5_28,5,Rule-Based (cheapest tie-break),labs_agent_lowclear
+task5_29,5,Rule-Based (cheapest tie-break),labs_agent_lowclear
+task5_30,5,Rule-Based (cheapest tie-break),labs_agent_lowclear
+task6_1,6,Rule-Based (cheapest tie-break),demographics_agent_uncert
+task6_2,6,Rule-Based (cheapest tie-break),demographics_agent_uncert
+task6_3,6,Rule-Based (cheapest tie-break),demographics_agent_uncert
+task6_4,6,Rule-Based (cheapest tie-break),demographics_agent_uncert
+task6_5,6,Rule-Based (cheapest tie-break),demographics_agent_uncert
+task6_6,6,Rule-Based (cheapest tie-break),demographics_agent_uncert
+task6_7,6,Rule-Based (cheapest tie-break),demographics_agent_uncert
+task6_8,6,Rule-Based (cheapest tie-break),demographics_agent_uncert
+task6_9,6,Rule-Based (cheapest tie-break),demographics_agent_uncert
+task6_10,6,Rule-Based (cheapest tie-break),demographics_agent_uncert
+task6_11,6,Rule-Based (cheapest tie-break),demographics_agent_uncert
+task6_12,6,Rule-Based (cheapest tie-break),demographics_agent_uncert
+task6_13,6,Rule-Based (cheapest tie-break),demographics_agent_uncert
+task6_14,6,Rule-Based (cheapest tie-break),demographics_agent_uncert
+task6_15,6,Rule-Based (cheapest tie-break),demographics_agent_uncert
+task6_16,6,Rule-Based (cheapest tie-break),demographics_agent_uncert
+task6_17,6,Rule-Based (cheapest tie-break),demographics_agent_uncert
+task6_18,6,Rule-Based (cheapest tie-break),demographics_agent_uncert
+task6_19,6,Rule-Based (cheapest tie-break),demographics_agent_uncert
+task6_20,6,Rule-Based (cheapest tie-break),demographics_agent_uncert
+task6_21,6,Rule-Based (cheapest tie-break),demographics_agent_uncert
+task6_22,6,Rule-Based (cheapest tie-break),demographics_agent_uncert
+task6_23,6,Rule-Based (cheapest tie-break),demographics_agent_uncert
+task6_24,6,Rule-Based (cheapest tie-break),demographics_agent_uncert
+task6_25,6,Rule-Based (cheapest tie-break),demographics_agent_uncert
+task6_26,6,Rule-Based (cheapest tie-break),demographics_agent_uncert
+task6_27,6,Rule-Based (cheapest tie-break),demographics_agent_uncert
+task6_28,6,Rule-Based (cheapest tie-break),demographics_agent_uncert
+task6_29,6,Rule-Based (cheapest tie-break),demographics_agent_uncert
+task6_30,6,Rule-Based (cheapest tie-break),demographics_agent_uncert
+task7_1,7,Rule-Based (cheapest tie-break),labs_agent_lowclear
+task7_2,7,Rule-Based (cheapest tie-break),labs_agent_lowclear
+task7_3,7,Rule-Based (cheapest tie-break),labs_agent_lowclear
+task7_4,7,Rule-Based (cheapest tie-break),labs_agent_lowclear
+task7_5,7,Rule-Based (cheapest tie-break),labs_agent_lowclear
+task7_6,7,Rule-Based (cheapest tie-break),labs_agent_lowclear
+task7_7,7,Rule-Based (cheapest tie-break),labs_agent_lowclear
+task7_8,7,Rule-Based (cheapest tie-break),labs_agent_lowclear
+task7_9,7,Rule-Based (cheapest tie-break),labs_agent_lowclear
+task7_10,7,Rule-Based (cheapest tie-break),labs_agent_lowclear
+task7_11,7,Rule-Based (cheapest tie-break),labs_agent_lowclear
+task7_12,7,Rule-Based (cheapest tie-break),labs_agent_lowclear
+task7_13,7,Rule-Based (cheapest tie-break),labs_agent_lowclear
+task7_14,7,Rule-Based (cheapest tie-break),labs_agent_lowclear
+task7_15,7,Rule-Based (cheapest tie-break),labs_agent_lowclear
+task7_16,7,Rule-Based (cheapest tie-break),labs_agent_lowclear
+task7_17,7,Rule-Based (cheapest tie-break),labs_agent_lowclear
+task7_18,7,Rule-Based (cheapest tie-break),labs_agent_lowclear
+task7_19,7,Rule-Based (cheapest tie-break),labs_agent_lowclear
+task7_20,7,Rule-Based (cheapest tie-break),labs_agent_lowclear
+task7_21,7,Rule-Based (cheapest tie-break),labs_agent_lowclear
+task7_22,7,Rule-Based (cheapest tie-break),labs_agent_lowclear
+task7_23,7,Rule-Based (cheapest tie-break),labs_agent_lowclear
+task7_24,7,Rule-Based (cheapest tie-break),labs_agent_lowclear
+task7_25,7,Rule-Based (cheapest tie-break),labs_agent_lowclear
+task7_26,7,Rule-Based (cheapest tie-break),labs_agent_lowclear
+task7_27,7,Rule-Based (cheapest tie-break),labs_agent_lowclear
+task7_28,7,Rule-Based (cheapest tie-break),labs_agent_lowclear
+task7_29,7,Rule-Based (cheapest tie-break),labs_agent_lowclear
+task7_30,7,Rule-Based (cheapest tie-break),labs_agent_lowclear
+task8_1,8,Rule-Based (cheapest tie-break),procedure_agent_uncert
+task8_2,8,Rule-Based (cheapest tie-break),procedure_agent_uncert
+task8_3,8,Rule-Based (cheapest tie-break),procedure_agent_uncert
+task8_4,8,Rule-Based (cheapest tie-break),procedure_agent_uncert
+task8_5,8,Rule-Based (cheapest tie-break),procedure_agent_uncert
+task8_6,8,Rule-Based (cheapest tie-break),procedure_agent_uncert
+task8_7,8,Rule-Based (cheapest tie-break),procedure_agent_uncert
+task8_8,8,Rule-Based (cheapest tie-break),procedure_agent_uncert
+task8_9,8,Rule-Based (cheapest tie-break),procedure_agent_uncert
+task8_10,8,Rule-Based (cheapest tie-break),procedure_agent_uncert
+task8_11,8,Rule-Based (cheapest tie-break),procedure_agent_uncert
+task8_12,8,Rule-Based (cheapest tie-break),procedure_agent_uncert
+task8_13,8,Rule-Based (cheapest tie-break),procedure_agent_uncert
+task8_14,8,Rule-Based (cheapest tie-break),procedure_agent_uncert
+task8_15,8,Rule-Based (cheapest tie-break),procedure_agent_uncert
+task8_16,8,Rule-Based (cheapest tie-break),procedure_agent_uncert
+task8_17,8,Rule-Based (cheapest tie-break),procedure_agent_uncert
+task8_18,8,Rule-Based (cheapest tie-break),procedure_agent_uncert
+task8_19,8,Rule-Based (cheapest tie-break),procedure_agent_uncert
+task8_20,8,Rule-Based (cheapest tie-break),procedure_agent_uncert
+task8_21,8,Rule-Based (cheapest tie-break),procedure_agent_uncert
+task8_22,8,Rule-Based (cheapest tie-break),procedure_agent_uncert
+task8_23,8,Rule-Based (cheapest tie-break),procedure_agent_uncert
+task8_24,8,Rule-Based (cheapest tie-break),procedure_agent_uncert
+task8_25,8,Rule-Based (cheapest tie-break),procedure_agent_uncert
+task8_26,8,Rule-Based (cheapest tie-break),procedure_agent_uncert
+task8_27,8,Rule-Based (cheapest tie-break),procedure_agent_uncert
+task8_28,8,Rule-Based (cheapest tie-break),procedure_agent_uncert
+task8_29,8,Rule-Based (cheapest tie-break),procedure_agent_uncert
+task8_30,8,Rule-Based (cheapest tie-break),procedure_agent_uncert
+task9_1,9,Rule-Based (cheapest tie-break),labs_agent_lowclear
+task9_2,9,Rule-Based (cheapest tie-break),labs_agent_lowclear
+task9_3,9,Rule-Based (cheapest tie-break),labs_agent_lowclear
+task9_4,9,Rule-Based (cheapest tie-break),labs_agent_lowclear
+task9_5,9,Rule-Based (cheapest tie-break),labs_agent_lowclear
+task9_6,9,Rule-Based (cheapest tie-break),labs_agent_lowclear
+task9_7,9,Rule-Based (cheapest tie-break),labs_agent_lowclear
+task9_8,9,Rule-Based (cheapest tie-break),labs_agent_lowclear
+task9_9,9,Rule-Based (cheapest tie-break),labs_agent_lowclear
+task9_10,9,Rule-Based (cheapest tie-break),labs_agent_lowclear
+task9_11,9,Rule-Based (cheapest tie-break),labs_agent_lowclear
+task9_12,9,Rule-Based (cheapest tie-break),labs_agent_lowclear
+task9_13,9,Rule-Based (cheapest tie-break),labs_agent_lowclear
+task9_14,9,Rule-Based (cheapest tie-break),labs_agent_lowclear
+task9_15,9,Rule-Based (cheapest tie-break),labs_agent_lowclear
+task9_16,9,Rule-Based (cheapest tie-break),labs_agent_lowclear
+task9_17,9,Rule-Based (cheapest tie-break),labs_agent_lowclear
+task9_18,9,Rule-Based (cheapest tie-break),labs_agent_lowclear
+task9_19,9,Rule-Based (cheapest tie-break),labs_agent_lowclear
+task9_20,9,Rule-Based (cheapest tie-break),labs_agent_lowclear
+task9_21,9,Rule-Based (cheapest tie-break),labs_agent_lowclear
+task9_22,9,Rule-Based (cheapest tie-break),labs_agent_lowclear
+task9_23,9,Rule-Based (cheapest tie-break),labs_agent_lowclear
+task9_24,9,Rule-Based (cheapest tie-break),labs_agent_lowclear
+task9_25,9,Rule-Based (cheapest tie-break),labs_agent_lowclear
+task9_26,9,Rule-Based (cheapest tie-break),labs_agent_lowclear
+task9_27,9,Rule-Based (cheapest tie-break),labs_agent_lowclear
+task9_28,9,Rule-Based (cheapest tie-break),labs_agent_lowclear
+task9_29,9,Rule-Based (cheapest tie-break),labs_agent_lowclear
+task9_30,9,Rule-Based (cheapest tie-break),labs_agent_lowclear
+task10_1,10,Rule-Based (cheapest tie-break),labs_agent_lowclear
+task10_2,10,Rule-Based (cheapest tie-break),labs_agent_lowclear
+task10_3,10,Rule-Based (cheapest tie-break),labs_agent_lowclear
+task10_4,10,Rule-Based (cheapest tie-break),labs_agent_lowclear
+task10_5,10,Rule-Based (cheapest tie-break),labs_agent_lowclear
+task10_6,10,Rule-Based (cheapest tie-break),labs_agent_lowclear
+task10_7,10,Rule-Based (cheapest tie-break),labs_agent_lowclear
+task10_8,10,Rule-Based (cheapest tie-break),labs_agent_lowclear
+task10_9,10,Rule-Based (cheapest tie-break),labs_agent_lowclear
+task10_10,10,Rule-Based (cheapest tie-break),labs_agent_lowclear
+task10_11,10,Rule-Based (cheapest tie-break),labs_agent_lowclear
+task10_12,10,Rule-Based (cheapest tie-break),labs_agent_lowclear
+task10_13,10,Rule-Based (cheapest tie-break),labs_agent_lowclear
+task10_14,10,Rule-Based (cheapest tie-break),labs_agent_lowclear
+task10_15,10,Rule-Based (cheapest tie-break),labs_agent_lowclear
+task10_16,10,Rule-Based (cheapest tie-break),labs_agent_lowclear
+task10_17,10,Rule-Based (cheapest tie-break),labs_agent_lowclear
+task10_18,10,Rule-Based (cheapest tie-break),labs_agent_lowclear
+task10_19,10,Rule-Based (cheapest tie-break),labs_agent_lowclear
+task10_20,10,Rule-Based (cheapest tie-break),labs_agent_lowclear
+task10_21,10,Rule-Based (cheapest tie-break),labs_agent_lowclear
+task10_22,10,Rule-Based (cheapest tie-break),labs_agent_lowclear
+task10_23,10,Rule-Based (cheapest tie-break),labs_agent_lowclear
+task10_24,10,Rule-Based (cheapest tie-break),labs_agent_lowclear
+task10_25,10,Rule-Based (cheapest tie-break),labs_agent_lowclear
+task10_26,10,Rule-Based (cheapest tie-break),labs_agent_lowclear
+task10_27,10,Rule-Based (cheapest tie-break),labs_agent_lowclear
+task10_28,10,Rule-Based (cheapest tie-break),labs_agent_lowclear
+task10_29,10,Rule-Based (cheapest tie-break),labs_agent_lowclear
+task10_30,10,Rule-Based (cheapest tie-break),labs_agent_lowclear
+task1_1,1,Rule-Based (registry-order tie-break),patient_demographics_agent
+task1_2,1,Rule-Based (registry-order tie-break),patient_demographics_agent
+task1_3,1,Rule-Based (registry-order tie-break),patient_demographics_agent
+task1_4,1,Rule-Based (registry-order tie-break),patient_demographics_agent
+task1_5,1,Rule-Based (registry-order tie-break),patient_demographics_agent
+task1_6,1,Rule-Based (registry-order tie-break),patient_demographics_agent
+task1_7,1,Rule-Based (registry-order tie-break),patient_demographics_agent
+task1_8,1,Rule-Based (registry-order tie-break),patient_demographics_agent
+task1_9,1,Rule-Based (registry-order tie-break),patient_demographics_agent
+task1_10,1,Rule-Based (registry-order tie-break),patient_demographics_agent
+task1_11,1,Rule-Based (registry-order tie-break),patient_demographics_agent
+task1_12,1,Rule-Based (registry-order tie-break),patient_demographics_agent
+task1_13,1,Rule-Based (registry-order tie-break),patient_demographics_agent
+task1_14,1,Rule-Based (registry-order tie-break),patient_demographics_agent
+task1_15,1,Rule-Based (registry-order tie-break),patient_demographics_agent
+task1_16,1,Rule-Based (registry-order tie-break),patient_demographics_agent
+task1_17,1,Rule-Based (registry-order tie-break),patient_demographics_agent
+task1_18,1,Rule-Based (registry-order tie-break),patient_demographics_agent
+task1_19,1,Rule-Based (registry-order tie-break),patient_demographics_agent
+task1_20,1,Rule-Based (registry-order tie-break),patient_demographics_agent
+task1_21,1,Rule-Based (registry-order tie-break),patient_demographics_agent
+task1_22,1,Rule-Based (registry-order tie-break),patient_demographics_agent
+task1_23,1,Rule-Based (registry-order tie-break),patient_demographics_agent
+task1_24,1,Rule-Based (registry-order tie-break),patient_demographics_agent
+task1_25,1,Rule-Based (registry-order tie-break),patient_demographics_agent
+task1_26,1,Rule-Based (registry-order tie-break),patient_demographics_agent
+task1_27,1,Rule-Based (registry-order tie-break),patient_demographics_agent
+task1_28,1,Rule-Based (registry-order tie-break),patient_demographics_agent
+task1_29,1,Rule-Based (registry-order tie-break),patient_demographics_agent
+task1_30,1,Rule-Based (registry-order tie-break),patient_demographics_agent
+task2_1,2,Rule-Based (registry-order tie-break),patient_demographics_agent
+task2_2,2,Rule-Based (registry-order tie-break),patient_demographics_agent
+task2_3,2,Rule-Based (registry-order tie-break),patient_demographics_agent
+task2_4,2,Rule-Based (registry-order tie-break),patient_demographics_agent
+task2_5,2,Rule-Based (registry-order tie-break),patient_demographics_agent
+task2_6,2,Rule-Based (registry-order tie-break),patient_demographics_agent
+task2_7,2,Rule-Based (registry-order tie-break),patient_demographics_agent
+task2_8,2,Rule-Based (registry-order tie-break),patient_demographics_agent
+task2_9,2,Rule-Based (registry-order tie-break),patient_demographics_agent
+task2_10,2,Rule-Based (registry-order tie-break),patient_demographics_agent
+task2_11,2,Rule-Based (registry-order tie-break),patient_demographics_agent
+task2_12,2,Rule-Based (registry-order tie-break),patient_demographics_agent
+task2_13,2,Rule-Based (registry-order tie-break),patient_demographics_agent
+task2_14,2,Rule-Based (registry-order tie-break),patient_demographics_agent
+task2_15,2,Rule-Based (registry-order tie-break),patient_demographics_agent
+task2_16,2,Rule-Based (registry-order tie-break),patient_demographics_agent
+task2_17,2,Rule-Based (registry-order tie-break),patient_demographics_agent
+task2_18,2,Rule-Based (registry-order tie-break),patient_demographics_agent
+task2_19,2,Rule-Based (registry-order tie-break),patient_demographics_agent
+task2_20,2,Rule-Based (registry-order tie-break),patient_demographics_agent
+task2_21,2,Rule-Based (registry-order tie-break),patient_demographics_agent
+task2_22,2,Rule-Based (registry-order tie-break),patient_demographics_agent
+task2_23,2,Rule-Based (registry-order tie-break),patient_demographics_agent
+task2_24,2,Rule-Based (registry-order tie-break),patient_demographics_agent
+task2_25,2,Rule-Based (registry-order tie-break),patient_demographics_agent
+task2_26,2,Rule-Based (registry-order tie-break),patient_demographics_agent
+task2_27,2,Rule-Based (registry-order tie-break),patient_demographics_agent
+task2_28,2,Rule-Based (registry-order tie-break),patient_demographics_agent
+task2_29,2,Rule-Based (registry-order tie-break),patient_demographics_agent
+task2_30,2,Rule-Based (registry-order tie-break),patient_demographics_agent
+task3_1,3,Rule-Based (registry-order tie-break),vitals_agent
+task3_2,3,Rule-Based (registry-order tie-break),vitals_agent
+task3_3,3,Rule-Based (registry-order tie-break),vitals_agent
+task3_4,3,Rule-Based (registry-order tie-break),vitals_agent
+task3_5,3,Rule-Based (registry-order tie-break),vitals_agent
+task3_6,3,Rule-Based (registry-order tie-break),vitals_agent
+task3_7,3,Rule-Based (registry-order tie-break),vitals_agent
+task3_8,3,Rule-Based (registry-order tie-break),vitals_agent
+task3_9,3,Rule-Based (registry-order tie-break),vitals_agent
+task3_10,3,Rule-Based (registry-order tie-break),vitals_agent
+task3_11,3,Rule-Based (registry-order tie-break),vitals_agent
+task3_12,3,Rule-Based (registry-order tie-break),vitals_agent
+task3_13,3,Rule-Based (registry-order tie-break),vitals_agent
+task3_14,3,Rule-Based (registry-order tie-break),vitals_agent
+task3_15,3,Rule-Based (registry-order tie-break),vitals_agent
+task3_16,3,Rule-Based (registry-order tie-break),vitals_agent
+task3_17,3,Rule-Based (registry-order tie-break),vitals_agent
+task3_18,3,Rule-Based (registry-order tie-break),vitals_agent
+task3_19,3,Rule-Based (registry-order tie-break),vitals_agent
+task3_20,3,Rule-Based (registry-order tie-break),vitals_agent
+task3_21,3,Rule-Based (registry-order tie-break),vitals_agent
+task3_22,3,Rule-Based (registry-order tie-break),vitals_agent
+task3_23,3,Rule-Based (registry-order tie-break),vitals_agent
+task3_24,3,Rule-Based (registry-order tie-break),vitals_agent
+task3_25,3,Rule-Based (registry-order tie-break),vitals_agent
+task3_26,3,Rule-Based (registry-order tie-break),vitals_agent
+task3_27,3,Rule-Based (registry-order tie-break),vitals_agent
+task3_28,3,Rule-Based (registry-order tie-break),vitals_agent
+task3_29,3,Rule-Based (registry-order tie-break),vitals_agent
+task3_30,3,Rule-Based (registry-order tie-break),vitals_agent
+task4_1,4,Rule-Based (registry-order tie-break),labs_agent
+task4_2,4,Rule-Based (registry-order tie-break),labs_agent
+task4_3,4,Rule-Based (registry-order tie-break),labs_agent
+task4_4,4,Rule-Based (registry-order tie-break),labs_agent
+task4_5,4,Rule-Based (registry-order tie-break),labs_agent
+task4_6,4,Rule-Based (registry-order tie-break),labs_agent
+task4_7,4,Rule-Based (registry-order tie-break),labs_agent
+task4_8,4,Rule-Based (registry-order tie-break),labs_agent
+task4_9,4,Rule-Based (registry-order tie-break),labs_agent
+task4_10,4,Rule-Based (registry-order tie-break),labs_agent
+task4_11,4,Rule-Based (registry-order tie-break),labs_agent
+task4_12,4,Rule-Based (registry-order tie-break),labs_agent
+task4_13,4,Rule-Based (registry-order tie-break),labs_agent
+task4_14,4,Rule-Based (registry-order tie-break),labs_agent
+task4_15,4,Rule-Based (registry-order tie-break),labs_agent
+task4_16,4,Rule-Based (registry-order tie-break),labs_agent
+task4_17,4,Rule-Based (registry-order tie-break),labs_agent
+task4_18,4,Rule-Based (registry-order tie-break),labs_agent
+task4_19,4,Rule-Based (registry-order tie-break),labs_agent
+task4_20,4,Rule-Based (registry-order tie-break),labs_agent
+task4_21,4,Rule-Based (registry-order tie-break),labs_agent
+task4_22,4,Rule-Based (registry-order tie-break),labs_agent
+task4_23,4,Rule-Based (registry-order tie-break),labs_agent
+task4_24,4,Rule-Based (registry-order tie-break),labs_agent
+task4_25,4,Rule-Based (registry-order tie-break),labs_agent
+task4_26,4,Rule-Based (registry-order tie-break),labs_agent
+task4_27,4,Rule-Based (registry-order tie-break),labs_agent
+task4_28,4,Rule-Based (registry-order tie-break),labs_agent
+task4_29,4,Rule-Based (registry-order tie-break),labs_agent
+task4_30,4,Rule-Based (registry-order tie-break),labs_agent
+task5_1,5,Rule-Based (registry-order tie-break),labs_agent
+task5_2,5,Rule-Based (registry-order tie-break),labs_agent
+task5_3,5,Rule-Based (registry-order tie-break),labs_agent
+task5_4,5,Rule-Based (registry-order tie-break),labs_agent
+task5_5,5,Rule-Based (registry-order tie-break),labs_agent
+task5_6,5,Rule-Based (registry-order tie-break),labs_agent
+task5_7,5,Rule-Based (registry-order tie-break),labs_agent
+task5_8,5,Rule-Based (registry-order tie-break),labs_agent
+task5_9,5,Rule-Based (registry-order tie-break),labs_agent
+task5_10,5,Rule-Based (registry-order tie-break),labs_agent
+task5_11,5,Rule-Based (registry-order tie-break),labs_agent
+task5_12,5,Rule-Based (registry-order tie-break),labs_agent
+task5_13,5,Rule-Based (registry-order tie-break),labs_agent
+task5_14,5,Rule-Based (registry-order tie-break),labs_agent
+task5_15,5,Rule-Based (registry-order tie-break),labs_agent
+task5_16,5,Rule-Based (registry-order tie-break),labs_agent
+task5_17,5,Rule-Based (registry-order tie-break),labs_agent
+task5_18,5,Rule-Based (registry-order tie-break),labs_agent
+task5_19,5,Rule-Based (registry-order tie-break),labs_agent
+task5_20,5,Rule-Based (registry-order tie-break),labs_agent
+task5_21,5,Rule-Based (registry-order tie-break),labs_agent
+task5_22,5,Rule-Based (registry-order tie-break),labs_agent
+task5_23,5,Rule-Based (registry-order tie-break),labs_agent
+task5_24,5,Rule-Based (registry-order tie-break),labs_agent
+task5_25,5,Rule-Based (registry-order tie-break),labs_agent
+task5_26,5,Rule-Based (registry-order tie-break),labs_agent
+task5_27,5,Rule-Based (registry-order tie-break),labs_agent
+task5_28,5,Rule-Based (registry-order tie-break),labs_agent
+task5_29,5,Rule-Based (registry-order tie-break),labs_agent
+task5_30,5,Rule-Based (registry-order tie-break),labs_agent
+task6_1,6,Rule-Based (registry-order tie-break),patient_demographics_agent
+task6_2,6,Rule-Based (registry-order tie-break),patient_demographics_agent
+task6_3,6,Rule-Based (registry-order tie-break),patient_demographics_agent
+task6_4,6,Rule-Based (registry-order tie-break),patient_demographics_agent
+task6_5,6,Rule-Based (registry-order tie-break),patient_demographics_agent
+task6_6,6,Rule-Based (registry-order tie-break),patient_demographics_agent
+task6_7,6,Rule-Based (registry-order tie-break),patient_demographics_agent
+task6_8,6,Rule-Based (registry-order tie-break),patient_demographics_agent
+task6_9,6,Rule-Based (registry-order tie-break),patient_demographics_agent
+task6_10,6,Rule-Based (registry-order tie-break),patient_demographics_agent
+task6_11,6,Rule-Based (registry-order tie-break),patient_demographics_agent
+task6_12,6,Rule-Based (registry-order tie-break),patient_demographics_agent
+task6_13,6,Rule-Based (registry-order tie-break),patient_demographics_agent
+task6_14,6,Rule-Based (registry-order tie-break),patient_demographics_agent
+task6_15,6,Rule-Based (registry-order tie-break),patient_demographics_agent
+task6_16,6,Rule-Based (registry-order tie-break),patient_demographics_agent
+task6_17,6,Rule-Based (registry-order tie-break),patient_demographics_agent
+task6_18,6,Rule-Based (registry-order tie-break),patient_demographics_agent
+task6_19,6,Rule-Based (registry-order tie-break),patient_demographics_agent
+task6_20,6,Rule-Based (registry-order tie-break),patient_demographics_agent
+task6_21,6,Rule-Based (registry-order tie-break),patient_demographics_agent
+task6_22,6,Rule-Based (registry-order tie-break),patient_demographics_agent
+task6_23,6,Rule-Based (registry-order tie-break),patient_demographics_agent
+task6_24,6,Rule-Based (registry-order tie-break),patient_demographics_agent
+task6_25,6,Rule-Based (registry-order tie-break),patient_demographics_agent
+task6_26,6,Rule-Based (registry-order tie-break),patient_demographics_agent
+task6_27,6,Rule-Based (registry-order tie-break),patient_demographics_agent
+task6_28,6,Rule-Based (registry-order tie-break),patient_demographics_agent
+task6_29,6,Rule-Based (registry-order tie-break),patient_demographics_agent
+task6_30,6,Rule-Based (registry-order tie-break),patient_demographics_agent
+task7_1,7,Rule-Based (registry-order tie-break),labs_agent
+task7_2,7,Rule-Based (registry-order tie-break),labs_agent
+task7_3,7,Rule-Based (registry-order tie-break),labs_agent
+task7_4,7,Rule-Based (registry-order tie-break),labs_agent
+task7_5,7,Rule-Based (registry-order tie-break),labs_agent
+task7_6,7,Rule-Based (registry-order tie-break),labs_agent
+task7_7,7,Rule-Based (registry-order tie-break),labs_agent
+task7_8,7,Rule-Based (registry-order tie-break),labs_agent
+task7_9,7,Rule-Based (registry-order tie-break),labs_agent
+task7_10,7,Rule-Based (registry-order tie-break),labs_agent
+task7_11,7,Rule-Based (registry-order tie-break),labs_agent
+task7_12,7,Rule-Based (registry-order tie-break),labs_agent
+task7_13,7,Rule-Based (registry-order tie-break),labs_agent
+task7_14,7,Rule-Based (registry-order tie-break),labs_agent
+task7_15,7,Rule-Based (registry-order tie-break),labs_agent
+task7_16,7,Rule-Based (registry-order tie-break),labs_agent
+task7_17,7,Rule-Based (registry-order tie-break),labs_agent
+task7_18,7,Rule-Based (registry-order tie-break),labs_agent
+task7_19,7,Rule-Based (registry-order tie-break),labs_agent
+task7_20,7,Rule-Based (registry-order tie-break),labs_agent
+task7_21,7,Rule-Based (registry-order tie-break),labs_agent
+task7_22,7,Rule-Based (registry-order tie-break),labs_agent
+task7_23,7,Rule-Based (registry-order tie-break),labs_agent
+task7_24,7,Rule-Based (registry-order tie-break),labs_agent
+task7_25,7,Rule-Based (registry-order tie-break),labs_agent
+task7_26,7,Rule-Based (registry-order tie-break),labs_agent
+task7_27,7,Rule-Based (registry-order tie-break),labs_agent
+task7_28,7,Rule-Based (registry-order tie-break),labs_agent
+task7_29,7,Rule-Based (registry-order tie-break),labs_agent
+task7_30,7,Rule-Based (registry-order tie-break),labs_agent
+task8_1,8,Rule-Based (registry-order tie-break),procedure_agent_uncert
+task8_2,8,Rule-Based (registry-order tie-break),procedure_agent_uncert
+task8_3,8,Rule-Based (registry-order tie-break),procedure_agent_uncert
+task8_4,8,Rule-Based (registry-order tie-break),procedure_agent_uncert
+task8_5,8,Rule-Based (registry-order tie-break),procedure_agent_uncert
+task8_6,8,Rule-Based (registry-order tie-break),procedure_agent_uncert
+task8_7,8,Rule-Based (registry-order tie-break),procedure_agent_uncert
+task8_8,8,Rule-Based (registry-order tie-break),procedure_agent_uncert
+task8_9,8,Rule-Based (registry-order tie-break),procedure_agent_uncert
+task8_10,8,Rule-Based (registry-order tie-break),procedure_agent_uncert
+task8_11,8,Rule-Based (registry-order tie-break),procedure_agent_uncert
+task8_12,8,Rule-Based (registry-order tie-break),procedure_agent_uncert
+task8_13,8,Rule-Based (registry-order tie-break),procedure_agent_uncert
+task8_14,8,Rule-Based (registry-order tie-break),procedure_agent_uncert
+task8_15,8,Rule-Based (registry-order tie-break),procedure_agent_uncert
+task8_16,8,Rule-Based (registry-order tie-break),procedure_agent_uncert
+task8_17,8,Rule-Based (registry-order tie-break),procedure_agent_uncert
+task8_18,8,Rule-Based (registry-order tie-break),procedure_agent_uncert
+task8_19,8,Rule-Based (registry-order tie-break),procedure_agent_uncert
+task8_20,8,Rule-Based (registry-order tie-break),procedure_agent_uncert
+task8_21,8,Rule-Based (registry-order tie-break),procedure_agent_uncert
+task8_22,8,Rule-Based (registry-order tie-break),procedure_agent_uncert
+task8_23,8,Rule-Based (registry-order tie-break),procedure_agent_uncert
+task8_24,8,Rule-Based (registry-order tie-break),procedure_agent_uncert
+task8_25,8,Rule-Based (registry-order tie-break),procedure_agent_uncert
+task8_26,8,Rule-Based (registry-order tie-break),procedure_agent_uncert
+task8_27,8,Rule-Based (registry-order tie-break),procedure_agent_uncert
+task8_28,8,Rule-Based (registry-order tie-break),procedure_agent_uncert
+task8_29,8,Rule-Based (registry-order tie-break),procedure_agent_uncert
+task8_30,8,Rule-Based (registry-order tie-break),procedure_agent_uncert
+task9_1,9,Rule-Based (registry-order tie-break),labs_agent
+task9_2,9,Rule-Based (registry-order tie-break),labs_agent
+task9_3,9,Rule-Based (registry-order tie-break),labs_agent
+task9_4,9,Rule-Based (registry-order tie-break),labs_agent
+task9_5,9,Rule-Based (registry-order tie-break),labs_agent
+task9_6,9,Rule-Based (registry-order tie-break),labs_agent
+task9_7,9,Rule-Based (registry-order tie-break),labs_agent
+task9_8,9,Rule-Based (registry-order tie-break),labs_agent
+task9_9,9,Rule-Based (registry-order tie-break),labs_agent
+task9_10,9,Rule-Based (registry-order tie-break),labs_agent
+task9_11,9,Rule-Based (registry-order tie-break),labs_agent
+task9_12,9,Rule-Based (registry-order tie-break),labs_agent
+task9_13,9,Rule-Based (registry-order tie-break),labs_agent
+task9_14,9,Rule-Based (registry-order tie-break),labs_agent
+task9_15,9,Rule-Based (registry-order tie-break),labs_agent
+task9_16,9,Rule-Based (registry-order tie-break),labs_agent
+task9_17,9,Rule-Based (registry-order tie-break),labs_agent
+task9_18,9,Rule-Based (registry-order tie-break),labs_agent
+task9_19,9,Rule-Based (registry-order tie-break),labs_agent
+task9_20,9,Rule-Based (registry-order tie-break),labs_agent
+task9_21,9,Rule-Based (registry-order tie-break),labs_agent
+task9_22,9,Rule-Based (registry-order tie-break),labs_agent
+task9_23,9,Rule-Based (registry-order tie-break),labs_agent
+task9_24,9,Rule-Based (registry-order tie-break),labs_agent
+task9_25,9,Rule-Based (registry-order tie-break),labs_agent
+task9_26,9,Rule-Based (registry-order tie-break),labs_agent
+task9_27,9,Rule-Based (registry-order tie-break),labs_agent
+task9_28,9,Rule-Based (registry-order tie-break),labs_agent
+task9_29,9,Rule-Based (registry-order tie-break),labs_agent
+task9_30,9,Rule-Based (registry-order tie-break),labs_agent
+task10_1,10,Rule-Based (registry-order tie-break),labs_agent
+task10_2,10,Rule-Based (registry-order tie-break),labs_agent
+task10_3,10,Rule-Based (registry-order tie-break),labs_agent
+task10_4,10,Rule-Based (registry-order tie-break),labs_agent
+task10_5,10,Rule-Based (registry-order tie-break),labs_agent
+task10_6,10,Rule-Based (registry-order tie-break),labs_agent
+task10_7,10,Rule-Based (registry-order tie-break),labs_agent
+task10_8,10,Rule-Based (registry-order tie-break),labs_agent
+task10_9,10,Rule-Based (registry-order tie-break),labs_agent
+task10_10,10,Rule-Based (registry-order tie-break),labs_agent
+task10_11,10,Rule-Based (registry-order tie-break),labs_agent
+task10_12,10,Rule-Based (registry-order tie-break),labs_agent
+task10_13,10,Rule-Based (registry-order tie-break),labs_agent
+task10_14,10,Rule-Based (registry-order tie-break),labs_agent
+task10_15,10,Rule-Based (registry-order tie-break),labs_agent
+task10_16,10,Rule-Based (registry-order tie-break),labs_agent
+task10_17,10,Rule-Based (registry-order tie-break),labs_agent
+task10_18,10,Rule-Based (registry-order tie-break),labs_agent
+task10_19,10,Rule-Based (registry-order tie-break),labs_agent
+task10_20,10,Rule-Based (registry-order tie-break),labs_agent
+task10_21,10,Rule-Based (registry-order tie-break),labs_agent
+task10_22,10,Rule-Based (registry-order tie-break),labs_agent
+task10_23,10,Rule-Based (registry-order tie-break),labs_agent
+task10_24,10,Rule-Based (registry-order tie-break),labs_agent
+task10_25,10,Rule-Based (registry-order tie-break),labs_agent
+task10_26,10,Rule-Based (registry-order tie-break),labs_agent
+task10_27,10,Rule-Based (registry-order tie-break),labs_agent
+task10_28,10,Rule-Based (registry-order tie-break),labs_agent
+task10_29,10,Rule-Based (registry-order tie-break),labs_agent
+task10_30,10,Rule-Based (registry-order tie-break),labs_agent
+task1_1,1,Rule-Based (random tie-break),demographics_agent_uncert
+task1_2,1,Rule-Based (random tie-break),demographics_agent_uncert
+task1_3,1,Rule-Based (random tie-break),patient_demographics_agent
+task1_4,1,Rule-Based (random tie-break),demographics_agent_uncert
+task1_5,1,Rule-Based (random tie-break),demographics_agent_uncert
+task1_6,1,Rule-Based (random tie-break),demographics_agent_uncert
+task1_7,1,Rule-Based (random tie-break),demographics_agent_uncert
+task1_8,1,Rule-Based (random tie-break),demographics_agent_uncert
+task1_9,1,Rule-Based (random tie-break),patient_demographics_agent
+task1_10,1,Rule-Based (random tie-break),demographics_agent_uncert
+task1_11,1,Rule-Based (random tie-break),demographics_agent_uncert
+task1_12,1,Rule-Based (random tie-break),demographics_agent_uncert
+task1_13,1,Rule-Based (random tie-break),demographics_agent_uncert
+task1_14,1,Rule-Based (random tie-break),demographics_agent_uncert
+task1_15,1,Rule-Based (random tie-break),demographics_agent_uncert
+task1_16,1,Rule-Based (random tie-break),demographics_agent_uncert
+task1_17,1,Rule-Based (random tie-break),patient_demographics_agent
+task1_18,1,Rule-Based (random tie-break),demographics_agent_uncert
+task1_19,1,Rule-Based (random tie-break),patient_demographics_agent
+task1_20,1,Rule-Based (random tie-break),patient_demographics_agent
+task1_21,1,Rule-Based (random tie-break),demographics_agent_uncert
+task1_22,1,Rule-Based (random tie-break),demographics_agent_uncert
+task1_23,1,Rule-Based (random tie-break),patient_demographics_agent
+task1_24,1,Rule-Based (random tie-break),patient_demographics_agent
+task1_25,1,Rule-Based (random tie-break),patient_demographics_agent
+task1_26,1,Rule-Based (random tie-break),demographics_agent_uncert
+task1_27,1,Rule-Based (random tie-break),demographics_agent_uncert
+task1_28,1,Rule-Based (random tie-break),patient_demographics_agent
+task1_29,1,Rule-Based (random tie-break),demographics_agent_uncert
+task1_30,1,Rule-Based (random tie-break),demographics_agent_uncert
+task2_1,2,Rule-Based (random tie-break),patient_demographics_agent
+task2_2,2,Rule-Based (random tie-break),demographics_agent_uncert
+task2_3,2,Rule-Based (random tie-break),patient_demographics_agent
+task2_4,2,Rule-Based (random tie-break),patient_demographics_agent
+task2_5,2,Rule-Based (random tie-break),patient_demographics_agent
+task2_6,2,Rule-Based (random tie-break),demographics_agent_uncert
+task2_7,2,Rule-Based (random tie-break),patient_demographics_agent
+task2_8,2,Rule-Based (random tie-break),demographics_agent_uncert
+task2_9,2,Rule-Based (random tie-break),patient_demographics_agent
+task2_10,2,Rule-Based (random tie-break),demographics_agent_uncert
+task2_11,2,Rule-Based (random tie-break),patient_demographics_agent
+task2_12,2,Rule-Based (random tie-break),patient_demographics_agent
+task2_13,2,Rule-Based (random tie-break),demographics_agent_uncert
+task2_14,2,Rule-Based (random tie-break),demographics_agent_uncert
+task2_15,2,Rule-Based (random tie-break),demographics_agent_uncert
+task2_16,2,Rule-Based (random tie-break),demographics_agent_uncert
+task2_17,2,Rule-Based (random tie-break),patient_demographics_agent
+task2_18,2,Rule-Based (random tie-break),demographics_agent_uncert
+task2_19,2,Rule-Based (random tie-break),demographics_agent_uncert
+task2_20,2,Rule-Based (random tie-break),demographics_agent_uncert
+task2_21,2,Rule-Based (random tie-break),patient_demographics_agent
+task2_22,2,Rule-Based (random tie-break),patient_demographics_agent
+task2_23,2,Rule-Based (random tie-break),patient_demographics_agent
+task2_24,2,Rule-Based (random tie-break),patient_demographics_agent
+task2_25,2,Rule-Based (random tie-break),demographics_agent_uncert
+task2_26,2,Rule-Based (random tie-break),patient_demographics_agent
+task2_27,2,Rule-Based (random tie-break),patient_demographics_agent
+task2_28,2,Rule-Based (random tie-break),demographics_agent_uncert
+task2_29,2,Rule-Based (random tie-break),patient_demographics_agent
+task2_30,2,Rule-Based (random tie-break),demographics_agent_uncert
+task3_1,3,Rule-Based (random tie-break),vitals_agent
+task3_2,3,Rule-Based (random tie-break),vitals_agent
+task3_3,3,Rule-Based (random tie-break),vitals_agent
+task3_4,3,Rule-Based (random tie-break),vitals_agent_uncert
+task3_5,3,Rule-Based (random tie-break),vitals_agent_uncert
+task3_6,3,Rule-Based (random tie-break),vitals_agent_uncert
+task3_7,3,Rule-Based (random tie-break),vitals_agent
+task3_8,3,Rule-Based (random tie-break),vitals_agent_uncert
+task3_9,3,Rule-Based (random tie-break),vitals_agent
+task3_10,3,Rule-Based (random tie-break),vitals_agent
+task3_11,3,Rule-Based (random tie-break),vitals_agent
+task3_12,3,Rule-Based (random tie-break),vitals_agent_uncert
+task3_13,3,Rule-Based (random tie-break),vitals_agent_uncert
+task3_14,3,Rule-Based (random tie-break),vitals_agent_uncert
+task3_15,3,Rule-Based (random tie-break),vitals_agent
+task3_16,3,Rule-Based (random tie-break),vitals_agent
+task3_17,3,Rule-Based (random tie-break),vitals_agent_uncert
+task3_18,3,Rule-Based (random tie-break),vitals_agent
+task3_19,3,Rule-Based (random tie-break),vitals_agent_uncert
+task3_20,3,Rule-Based (random tie-break),vitals_agent_uncert
+task3_21,3,Rule-Based (random tie-break),vitals_agent_uncert
+task3_22,3,Rule-Based (random tie-break),vitals_agent
+task3_23,3,Rule-Based (random tie-break),vitals_agent_uncert
+task3_24,3,Rule-Based (random tie-break),vitals_agent
+task3_25,3,Rule-Based (random tie-break),vitals_agent
+task3_26,3,Rule-Based (random tie-break),vitals_agent_uncert
+task3_27,3,Rule-Based (random tie-break),vitals_agent_uncert
+task3_28,3,Rule-Based (random tie-break),vitals_agent_uncert
+task3_29,3,Rule-Based (random tie-break),vitals_agent_uncert
+task3_30,3,Rule-Based (random tie-break),vitals_agent
+task4_1,4,Rule-Based (random tie-break),labs_agent
+task4_2,4,Rule-Based (random tie-break),labs_agent_lowclear
+task4_3,4,Rule-Based (random tie-break),labs_agent
+task4_4,4,Rule-Based (random tie-break),labs_agent
+task4_5,4,Rule-Based (random tie-break),labs_agent
+task4_6,4,Rule-Based (random tie-break),labs_agent
+task4_7,4,Rule-Based (random tie-break),labs_agent
+task4_8,4,Rule-Based (random tie-break),labs_agent_lowclear
+task4_9,4,Rule-Based (random tie-break),labs_agent
+task4_10,4,Rule-Based (random tie-break),labs_agent_lowclear
+task4_11,4,Rule-Based (random tie-break),labs_agent_lowclear
+task4_12,4,Rule-Based (random tie-break),labs_agent_lowclear
+task4_13,4,Rule-Based (random tie-break),labs_agent_lowclear
+task4_14,4,Rule-Based (random tie-break),labs_agent
+task4_15,4,Rule-Based (random tie-break),labs_agent
+task4_16,4,Rule-Based (random tie-break),labs_agent_lowclear
+task4_17,4,Rule-Based (random tie-break),labs_agent_lowclear
+task4_18,4,Rule-Based (random tie-break),labs_agent
+task4_19,4,Rule-Based (random tie-break),labs_agent_lowclear
+task4_20,4,Rule-Based (random tie-break),labs_agent_lowclear
+task4_21,4,Rule-Based (random tie-break),labs_agent
+task4_22,4,Rule-Based (random tie-break),labs_agent_lowclear
+task4_23,4,Rule-Based (random tie-break),labs_agent
+task4_24,4,Rule-Based (random tie-break),labs_agent_lowclear
+task4_25,4,Rule-Based (random tie-break),labs_agent
+task4_26,4,Rule-Based (random tie-break),labs_agent
+task4_27,4,Rule-Based (random tie-break),labs_agent_lowclear
+task4_28,4,Rule-Based (random tie-break),labs_agent
+task4_29,4,Rule-Based (random tie-break),labs_agent
+task4_30,4,Rule-Based (random tie-break),labs_agent_lowclear
+task5_1,5,Rule-Based (random tie-break),labs_agent
+task5_2,5,Rule-Based (random tie-break),labs_agent
+task5_3,5,Rule-Based (random tie-break),labs_agent_lowclear
+task5_4,5,Rule-Based (random tie-break),labs_agent_lowclear
+task5_5,5,Rule-Based (random tie-break),labs_agent
+task5_6,5,Rule-Based (random tie-break),labs_agent
+task5_7,5,Rule-Based (random tie-break),labs_agent_lowclear
+task5_8,5,Rule-Based (random tie-break),labs_agent_lowclear
+task5_9,5,Rule-Based (random tie-break),labs_agent
+task5_10,5,Rule-Based (random tie-break),labs_agent
+task5_11,5,Rule-Based (random tie-break),labs_agent
+task5_12,5,Rule-Based (random tie-break),labs_agent
+task5_13,5,Rule-Based (random tie-break),labs_agent
+task5_14,5,Rule-Based (random tie-break),labs_agent_lowclear
+task5_15,5,Rule-Based (random tie-break),labs_agent
+task5_16,5,Rule-Based (random tie-break),labs_agent
+task5_17,5,Rule-Based (random tie-break),labs_agent
+task5_18,5,Rule-Based (random tie-break),labs_agent_lowclear
+task5_19,5,Rule-Based (random tie-break),labs_agent
+task5_20,5,Rule-Based (random tie-break),labs_agent_lowclear
+task5_21,5,Rule-Based (random tie-break),labs_agent_lowclear
+task5_22,5,Rule-Based (random tie-break),labs_agent
+task5_23,5,Rule-Based (random tie-break),labs_agent
+task5_24,5,Rule-Based (random tie-break),labs_agent_lowclear
+task5_25,5,Rule-Based (random tie-break),labs_agent_lowclear
+task5_26,5,Rule-Based (random tie-break),labs_agent_lowclear
+task5_27,5,Rule-Based (random tie-break),labs_agent_lowclear
+task5_28,5,Rule-Based (random tie-break),labs_agent_lowclear
+task5_29,5,Rule-Based (random tie-break),labs_agent
+task5_30,5,Rule-Based (random tie-break),labs_agent
+task6_1,6,Rule-Based (random tie-break),demographics_agent_uncert
+task6_2,6,Rule-Based (random tie-break),demographics_agent_uncert
+task6_3,6,Rule-Based (random tie-break),patient_demographics_agent
+task6_4,6,Rule-Based (random tie-break),demographics_agent_uncert
+task6_5,6,Rule-Based (random tie-break),demographics_agent_uncert
+task6_6,6,Rule-Based (random tie-break),demographics_agent_uncert
+task6_7,6,Rule-Based (random tie-break),demographics_agent_uncert
+task6_8,6,Rule-Based (random tie-break),demographics_agent_uncert
+task6_9,6,Rule-Based (random tie-break),demographics_agent_uncert
+task6_10,6,Rule-Based (random tie-break),demographics_agent_uncert
+task6_11,6,Rule-Based (random tie-break),demographics_agent_uncert
+task6_12,6,Rule-Based (random tie-break),demographics_agent_uncert
+task6_13,6,Rule-Based (random tie-break),patient_demographics_agent
+task6_14,6,Rule-Based (random tie-break),demographics_agent_uncert
+task6_15,6,Rule-Based (random tie-break),demographics_agent_uncert
+task6_16,6,Rule-Based (random tie-break),patient_demographics_agent
+task6_17,6,Rule-Based (random tie-break),patient_demographics_agent
+task6_18,6,Rule-Based (random tie-break),demographics_agent_uncert
+task6_19,6,Rule-Based (random tie-break),demographics_agent_uncert
+task6_20,6,Rule-Based (random tie-break),patient_demographics_agent
+task6_21,6,Rule-Based (random tie-break),demographics_agent_uncert
+task6_22,6,Rule-Based (random tie-break),patient_demographics_agent
+task6_23,6,Rule-Based (random tie-break),patient_demographics_agent
+task6_24,6,Rule-Based (random tie-break),demographics_agent_uncert
+task6_25,6,Rule-Based (random tie-break),demographics_agent_uncert
+task6_26,6,Rule-Based (random tie-break),demographics_agent_uncert
+task6_27,6,Rule-Based (random tie-break),patient_demographics_agent
+task6_28,6,Rule-Based (random tie-break),patient_demographics_agent
+task6_29,6,Rule-Based (random tie-break),patient_demographics_agent
+task6_30,6,Rule-Based (random tie-break),patient_demographics_agent
+task7_1,7,Rule-Based (random tie-break),labs_agent_lowclear
+task7_2,7,Rule-Based (random tie-break),labs_agent
+task7_3,7,Rule-Based (random tie-break),labs_agent
+task7_4,7,Rule-Based (random tie-break),labs_agent
+task7_5,7,Rule-Based (random tie-break),labs_agent_lowclear
+task7_6,7,Rule-Based (random tie-break),labs_agent_lowclear
+task7_7,7,Rule-Based (random tie-break),labs_agent
+task7_8,7,Rule-Based (random tie-break),labs_agent
+task7_9,7,Rule-Based (random tie-break),labs_agent
+task7_10,7,Rule-Based (random tie-break),labs_agent
+task7_11,7,Rule-Based (random tie-break),labs_agent_lowclear
+task7_12,7,Rule-Based (random tie-break),labs_agent
+task7_13,7,Rule-Based (random tie-break),labs_agent_lowclear
+task7_14,7,Rule-Based (random tie-break),labs_agent
+task7_15,7,Rule-Based (random tie-break),labs_agent_lowclear
+task7_16,7,Rule-Based (random tie-break),labs_agent_lowclear
+task7_17,7,Rule-Based (random tie-break),labs_agent
+task7_18,7,Rule-Based (random tie-break),labs_agent
+task7_19,7,Rule-Based (random tie-break),labs_agent_lowclear
+task7_20,7,Rule-Based (random tie-break),labs_agent
+task7_21,7,Rule-Based (random tie-break),labs_agent
+task7_22,7,Rule-Based (random tie-break),labs_agent
+task7_23,7,Rule-Based (random tie-break),labs_agent
+task7_24,7,Rule-Based (random tie-break),labs_agent
+task7_25,7,Rule-Based (random tie-break),labs_agent
+task7_26,7,Rule-Based (random tie-break),labs_agent_lowclear
+task7_27,7,Rule-Based (random tie-break),labs_agent_lowclear
+task7_28,7,Rule-Based (random tie-break),labs_agent_lowclear
+task7_29,7,Rule-Based (random tie-break),labs_agent
+task7_30,7,Rule-Based (random tie-break),labs_agent_lowclear
+task8_1,8,Rule-Based (random tie-break),procedure_agent_uncert
+task8_2,8,Rule-Based (random tie-break),procedure_agent_uncert
+task8_3,8,Rule-Based (random tie-break),procedure_agent_uncert
+task8_4,8,Rule-Based (random tie-break),procedure_agent_uncert
+task8_5,8,Rule-Based (random tie-break),procedure_agent_uncert
+task8_6,8,Rule-Based (random tie-break),procedure_agent_uncert
+task8_7,8,Rule-Based (random tie-break),procedure_agent_uncert
+task8_8,8,Rule-Based (random tie-break),procedure_agent_uncert
+task8_9,8,Rule-Based (random tie-break),procedure_agent_uncert
+task8_10,8,Rule-Based (random tie-break),procedure_agent_uncert
+task8_11,8,Rule-Based (random tie-break),procedure_agent_uncert
+task8_12,8,Rule-Based (random tie-break),procedure_agent_uncert
+task8_13,8,Rule-Based (random tie-break),procedure_agent_uncert
+task8_14,8,Rule-Based (random tie-break),procedure_agent_uncert
+task8_15,8,Rule-Based (random tie-break),procedure_agent_uncert
+task8_16,8,Rule-Based (random tie-break),procedure_agent_uncert
+task8_17,8,Rule-Based (random tie-break),procedure_agent_uncert
+task8_18,8,Rule-Based (random tie-break),procedure_agent_uncert
+task8_19,8,Rule-Based (random tie-break),procedure_agent_uncert
+task8_20,8,Rule-Based (random tie-break),procedure_agent_uncert
+task8_21,8,Rule-Based (random tie-break),procedure_agent_uncert
+task8_22,8,Rule-Based (random tie-break),procedure_agent_uncert
+task8_23,8,Rule-Based (random tie-break),procedure_agent_uncert
+task8_24,8,Rule-Based (random tie-break),procedure_agent_uncert
+task8_25,8,Rule-Based (random tie-break),procedure_agent_uncert
+task8_26,8,Rule-Based (random tie-break),procedure_agent_uncert
+task8_27,8,Rule-Based (random tie-break),procedure_agent_uncert
+task8_28,8,Rule-Based (random tie-break),procedure_agent_uncert
+task8_29,8,Rule-Based (random tie-break),procedure_agent_uncert
+task8_30,8,Rule-Based (random tie-break),procedure_agent_uncert
+task9_1,9,Rule-Based (random tie-break),labs_agent
+task9_2,9,Rule-Based (random tie-break),labs_agent
+task9_3,9,Rule-Based (random tie-break),labs_agent_lowclear
+task9_4,9,Rule-Based (random tie-break),labs_agent_lowclear
+task9_5,9,Rule-Based (random tie-break),labs_agent_lowclear
+task9_6,9,Rule-Based (random tie-break),labs_agent
+task9_7,9,Rule-Based (random tie-break),labs_agent_lowclear
+task9_8,9,Rule-Based (random tie-break),labs_agent
+task9_9,9,Rule-Based (random tie-break),labs_agent_lowclear
+task9_10,9,Rule-Based (random tie-break),labs_agent_lowclear
+task9_11,9,Rule-Based (random tie-break),labs_agent
+task9_12,9,Rule-Based (random tie-break),labs_agent_lowclear
+task9_13,9,Rule-Based (random tie-break),labs_agent_lowclear
+task9_14,9,Rule-Based (random tie-break),labs_agent_lowclear
+task9_15,9,Rule-Based (random tie-break),labs_agent
+task9_16,9,Rule-Based (random tie-break),labs_agent
+task9_17,9,Rule-Based (random tie-break),labs_agent_lowclear
+task9_18,9,Rule-Based (random tie-break),labs_agent
+task9_19,9,Rule-Based (random tie-break),labs_agent
+task9_20,9,Rule-Based (random tie-break),labs_agent
+task9_21,9,Rule-Based (random tie-break),labs_agent_lowclear
+task9_22,9,Rule-Based (random tie-break),labs_agent
+task9_23,9,Rule-Based (random tie-break),labs_agent_lowclear
+task9_24,9,Rule-Based (random tie-break),labs_agent
+task9_25,9,Rule-Based (random tie-break),labs_agent
+task9_26,9,Rule-Based (random tie-break),labs_agent_lowclear
+task9_27,9,Rule-Based (random tie-break),labs_agent_lowclear
+task9_28,9,Rule-Based (random tie-break),labs_agent
+task9_29,9,Rule-Based (random tie-break),labs_agent_lowclear
+task9_30,9,Rule-Based (random tie-break),labs_agent_lowclear
+task10_1,10,Rule-Based (random tie-break),labs_agent
+task10_2,10,Rule-Based (random tie-break),labs_agent_lowclear
+task10_3,10,Rule-Based (random tie-break),labs_agent
+task10_4,10,Rule-Based (random tie-break),labs_agent
+task10_5,10,Rule-Based (random tie-break),labs_agent_lowclear
+task10_6,10,Rule-Based (random tie-break),labs_agent
+task10_7,10,Rule-Based (random tie-break),labs_agent
+task10_8,10,Rule-Based (random tie-break),labs_agent
+task10_9,10,Rule-Based (random tie-break),labs_agent_lowclear
+task10_10,10,Rule-Based (random tie-break),labs_agent_lowclear
+task10_11,10,Rule-Based (random tie-break),labs_agent
+task10_12,10,Rule-Based (random tie-break),labs_agent_lowclear
+task10_13,10,Rule-Based (random tie-break),labs_agent
+task10_14,10,Rule-Based (random tie-break),labs_agent_lowclear
+task10_15,10,Rule-Based (random tie-break),labs_agent_lowclear
+task10_16,10,Rule-Based (random tie-break),labs_agent_lowclear
+task10_17,10,Rule-Based (random tie-break),labs_agent
+task10_18,10,Rule-Based (random tie-break),labs_agent
+task10_19,10,Rule-Based (random tie-break),labs_agent_lowclear
+task10_20,10,Rule-Based (random tie-break),labs_agent_lowclear
+task10_21,10,Rule-Based (random tie-break),labs_agent
+task10_22,10,Rule-Based (random tie-break),labs_agent
+task10_23,10,Rule-Based (random tie-break),labs_agent_lowclear
+task10_24,10,Rule-Based (random tie-break),labs_agent
+task10_25,10,Rule-Based (random tie-break),labs_agent_lowclear
+task10_26,10,Rule-Based (random tie-break),labs_agent
+task10_27,10,Rule-Based (random tie-break),labs_agent_lowclear
+task10_28,10,Rule-Based (random tie-break),labs_agent_lowclear
+task10_29,10,Rule-Based (random tie-break),labs_agent
+task10_30,10,Rule-Based (random tie-break),labs_agent
+task1_1,1,Rule-Based + OPA gate,patient_demographics_agent
+task1_2,1,Rule-Based + OPA gate,patient_demographics_agent
+task1_3,1,Rule-Based + OPA gate,patient_demographics_agent
+task1_4,1,Rule-Based + OPA gate,patient_demographics_agent
+task1_5,1,Rule-Based + OPA gate,patient_demographics_agent
+task1_6,1,Rule-Based + OPA gate,patient_demographics_agent
+task1_7,1,Rule-Based + OPA gate,patient_demographics_agent
+task1_8,1,Rule-Based + OPA gate,patient_demographics_agent
+task1_9,1,Rule-Based + OPA gate,patient_demographics_agent
+task1_10,1,Rule-Based + OPA gate,patient_demographics_agent
+task1_11,1,Rule-Based + OPA gate,patient_demographics_agent
+task1_12,1,Rule-Based + OPA gate,patient_demographics_agent
+task1_13,1,Rule-Based + OPA gate,patient_demographics_agent
+task1_14,1,Rule-Based + OPA gate,patient_demographics_agent
+task1_15,1,Rule-Based + OPA gate,patient_demographics_agent
+task1_16,1,Rule-Based + OPA gate,patient_demographics_agent
+task1_17,1,Rule-Based + OPA gate,patient_demographics_agent
+task1_18,1,Rule-Based + OPA gate,patient_demographics_agent
+task1_19,1,Rule-Based + OPA gate,patient_demographics_agent
+task1_20,1,Rule-Based + OPA gate,patient_demographics_agent
+task1_21,1,Rule-Based + OPA gate,patient_demographics_agent
+task1_22,1,Rule-Based + OPA gate,patient_demographics_agent
+task1_23,1,Rule-Based + OPA gate,patient_demographics_agent
+task1_24,1,Rule-Based + OPA gate,patient_demographics_agent
+task1_25,1,Rule-Based + OPA gate,patient_demographics_agent
+task1_26,1,Rule-Based + OPA gate,patient_demographics_agent
+task1_27,1,Rule-Based + OPA gate,patient_demographics_agent
+task1_28,1,Rule-Based + OPA gate,patient_demographics_agent
+task1_29,1,Rule-Based + OPA gate,patient_demographics_agent
+task1_30,1,Rule-Based + OPA gate,patient_demographics_agent
+task2_1,2,Rule-Based + OPA gate,patient_demographics_agent
+task2_2,2,Rule-Based + OPA gate,patient_demographics_agent
+task2_3,2,Rule-Based + OPA gate,patient_demographics_agent
+task2_4,2,Rule-Based + OPA gate,patient_demographics_agent
+task2_5,2,Rule-Based + OPA gate,patient_demographics_agent
+task2_6,2,Rule-Based + OPA gate,patient_demographics_agent
+task2_7,2,Rule-Based + OPA gate,patient_demographics_agent
+task2_8,2,Rule-Based + OPA gate,patient_demographics_agent
+task2_9,2,Rule-Based + OPA gate,patient_demographics_agent
+task2_10,2,Rule-Based + OPA gate,patient_demographics_agent
+task2_11,2,Rule-Based + OPA gate,patient_demographics_agent
+task2_12,2,Rule-Based + OPA gate,patient_demographics_agent
+task2_13,2,Rule-Based + OPA gate,patient_demographics_agent
+task2_14,2,Rule-Based + OPA gate,patient_demographics_agent
+task2_15,2,Rule-Based + OPA gate,patient_demographics_agent
+task2_16,2,Rule-Based + OPA gate,patient_demographics_agent
+task2_17,2,Rule-Based + OPA gate,patient_demographics_agent
+task2_18,2,Rule-Based + OPA gate,patient_demographics_agent
+task2_19,2,Rule-Based + OPA gate,patient_demographics_agent
+task2_20,2,Rule-Based + OPA gate,patient_demographics_agent
+task2_21,2,Rule-Based + OPA gate,patient_demographics_agent
+task2_22,2,Rule-Based + OPA gate,patient_demographics_agent
+task2_23,2,Rule-Based + OPA gate,patient_demographics_agent
+task2_24,2,Rule-Based + OPA gate,patient_demographics_agent
+task2_25,2,Rule-Based + OPA gate,patient_demographics_agent
+task2_26,2,Rule-Based + OPA gate,patient_demographics_agent
+task2_27,2,Rule-Based + OPA gate,patient_demographics_agent
+task2_28,2,Rule-Based + OPA gate,patient_demographics_agent
+task2_29,2,Rule-Based + OPA gate,patient_demographics_agent
+task2_30,2,Rule-Based + OPA gate,patient_demographics_agent
+task3_1,3,Rule-Based + OPA gate,vitals_agent
+task3_2,3,Rule-Based + OPA gate,vitals_agent
+task3_3,3,Rule-Based + OPA gate,vitals_agent
+task3_4,3,Rule-Based + OPA gate,vitals_agent
+task3_5,3,Rule-Based + OPA gate,vitals_agent
+task3_6,3,Rule-Based + OPA gate,vitals_agent
+task3_7,3,Rule-Based + OPA gate,vitals_agent
+task3_8,3,Rule-Based + OPA gate,vitals_agent
+task3_9,3,Rule-Based + OPA gate,vitals_agent
+task3_10,3,Rule-Based + OPA gate,vitals_agent
+task3_11,3,Rule-Based + OPA gate,vitals_agent
+task3_12,3,Rule-Based + OPA gate,vitals_agent
+task3_13,3,Rule-Based + OPA gate,vitals_agent
+task3_14,3,Rule-Based + OPA gate,vitals_agent
+task3_15,3,Rule-Based + OPA gate,vitals_agent
+task3_16,3,Rule-Based + OPA gate,vitals_agent
+task3_17,3,Rule-Based + OPA gate,vitals_agent
+task3_18,3,Rule-Based + OPA gate,vitals_agent
+task3_19,3,Rule-Based + OPA gate,vitals_agent
+task3_20,3,Rule-Based + OPA gate,vitals_agent
+task3_21,3,Rule-Based + OPA gate,vitals_agent
+task3_22,3,Rule-Based + OPA gate,vitals_agent
+task3_23,3,Rule-Based + OPA gate,vitals_agent
+task3_24,3,Rule-Based + OPA gate,vitals_agent
+task3_25,3,Rule-Based + OPA gate,vitals_agent
+task3_26,3,Rule-Based + OPA gate,vitals_agent
+task3_27,3,Rule-Based + OPA gate,vitals_agent
+task3_28,3,Rule-Based + OPA gate,vitals_agent
+task3_29,3,Rule-Based + OPA gate,vitals_agent
+task3_30,3,Rule-Based + OPA gate,vitals_agent
+task4_1,4,Rule-Based + OPA gate,labs_agent
+task4_2,4,Rule-Based + OPA gate,labs_agent
+task4_3,4,Rule-Based + OPA gate,labs_agent
+task4_4,4,Rule-Based + OPA gate,labs_agent
+task4_5,4,Rule-Based + OPA gate,labs_agent
+task4_6,4,Rule-Based + OPA gate,labs_agent
+task4_7,4,Rule-Based + OPA gate,labs_agent
+task4_8,4,Rule-Based + OPA gate,labs_agent
+task4_9,4,Rule-Based + OPA gate,labs_agent
+task4_10,4,Rule-Based + OPA gate,labs_agent
+task4_11,4,Rule-Based + OPA gate,labs_agent
+task4_12,4,Rule-Based + OPA gate,labs_agent
+task4_13,4,Rule-Based + OPA gate,labs_agent
+task4_14,4,Rule-Based + OPA gate,labs_agent
+task4_15,4,Rule-Based + OPA gate,labs_agent
+task4_16,4,Rule-Based + OPA gate,labs_agent
+task4_17,4,Rule-Based + OPA gate,labs_agent
+task4_18,4,Rule-Based + OPA gate,labs_agent
+task4_19,4,Rule-Based + OPA gate,labs_agent
+task4_20,4,Rule-Based + OPA gate,labs_agent
+task4_21,4,Rule-Based + OPA gate,labs_agent
+task4_22,4,Rule-Based + OPA gate,labs_agent
+task4_23,4,Rule-Based + OPA gate,labs_agent
+task4_24,4,Rule-Based + OPA gate,labs_agent
+task4_25,4,Rule-Based + OPA gate,labs_agent
+task4_26,4,Rule-Based + OPA gate,labs_agent
+task4_27,4,Rule-Based + OPA gate,labs_agent
+task4_28,4,Rule-Based + OPA gate,labs_agent
+task4_29,4,Rule-Based + OPA gate,labs_agent
+task4_30,4,Rule-Based + OPA gate,labs_agent
+task5_1,5,Rule-Based + OPA gate,labs_agent
+task5_2,5,Rule-Based + OPA gate,labs_agent
+task5_3,5,Rule-Based + OPA gate,labs_agent
+task5_4,5,Rule-Based + OPA gate,labs_agent
+task5_5,5,Rule-Based + OPA gate,labs_agent
+task5_6,5,Rule-Based + OPA gate,labs_agent
+task5_7,5,Rule-Based + OPA gate,labs_agent
+task5_8,5,Rule-Based + OPA gate,labs_agent
+task5_9,5,Rule-Based + OPA gate,labs_agent
+task5_10,5,Rule-Based + OPA gate,labs_agent
+task5_11,5,Rule-Based + OPA gate,labs_agent
+task5_12,5,Rule-Based + OPA gate,labs_agent
+task5_13,5,Rule-Based + OPA gate,labs_agent
+task5_14,5,Rule-Based + OPA gate,labs_agent
+task5_15,5,Rule-Based + OPA gate,labs_agent
+task5_16,5,Rule-Based + OPA gate,labs_agent
+task5_17,5,Rule-Based + OPA gate,labs_agent
+task5_18,5,Rule-Based + OPA gate,labs_agent
+task5_19,5,Rule-Based + OPA gate,labs_agent
+task5_20,5,Rule-Based + OPA gate,labs_agent
+task5_21,5,Rule-Based + OPA gate,labs_agent
+task5_22,5,Rule-Based + OPA gate,labs_agent
+task5_23,5,Rule-Based + OPA gate,labs_agent
+task5_24,5,Rule-Based + OPA gate,labs_agent
+task5_25,5,Rule-Based + OPA gate,labs_agent
+task5_26,5,Rule-Based + OPA gate,labs_agent
+task5_27,5,Rule-Based + OPA gate,labs_agent
+task5_28,5,Rule-Based + OPA gate,labs_agent
+task5_29,5,Rule-Based + OPA gate,labs_agent
+task5_30,5,Rule-Based + OPA gate,labs_agent
+task6_1,6,Rule-Based + OPA gate,__deny__
+task6_2,6,Rule-Based + OPA gate,__deny__
+task6_3,6,Rule-Based + OPA gate,__deny__
+task6_4,6,Rule-Based + OPA gate,__deny__
+task6_5,6,Rule-Based + OPA gate,__deny__
+task6_6,6,Rule-Based + OPA gate,__deny__
+task6_7,6,Rule-Based + OPA gate,__deny__
+task6_8,6,Rule-Based + OPA gate,__deny__
+task6_9,6,Rule-Based + OPA gate,__deny__
+task6_10,6,Rule-Based + OPA gate,__deny__
+task6_11,6,Rule-Based + OPA gate,__deny__
+task6_12,6,Rule-Based + OPA gate,__deny__
+task6_13,6,Rule-Based + OPA gate,__deny__
+task6_14,6,Rule-Based + OPA gate,__deny__
+task6_15,6,Rule-Based + OPA gate,__deny__
+task6_16,6,Rule-Based + OPA gate,__deny__
+task6_17,6,Rule-Based + OPA gate,__deny__
+task6_18,6,Rule-Based + OPA gate,__deny__
+task6_19,6,Rule-Based + OPA gate,__deny__
+task6_20,6,Rule-Based + OPA gate,__deny__
+task6_21,6,Rule-Based + OPA gate,__deny__
+task6_22,6,Rule-Based + OPA gate,__deny__
+task6_23,6,Rule-Based + OPA gate,__deny__
+task6_24,6,Rule-Based + OPA gate,__deny__
+task6_25,6,Rule-Based + OPA gate,__deny__
+task6_26,6,Rule-Based + OPA gate,__deny__
+task6_27,6,Rule-Based + OPA gate,__deny__
+task6_28,6,Rule-Based + OPA gate,__deny__
+task6_29,6,Rule-Based + OPA gate,__deny__
+task6_30,6,Rule-Based + OPA gate,__deny__
+task7_1,7,Rule-Based + OPA gate,labs_agent
+task7_2,7,Rule-Based + OPA gate,labs_agent
+task7_3,7,Rule-Based + OPA gate,labs_agent
+task7_4,7,Rule-Based + OPA gate,labs_agent
+task7_5,7,Rule-Based + OPA gate,labs_agent
+task7_6,7,Rule-Based + OPA gate,labs_agent
+task7_7,7,Rule-Based + OPA gate,labs_agent
+task7_8,7,Rule-Based + OPA gate,labs_agent
+task7_9,7,Rule-Based + OPA gate,labs_agent
+task7_10,7,Rule-Based + OPA gate,labs_agent
+task7_11,7,Rule-Based + OPA gate,labs_agent
+task7_12,7,Rule-Based + OPA gate,labs_agent
+task7_13,7,Rule-Based + OPA gate,labs_agent
+task7_14,7,Rule-Based + OPA gate,labs_agent
+task7_15,7,Rule-Based + OPA gate,labs_agent
+task7_16,7,Rule-Based + OPA gate,labs_agent
+task7_17,7,Rule-Based + OPA gate,labs_agent
+task7_18,7,Rule-Based + OPA gate,labs_agent
+task7_19,7,Rule-Based + OPA gate,labs_agent
+task7_20,7,Rule-Based + OPA gate,labs_agent
+task7_21,7,Rule-Based + OPA gate,labs_agent
+task7_22,7,Rule-Based + OPA gate,labs_agent
+task7_23,7,Rule-Based + OPA gate,labs_agent
+task7_24,7,Rule-Based + OPA gate,labs_agent
+task7_25,7,Rule-Based + OPA gate,labs_agent
+task7_26,7,Rule-Based + OPA gate,labs_agent
+task7_27,7,Rule-Based + OPA gate,labs_agent
+task7_28,7,Rule-Based + OPA gate,labs_agent
+task7_29,7,Rule-Based + OPA gate,labs_agent
+task7_30,7,Rule-Based + OPA gate,labs_agent
+task8_1,8,Rule-Based + OPA gate,__deny__
+task8_2,8,Rule-Based + OPA gate,__deny__
+task8_3,8,Rule-Based + OPA gate,__deny__
+task8_4,8,Rule-Based + OPA gate,__deny__
+task8_5,8,Rule-Based + OPA gate,__deny__
+task8_6,8,Rule-Based + OPA gate,__deny__
+task8_7,8,Rule-Based + OPA gate,__deny__
+task8_8,8,Rule-Based + OPA gate,__deny__
+task8_9,8,Rule-Based + OPA gate,__deny__
+task8_10,8,Rule-Based + OPA gate,__deny__
+task8_11,8,Rule-Based + OPA gate,__deny__
+task8_12,8,Rule-Based + OPA gate,__deny__
+task8_13,8,Rule-Based + OPA gate,__deny__
+task8_14,8,Rule-Based + OPA gate,__deny__
+task8_15,8,Rule-Based + OPA gate,__deny__
+task8_16,8,Rule-Based + OPA gate,__deny__
+task8_17,8,Rule-Based + OPA gate,__deny__
+task8_18,8,Rule-Based + OPA gate,__deny__
+task8_19,8,Rule-Based + OPA gate,__deny__
+task8_20,8,Rule-Based + OPA gate,__deny__
+task8_21,8,Rule-Based + OPA gate,__deny__
+task8_22,8,Rule-Based + OPA gate,__deny__
+task8_23,8,Rule-Based + OPA gate,__deny__
+task8_24,8,Rule-Based + OPA gate,__deny__
+task8_25,8,Rule-Based + OPA gate,__deny__
+task8_26,8,Rule-Based + OPA gate,__deny__
+task8_27,8,Rule-Based + OPA gate,__deny__
+task8_28,8,Rule-Based + OPA gate,__deny__
+task8_29,8,Rule-Based + OPA gate,__deny__
+task8_30,8,Rule-Based + OPA gate,__deny__
+task9_1,9,Rule-Based + OPA gate,labs_agent
+task9_2,9,Rule-Based + OPA gate,labs_agent
+task9_3,9,Rule-Based + OPA gate,labs_agent
+task9_4,9,Rule-Based + OPA gate,labs_agent
+task9_5,9,Rule-Based + OPA gate,labs_agent
+task9_6,9,Rule-Based + OPA gate,labs_agent
+task9_7,9,Rule-Based + OPA gate,labs_agent
+task9_8,9,Rule-Based + OPA gate,labs_agent
+task9_9,9,Rule-Based + OPA gate,labs_agent
+task9_10,9,Rule-Based + OPA gate,labs_agent
+task9_11,9,Rule-Based + OPA gate,labs_agent
+task9_12,9,Rule-Based + OPA gate,labs_agent
+task9_13,9,Rule-Based + OPA gate,labs_agent
+task9_14,9,Rule-Based + OPA gate,labs_agent
+task9_15,9,Rule-Based + OPA gate,labs_agent
+task9_16,9,Rule-Based + OPA gate,labs_agent
+task9_17,9,Rule-Based + OPA gate,labs_agent
+task9_18,9,Rule-Based + OPA gate,labs_agent
+task9_19,9,Rule-Based + OPA gate,labs_agent
+task9_20,9,Rule-Based + OPA gate,labs_agent
+task9_21,9,Rule-Based + OPA gate,labs_agent
+task9_22,9,Rule-Based + OPA gate,labs_agent
+task9_23,9,Rule-Based + OPA gate,labs_agent
+task9_24,9,Rule-Based + OPA gate,labs_agent
+task9_25,9,Rule-Based + OPA gate,labs_agent
+task9_26,9,Rule-Based + OPA gate,labs_agent
+task9_27,9,Rule-Based + OPA gate,labs_agent
+task9_28,9,Rule-Based + OPA gate,labs_agent
+task9_29,9,Rule-Based + OPA gate,labs_agent
+task9_30,9,Rule-Based + OPA gate,labs_agent
+task10_1,10,Rule-Based + OPA gate,labs_agent
+task10_2,10,Rule-Based + OPA gate,labs_agent
+task10_3,10,Rule-Based + OPA gate,labs_agent
+task10_4,10,Rule-Based + OPA gate,labs_agent
+task10_5,10,Rule-Based + OPA gate,labs_agent
+task10_6,10,Rule-Based + OPA gate,labs_agent
+task10_7,10,Rule-Based + OPA gate,labs_agent
+task10_8,10,Rule-Based + OPA gate,labs_agent
+task10_9,10,Rule-Based + OPA gate,labs_agent
+task10_10,10,Rule-Based + OPA gate,labs_agent
+task10_11,10,Rule-Based + OPA gate,labs_agent
+task10_12,10,Rule-Based + OPA gate,labs_agent
+task10_13,10,Rule-Based + OPA gate,labs_agent
+task10_14,10,Rule-Based + OPA gate,labs_agent
+task10_15,10,Rule-Based + OPA gate,labs_agent
+task10_16,10,Rule-Based + OPA gate,labs_agent
+task10_17,10,Rule-Based + OPA gate,labs_agent
+task10_18,10,Rule-Based + OPA gate,labs_agent
+task10_19,10,Rule-Based + OPA gate,labs_agent
+task10_20,10,Rule-Based + OPA gate,labs_agent
+task10_21,10,Rule-Based + OPA gate,labs_agent
+task10_22,10,Rule-Based + OPA gate,labs_agent
+task10_23,10,Rule-Based + OPA gate,labs_agent
+task10_24,10,Rule-Based + OPA gate,labs_agent
+task10_25,10,Rule-Based + OPA gate,labs_agent
+task10_26,10,Rule-Based + OPA gate,labs_agent
+task10_27,10,Rule-Based + OPA gate,labs_agent
+task10_28,10,Rule-Based + OPA gate,labs_agent
+task10_29,10,Rule-Based + OPA gate,labs_agent
+task10_30,10,Rule-Based + OPA gate,labs_agent
+task1_1,1,TF-IDF (cheapest tie-break),demographics_agent_uncert
+task1_2,1,TF-IDF (cheapest tie-break),demographics_agent_uncert
+task1_3,1,TF-IDF (cheapest tie-break),demographics_agent_uncert
+task1_4,1,TF-IDF (cheapest tie-break),demographics_agent_uncert
+task1_5,1,TF-IDF (cheapest tie-break),demographics_agent_uncert
+task1_6,1,TF-IDF (cheapest tie-break),demographics_agent_uncert
+task1_7,1,TF-IDF (cheapest tie-break),demographics_agent_uncert
+task1_8,1,TF-IDF (cheapest tie-break),demographics_agent_uncert
+task1_9,1,TF-IDF (cheapest tie-break),demographics_agent_uncert
+task1_10,1,TF-IDF (cheapest tie-break),demographics_agent_uncert
+task1_11,1,TF-IDF (cheapest tie-break),demographics_agent_uncert
+task1_12,1,TF-IDF (cheapest tie-break),demographics_agent_uncert
+task1_13,1,TF-IDF (cheapest tie-break),demographics_agent_uncert
+task1_14,1,TF-IDF (cheapest tie-break),demographics_agent_uncert
+task1_15,1,TF-IDF (cheapest tie-break),demographics_agent_uncert
+task1_16,1,TF-IDF (cheapest tie-break),demographics_agent_uncert
+task1_17,1,TF-IDF (cheapest tie-break),demographics_agent_uncert
+task1_18,1,TF-IDF (cheapest tie-break),demographics_agent_uncert
+task1_19,1,TF-IDF (cheapest tie-break),demographics_agent_uncert
+task1_20,1,TF-IDF (cheapest tie-break),demographics_agent_uncert
+task1_21,1,TF-IDF (cheapest tie-break),demographics_agent_uncert
+task1_22,1,TF-IDF (cheapest tie-break),demographics_agent_uncert
+task1_23,1,TF-IDF (cheapest tie-break),demographics_agent_uncert
+task1_24,1,TF-IDF (cheapest tie-break),demographics_agent_uncert
+task1_25,1,TF-IDF (cheapest tie-break),demographics_agent_uncert
+task1_26,1,TF-IDF (cheapest tie-break),demographics_agent_uncert
+task1_27,1,TF-IDF (cheapest tie-break),demographics_agent_uncert
+task1_28,1,TF-IDF (cheapest tie-break),demographics_agent_uncert
+task1_29,1,TF-IDF (cheapest tie-break),demographics_agent_uncert
+task1_30,1,TF-IDF (cheapest tie-break),demographics_agent_uncert
+task2_1,2,TF-IDF (cheapest tie-break),demographics_agent_uncert
+task2_2,2,TF-IDF (cheapest tie-break),demographics_agent_uncert
+task2_3,2,TF-IDF (cheapest tie-break),demographics_agent_uncert
+task2_4,2,TF-IDF (cheapest tie-break),demographics_agent_uncert
+task2_5,2,TF-IDF (cheapest tie-break),demographics_agent_uncert
+task2_6,2,TF-IDF (cheapest tie-break),demographics_agent_uncert
+task2_7,2,TF-IDF (cheapest tie-break),demographics_agent_uncert
+task2_8,2,TF-IDF (cheapest tie-break),demographics_agent_uncert
+task2_9,2,TF-IDF (cheapest tie-break),demographics_agent_uncert
+task2_10,2,TF-IDF (cheapest tie-break),demographics_agent_uncert
+task2_11,2,TF-IDF (cheapest tie-break),demographics_agent_uncert
+task2_12,2,TF-IDF (cheapest tie-break),demographics_agent_uncert
+task2_13,2,TF-IDF (cheapest tie-break),demographics_agent_uncert
+task2_14,2,TF-IDF (cheapest tie-break),demographics_agent_uncert
+task2_15,2,TF-IDF (cheapest tie-break),demographics_agent_uncert
+task2_16,2,TF-IDF (cheapest tie-break),demographics_agent_uncert
+task2_17,2,TF-IDF (cheapest tie-break),demographics_agent_uncert
+task2_18,2,TF-IDF (cheapest tie-break),demographics_agent_uncert
+task2_19,2,TF-IDF (cheapest tie-break),demographics_agent_uncert
+task2_20,2,TF-IDF (cheapest tie-break),demographics_agent_uncert
+task2_21,2,TF-IDF (cheapest tie-break),demographics_agent_uncert
+task2_22,2,TF-IDF (cheapest tie-break),demographics_agent_uncert
+task2_23,2,TF-IDF (cheapest tie-break),demographics_agent_uncert
+task2_24,2,TF-IDF (cheapest tie-break),demographics_agent_uncert
+task2_25,2,TF-IDF (cheapest tie-break),demographics_agent_uncert
+task2_26,2,TF-IDF (cheapest tie-break),demographics_agent_uncert
+task2_27,2,TF-IDF (cheapest tie-break),demographics_agent_uncert
+task2_28,2,TF-IDF (cheapest tie-break),demographics_agent_uncert
+task2_29,2,TF-IDF (cheapest tie-break),demographics_agent_uncert
+task2_30,2,TF-IDF (cheapest tie-break),demographics_agent_uncert
+task3_1,3,TF-IDF (cheapest tie-break),demographics_agent_uncert
+task3_2,3,TF-IDF (cheapest tie-break),demographics_agent_uncert
+task3_3,3,TF-IDF (cheapest tie-break),demographics_agent_uncert
+task3_4,3,TF-IDF (cheapest tie-break),demographics_agent_uncert
+task3_5,3,TF-IDF (cheapest tie-break),demographics_agent_uncert
+task3_6,3,TF-IDF (cheapest tie-break),demographics_agent_uncert
+task3_7,3,TF-IDF (cheapest tie-break),demographics_agent_uncert
+task3_8,3,TF-IDF (cheapest tie-break),demographics_agent_uncert
+task3_9,3,TF-IDF (cheapest tie-break),demographics_agent_uncert
+task3_10,3,TF-IDF (cheapest tie-break),demographics_agent_uncert
+task3_11,3,TF-IDF (cheapest tie-break),demographics_agent_uncert
+task3_12,3,TF-IDF (cheapest tie-break),demographics_agent_uncert
+task3_13,3,TF-IDF (cheapest tie-break),demographics_agent_uncert
+task3_14,3,TF-IDF (cheapest tie-break),demographics_agent_uncert
+task3_15,3,TF-IDF (cheapest tie-break),demographics_agent_uncert
+task3_16,3,TF-IDF (cheapest tie-break),demographics_agent_uncert
+task3_17,3,TF-IDF (cheapest tie-break),demographics_agent_uncert
+task3_18,3,TF-IDF (cheapest tie-break),demographics_agent_uncert
+task3_19,3,TF-IDF (cheapest tie-break),demographics_agent_uncert
+task3_20,3,TF-IDF (cheapest tie-break),demographics_agent_uncert
+task3_21,3,TF-IDF (cheapest tie-break),demographics_agent_uncert
+task3_22,3,TF-IDF (cheapest tie-break),demographics_agent_uncert
+task3_23,3,TF-IDF (cheapest tie-break),demographics_agent_uncert
+task3_24,3,TF-IDF (cheapest tie-break),demographics_agent_uncert
+task3_25,3,TF-IDF (cheapest tie-break),demographics_agent_uncert
+task3_26,3,TF-IDF (cheapest tie-break),demographics_agent_uncert
+task3_27,3,TF-IDF (cheapest tie-break),demographics_agent_uncert
+task3_28,3,TF-IDF (cheapest tie-break),demographics_agent_uncert
+task3_29,3,TF-IDF (cheapest tie-break),demographics_agent_uncert
+task3_30,3,TF-IDF (cheapest tie-break),demographics_agent_uncert
+task4_1,4,TF-IDF (cheapest tie-break),demographics_agent_uncert
+task4_2,4,TF-IDF (cheapest tie-break),demographics_agent_uncert
+task4_3,4,TF-IDF (cheapest tie-break),demographics_agent_uncert
+task4_4,4,TF-IDF (cheapest tie-break),demographics_agent_uncert
+task4_5,4,TF-IDF (cheapest tie-break),demographics_agent_uncert
+task4_6,4,TF-IDF (cheapest tie-break),demographics_agent_uncert
+task4_7,4,TF-IDF (cheapest tie-break),demographics_agent_uncert
+task4_8,4,TF-IDF (cheapest tie-break),demographics_agent_uncert
+task4_9,4,TF-IDF (cheapest tie-break),demographics_agent_uncert
+task4_10,4,TF-IDF (cheapest tie-break),demographics_agent_uncert
+task4_11,4,TF-IDF (cheapest tie-break),demographics_agent_uncert
+task4_12,4,TF-IDF (cheapest tie-break),demographics_agent_uncert
+task4_13,4,TF-IDF (cheapest tie-break),demographics_agent_uncert
+task4_14,4,TF-IDF (cheapest tie-break),demographics_agent_uncert
+task4_15,4,TF-IDF (cheapest tie-break),demographics_agent_uncert
+task4_16,4,TF-IDF (cheapest tie-break),demographics_agent_uncert
+task4_17,4,TF-IDF (cheapest tie-break),demographics_agent_uncert
+task4_18,4,TF-IDF (cheapest tie-break),demographics_agent_uncert
+task4_19,4,TF-IDF (cheapest tie-break),demographics_agent_uncert
+task4_20,4,TF-IDF (cheapest tie-break),demographics_agent_uncert
+task4_21,4,TF-IDF (cheapest tie-break),demographics_agent_uncert
+task4_22,4,TF-IDF (cheapest tie-break),demographics_agent_uncert
+task4_23,4,TF-IDF (cheapest tie-break),demographics_agent_uncert
+task4_24,4,TF-IDF (cheapest tie-break),demographics_agent_uncert
+task4_25,4,TF-IDF (cheapest tie-break),demographics_agent_uncert
+task4_26,4,TF-IDF (cheapest tie-break),demographics_agent_uncert
+task4_27,4,TF-IDF (cheapest tie-break),demographics_agent_uncert
+task4_28,4,TF-IDF (cheapest tie-break),demographics_agent_uncert
+task4_29,4,TF-IDF (cheapest tie-break),demographics_agent_uncert
+task4_30,4,TF-IDF (cheapest tie-break),demographics_agent_uncert
+task5_1,5,TF-IDF (cheapest tie-break),labs_agent_lowclear
+task5_2,5,TF-IDF (cheapest tie-break),labs_agent_lowclear
+task5_3,5,TF-IDF (cheapest tie-break),labs_agent_lowclear
+task5_4,5,TF-IDF (cheapest tie-break),labs_agent_lowclear
+task5_5,5,TF-IDF (cheapest tie-break),labs_agent_lowclear
+task5_6,5,TF-IDF (cheapest tie-break),labs_agent_lowclear
+task5_7,5,TF-IDF (cheapest tie-break),labs_agent_lowclear
+task5_8,5,TF-IDF (cheapest tie-break),labs_agent_lowclear
+task5_9,5,TF-IDF (cheapest tie-break),labs_agent_lowclear
+task5_10,5,TF-IDF (cheapest tie-break),labs_agent_lowclear
+task5_11,5,TF-IDF (cheapest tie-break),labs_agent_lowclear
+task5_12,5,TF-IDF (cheapest tie-break),labs_agent_lowclear
+task5_13,5,TF-IDF (cheapest tie-break),labs_agent_lowclear
+task5_14,5,TF-IDF (cheapest tie-break),labs_agent_lowclear
+task5_15,5,TF-IDF (cheapest tie-break),labs_agent_lowclear
+task5_16,5,TF-IDF (cheapest tie-break),labs_agent_lowclear
+task5_17,5,TF-IDF (cheapest tie-break),labs_agent_lowclear
+task5_18,5,TF-IDF (cheapest tie-break),labs_agent_lowclear
+task5_19,5,TF-IDF (cheapest tie-break),labs_agent_lowclear
+task5_20,5,TF-IDF (cheapest tie-break),labs_agent_lowclear
+task5_21,5,TF-IDF (cheapest tie-break),labs_agent_lowclear
+task5_22,5,TF-IDF (cheapest tie-break),labs_agent_lowclear
+task5_23,5,TF-IDF (cheapest tie-break),labs_agent_lowclear
+task5_24,5,TF-IDF (cheapest tie-break),labs_agent_lowclear
+task5_25,5,TF-IDF (cheapest tie-break),labs_agent_lowclear
+task5_26,5,TF-IDF (cheapest tie-break),labs_agent_lowclear
+task5_27,5,TF-IDF (cheapest tie-break),labs_agent_lowclear
+task5_28,5,TF-IDF (cheapest tie-break),labs_agent_lowclear
+task5_29,5,TF-IDF (cheapest tie-break),labs_agent_lowclear
+task5_30,5,TF-IDF (cheapest tie-break),labs_agent_lowclear
+task6_1,6,TF-IDF (cheapest tie-break),demographics_agent_uncert
+task6_2,6,TF-IDF (cheapest tie-break),demographics_agent_uncert
+task6_3,6,TF-IDF (cheapest tie-break),demographics_agent_uncert
+task6_4,6,TF-IDF (cheapest tie-break),demographics_agent_uncert
+task6_5,6,TF-IDF (cheapest tie-break),demographics_agent_uncert
+task6_6,6,TF-IDF (cheapest tie-break),demographics_agent_uncert
+task6_7,6,TF-IDF (cheapest tie-break),demographics_agent_uncert
+task6_8,6,TF-IDF (cheapest tie-break),demographics_agent_uncert
+task6_9,6,TF-IDF (cheapest tie-break),demographics_agent_uncert
+task6_10,6,TF-IDF (cheapest tie-break),demographics_agent_uncert
+task6_11,6,TF-IDF (cheapest tie-break),demographics_agent_uncert
+task6_12,6,TF-IDF (cheapest tie-break),demographics_agent_uncert
+task6_13,6,TF-IDF (cheapest tie-break),demographics_agent_uncert
+task6_14,6,TF-IDF (cheapest tie-break),demographics_agent_uncert
+task6_15,6,TF-IDF (cheapest tie-break),demographics_agent_uncert
+task6_16,6,TF-IDF (cheapest tie-break),demographics_agent_uncert
+task6_17,6,TF-IDF (cheapest tie-break),demographics_agent_uncert
+task6_18,6,TF-IDF (cheapest tie-break),demographics_agent_uncert
+task6_19,6,TF-IDF (cheapest tie-break),demographics_agent_uncert
+task6_20,6,TF-IDF (cheapest tie-break),demographics_agent_uncert
+task6_21,6,TF-IDF (cheapest tie-break),demographics_agent_uncert
+task6_22,6,TF-IDF (cheapest tie-break),demographics_agent_uncert
+task6_23,6,TF-IDF (cheapest tie-break),demographics_agent_uncert
+task6_24,6,TF-IDF (cheapest tie-break),demographics_agent_uncert
+task6_25,6,TF-IDF (cheapest tie-break),demographics_agent_uncert
+task6_26,6,TF-IDF (cheapest tie-break),demographics_agent_uncert
+task6_27,6,TF-IDF (cheapest tie-break),demographics_agent_uncert
+task6_28,6,TF-IDF (cheapest tie-break),demographics_agent_uncert
+task6_29,6,TF-IDF (cheapest tie-break),demographics_agent_uncert
+task6_30,6,TF-IDF (cheapest tie-break),demographics_agent_uncert
+task7_1,7,TF-IDF (cheapest tie-break),demographics_agent_uncert
+task7_2,7,TF-IDF (cheapest tie-break),demographics_agent_uncert
+task7_3,7,TF-IDF (cheapest tie-break),demographics_agent_uncert
+task7_4,7,TF-IDF (cheapest tie-break),demographics_agent_uncert
+task7_5,7,TF-IDF (cheapest tie-break),demographics_agent_uncert
+task7_6,7,TF-IDF (cheapest tie-break),demographics_agent_uncert
+task7_7,7,TF-IDF (cheapest tie-break),demographics_agent_uncert
+task7_8,7,TF-IDF (cheapest tie-break),demographics_agent_uncert
+task7_9,7,TF-IDF (cheapest tie-break),demographics_agent_uncert
+task7_10,7,TF-IDF (cheapest tie-break),demographics_agent_uncert
+task7_11,7,TF-IDF (cheapest tie-break),demographics_agent_uncert
+task7_12,7,TF-IDF (cheapest tie-break),demographics_agent_uncert
+task7_13,7,TF-IDF (cheapest tie-break),demographics_agent_uncert
+task7_14,7,TF-IDF (cheapest tie-break),demographics_agent_uncert
+task7_15,7,TF-IDF (cheapest tie-break),demographics_agent_uncert
+task7_16,7,TF-IDF (cheapest tie-break),demographics_agent_uncert
+task7_17,7,TF-IDF (cheapest tie-break),demographics_agent_uncert
+task7_18,7,TF-IDF (cheapest tie-break),demographics_agent_uncert
+task7_19,7,TF-IDF (cheapest tie-break),demographics_agent_uncert
+task7_20,7,TF-IDF (cheapest tie-break),demographics_agent_uncert
+task7_21,7,TF-IDF (cheapest tie-break),demographics_agent_uncert
+task7_22,7,TF-IDF (cheapest tie-break),demographics_agent_uncert
+task7_23,7,TF-IDF (cheapest tie-break),demographics_agent_uncert
+task7_24,7,TF-IDF (cheapest tie-break),demographics_agent_uncert
+task7_25,7,TF-IDF (cheapest tie-break),demographics_agent_uncert
+task7_26,7,TF-IDF (cheapest tie-break),demographics_agent_uncert
+task7_27,7,TF-IDF (cheapest tie-break),demographics_agent_uncert
+task7_28,7,TF-IDF (cheapest tie-break),demographics_agent_uncert
+task7_29,7,TF-IDF (cheapest tie-break),demographics_agent_uncert
+task7_30,7,TF-IDF (cheapest tie-break),demographics_agent_uncert
+task8_1,8,TF-IDF (cheapest tie-break),procedure_agent_uncert
+task8_2,8,TF-IDF (cheapest tie-break),procedure_agent_uncert
+task8_3,8,TF-IDF (cheapest tie-break),procedure_agent_uncert
+task8_4,8,TF-IDF (cheapest tie-break),procedure_agent_uncert
+task8_5,8,TF-IDF (cheapest tie-break),procedure_agent_uncert
+task8_6,8,TF-IDF (cheapest tie-break),procedure_agent_uncert
+task8_7,8,TF-IDF (cheapest tie-break),procedure_agent_uncert
+task8_8,8,TF-IDF (cheapest tie-break),procedure_agent_uncert
+task8_9,8,TF-IDF (cheapest tie-break),procedure_agent_uncert
+task8_10,8,TF-IDF (cheapest tie-break),procedure_agent_uncert
+task8_11,8,TF-IDF (cheapest tie-break),procedure_agent_uncert
+task8_12,8,TF-IDF (cheapest tie-break),procedure_agent_uncert
+task8_13,8,TF-IDF (cheapest tie-break),procedure_agent_uncert
+task8_14,8,TF-IDF (cheapest tie-break),procedure_agent_uncert
+task8_15,8,TF-IDF (cheapest tie-break),procedure_agent_uncert
+task8_16,8,TF-IDF (cheapest tie-break),procedure_agent_uncert
+task8_17,8,TF-IDF (cheapest tie-break),procedure_agent_uncert
+task8_18,8,TF-IDF (cheapest tie-break),procedure_agent_uncert
+task8_19,8,TF-IDF (cheapest tie-break),procedure_agent_uncert
+task8_20,8,TF-IDF (cheapest tie-break),procedure_agent_uncert
+task8_21,8,TF-IDF (cheapest tie-break),procedure_agent_uncert
+task8_22,8,TF-IDF (cheapest tie-break),procedure_agent_uncert
+task8_23,8,TF-IDF (cheapest tie-break),procedure_agent_uncert
+task8_24,8,TF-IDF (cheapest tie-break),procedure_agent_uncert
+task8_25,8,TF-IDF (cheapest tie-break),procedure_agent_uncert
+task8_26,8,TF-IDF (cheapest tie-break),procedure_agent_uncert
+task8_27,8,TF-IDF (cheapest tie-break),procedure_agent_uncert
+task8_28,8,TF-IDF (cheapest tie-break),procedure_agent_uncert
+task8_29,8,TF-IDF (cheapest tie-break),procedure_agent_uncert
+task8_30,8,TF-IDF (cheapest tie-break),procedure_agent_uncert
+task9_1,9,TF-IDF (cheapest tie-break),labs_agent_lowclear
+task9_2,9,TF-IDF (cheapest tie-break),labs_agent_lowclear
+task9_3,9,TF-IDF (cheapest tie-break),labs_agent_lowclear
+task9_4,9,TF-IDF (cheapest tie-break),labs_agent_lowclear
+task9_5,9,TF-IDF (cheapest tie-break),labs_agent_lowclear
+task9_6,9,TF-IDF (cheapest tie-break),labs_agent_lowclear
+task9_7,9,TF-IDF (cheapest tie-break),labs_agent_lowclear
+task9_8,9,TF-IDF (cheapest tie-break),labs_agent_lowclear
+task9_9,9,TF-IDF (cheapest tie-break),labs_agent_lowclear
+task9_10,9,TF-IDF (cheapest tie-break),labs_agent_lowclear
+task9_11,9,TF-IDF (cheapest tie-break),labs_agent_lowclear
+task9_12,9,TF-IDF (cheapest tie-break),labs_agent_lowclear
+task9_13,9,TF-IDF (cheapest tie-break),labs_agent_lowclear
+task9_14,9,TF-IDF (cheapest tie-break),labs_agent_lowclear
+task9_15,9,TF-IDF (cheapest tie-break),labs_agent_lowclear
+task9_16,9,TF-IDF (cheapest tie-break),labs_agent_lowclear
+task9_17,9,TF-IDF (cheapest tie-break),labs_agent_lowclear
+task9_18,9,TF-IDF (cheapest tie-break),labs_agent_lowclear
+task9_19,9,TF-IDF (cheapest tie-break),labs_agent_lowclear
+task9_20,9,TF-IDF (cheapest tie-break),labs_agent_lowclear
+task9_21,9,TF-IDF (cheapest tie-break),labs_agent_lowclear
+task9_22,9,TF-IDF (cheapest tie-break),labs_agent_lowclear
+task9_23,9,TF-IDF (cheapest tie-break),labs_agent_lowclear
+task9_24,9,TF-IDF (cheapest tie-break),labs_agent_lowclear
+task9_25,9,TF-IDF (cheapest tie-break),labs_agent_lowclear
+task9_26,9,TF-IDF (cheapest tie-break),labs_agent_lowclear
+task9_27,9,TF-IDF (cheapest tie-break),labs_agent_lowclear
+task9_28,9,TF-IDF (cheapest tie-break),labs_agent_lowclear
+task9_29,9,TF-IDF (cheapest tie-break),labs_agent_lowclear
+task9_30,9,TF-IDF (cheapest tie-break),labs_agent_lowclear
+task10_1,10,TF-IDF (cheapest tie-break),labs_agent_lowclear
+task10_2,10,TF-IDF (cheapest tie-break),labs_agent_lowclear
+task10_3,10,TF-IDF (cheapest tie-break),labs_agent_lowclear
+task10_4,10,TF-IDF (cheapest tie-break),labs_agent_lowclear
+task10_5,10,TF-IDF (cheapest tie-break),labs_agent_lowclear
+task10_6,10,TF-IDF (cheapest tie-break),labs_agent_lowclear
+task10_7,10,TF-IDF (cheapest tie-break),labs_agent_lowclear
+task10_8,10,TF-IDF (cheapest tie-break),labs_agent_lowclear
+task10_9,10,TF-IDF (cheapest tie-break),labs_agent_lowclear
+task10_10,10,TF-IDF (cheapest tie-break),labs_agent_lowclear
+task10_11,10,TF-IDF (cheapest tie-break),labs_agent_lowclear
+task10_12,10,TF-IDF (cheapest tie-break),labs_agent_lowclear
+task10_13,10,TF-IDF (cheapest tie-break),labs_agent_lowclear
+task10_14,10,TF-IDF (cheapest tie-break),labs_agent_lowclear
+task10_15,10,TF-IDF (cheapest tie-break),labs_agent_lowclear
+task10_16,10,TF-IDF (cheapest tie-break),labs_agent_lowclear
+task10_17,10,TF-IDF (cheapest tie-break),labs_agent_lowclear
+task10_18,10,TF-IDF (cheapest tie-break),labs_agent_lowclear
+task10_19,10,TF-IDF (cheapest tie-break),labs_agent_lowclear
+task10_20,10,TF-IDF (cheapest tie-break),labs_agent_lowclear
+task10_21,10,TF-IDF (cheapest tie-break),labs_agent_lowclear
+task10_22,10,TF-IDF (cheapest tie-break),labs_agent_lowclear
+task10_23,10,TF-IDF (cheapest tie-break),labs_agent_lowclear
+task10_24,10,TF-IDF (cheapest tie-break),labs_agent_lowclear
+task10_25,10,TF-IDF (cheapest tie-break),labs_agent_lowclear
+task10_26,10,TF-IDF (cheapest tie-break),labs_agent_lowclear
+task10_27,10,TF-IDF (cheapest tie-break),labs_agent_lowclear
+task10_28,10,TF-IDF (cheapest tie-break),labs_agent_lowclear
+task10_29,10,TF-IDF (cheapest tie-break),labs_agent_lowclear
+task10_30,10,TF-IDF (cheapest tie-break),labs_agent_lowclear
+task1_1,1,TF-IDF (registry-order tie-break),patient_demographics_agent
+task1_2,1,TF-IDF (registry-order tie-break),patient_demographics_agent
+task1_3,1,TF-IDF (registry-order tie-break),patient_demographics_agent
+task1_4,1,TF-IDF (registry-order tie-break),patient_demographics_agent
+task1_5,1,TF-IDF (registry-order tie-break),patient_demographics_agent
+task1_6,1,TF-IDF (registry-order tie-break),patient_demographics_agent
+task1_7,1,TF-IDF (registry-order tie-break),patient_demographics_agent
+task1_8,1,TF-IDF (registry-order tie-break),patient_demographics_agent
+task1_9,1,TF-IDF (registry-order tie-break),patient_demographics_agent
+task1_10,1,TF-IDF (registry-order tie-break),patient_demographics_agent
+task1_11,1,TF-IDF (registry-order tie-break),patient_demographics_agent
+task1_12,1,TF-IDF (registry-order tie-break),patient_demographics_agent
+task1_13,1,TF-IDF (registry-order tie-break),patient_demographics_agent
+task1_14,1,TF-IDF (registry-order tie-break),patient_demographics_agent
+task1_15,1,TF-IDF (registry-order tie-break),patient_demographics_agent
+task1_16,1,TF-IDF (registry-order tie-break),patient_demographics_agent
+task1_17,1,TF-IDF (registry-order tie-break),patient_demographics_agent
+task1_18,1,TF-IDF (registry-order tie-break),patient_demographics_agent
+task1_19,1,TF-IDF (registry-order tie-break),patient_demographics_agent
+task1_20,1,TF-IDF (registry-order tie-break),patient_demographics_agent
+task1_21,1,TF-IDF (registry-order tie-break),patient_demographics_agent
+task1_22,1,TF-IDF (registry-order tie-break),patient_demographics_agent
+task1_23,1,TF-IDF (registry-order tie-break),patient_demographics_agent
+task1_24,1,TF-IDF (registry-order tie-break),patient_demographics_agent
+task1_25,1,TF-IDF (registry-order tie-break),patient_demographics_agent
+task1_26,1,TF-IDF (registry-order tie-break),patient_demographics_agent
+task1_27,1,TF-IDF (registry-order tie-break),patient_demographics_agent
+task1_28,1,TF-IDF (registry-order tie-break),patient_demographics_agent
+task1_29,1,TF-IDF (registry-order tie-break),patient_demographics_agent
+task1_30,1,TF-IDF (registry-order tie-break),patient_demographics_agent
+task2_1,2,TF-IDF (registry-order tie-break),patient_demographics_agent
+task2_2,2,TF-IDF (registry-order tie-break),patient_demographics_agent
+task2_3,2,TF-IDF (registry-order tie-break),patient_demographics_agent
+task2_4,2,TF-IDF (registry-order tie-break),patient_demographics_agent
+task2_5,2,TF-IDF (registry-order tie-break),patient_demographics_agent
+task2_6,2,TF-IDF (registry-order tie-break),patient_demographics_agent
+task2_7,2,TF-IDF (registry-order tie-break),patient_demographics_agent
+task2_8,2,TF-IDF (registry-order tie-break),patient_demographics_agent
+task2_9,2,TF-IDF (registry-order tie-break),patient_demographics_agent
+task2_10,2,TF-IDF (registry-order tie-break),patient_demographics_agent
+task2_11,2,TF-IDF (registry-order tie-break),patient_demographics_agent
+task2_12,2,TF-IDF (registry-order tie-break),patient_demographics_agent
+task2_13,2,TF-IDF (registry-order tie-break),patient_demographics_agent
+task2_14,2,TF-IDF (registry-order tie-break),patient_demographics_agent
+task2_15,2,TF-IDF (registry-order tie-break),patient_demographics_agent
+task2_16,2,TF-IDF (registry-order tie-break),patient_demographics_agent
+task2_17,2,TF-IDF (registry-order tie-break),patient_demographics_agent
+task2_18,2,TF-IDF (registry-order tie-break),patient_demographics_agent
+task2_19,2,TF-IDF (registry-order tie-break),patient_demographics_agent
+task2_20,2,TF-IDF (registry-order tie-break),patient_demographics_agent
+task2_21,2,TF-IDF (registry-order tie-break),patient_demographics_agent
+task2_22,2,TF-IDF (registry-order tie-break),patient_demographics_agent
+task2_23,2,TF-IDF (registry-order tie-break),patient_demographics_agent
+task2_24,2,TF-IDF (registry-order tie-break),patient_demographics_agent
+task2_25,2,TF-IDF (registry-order tie-break),patient_demographics_agent
+task2_26,2,TF-IDF (registry-order tie-break),patient_demographics_agent
+task2_27,2,TF-IDF (registry-order tie-break),patient_demographics_agent
+task2_28,2,TF-IDF (registry-order tie-break),patient_demographics_agent
+task2_29,2,TF-IDF (registry-order tie-break),patient_demographics_agent
+task2_30,2,TF-IDF (registry-order tie-break),patient_demographics_agent
+task3_1,3,TF-IDF (registry-order tie-break),patient_demographics_agent
+task3_2,3,TF-IDF (registry-order tie-break),patient_demographics_agent
+task3_3,3,TF-IDF (registry-order tie-break),patient_demographics_agent
+task3_4,3,TF-IDF (registry-order tie-break),patient_demographics_agent
+task3_5,3,TF-IDF (registry-order tie-break),patient_demographics_agent
+task3_6,3,TF-IDF (registry-order tie-break),patient_demographics_agent
+task3_7,3,TF-IDF (registry-order tie-break),patient_demographics_agent
+task3_8,3,TF-IDF (registry-order tie-break),patient_demographics_agent
+task3_9,3,TF-IDF (registry-order tie-break),patient_demographics_agent
+task3_10,3,TF-IDF (registry-order tie-break),patient_demographics_agent
+task3_11,3,TF-IDF (registry-order tie-break),patient_demographics_agent
+task3_12,3,TF-IDF (registry-order tie-break),patient_demographics_agent
+task3_13,3,TF-IDF (registry-order tie-break),patient_demographics_agent
+task3_14,3,TF-IDF (registry-order tie-break),patient_demographics_agent
+task3_15,3,TF-IDF (registry-order tie-break),patient_demographics_agent
+task3_16,3,TF-IDF (registry-order tie-break),patient_demographics_agent
+task3_17,3,TF-IDF (registry-order tie-break),patient_demographics_agent
+task3_18,3,TF-IDF (registry-order tie-break),patient_demographics_agent
+task3_19,3,TF-IDF (registry-order tie-break),patient_demographics_agent
+task3_20,3,TF-IDF (registry-order tie-break),patient_demographics_agent
+task3_21,3,TF-IDF (registry-order tie-break),patient_demographics_agent
+task3_22,3,TF-IDF (registry-order tie-break),patient_demographics_agent
+task3_23,3,TF-IDF (registry-order tie-break),patient_demographics_agent
+task3_24,3,TF-IDF (registry-order tie-break),patient_demographics_agent
+task3_25,3,TF-IDF (registry-order tie-break),patient_demographics_agent
+task3_26,3,TF-IDF (registry-order tie-break),patient_demographics_agent
+task3_27,3,TF-IDF (registry-order tie-break),patient_demographics_agent
+task3_28,3,TF-IDF (registry-order tie-break),patient_demographics_agent
+task3_29,3,TF-IDF (registry-order tie-break),patient_demographics_agent
+task3_30,3,TF-IDF (registry-order tie-break),patient_demographics_agent
+task4_1,4,TF-IDF (registry-order tie-break),patient_demographics_agent
+task4_2,4,TF-IDF (registry-order tie-break),patient_demographics_agent
+task4_3,4,TF-IDF (registry-order tie-break),patient_demographics_agent
+task4_4,4,TF-IDF (registry-order tie-break),patient_demographics_agent
+task4_5,4,TF-IDF (registry-order tie-break),patient_demographics_agent
+task4_6,4,TF-IDF (registry-order tie-break),patient_demographics_agent
+task4_7,4,TF-IDF (registry-order tie-break),patient_demographics_agent
+task4_8,4,TF-IDF (registry-order tie-break),patient_demographics_agent
+task4_9,4,TF-IDF (registry-order tie-break),patient_demographics_agent
+task4_10,4,TF-IDF (registry-order tie-break),patient_demographics_agent
+task4_11,4,TF-IDF (registry-order tie-break),patient_demographics_agent
+task4_12,4,TF-IDF (registry-order tie-break),patient_demographics_agent
+task4_13,4,TF-IDF (registry-order tie-break),patient_demographics_agent
+task4_14,4,TF-IDF (registry-order tie-break),patient_demographics_agent
+task4_15,4,TF-IDF (registry-order tie-break),patient_demographics_agent
+task4_16,4,TF-IDF (registry-order tie-break),patient_demographics_agent
+task4_17,4,TF-IDF (registry-order tie-break),patient_demographics_agent
+task4_18,4,TF-IDF (registry-order tie-break),patient_demographics_agent
+task4_19,4,TF-IDF (registry-order tie-break),patient_demographics_agent
+task4_20,4,TF-IDF (registry-order tie-break),patient_demographics_agent
+task4_21,4,TF-IDF (registry-order tie-break),patient_demographics_agent
+task4_22,4,TF-IDF (registry-order tie-break),patient_demographics_agent
+task4_23,4,TF-IDF (registry-order tie-break),patient_demographics_agent
+task4_24,4,TF-IDF (registry-order tie-break),patient_demographics_agent
+task4_25,4,TF-IDF (registry-order tie-break),patient_demographics_agent
+task4_26,4,TF-IDF (registry-order tie-break),patient_demographics_agent
+task4_27,4,TF-IDF (registry-order tie-break),patient_demographics_agent
+task4_28,4,TF-IDF (registry-order tie-break),patient_demographics_agent
+task4_29,4,TF-IDF (registry-order tie-break),patient_demographics_agent
+task4_30,4,TF-IDF (registry-order tie-break),patient_demographics_agent
+task5_1,5,TF-IDF (registry-order tie-break),labs_agent
+task5_2,5,TF-IDF (registry-order tie-break),labs_agent
+task5_3,5,TF-IDF (registry-order tie-break),labs_agent
+task5_4,5,TF-IDF (registry-order tie-break),labs_agent
+task5_5,5,TF-IDF (registry-order tie-break),labs_agent
+task5_6,5,TF-IDF (registry-order tie-break),labs_agent
+task5_7,5,TF-IDF (registry-order tie-break),labs_agent
+task5_8,5,TF-IDF (registry-order tie-break),labs_agent
+task5_9,5,TF-IDF (registry-order tie-break),labs_agent
+task5_10,5,TF-IDF (registry-order tie-break),labs_agent
+task5_11,5,TF-IDF (registry-order tie-break),labs_agent
+task5_12,5,TF-IDF (registry-order tie-break),labs_agent
+task5_13,5,TF-IDF (registry-order tie-break),labs_agent
+task5_14,5,TF-IDF (registry-order tie-break),labs_agent
+task5_15,5,TF-IDF (registry-order tie-break),labs_agent
+task5_16,5,TF-IDF (registry-order tie-break),labs_agent
+task5_17,5,TF-IDF (registry-order tie-break),labs_agent
+task5_18,5,TF-IDF (registry-order tie-break),labs_agent
+task5_19,5,TF-IDF (registry-order tie-break),labs_agent
+task5_20,5,TF-IDF (registry-order tie-break),labs_agent
+task5_21,5,TF-IDF (registry-order tie-break),labs_agent
+task5_22,5,TF-IDF (registry-order tie-break),labs_agent
+task5_23,5,TF-IDF (registry-order tie-break),labs_agent
+task5_24,5,TF-IDF (registry-order tie-break),labs_agent
+task5_25,5,TF-IDF (registry-order tie-break),labs_agent
+task5_26,5,TF-IDF (registry-order tie-break),labs_agent
+task5_27,5,TF-IDF (registry-order tie-break),labs_agent
+task5_28,5,TF-IDF (registry-order tie-break),labs_agent
+task5_29,5,TF-IDF (registry-order tie-break),labs_agent
+task5_30,5,TF-IDF (registry-order tie-break),labs_agent
+task6_1,6,TF-IDF (registry-order tie-break),patient_demographics_agent
+task6_2,6,TF-IDF (registry-order tie-break),patient_demographics_agent
+task6_3,6,TF-IDF (registry-order tie-break),patient_demographics_agent
+task6_4,6,TF-IDF (registry-order tie-break),patient_demographics_agent
+task6_5,6,TF-IDF (registry-order tie-break),patient_demographics_agent
+task6_6,6,TF-IDF (registry-order tie-break),patient_demographics_agent
+task6_7,6,TF-IDF (registry-order tie-break),patient_demographics_agent
+task6_8,6,TF-IDF (registry-order tie-break),patient_demographics_agent
+task6_9,6,TF-IDF (registry-order tie-break),patient_demographics_agent
+task6_10,6,TF-IDF (registry-order tie-break),patient_demographics_agent
+task6_11,6,TF-IDF (registry-order tie-break),patient_demographics_agent
+task6_12,6,TF-IDF (registry-order tie-break),patient_demographics_agent
+task6_13,6,TF-IDF (registry-order tie-break),patient_demographics_agent
+task6_14,6,TF-IDF (registry-order tie-break),patient_demographics_agent
+task6_15,6,TF-IDF (registry-order tie-break),patient_demographics_agent
+task6_16,6,TF-IDF (registry-order tie-break),patient_demographics_agent
+task6_17,6,TF-IDF (registry-order tie-break),patient_demographics_agent
+task6_18,6,TF-IDF (registry-order tie-break),patient_demographics_agent
+task6_19,6,TF-IDF (registry-order tie-break),patient_demographics_agent
+task6_20,6,TF-IDF (registry-order tie-break),patient_demographics_agent
+task6_21,6,TF-IDF (registry-order tie-break),patient_demographics_agent
+task6_22,6,TF-IDF (registry-order tie-break),patient_demographics_agent
+task6_23,6,TF-IDF (registry-order tie-break),patient_demographics_agent
+task6_24,6,TF-IDF (registry-order tie-break),patient_demographics_agent
+task6_25,6,TF-IDF (registry-order tie-break),patient_demographics_agent
+task6_26,6,TF-IDF (registry-order tie-break),patient_demographics_agent
+task6_27,6,TF-IDF (registry-order tie-break),patient_demographics_agent
+task6_28,6,TF-IDF (registry-order tie-break),patient_demographics_agent
+task6_29,6,TF-IDF (registry-order tie-break),patient_demographics_agent
+task6_30,6,TF-IDF (registry-order tie-break),patient_demographics_agent
+task7_1,7,TF-IDF (registry-order tie-break),patient_demographics_agent
+task7_2,7,TF-IDF (registry-order tie-break),patient_demographics_agent
+task7_3,7,TF-IDF (registry-order tie-break),patient_demographics_agent
+task7_4,7,TF-IDF (registry-order tie-break),patient_demographics_agent
+task7_5,7,TF-IDF (registry-order tie-break),patient_demographics_agent
+task7_6,7,TF-IDF (registry-order tie-break),patient_demographics_agent
+task7_7,7,TF-IDF (registry-order tie-break),patient_demographics_agent
+task7_8,7,TF-IDF (registry-order tie-break),patient_demographics_agent
+task7_9,7,TF-IDF (registry-order tie-break),patient_demographics_agent
+task7_10,7,TF-IDF (registry-order tie-break),patient_demographics_agent
+task7_11,7,TF-IDF (registry-order tie-break),patient_demographics_agent
+task7_12,7,TF-IDF (registry-order tie-break),patient_demographics_agent
+task7_13,7,TF-IDF (registry-order tie-break),patient_demographics_agent
+task7_14,7,TF-IDF (registry-order tie-break),patient_demographics_agent
+task7_15,7,TF-IDF (registry-order tie-break),patient_demographics_agent
+task7_16,7,TF-IDF (registry-order tie-break),patient_demographics_agent
+task7_17,7,TF-IDF (registry-order tie-break),patient_demographics_agent
+task7_18,7,TF-IDF (registry-order tie-break),patient_demographics_agent
+task7_19,7,TF-IDF (registry-order tie-break),patient_demographics_agent
+task7_20,7,TF-IDF (registry-order tie-break),patient_demographics_agent
+task7_21,7,TF-IDF (registry-order tie-break),patient_demographics_agent
+task7_22,7,TF-IDF (registry-order tie-break),patient_demographics_agent
+task7_23,7,TF-IDF (registry-order tie-break),patient_demographics_agent
+task7_24,7,TF-IDF (registry-order tie-break),patient_demographics_agent
+task7_25,7,TF-IDF (registry-order tie-break),patient_demographics_agent
+task7_26,7,TF-IDF (registry-order tie-break),patient_demographics_agent
+task7_27,7,TF-IDF (registry-order tie-break),patient_demographics_agent
+task7_28,7,TF-IDF (registry-order tie-break),patient_demographics_agent
+task7_29,7,TF-IDF (registry-order tie-break),patient_demographics_agent
+task7_30,7,TF-IDF (registry-order tie-break),patient_demographics_agent
+task8_1,8,TF-IDF (registry-order tie-break),procedure_agent_uncert
+task8_2,8,TF-IDF (registry-order tie-break),procedure_agent_uncert
+task8_3,8,TF-IDF (registry-order tie-break),procedure_agent_uncert
+task8_4,8,TF-IDF (registry-order tie-break),procedure_agent_uncert
+task8_5,8,TF-IDF (registry-order tie-break),procedure_agent_uncert
+task8_6,8,TF-IDF (registry-order tie-break),procedure_agent_uncert
+task8_7,8,TF-IDF (registry-order tie-break),procedure_agent_uncert
+task8_8,8,TF-IDF (registry-order tie-break),procedure_agent_uncert
+task8_9,8,TF-IDF (registry-order tie-break),procedure_agent_uncert
+task8_10,8,TF-IDF (registry-order tie-break),procedure_agent_uncert
+task8_11,8,TF-IDF (registry-order tie-break),procedure_agent_uncert
+task8_12,8,TF-IDF (registry-order tie-break),procedure_agent_uncert
+task8_13,8,TF-IDF (registry-order tie-break),procedure_agent_uncert
+task8_14,8,TF-IDF (registry-order tie-break),procedure_agent_uncert
+task8_15,8,TF-IDF (registry-order tie-break),procedure_agent_uncert
+task8_16,8,TF-IDF (registry-order tie-break),procedure_agent_uncert
+task8_17,8,TF-IDF (registry-order tie-break),procedure_agent_uncert
+task8_18,8,TF-IDF (registry-order tie-break),procedure_agent_uncert
+task8_19,8,TF-IDF (registry-order tie-break),procedure_agent_uncert
+task8_20,8,TF-IDF (registry-order tie-break),procedure_agent_uncert
+task8_21,8,TF-IDF (registry-order tie-break),procedure_agent_uncert
+task8_22,8,TF-IDF (registry-order tie-break),procedure_agent_uncert
+task8_23,8,TF-IDF (registry-order tie-break),procedure_agent_uncert
+task8_24,8,TF-IDF (registry-order tie-break),procedure_agent_uncert
+task8_25,8,TF-IDF (registry-order tie-break),procedure_agent_uncert
+task8_26,8,TF-IDF (registry-order tie-break),procedure_agent_uncert
+task8_27,8,TF-IDF (registry-order tie-break),procedure_agent_uncert
+task8_28,8,TF-IDF (registry-order tie-break),procedure_agent_uncert
+task8_29,8,TF-IDF (registry-order tie-break),procedure_agent_uncert
+task8_30,8,TF-IDF (registry-order tie-break),procedure_agent_uncert
+task9_1,9,TF-IDF (registry-order tie-break),labs_agent
+task9_2,9,TF-IDF (registry-order tie-break),labs_agent
+task9_3,9,TF-IDF (registry-order tie-break),labs_agent
+task9_4,9,TF-IDF (registry-order tie-break),labs_agent
+task9_5,9,TF-IDF (registry-order tie-break),labs_agent
+task9_6,9,TF-IDF (registry-order tie-break),labs_agent
+task9_7,9,TF-IDF (registry-order tie-break),labs_agent
+task9_8,9,TF-IDF (registry-order tie-break),labs_agent
+task9_9,9,TF-IDF (registry-order tie-break),labs_agent
+task9_10,9,TF-IDF (registry-order tie-break),labs_agent
+task9_11,9,TF-IDF (registry-order tie-break),labs_agent
+task9_12,9,TF-IDF (registry-order tie-break),labs_agent
+task9_13,9,TF-IDF (registry-order tie-break),labs_agent
+task9_14,9,TF-IDF (registry-order tie-break),labs_agent
+task9_15,9,TF-IDF (registry-order tie-break),labs_agent
+task9_16,9,TF-IDF (registry-order tie-break),labs_agent
+task9_17,9,TF-IDF (registry-order tie-break),labs_agent
+task9_18,9,TF-IDF (registry-order tie-break),labs_agent
+task9_19,9,TF-IDF (registry-order tie-break),labs_agent
+task9_20,9,TF-IDF (registry-order tie-break),labs_agent
+task9_21,9,TF-IDF (registry-order tie-break),labs_agent
+task9_22,9,TF-IDF (registry-order tie-break),labs_agent
+task9_23,9,TF-IDF (registry-order tie-break),labs_agent
+task9_24,9,TF-IDF (registry-order tie-break),labs_agent
+task9_25,9,TF-IDF (registry-order tie-break),labs_agent
+task9_26,9,TF-IDF (registry-order tie-break),labs_agent
+task9_27,9,TF-IDF (registry-order tie-break),labs_agent
+task9_28,9,TF-IDF (registry-order tie-break),labs_agent
+task9_29,9,TF-IDF (registry-order tie-break),labs_agent
+task9_30,9,TF-IDF (registry-order tie-break),labs_agent
+task10_1,10,TF-IDF (registry-order tie-break),labs_agent
+task10_2,10,TF-IDF (registry-order tie-break),labs_agent
+task10_3,10,TF-IDF (registry-order tie-break),labs_agent
+task10_4,10,TF-IDF (registry-order tie-break),labs_agent
+task10_5,10,TF-IDF (registry-order tie-break),labs_agent
+task10_6,10,TF-IDF (registry-order tie-break),labs_agent
+task10_7,10,TF-IDF (registry-order tie-break),labs_agent
+task10_8,10,TF-IDF (registry-order tie-break),labs_agent
+task10_9,10,TF-IDF (registry-order tie-break),labs_agent
+task10_10,10,TF-IDF (registry-order tie-break),labs_agent
+task10_11,10,TF-IDF (registry-order tie-break),labs_agent
+task10_12,10,TF-IDF (registry-order tie-break),labs_agent
+task10_13,10,TF-IDF (registry-order tie-break),labs_agent
+task10_14,10,TF-IDF (registry-order tie-break),labs_agent
+task10_15,10,TF-IDF (registry-order tie-break),labs_agent
+task10_16,10,TF-IDF (registry-order tie-break),labs_agent
+task10_17,10,TF-IDF (registry-order tie-break),labs_agent
+task10_18,10,TF-IDF (registry-order tie-break),labs_agent
+task10_19,10,TF-IDF (registry-order tie-break),labs_agent
+task10_20,10,TF-IDF (registry-order tie-break),labs_agent
+task10_21,10,TF-IDF (registry-order tie-break),labs_agent
+task10_22,10,TF-IDF (registry-order tie-break),labs_agent
+task10_23,10,TF-IDF (registry-order tie-break),labs_agent
+task10_24,10,TF-IDF (registry-order tie-break),labs_agent
+task10_25,10,TF-IDF (registry-order tie-break),labs_agent
+task10_26,10,TF-IDF (registry-order tie-break),labs_agent
+task10_27,10,TF-IDF (registry-order tie-break),labs_agent
+task10_28,10,TF-IDF (registry-order tie-break),labs_agent
+task10_29,10,TF-IDF (registry-order tie-break),labs_agent
+task10_30,10,TF-IDF (registry-order tie-break),labs_agent
+task1_1,1,TF-IDF (random tie-break),demographics_agent_uncert
+task1_2,1,TF-IDF (random tie-break),demographics_agent_uncert
+task1_3,1,TF-IDF (random tie-break),demographics_agent_uncert
+task1_4,1,TF-IDF (random tie-break),patient_demographics_agent
+task1_5,1,TF-IDF (random tie-break),demographics_agent_uncert
+task1_6,1,TF-IDF (random tie-break),patient_demographics_agent
+task1_7,1,TF-IDF (random tie-break),demographics_agent_uncert
+task1_8,1,TF-IDF (random tie-break),demographics_agent_uncert
+task1_9,1,TF-IDF (random tie-break),patient_demographics_agent
+task1_10,1,TF-IDF (random tie-break),patient_demographics_agent
+task1_11,1,TF-IDF (random tie-break),demographics_agent_uncert
+task1_12,1,TF-IDF (random tie-break),patient_demographics_agent
+task1_13,1,TF-IDF (random tie-break),demographics_agent_uncert
+task1_14,1,TF-IDF (random tie-break),demographics_agent_uncert
+task1_15,1,TF-IDF (random tie-break),demographics_agent_uncert
+task1_16,1,TF-IDF (random tie-break),patient_demographics_agent
+task1_17,1,TF-IDF (random tie-break),patient_demographics_agent
+task1_18,1,TF-IDF (random tie-break),demographics_agent_uncert
+task1_19,1,TF-IDF (random tie-break),demographics_agent_uncert
+task1_20,1,TF-IDF (random tie-break),demographics_agent_uncert
+task1_21,1,TF-IDF (random tie-break),demographics_agent_uncert
+task1_22,1,TF-IDF (random tie-break),patient_demographics_agent
+task1_23,1,TF-IDF (random tie-break),demographics_agent_uncert
+task1_24,1,TF-IDF (random tie-break),demographics_agent_uncert
+task1_25,1,TF-IDF (random tie-break),patient_demographics_agent
+task1_26,1,TF-IDF (random tie-break),patient_demographics_agent
+task1_27,1,TF-IDF (random tie-break),demographics_agent_uncert
+task1_28,1,TF-IDF (random tie-break),patient_demographics_agent
+task1_29,1,TF-IDF (random tie-break),demographics_agent_uncert
+task1_30,1,TF-IDF (random tie-break),demographics_agent_uncert
+task2_1,2,TF-IDF (random tie-break),patient_demographics_agent
+task2_2,2,TF-IDF (random tie-break),demographics_agent_uncert
+task2_3,2,TF-IDF (random tie-break),patient_demographics_agent
+task2_4,2,TF-IDF (random tie-break),demographics_agent_uncert
+task2_5,2,TF-IDF (random tie-break),demographics_agent_uncert
+task2_6,2,TF-IDF (random tie-break),patient_demographics_agent
+task2_7,2,TF-IDF (random tie-break),patient_demographics_agent
+task2_8,2,TF-IDF (random tie-break),patient_demographics_agent
+task2_9,2,TF-IDF (random tie-break),demographics_agent_uncert
+task2_10,2,TF-IDF (random tie-break),demographics_agent_uncert
+task2_11,2,TF-IDF (random tie-break),demographics_agent_uncert
+task2_12,2,TF-IDF (random tie-break),demographics_agent_uncert
+task2_13,2,TF-IDF (random tie-break),patient_demographics_agent
+task2_14,2,TF-IDF (random tie-break),patient_demographics_agent
+task2_15,2,TF-IDF (random tie-break),patient_demographics_agent
+task2_16,2,TF-IDF (random tie-break),demographics_agent_uncert
+task2_17,2,TF-IDF (random tie-break),patient_demographics_agent
+task2_18,2,TF-IDF (random tie-break),patient_demographics_agent
+task2_19,2,TF-IDF (random tie-break),patient_demographics_agent
+task2_20,2,TF-IDF (random tie-break),patient_demographics_agent
+task2_21,2,TF-IDF (random tie-break),demographics_agent_uncert
+task2_22,2,TF-IDF (random tie-break),demographics_agent_uncert
+task2_23,2,TF-IDF (random tie-break),patient_demographics_agent
+task2_24,2,TF-IDF (random tie-break),demographics_agent_uncert
+task2_25,2,TF-IDF (random tie-break),patient_demographics_agent
+task2_26,2,TF-IDF (random tie-break),demographics_agent_uncert
+task2_27,2,TF-IDF (random tie-break),demographics_agent_uncert
+task2_28,2,TF-IDF (random tie-break),patient_demographics_agent
+task2_29,2,TF-IDF (random tie-break),patient_demographics_agent
+task2_30,2,TF-IDF (random tie-break),patient_demographics_agent
+task3_1,3,TF-IDF (random tie-break),patient_demographics_agent
+task3_2,3,TF-IDF (random tie-break),demographics_agent_uncert
+task3_3,3,TF-IDF (random tie-break),patient_demographics_agent
+task3_4,3,TF-IDF (random tie-break),demographics_agent_uncert
+task3_5,3,TF-IDF (random tie-break),patient_demographics_agent
+task3_6,3,TF-IDF (random tie-break),demographics_agent_uncert
+task3_7,3,TF-IDF (random tie-break),patient_demographics_agent
+task3_8,3,TF-IDF (random tie-break),demographics_agent_uncert
+task3_9,3,TF-IDF (random tie-break),demographics_agent_uncert
+task3_10,3,TF-IDF (random tie-break),patient_demographics_agent
+task3_11,3,TF-IDF (random tie-break),patient_demographics_agent
+task3_12,3,TF-IDF (random tie-break),demographics_agent_uncert
+task3_13,3,TF-IDF (random tie-break),patient_demographics_agent
+task3_14,3,TF-IDF (random tie-break),patient_demographics_agent
+task3_15,3,TF-IDF (random tie-break),demographics_agent_uncert
+task3_16,3,TF-IDF (random tie-break),patient_demographics_agent
+task3_17,3,TF-IDF (random tie-break),patient_demographics_agent
+task3_18,3,TF-IDF (random tie-break),patient_demographics_agent
+task3_19,3,TF-IDF (random tie-break),patient_demographics_agent
+task3_20,3,TF-IDF (random tie-break),patient_demographics_agent
+task3_21,3,TF-IDF (random tie-break),patient_demographics_agent
+task3_22,3,TF-IDF (random tie-break),demographics_agent_uncert
+task3_23,3,TF-IDF (random tie-break),demographics_agent_uncert
+task3_24,3,TF-IDF (random tie-break),patient_demographics_agent
+task3_25,3,TF-IDF (random tie-break),patient_demographics_agent
+task3_26,3,TF-IDF (random tie-break),demographics_agent_uncert
+task3_27,3,TF-IDF (random tie-break),patient_demographics_agent
+task3_28,3,TF-IDF (random tie-break),patient_demographics_agent
+task3_29,3,TF-IDF (random tie-break),demographics_agent_uncert
+task3_30,3,TF-IDF (random tie-break),patient_demographics_agent
+task4_1,4,TF-IDF (random tie-break),patient_demographics_agent
+task4_2,4,TF-IDF (random tie-break),demographics_agent_uncert
+task4_3,4,TF-IDF (random tie-break),patient_demographics_agent
+task4_4,4,TF-IDF (random tie-break),patient_demographics_agent
+task4_5,4,TF-IDF (random tie-break),patient_demographics_agent
+task4_6,4,TF-IDF (random tie-break),patient_demographics_agent
+task4_7,4,TF-IDF (random tie-break),patient_demographics_agent
+task4_8,4,TF-IDF (random tie-break),demographics_agent_uncert
+task4_9,4,TF-IDF (random tie-break),patient_demographics_agent
+task4_10,4,TF-IDF (random tie-break),demographics_agent_uncert
+task4_11,4,TF-IDF (random tie-break),demographics_agent_uncert
+task4_12,4,TF-IDF (random tie-break),patient_demographics_agent
+task4_13,4,TF-IDF (random tie-break),patient_demographics_agent
+task4_14,4,TF-IDF (random tie-break),demographics_agent_uncert
+task4_15,4,TF-IDF (random tie-break),demographics_agent_uncert
+task4_16,4,TF-IDF (random tie-break),patient_demographics_agent
+task4_17,4,TF-IDF (random tie-break),demographics_agent_uncert
+task4_18,4,TF-IDF (random tie-break),demographics_agent_uncert
+task4_19,4,TF-IDF (random tie-break),demographics_agent_uncert
+task4_20,4,TF-IDF (random tie-break),demographics_agent_uncert
+task4_21,4,TF-IDF (random tie-break),demographics_agent_uncert
+task4_22,4,TF-IDF (random tie-break),demographics_agent_uncert
+task4_23,4,TF-IDF (random tie-break),patient_demographics_agent
+task4_24,4,TF-IDF (random tie-break),demographics_agent_uncert
+task4_25,4,TF-IDF (random tie-break),patient_demographics_agent
+task4_26,4,TF-IDF (random tie-break),patient_demographics_agent
+task4_27,4,TF-IDF (random tie-break),demographics_agent_uncert
+task4_28,4,TF-IDF (random tie-break),patient_demographics_agent
+task4_29,4,TF-IDF (random tie-break),patient_demographics_agent
+task4_30,4,TF-IDF (random tie-break),patient_demographics_agent
+task5_1,5,TF-IDF (random tie-break),labs_agent
+task5_2,5,TF-IDF (random tie-break),labs_agent
+task5_3,5,TF-IDF (random tie-break),labs_agent
+task5_4,5,TF-IDF (random tie-break),labs_agent
+task5_5,5,TF-IDF (random tie-break),labs_agent_lowclear
+task5_6,5,TF-IDF (random tie-break),labs_agent
+task5_7,5,TF-IDF (random tie-break),labs_agent
+task5_8,5,TF-IDF (random tie-break),labs_agent_lowclear
+task5_9,5,TF-IDF (random tie-break),labs_agent
+task5_10,5,TF-IDF (random tie-break),labs_agent
+task5_11,5,TF-IDF (random tie-break),labs_agent
+task5_12,5,TF-IDF (random tie-break),labs_agent_lowclear
+task5_13,5,TF-IDF (random tie-break),labs_agent
+task5_14,5,TF-IDF (random tie-break),labs_agent_lowclear
+task5_15,5,TF-IDF (random tie-break),labs_agent_lowclear
+task5_16,5,TF-IDF (random tie-break),labs_agent_lowclear
+task5_17,5,TF-IDF (random tie-break),labs_agent_lowclear
+task5_18,5,TF-IDF (random tie-break),labs_agent_lowclear
+task5_19,5,TF-IDF (random tie-break),labs_agent
+task5_20,5,TF-IDF (random tie-break),labs_agent_lowclear
+task5_21,5,TF-IDF (random tie-break),labs_agent_lowclear
+task5_22,5,TF-IDF (random tie-break),labs_agent_lowclear
+task5_23,5,TF-IDF (random tie-break),labs_agent
+task5_24,5,TF-IDF (random tie-break),labs_agent_lowclear
+task5_25,5,TF-IDF (random tie-break),labs_agent_lowclear
+task5_26,5,TF-IDF (random tie-break),labs_agent
+task5_27,5,TF-IDF (random tie-break),labs_agent_lowclear
+task5_28,5,TF-IDF (random tie-break),labs_agent_lowclear
+task5_29,5,TF-IDF (random tie-break),labs_agent
+task5_30,5,TF-IDF (random tie-break),labs_agent_lowclear
+task6_1,6,TF-IDF (random tie-break),demographics_agent_uncert
+task6_2,6,TF-IDF (random tie-break),patient_demographics_agent
+task6_3,6,TF-IDF (random tie-break),patient_demographics_agent
+task6_4,6,TF-IDF (random tie-break),patient_demographics_agent
+task6_5,6,TF-IDF (random tie-break),demographics_agent_uncert
+task6_6,6,TF-IDF (random tie-break),demographics_agent_uncert
+task6_7,6,TF-IDF (random tie-break),demographics_agent_uncert
+task6_8,6,TF-IDF (random tie-break),demographics_agent_uncert
+task6_9,6,TF-IDF (random tie-break),patient_demographics_agent
+task6_10,6,TF-IDF (random tie-break),demographics_agent_uncert
+task6_11,6,TF-IDF (random tie-break),demographics_agent_uncert
+task6_12,6,TF-IDF (random tie-break),demographics_agent_uncert
+task6_13,6,TF-IDF (random tie-break),patient_demographics_agent
+task6_14,6,TF-IDF (random tie-break),patient_demographics_agent
+task6_15,6,TF-IDF (random tie-break),patient_demographics_agent
+task6_16,6,TF-IDF (random tie-break),patient_demographics_agent
+task6_17,6,TF-IDF (random tie-break),patient_demographics_agent
+task6_18,6,TF-IDF (random tie-break),demographics_agent_uncert
+task6_19,6,TF-IDF (random tie-break),demographics_agent_uncert
+task6_20,6,TF-IDF (random tie-break),patient_demographics_agent
+task6_21,6,TF-IDF (random tie-break),patient_demographics_agent
+task6_22,6,TF-IDF (random tie-break),demographics_agent_uncert
+task6_23,6,TF-IDF (random tie-break),patient_demographics_agent
+task6_24,6,TF-IDF (random tie-break),patient_demographics_agent
+task6_25,6,TF-IDF (random tie-break),demographics_agent_uncert
+task6_26,6,TF-IDF (random tie-break),patient_demographics_agent
+task6_27,6,TF-IDF (random tie-break),patient_demographics_agent
+task6_28,6,TF-IDF (random tie-break),patient_demographics_agent
+task6_29,6,TF-IDF (random tie-break),patient_demographics_agent
+task6_30,6,TF-IDF (random tie-break),demographics_agent_uncert
+task7_1,7,TF-IDF (random tie-break),patient_demographics_agent
+task7_2,7,TF-IDF (random tie-break),demographics_agent_uncert
+task7_3,7,TF-IDF (random tie-break),patient_demographics_agent
+task7_4,7,TF-IDF (random tie-break),patient_demographics_agent
+task7_5,7,TF-IDF (random tie-break),patient_demographics_agent
+task7_6,7,TF-IDF (random tie-break),demographics_agent_uncert
+task7_7,7,TF-IDF (random tie-break),patient_demographics_agent
+task7_8,7,TF-IDF (random tie-break),patient_demographics_agent
+task7_9,7,TF-IDF (random tie-break),patient_demographics_agent
+task7_10,7,TF-IDF (random tie-break),demographics_agent_uncert
+task7_11,7,TF-IDF (random tie-break),patient_demographics_agent
+task7_12,7,TF-IDF (random tie-break),demographics_agent_uncert
+task7_13,7,TF-IDF (random tie-break),demographics_agent_uncert
+task7_14,7,TF-IDF (random tie-break),patient_demographics_agent
+task7_15,7,TF-IDF (random tie-break),demographics_agent_uncert
+task7_16,7,TF-IDF (random tie-break),demographics_agent_uncert
+task7_17,7,TF-IDF (random tie-break),patient_demographics_agent
+task7_18,7,TF-IDF (random tie-break),demographics_agent_uncert
+task7_19,7,TF-IDF (random tie-break),patient_demographics_agent
+task7_20,7,TF-IDF (random tie-break),demographics_agent_uncert
+task7_21,7,TF-IDF (random tie-break),demographics_agent_uncert
+task7_22,7,TF-IDF (random tie-break),patient_demographics_agent
+task7_23,7,TF-IDF (random tie-break),patient_demographics_agent
+task7_24,7,TF-IDF (random tie-break),patient_demographics_agent
+task7_25,7,TF-IDF (random tie-break),demographics_agent_uncert
+task7_26,7,TF-IDF (random tie-break),patient_demographics_agent
+task7_27,7,TF-IDF (random tie-break),patient_demographics_agent
+task7_28,7,TF-IDF (random tie-break),patient_demographics_agent
+task7_29,7,TF-IDF (random tie-break),patient_demographics_agent
+task7_30,7,TF-IDF (random tie-break),patient_demographics_agent
+task8_1,8,TF-IDF (random tie-break),procedure_agent_uncert
+task8_2,8,TF-IDF (random tie-break),procedure_agent_uncert
+task8_3,8,TF-IDF (random tie-break),procedure_agent_uncert
+task8_4,8,TF-IDF (random tie-break),procedure_agent_uncert
+task8_5,8,TF-IDF (random tie-break),procedure_agent_uncert
+task8_6,8,TF-IDF (random tie-break),procedure_agent_uncert
+task8_7,8,TF-IDF (random tie-break),procedure_agent_uncert
+task8_8,8,TF-IDF (random tie-break),procedure_agent_uncert
+task8_9,8,TF-IDF (random tie-break),procedure_agent_uncert
+task8_10,8,TF-IDF (random tie-break),procedure_agent_uncert
+task8_11,8,TF-IDF (random tie-break),procedure_agent_uncert
+task8_12,8,TF-IDF (random tie-break),procedure_agent_uncert
+task8_13,8,TF-IDF (random tie-break),procedure_agent_uncert
+task8_14,8,TF-IDF (random tie-break),procedure_agent_uncert
+task8_15,8,TF-IDF (random tie-break),procedure_agent_uncert
+task8_16,8,TF-IDF (random tie-break),procedure_agent_uncert
+task8_17,8,TF-IDF (random tie-break),procedure_agent_uncert
+task8_18,8,TF-IDF (random tie-break),procedure_agent_uncert
+task8_19,8,TF-IDF (random tie-break),procedure_agent_uncert
+task8_20,8,TF-IDF (random tie-break),procedure_agent_uncert
+task8_21,8,TF-IDF (random tie-break),procedure_agent_uncert
+task8_22,8,TF-IDF (random tie-break),procedure_agent_uncert
+task8_23,8,TF-IDF (random tie-break),procedure_agent_uncert
+task8_24,8,TF-IDF (random tie-break),procedure_agent_uncert
+task8_25,8,TF-IDF (random tie-break),procedure_agent_uncert
+task8_26,8,TF-IDF (random tie-break),procedure_agent_uncert
+task8_27,8,TF-IDF (random tie-break),procedure_agent_uncert
+task8_28,8,TF-IDF (random tie-break),procedure_agent_uncert
+task8_29,8,TF-IDF (random tie-break),procedure_agent_uncert
+task8_30,8,TF-IDF (random tie-break),procedure_agent_uncert
+task9_1,9,TF-IDF (random tie-break),labs_agent_lowclear
+task9_2,9,TF-IDF (random tie-break),labs_agent_lowclear
+task9_3,9,TF-IDF (random tie-break),labs_agent
+task9_4,9,TF-IDF (random tie-break),labs_agent
+task9_5,9,TF-IDF (random tie-break),labs_agent
+task9_6,9,TF-IDF (random tie-break),labs_agent
+task9_7,9,TF-IDF (random tie-break),labs_agent_lowclear
+task9_8,9,TF-IDF (random tie-break),labs_agent
+task9_9,9,TF-IDF (random tie-break),labs_agent
+task9_10,9,TF-IDF (random tie-break),labs_agent_lowclear
+task9_11,9,TF-IDF (random tie-break),labs_agent_lowclear
+task9_12,9,TF-IDF (random tie-break),labs_agent_lowclear
+task9_13,9,TF-IDF (random tie-break),labs_agent
+task9_14,9,TF-IDF (random tie-break),labs_agent_lowclear
+task9_15,9,TF-IDF (random tie-break),labs_agent
+task9_16,9,TF-IDF (random tie-break),labs_agent_lowclear
+task9_17,9,TF-IDF (random tie-break),labs_agent_lowclear
+task9_18,9,TF-IDF (random tie-break),labs_agent
+task9_19,9,TF-IDF (random tie-break),labs_agent_lowclear
+task9_20,9,TF-IDF (random tie-break),labs_agent_lowclear
+task9_21,9,TF-IDF (random tie-break),labs_agent_lowclear
+task9_22,9,TF-IDF (random tie-break),labs_agent
+task9_23,9,TF-IDF (random tie-break),labs_agent_lowclear
+task9_24,9,TF-IDF (random tie-break),labs_agent
+task9_25,9,TF-IDF (random tie-break),labs_agent_lowclear
+task9_26,9,TF-IDF (random tie-break),labs_agent_lowclear
+task9_27,9,TF-IDF (random tie-break),labs_agent_lowclear
+task9_28,9,TF-IDF (random tie-break),labs_agent_lowclear
+task9_29,9,TF-IDF (random tie-break),labs_agent_lowclear
+task9_30,9,TF-IDF (random tie-break),labs_agent_lowclear
+task10_1,10,TF-IDF (random tie-break),labs_agent
+task10_2,10,TF-IDF (random tie-break),labs_agent
+task10_3,10,TF-IDF (random tie-break),labs_agent_lowclear
+task10_4,10,TF-IDF (random tie-break),labs_agent_lowclear
+task10_5,10,TF-IDF (random tie-break),labs_agent
+task10_6,10,TF-IDF (random tie-break),labs_agent_lowclear
+task10_7,10,TF-IDF (random tie-break),labs_agent_lowclear
+task10_8,10,TF-IDF (random tie-break),labs_agent_lowclear
+task10_9,10,TF-IDF (random tie-break),labs_agent
+task10_10,10,TF-IDF (random tie-break),labs_agent_lowclear
+task10_11,10,TF-IDF (random tie-break),labs_agent_lowclear
+task10_12,10,TF-IDF (random tie-break),labs_agent
+task10_13,10,TF-IDF (random tie-break),labs_agent_lowclear
+task10_14,10,TF-IDF (random tie-break),labs_agent
+task10_15,10,TF-IDF (random tie-break),labs_agent_lowclear
+task10_16,10,TF-IDF (random tie-break),labs_agent_lowclear
+task10_17,10,TF-IDF (random tie-break),labs_agent_lowclear
+task10_18,10,TF-IDF (random tie-break),labs_agent_lowclear
+task10_19,10,TF-IDF (random tie-break),labs_agent_lowclear
+task10_20,10,TF-IDF (random tie-break),labs_agent
+task10_21,10,TF-IDF (random tie-break),labs_agent
+task10_22,10,TF-IDF (random tie-break),labs_agent
+task10_23,10,TF-IDF (random tie-break),labs_agent
+task10_24,10,TF-IDF (random tie-break),labs_agent_lowclear
+task10_25,10,TF-IDF (random tie-break),labs_agent_lowclear
+task10_26,10,TF-IDF (random tie-break),labs_agent
+task10_27,10,TF-IDF (random tie-break),labs_agent_lowclear
+task10_28,10,TF-IDF (random tie-break),labs_agent_lowclear
+task10_29,10,TF-IDF (random tie-break),labs_agent_lowclear
+task10_30,10,TF-IDF (random tie-break),labs_agent
+task1_1,1,TF-IDF + OPA gate,patient_demographics_agent
+task1_2,1,TF-IDF + OPA gate,patient_demographics_agent
+task1_3,1,TF-IDF + OPA gate,patient_demographics_agent
+task1_4,1,TF-IDF + OPA gate,patient_demographics_agent
+task1_5,1,TF-IDF + OPA gate,patient_demographics_agent
+task1_6,1,TF-IDF + OPA gate,patient_demographics_agent
+task1_7,1,TF-IDF + OPA gate,patient_demographics_agent
+task1_8,1,TF-IDF + OPA gate,patient_demographics_agent
+task1_9,1,TF-IDF + OPA gate,patient_demographics_agent
+task1_10,1,TF-IDF + OPA gate,patient_demographics_agent
+task1_11,1,TF-IDF + OPA gate,patient_demographics_agent
+task1_12,1,TF-IDF + OPA gate,patient_demographics_agent
+task1_13,1,TF-IDF + OPA gate,patient_demographics_agent
+task1_14,1,TF-IDF + OPA gate,patient_demographics_agent
+task1_15,1,TF-IDF + OPA gate,patient_demographics_agent
+task1_16,1,TF-IDF + OPA gate,patient_demographics_agent
+task1_17,1,TF-IDF + OPA gate,patient_demographics_agent
+task1_18,1,TF-IDF + OPA gate,patient_demographics_agent
+task1_19,1,TF-IDF + OPA gate,patient_demographics_agent
+task1_20,1,TF-IDF + OPA gate,patient_demographics_agent
+task1_21,1,TF-IDF + OPA gate,patient_demographics_agent
+task1_22,1,TF-IDF + OPA gate,patient_demographics_agent
+task1_23,1,TF-IDF + OPA gate,patient_demographics_agent
+task1_24,1,TF-IDF + OPA gate,patient_demographics_agent
+task1_25,1,TF-IDF + OPA gate,patient_demographics_agent
+task1_26,1,TF-IDF + OPA gate,patient_demographics_agent
+task1_27,1,TF-IDF + OPA gate,patient_demographics_agent
+task1_28,1,TF-IDF + OPA gate,patient_demographics_agent
+task1_29,1,TF-IDF + OPA gate,patient_demographics_agent
+task1_30,1,TF-IDF + OPA gate,patient_demographics_agent
+task2_1,2,TF-IDF + OPA gate,patient_demographics_agent
+task2_2,2,TF-IDF + OPA gate,patient_demographics_agent
+task2_3,2,TF-IDF + OPA gate,patient_demographics_agent
+task2_4,2,TF-IDF + OPA gate,patient_demographics_agent
+task2_5,2,TF-IDF + OPA gate,patient_demographics_agent
+task2_6,2,TF-IDF + OPA gate,patient_demographics_agent
+task2_7,2,TF-IDF + OPA gate,patient_demographics_agent
+task2_8,2,TF-IDF + OPA gate,patient_demographics_agent
+task2_9,2,TF-IDF + OPA gate,patient_demographics_agent
+task2_10,2,TF-IDF + OPA gate,patient_demographics_agent
+task2_11,2,TF-IDF + OPA gate,patient_demographics_agent
+task2_12,2,TF-IDF + OPA gate,patient_demographics_agent
+task2_13,2,TF-IDF + OPA gate,patient_demographics_agent
+task2_14,2,TF-IDF + OPA gate,patient_demographics_agent
+task2_15,2,TF-IDF + OPA gate,patient_demographics_agent
+task2_16,2,TF-IDF + OPA gate,patient_demographics_agent
+task2_17,2,TF-IDF + OPA gate,patient_demographics_agent
+task2_18,2,TF-IDF + OPA gate,patient_demographics_agent
+task2_19,2,TF-IDF + OPA gate,patient_demographics_agent
+task2_20,2,TF-IDF + OPA gate,patient_demographics_agent
+task2_21,2,TF-IDF + OPA gate,patient_demographics_agent
+task2_22,2,TF-IDF + OPA gate,patient_demographics_agent
+task2_23,2,TF-IDF + OPA gate,patient_demographics_agent
+task2_24,2,TF-IDF + OPA gate,patient_demographics_agent
+task2_25,2,TF-IDF + OPA gate,patient_demographics_agent
+task2_26,2,TF-IDF + OPA gate,patient_demographics_agent
+task2_27,2,TF-IDF + OPA gate,patient_demographics_agent
+task2_28,2,TF-IDF + OPA gate,patient_demographics_agent
+task2_29,2,TF-IDF + OPA gate,patient_demographics_agent
+task2_30,2,TF-IDF + OPA gate,patient_demographics_agent
+task3_1,3,TF-IDF + OPA gate,patient_demographics_agent
+task3_2,3,TF-IDF + OPA gate,patient_demographics_agent
+task3_3,3,TF-IDF + OPA gate,patient_demographics_agent
+task3_4,3,TF-IDF + OPA gate,patient_demographics_agent
+task3_5,3,TF-IDF + OPA gate,patient_demographics_agent
+task3_6,3,TF-IDF + OPA gate,patient_demographics_agent
+task3_7,3,TF-IDF + OPA gate,patient_demographics_agent
+task3_8,3,TF-IDF + OPA gate,patient_demographics_agent
+task3_9,3,TF-IDF + OPA gate,patient_demographics_agent
+task3_10,3,TF-IDF + OPA gate,patient_demographics_agent
+task3_11,3,TF-IDF + OPA gate,patient_demographics_agent
+task3_12,3,TF-IDF + OPA gate,patient_demographics_agent
+task3_13,3,TF-IDF + OPA gate,patient_demographics_agent
+task3_14,3,TF-IDF + OPA gate,patient_demographics_agent
+task3_15,3,TF-IDF + OPA gate,patient_demographics_agent
+task3_16,3,TF-IDF + OPA gate,patient_demographics_agent
+task3_17,3,TF-IDF + OPA gate,patient_demographics_agent
+task3_18,3,TF-IDF + OPA gate,patient_demographics_agent
+task3_19,3,TF-IDF + OPA gate,patient_demographics_agent
+task3_20,3,TF-IDF + OPA gate,patient_demographics_agent
+task3_21,3,TF-IDF + OPA gate,patient_demographics_agent
+task3_22,3,TF-IDF + OPA gate,patient_demographics_agent
+task3_23,3,TF-IDF + OPA gate,patient_demographics_agent
+task3_24,3,TF-IDF + OPA gate,patient_demographics_agent
+task3_25,3,TF-IDF + OPA gate,patient_demographics_agent
+task3_26,3,TF-IDF + OPA gate,patient_demographics_agent
+task3_27,3,TF-IDF + OPA gate,patient_demographics_agent
+task3_28,3,TF-IDF + OPA gate,patient_demographics_agent
+task3_29,3,TF-IDF + OPA gate,patient_demographics_agent
+task3_30,3,TF-IDF + OPA gate,patient_demographics_agent
+task4_1,4,TF-IDF + OPA gate,__deny__
+task4_2,4,TF-IDF + OPA gate,__deny__
+task4_3,4,TF-IDF + OPA gate,__deny__
+task4_4,4,TF-IDF + OPA gate,__deny__
+task4_5,4,TF-IDF + OPA gate,__deny__
+task4_6,4,TF-IDF + OPA gate,__deny__
+task4_7,4,TF-IDF + OPA gate,__deny__
+task4_8,4,TF-IDF + OPA gate,__deny__
+task4_9,4,TF-IDF + OPA gate,__deny__
+task4_10,4,TF-IDF + OPA gate,__deny__
+task4_11,4,TF-IDF + OPA gate,__deny__
+task4_12,4,TF-IDF + OPA gate,__deny__
+task4_13,4,TF-IDF + OPA gate,__deny__
+task4_14,4,TF-IDF + OPA gate,__deny__
+task4_15,4,TF-IDF + OPA gate,__deny__
+task4_16,4,TF-IDF + OPA gate,__deny__
+task4_17,4,TF-IDF + OPA gate,__deny__
+task4_18,4,TF-IDF + OPA gate,__deny__
+task4_19,4,TF-IDF + OPA gate,__deny__
+task4_20,4,TF-IDF + OPA gate,__deny__
+task4_21,4,TF-IDF + OPA gate,__deny__
+task4_22,4,TF-IDF + OPA gate,__deny__
+task4_23,4,TF-IDF + OPA gate,__deny__
+task4_24,4,TF-IDF + OPA gate,__deny__
+task4_25,4,TF-IDF + OPA gate,__deny__
+task4_26,4,TF-IDF + OPA gate,__deny__
+task4_27,4,TF-IDF + OPA gate,__deny__
+task4_28,4,TF-IDF + OPA gate,__deny__
+task4_29,4,TF-IDF + OPA gate,__deny__
+task4_30,4,TF-IDF + OPA gate,__deny__
+task5_1,5,TF-IDF + OPA gate,labs_agent
+task5_2,5,TF-IDF + OPA gate,labs_agent
+task5_3,5,TF-IDF + OPA gate,labs_agent
+task5_4,5,TF-IDF + OPA gate,labs_agent
+task5_5,5,TF-IDF + OPA gate,labs_agent
+task5_6,5,TF-IDF + OPA gate,labs_agent
+task5_7,5,TF-IDF + OPA gate,labs_agent
+task5_8,5,TF-IDF + OPA gate,labs_agent
+task5_9,5,TF-IDF + OPA gate,labs_agent
+task5_10,5,TF-IDF + OPA gate,labs_agent
+task5_11,5,TF-IDF + OPA gate,labs_agent
+task5_12,5,TF-IDF + OPA gate,labs_agent
+task5_13,5,TF-IDF + OPA gate,labs_agent
+task5_14,5,TF-IDF + OPA gate,labs_agent
+task5_15,5,TF-IDF + OPA gate,labs_agent
+task5_16,5,TF-IDF + OPA gate,labs_agent
+task5_17,5,TF-IDF + OPA gate,labs_agent
+task5_18,5,TF-IDF + OPA gate,labs_agent
+task5_19,5,TF-IDF + OPA gate,labs_agent
+task5_20,5,TF-IDF + OPA gate,labs_agent
+task5_21,5,TF-IDF + OPA gate,labs_agent
+task5_22,5,TF-IDF + OPA gate,labs_agent
+task5_23,5,TF-IDF + OPA gate,labs_agent
+task5_24,5,TF-IDF + OPA gate,labs_agent
+task5_25,5,TF-IDF + OPA gate,labs_agent
+task5_26,5,TF-IDF + OPA gate,labs_agent
+task5_27,5,TF-IDF + OPA gate,labs_agent
+task5_28,5,TF-IDF + OPA gate,labs_agent
+task5_29,5,TF-IDF + OPA gate,labs_agent
+task5_30,5,TF-IDF + OPA gate,labs_agent
+task6_1,6,TF-IDF + OPA gate,__deny__
+task6_2,6,TF-IDF + OPA gate,__deny__
+task6_3,6,TF-IDF + OPA gate,__deny__
+task6_4,6,TF-IDF + OPA gate,__deny__
+task6_5,6,TF-IDF + OPA gate,__deny__
+task6_6,6,TF-IDF + OPA gate,__deny__
+task6_7,6,TF-IDF + OPA gate,__deny__
+task6_8,6,TF-IDF + OPA gate,__deny__
+task6_9,6,TF-IDF + OPA gate,__deny__
+task6_10,6,TF-IDF + OPA gate,__deny__
+task6_11,6,TF-IDF + OPA gate,__deny__
+task6_12,6,TF-IDF + OPA gate,__deny__
+task6_13,6,TF-IDF + OPA gate,__deny__
+task6_14,6,TF-IDF + OPA gate,__deny__
+task6_15,6,TF-IDF + OPA gate,__deny__
+task6_16,6,TF-IDF + OPA gate,__deny__
+task6_17,6,TF-IDF + OPA gate,__deny__
+task6_18,6,TF-IDF + OPA gate,__deny__
+task6_19,6,TF-IDF + OPA gate,__deny__
+task6_20,6,TF-IDF + OPA gate,__deny__
+task6_21,6,TF-IDF + OPA gate,__deny__
+task6_22,6,TF-IDF + OPA gate,__deny__
+task6_23,6,TF-IDF + OPA gate,__deny__
+task6_24,6,TF-IDF + OPA gate,__deny__
+task6_25,6,TF-IDF + OPA gate,__deny__
+task6_26,6,TF-IDF + OPA gate,__deny__
+task6_27,6,TF-IDF + OPA gate,__deny__
+task6_28,6,TF-IDF + OPA gate,__deny__
+task6_29,6,TF-IDF + OPA gate,__deny__
+task6_30,6,TF-IDF + OPA gate,__deny__
+task7_1,7,TF-IDF + OPA gate,__deny__
+task7_2,7,TF-IDF + OPA gate,__deny__
+task7_3,7,TF-IDF + OPA gate,__deny__
+task7_4,7,TF-IDF + OPA gate,__deny__
+task7_5,7,TF-IDF + OPA gate,__deny__
+task7_6,7,TF-IDF + OPA gate,__deny__
+task7_7,7,TF-IDF + OPA gate,__deny__
+task7_8,7,TF-IDF + OPA gate,__deny__
+task7_9,7,TF-IDF + OPA gate,__deny__
+task7_10,7,TF-IDF + OPA gate,__deny__
+task7_11,7,TF-IDF + OPA gate,__deny__
+task7_12,7,TF-IDF + OPA gate,__deny__
+task7_13,7,TF-IDF + OPA gate,__deny__
+task7_14,7,TF-IDF + OPA gate,__deny__
+task7_15,7,TF-IDF + OPA gate,__deny__
+task7_16,7,TF-IDF + OPA gate,__deny__
+task7_17,7,TF-IDF + OPA gate,__deny__
+task7_18,7,TF-IDF + OPA gate,__deny__
+task7_19,7,TF-IDF + OPA gate,__deny__
+task7_20,7,TF-IDF + OPA gate,__deny__
+task7_21,7,TF-IDF + OPA gate,__deny__
+task7_22,7,TF-IDF + OPA gate,__deny__
+task7_23,7,TF-IDF + OPA gate,__deny__
+task7_24,7,TF-IDF + OPA gate,__deny__
+task7_25,7,TF-IDF + OPA gate,__deny__
+task7_26,7,TF-IDF + OPA gate,__deny__
+task7_27,7,TF-IDF + OPA gate,__deny__
+task7_28,7,TF-IDF + OPA gate,__deny__
+task7_29,7,TF-IDF + OPA gate,__deny__
+task7_30,7,TF-IDF + OPA gate,__deny__
+task8_1,8,TF-IDF + OPA gate,__deny__
+task8_2,8,TF-IDF + OPA gate,__deny__
+task8_3,8,TF-IDF + OPA gate,__deny__
+task8_4,8,TF-IDF + OPA gate,__deny__
+task8_5,8,TF-IDF + OPA gate,__deny__
+task8_6,8,TF-IDF + OPA gate,__deny__
+task8_7,8,TF-IDF + OPA gate,__deny__
+task8_8,8,TF-IDF + OPA gate,__deny__
+task8_9,8,TF-IDF + OPA gate,__deny__
+task8_10,8,TF-IDF + OPA gate,__deny__
+task8_11,8,TF-IDF + OPA gate,__deny__
+task8_12,8,TF-IDF + OPA gate,__deny__
+task8_13,8,TF-IDF + OPA gate,__deny__
+task8_14,8,TF-IDF + OPA gate,__deny__
+task8_15,8,TF-IDF + OPA gate,__deny__
+task8_16,8,TF-IDF + OPA gate,__deny__
+task8_17,8,TF-IDF + OPA gate,__deny__
+task8_18,8,TF-IDF + OPA gate,__deny__
+task8_19,8,TF-IDF + OPA gate,__deny__
+task8_20,8,TF-IDF + OPA gate,__deny__
+task8_21,8,TF-IDF + OPA gate,__deny__
+task8_22,8,TF-IDF + OPA gate,__deny__
+task8_23,8,TF-IDF + OPA gate,__deny__
+task8_24,8,TF-IDF + OPA gate,__deny__
+task8_25,8,TF-IDF + OPA gate,__deny__
+task8_26,8,TF-IDF + OPA gate,__deny__
+task8_27,8,TF-IDF + OPA gate,__deny__
+task8_28,8,TF-IDF + OPA gate,__deny__
+task8_29,8,TF-IDF + OPA gate,__deny__
+task8_30,8,TF-IDF + OPA gate,__deny__
+task9_1,9,TF-IDF + OPA gate,labs_agent
+task9_2,9,TF-IDF + OPA gate,labs_agent
+task9_3,9,TF-IDF + OPA gate,labs_agent
+task9_4,9,TF-IDF + OPA gate,labs_agent
+task9_5,9,TF-IDF + OPA gate,labs_agent
+task9_6,9,TF-IDF + OPA gate,labs_agent
+task9_7,9,TF-IDF + OPA gate,labs_agent
+task9_8,9,TF-IDF + OPA gate,labs_agent
+task9_9,9,TF-IDF + OPA gate,labs_agent
+task9_10,9,TF-IDF + OPA gate,labs_agent
+task9_11,9,TF-IDF + OPA gate,labs_agent
+task9_12,9,TF-IDF + OPA gate,labs_agent
+task9_13,9,TF-IDF + OPA gate,labs_agent
+task9_14,9,TF-IDF + OPA gate,labs_agent
+task9_15,9,TF-IDF + OPA gate,labs_agent
+task9_16,9,TF-IDF + OPA gate,labs_agent
+task9_17,9,TF-IDF + OPA gate,labs_agent
+task9_18,9,TF-IDF + OPA gate,labs_agent
+task9_19,9,TF-IDF + OPA gate,labs_agent
+task9_20,9,TF-IDF + OPA gate,labs_agent
+task9_21,9,TF-IDF + OPA gate,labs_agent
+task9_22,9,TF-IDF + OPA gate,labs_agent
+task9_23,9,TF-IDF + OPA gate,labs_agent
+task9_24,9,TF-IDF + OPA gate,labs_agent
+task9_25,9,TF-IDF + OPA gate,labs_agent
+task9_26,9,TF-IDF + OPA gate,labs_agent
+task9_27,9,TF-IDF + OPA gate,labs_agent
+task9_28,9,TF-IDF + OPA gate,labs_agent
+task9_29,9,TF-IDF + OPA gate,labs_agent
+task9_30,9,TF-IDF + OPA gate,labs_agent
+task10_1,10,TF-IDF + OPA gate,labs_agent
+task10_2,10,TF-IDF + OPA gate,labs_agent
+task10_3,10,TF-IDF + OPA gate,labs_agent
+task10_4,10,TF-IDF + OPA gate,labs_agent
+task10_5,10,TF-IDF + OPA gate,labs_agent
+task10_6,10,TF-IDF + OPA gate,labs_agent
+task10_7,10,TF-IDF + OPA gate,labs_agent
+task10_8,10,TF-IDF + OPA gate,labs_agent
+task10_9,10,TF-IDF + OPA gate,labs_agent
+task10_10,10,TF-IDF + OPA gate,labs_agent
+task10_11,10,TF-IDF + OPA gate,labs_agent
+task10_12,10,TF-IDF + OPA gate,labs_agent
+task10_13,10,TF-IDF + OPA gate,labs_agent
+task10_14,10,TF-IDF + OPA gate,labs_agent
+task10_15,10,TF-IDF + OPA gate,labs_agent
+task10_16,10,TF-IDF + OPA gate,labs_agent
+task10_17,10,TF-IDF + OPA gate,labs_agent
+task10_18,10,TF-IDF + OPA gate,labs_agent
+task10_19,10,TF-IDF + OPA gate,labs_agent
+task10_20,10,TF-IDF + OPA gate,labs_agent
+task10_21,10,TF-IDF + OPA gate,labs_agent
+task10_22,10,TF-IDF + OPA gate,labs_agent
+task10_23,10,TF-IDF + OPA gate,labs_agent
+task10_24,10,TF-IDF + OPA gate,labs_agent
+task10_25,10,TF-IDF + OPA gate,labs_agent
+task10_26,10,TF-IDF + OPA gate,labs_agent
+task10_27,10,TF-IDF + OPA gate,labs_agent
+task10_28,10,TF-IDF + OPA gate,labs_agent
+task10_29,10,TF-IDF + OPA gate,labs_agent
+task10_30,10,TF-IDF + OPA gate,labs_agent

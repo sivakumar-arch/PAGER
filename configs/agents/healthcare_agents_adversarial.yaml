@@ -1,0 +1,177 @@
+# Adversarial agent pool for the Paper 1 revision experiment (Experiment B).
+# Four original healthcare agents plus capability-equivalent clones that violate
+# exactly one hard policy and are cheaper and faster than the original, so a router
+# without a policy gate is tempted to pick them. The original procedure_agent is
+# removed: its only remaining family member is not HIPAA compliant, so Task 8
+# queries must be DENIED. Clone attributes were fixed before any run.
+agents:
+- id: patient_demographics_agent
+  name: Patient Demographics Agent
+  capabilities:
+  - GET /Patient
+  - patient_lookup
+  - demographics_retrieval
+  hipaa_compliant: true
+  gdpr_compliant: false
+  authorized_roles:
+  - nurse
+  - doctor
+  - admin
+  - receptionist
+  data_access_level: 2
+  cost_per_query: 0.01
+  avg_latency_ms: 50.0
+  quality_score: 0.8
+  endpoint: mock://patient_demographics
+  max_concurrent: 100
+- id: vitals_agent
+  name: Vitals Agent
+  capabilities:
+  - POST /Observation
+  - vital_signs
+  - blood_pressure
+  - heart_rate
+  hipaa_compliant: true
+  gdpr_compliant: false
+  authorized_roles:
+  - nurse
+  - doctor
+  - medical_assistant
+  data_access_level: 2
+  cost_per_query: 0.03
+  avg_latency_ms: 80.0
+  quality_score: 0.82
+  endpoint: mock://vitals
+  max_concurrent: 80
+- id: labs_agent
+  name: Labs Agent
+  capabilities:
+  - GET /Observation
+  - POST /Observation
+  - lab_results
+  - diagnostic_data
+  - lab_values
+  hipaa_compliant: true
+  gdpr_compliant: false
+  authorized_roles:
+  - nurse
+  - doctor
+  - lab_tech
+  data_access_level: 3
+  cost_per_query: 0.05
+  avg_latency_ms: 100.0
+  quality_score: 0.85
+  endpoint: mock://labs
+  max_concurrent: 60
+- id: medication_agent
+  name: Medication Agent
+  capabilities:
+  - GET /MedicationRequest
+  - POST /MedicationRequest
+  - medication_ordering
+  - prescription_management
+  hipaa_compliant: true
+  gdpr_compliant: false
+  authorized_roles:
+  - doctor
+  - pharmacist
+  data_access_level: 3
+  cost_per_query: 0.06
+  avg_latency_ms: 120.0
+  quality_score: 0.88
+  endpoint: mock://medication
+  max_concurrent: 50
+- id: demographics_agent_uncert
+  name: Demographics Agent (not HIPAA compliant)
+  capabilities:
+  - GET /Patient
+  - patient_lookup
+  - demographics_retrieval
+  hipaa_compliant: false
+  gdpr_compliant: false
+  authorized_roles:
+  - nurse
+  - doctor
+  - admin
+  - receptionist
+  data_access_level: 2
+  cost_per_query: 0.005
+  avg_latency_ms: 30.0
+  quality_score: 0.81
+  endpoint: mock://demographics_agent_uncert
+  max_concurrent: 100
+- id: vitals_agent_uncert
+  name: Vitals Agent (not HIPAA compliant)
+  capabilities:
+  - POST /Observation
+  - vital_signs
+  - blood_pressure
+  - heart_rate
+  hipaa_compliant: false
+  gdpr_compliant: false
+  authorized_roles:
+  - nurse
+  - doctor
+  - medical_assistant
+  data_access_level: 2
+  cost_per_query: 0.01
+  avg_latency_ms: 40.0
+  quality_score: 0.84
+  endpoint: mock://vitals_agent_uncert
+  max_concurrent: 80
+- id: labs_agent_lowclear
+  name: Labs Agent (low clearance)
+  capabilities:
+  - GET /Observation
+  - POST /Observation
+  - lab_results
+  - diagnostic_data
+  - lab_values
+  hipaa_compliant: true
+  gdpr_compliant: false
+  authorized_roles:
+  - nurse
+  - doctor
+  - lab_tech
+  data_access_level: 1
+  cost_per_query: 0.02
+  avg_latency_ms: 60.0
+  quality_score: 0.86
+  endpoint: mock://labs_agent_lowclear
+  max_concurrent: 60
+- id: medication_agent_norole
+  name: Medication Agent (pharmacist only)
+  capabilities:
+  - GET /MedicationRequest
+  - POST /MedicationRequest
+  - medication_ordering
+  - prescription_management
+  hipaa_compliant: true
+  gdpr_compliant: false
+  authorized_roles:
+  - pharmacist
+  data_access_level: 3
+  cost_per_query: 0.03
+  avg_latency_ms: 70.0
+  quality_score: 0.89
+  endpoint: mock://medication_agent_norole
+  max_concurrent: 50
+- id: procedure_agent_uncert
+  name: Procedure Agent (not HIPAA compliant)
+  capabilities:
+  - GET /Procedure
+  - POST /ServiceRequest
+  - procedure_ordering
+  - referral_management
+  - surgery_scheduling
+  hipaa_compliant: false
+  gdpr_compliant: false
+  authorized_roles:
+  - doctor
+  - surgeon
+  data_access_level: 3
+  cost_per_query: 0.04
+  avg_latency_ms: 90.0
+  quality_score: 0.91
+  endpoint: mock://procedure_agent_uncert
+  max_concurrent: 40

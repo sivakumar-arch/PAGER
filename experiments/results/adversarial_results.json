@@ -1,0 +1,264 @@
+{
+  "PAGER": {
+    "n": 300,
+    "correct": 300,
+    "accuracy_pct": 100.0,
+    "wilson95": [
+      98.7,
+      100.0
+    ],
+    "oracle_violations": 0,
+    "violation_pct": 0.0,
+    "wrong_family": 0,
+    "queries_in_right_family": 270,
+    "violations_among_right_family": 0,
+    "denial_expected": 30,
+    "denial_correct": 30,
+    "false_allow": 0,
+    "false_deny": 0
+  },
+  "PAGER-NoPolicy": {
+    "n": 300,
+    "correct": 0,
+    "accuracy_pct": 0.0,
+    "wilson95": [
+      0.0,
+      1.3
+    ],
+    "oracle_violations": 300,
+    "violation_pct": 100.0,
+    "wrong_family": 0,
+    "queries_in_right_family": 300,
+    "violations_among_right_family": 300,
+    "denial_expected": 30,
+    "denial_correct": 0,
+    "false_allow": 30,
+    "false_deny": 0
+  },
+  "Random": {
+    "n": 300,
+    "correct": 24,
+    "accuracy_pct": 8.0,
+    "wilson95": [
+      5.4,
+      11.6
+    ],
+    "oracle_violations": 233,
+    "violation_pct": 77.7,
+    "wrong_family": 242,
+    "queries_in_right_family": 58,
+    "violations_among_right_family": 34,
+    "denial_expected": 30,
+    "denial_correct": 0,
+    "false_allow": 30,
+    "false_deny": 0
+  },
+  "Round-Robin": {
+    "n": 300,
+    "correct": 33,
+    "accuracy_pct": 11.0,
+    "wilson95": [
+      7.9,
+      15.0
+    ],
+    "oracle_violations": 232,
+    "violation_pct": 77.3,
+    "wrong_family": 231,
+    "queries_in_right_family": 69,
+    "violations_among_right_family": 36,
+    "denial_expected": 30,
+    "denial_correct": 0,
+    "false_allow": 30,
+    "false_deny": 0
+  },
+  "Rule-Based (cheapest tie-break)": {
+    "n": 300,
+    "correct": 0,
+    "accuracy_pct": 0.0,
+    "wilson95": [
+      0.0,
+      1.3
+    ],
+    "oracle_violations": 300,
+    "violation_pct": 100.0,
+    "wrong_family": 90,
+    "queries_in_right_family": 210,
+    "violations_among_right_family": 210,
+    "denial_expected": 30,
+    "denial_correct": 0,
+    "false_allow": 30,
+    "false_deny": 0
+  },
+  "Rule-Based (registry-order tie-break)": {
+    "n": 300,
+    "correct": 180,
+    "accuracy_pct": 60.0,
+    "wilson95": [
+      54.4,
+      65.4
+    ],
+    "oracle_violations": 60,
+    "violation_pct": 20.0,
+    "wrong_family": 90,
+    "queries_in_right_family": 210,
+    "violations_among_right_family": 30,
+    "denial_expected": 30,
+    "denial_correct": 0,
+    "false_allow": 30,
+    "false_deny": 0
+  },
+  "Rule-Based (random tie-break)": {
+    "n": 300,
+    "correct": 89,
+    "accuracy_pct": 29.7,
+    "wilson95": [
+      24.8,
+      35.1
+    ],
+    "oracle_violations": 180,
+    "violation_pct": 60.0,
+    "wrong_family": 90,
+    "queries_in_right_family": 210,
+    "violations_among_right_family": 121,
+    "denial_expected": 30,
+    "denial_correct": 0,
+    "false_allow": 30,
+    "false_deny": 0
+  },
+  "Rule-Based + OPA gate": {
+    "n": 300,
+    "correct": 210,
+    "accuracy_pct": 70.0,
+    "wilson95": [
+      64.6,
+      74.9
+    ],
+    "oracle_violations": 0,
+    "violation_pct": 0.0,
+    "wrong_family": 60,
+    "queries_in_right_family": 180,
+    "violations_among_right_family": 0,
+    "denial_expected": 30,
+    "denial_correct": 30,
+    "false_allow": 0,
+    "false_deny": 30
+  },
+  "TF-IDF (cheapest tie-break)": {
+    "n": 300,
+    "correct": 0,
+    "accuracy_pct": 0.0,
+    "wilson95": [
+      0.0,
+      1.3
+    ],
+    "oracle_violations": 300,
+    "violation_pct": 100.0,
+    "wrong_family": 180,
+    "queries_in_right_family": 120,
+    "violations_among_right_family": 120,
+    "denial_expected": 30,
+    "denial_correct": 0,
+    "false_allow": 30,
+    "false_deny": 0
+  },
+  "TF-IDF (registry-order tie-break)": {
+    "n": 300,
+    "correct": 90,
+    "accuracy_pct": 30.0,
+    "wilson95": [
+      25.1,
+      35.4
+    ],
+    "oracle_violations": 120,
+    "violation_pct": 40.0,
+    "wrong_family": 180,
+    "queries_in_right_family": 120,
+    "violations_among_right_family": 30,
+    "denial_expected": 30,
+    "denial_correct": 0,
+    "false_allow": 30,
+    "false_deny": 0
+  },
+  "TF-IDF (random tie-break)": {
+    "n": 300,
+    "correct": 40,
+    "accuracy_pct": 13.3,
+    "wilson95": [
+      9.9,
+      17.6
+    ],
+    "oracle_violations": 216,
+    "violation_pct": 72.0,
+    "wrong_family": 180,
+    "queries_in_right_family": 120,
+    "violations_among_right_family": 80,
+    "denial_expected": 30,
+    "denial_correct": 0,
+    "false_allow": 30,
+    "false_deny": 0
+  },
+  "TF-IDF + OPA gate": {
+    "n": 300,
+    "correct": 120,
+    "accuracy_pct": 40.0,
+    "wilson95": [
+      34.6,
+      45.6
+    ],
+    "oracle_violations": 0,
+    "violation_pct": 0.0,
+    "wrong_family": 90,
+    "queries_in_right_family": 90,
+    "violations_among_right_family": 0,
+    "denial_expected": 30,
+    "denial_correct": 30,
+    "false_allow": 0,
+    "false_deny": 90
+  },
+  "_heldout20_PAGER": {
+    "n": 20,
+    "correct": 2,
+    "accuracy_pct": 10.0,
+    "wilson95": [
+      2.8,
+      30.1
+    ],
+    "oracle_violations": 2,
+    "violation_pct": 10.0,
+    "wrong_family": 18,
+    "queries_in_right_family": 2,
+    "violations_among_right_family": 0,
+    "denial_expected": 0,
+    "denial_correct": 0,
+    "false_allow": 0,
+    "false_deny": 0,
+    "pii_flag_missed_by_analyzer": "18/20",
+    "selected": {
+      "labs_agent": 16,
+      "procedure_agent_uncert": 2,
+      "medication_agent": 2
+    },
+    "violating_ids": [
+      "T5-03",
+      "T9-03"
+    ]
+  },
+  "_feature_agreement_300": {
+    "contains_pii": "300/300",
+    "sensitivity": "300/300"
+  },
+  "_pool": {
+    "agents": [
+      "patient_demographics_agent",
+      "vitals_agent",
+      "labs_agent",
+      "medication_agent",
+      "demographics_agent_uncert",
+      "vitals_agent_uncert",
+      "labs_agent_lowclear",
+      "medication_agent_norole",
+      "procedure_agent_uncert"
+    ],
+    "denial_queries": 30
+  }
+}

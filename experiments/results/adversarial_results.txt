@@ -1,0 +1,19 @@
+EXPERIMENT B: adversarial pool, 300 tasks, oracle-scored
+Pool: {'agents': ['patient_demographics_agent', 'vitals_agent', 'labs_agent', 'medication_agent', 'demographics_agent_uncert', 'vitals_agent_uncert', 'labs_agent_lowclear', 'medication_agent_norole', 'procedure_agent_uncert'], 'denial_queries': 30}
+
+Router                                        Acc%  Viol WrongFam Viol|RightFam FalseAllow FalseDeny  DenyOK
+PAGER                                        100.0     0        0         0/270          0         0   30/30
+PAGER-NoPolicy                                 0.0   300        0       300/300         30         0    0/30
+Random                                         8.0   233      242         34/58         30         0    0/30
+Round-Robin                                   11.0   232      231         36/69         30         0    0/30
+Rule-Based (cheapest tie-break)                0.0   300       90       210/210         30         0    0/30
+Rule-Based (registry-order tie-break)         60.0    60       90        30/210         30         0    0/30
+Rule-Based (random tie-break)                 29.7   180       90       121/210         30         0    0/30
+Rule-Based + OPA gate                         70.0     0       60         0/180          0        30   30/30
+TF-IDF (cheapest tie-break)                    0.0   300      180       120/120         30         0    0/30
+TF-IDF (registry-order tie-break)             30.0   120      180        30/120         30         0    0/30
+TF-IDF (random tie-break)                     13.3   216      180        80/120         30         0    0/30
+TF-IDF + OPA gate                             40.0     0       90          0/90          0        90   30/30
+
+Held-out 20 in adversarial pool (PAGER): {'n': 20, 'correct': 2, 'accuracy_pct': 10.0, 'wilson95': [2.8, 30.1], 'oracle_violations': 2, 'violation_pct': 10.0, 'wrong_family': 18, 'queries_in_right_family': 2, 'violations_among_right_family': 0, 'denial_expected': 0, 'denial_correct': 0, 'false_allow': 0, 'false_deny': 0, 'pii_flag_missed_by_analyzer': '18/20', 'selected': {'labs_agent': 16, 'procedure_agent_uncert': 2, 'medication_agent': 2}, 'violating_ids': ['T5-03', 'T9-03']}
+Analyzer feature agreement with oracle (300 tasks): {'contains_pii': '300/300', 'sensitivity': '300/300'}

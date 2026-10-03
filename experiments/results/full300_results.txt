@@ -1,0 +1,32 @@
+EXPERIMENT A: full 300 tasks, frozen analyzer, main pool
+
+[dev77_sample_order]
+  PAGER        acc 100.0% (77/77) Wilson95 [95.2, 100.0]  oracle violations 0.0% (0)
+  Random       acc  24.7% (19/77) Wilson95 [16.4, 35.4]  oracle violations 54.5% (42)
+  Round-Robin  acc  19.5% (15/77) Wilson95 [12.2, 29.7]  oracle violations 51.9% (40)
+  Rule-Based   acc  71.4% (55/77) Wilson95 [60.5, 80.3]  oracle violations 10.4% (8)
+  TF-IDF       acc  41.6% (32/77) Wilson95 [31.2, 52.7]  oracle violations 31.2% (24)
+
+[all300]
+  PAGER        acc 100.0% (300/300) Wilson95 [98.7, 100.0]  oracle violations 0.0% (0)
+  Random       acc  20.3% (61/300) Wilson95 [16.2, 25.2]  oracle violations 52.3% (157)
+  Round-Robin  acc  20.0% (60/300) Wilson95 [15.9, 24.9]  oracle violations 52.0% (156)
+  Rule-Based   acc  70.0% (210/300) Wilson95 [64.6, 74.9]  oracle violations 10.0% (30)
+  TF-IDF       acc  40.0% (120/300) Wilson95 [34.6, 45.6]  oracle violations 30.0% (90)
+
+[non_dev223]
+  PAGER        acc 100.0% (223/223) Wilson95 [98.3, 100.0]  oracle violations 0.0% (0)
+  Random       acc  18.8% (42/223) Wilson95 [14.2, 24.5]  oracle violations 52.5% (117)
+  Round-Robin  acc  21.5% (48/223) Wilson95 [16.6, 27.4]  oracle violations 48.9% (109)
+  Rule-Based   acc  69.5% (155/223) Wilson95 [63.2, 75.2]  oracle violations 9.9% (22)
+  TF-IDF       acc  39.5% (88/223) Wilson95 [33.3, 46.0]  oracle violations 29.6% (66)
+
+Per-task accuracy (300 run):
+  PAGER        T1:30/30 T2:30/30 T3:30/30 T4:30/30 T5:30/30 T6:30/30 T7:30/30 T8:30/30 T9:30/30 T10:30/30
+  Random       T1:9/30 T2:9/30 T3:8/30 T4:4/30 T5:5/30 T6:4/30 T7:5/30 T8:4/30 T9:11/30 T10:2/30
+  Round-Robin  T1:6/30 T2:6/30 T3:6/30 T4:6/30 T5:6/30 T6:6/30 T7:6/30 T8:6/30 T9:6/30 T10:6/30
+  Rule-Based   T1:30/30 T2:30/30 T3:30/30 T4:30/30 T5:0/30 T6:0/30 T7:30/30 T8:30/30 T9:0/30 T10:30/30
+  TF-IDF       T1:30/30 T2:30/30 T3:0/30 T4:0/30 T5:0/30 T6:0/30 T7:0/30 T8:30/30 T9:0/30 T10:30/30
+
+PAGER end-to-end routing overhead (analysis+registry+OPA+resolver), ms: {'n': 300, 'mean': 152.0, 'p50': 140.3, 'p95': 265.8, 'p99': 292.2, 'max': 309.7, 'mean_capable_agents': 1.1, 'queries_with_more_than_one_capable': 30}
+Analyzer feature agreement with oracle: {'contains_pii': '300/300', 'sensitivity': '300/300'}

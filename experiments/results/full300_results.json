@@ -1,0 +1,265 @@
+{
+  "dev77_sample_order": [
+    {
+      "router": "PAGER",
+      "n": 77,
+      "correct": 77,
+      "accuracy_pct": 100.0,
+      "wilson95": [
+        95.2,
+        100.0
+      ],
+      "oracle_violations": 0,
+      "oracle_violation_pct": 0.0
+    },
+    {
+      "router": "Random",
+      "n": 77,
+      "correct": 19,
+      "accuracy_pct": 24.7,
+      "wilson95": [
+        16.4,
+        35.4
+      ],
+      "oracle_violations": 42,
+      "oracle_violation_pct": 54.5
+    },
+    {
+      "router": "Round-Robin",
+      "n": 77,
+      "correct": 15,
+      "accuracy_pct": 19.5,
+      "wilson95": [
+        12.2,
+        29.7
+      ],
+      "oracle_violations": 40,
+      "oracle_violation_pct": 51.9
+    },
+    {
+      "router": "Rule-Based",
+      "n": 77,
+      "correct": 55,
+      "accuracy_pct": 71.4,
+      "wilson95": [
+        60.5,
+        80.3
+      ],
+      "oracle_violations": 8,
+      "oracle_violation_pct": 10.4
+    },
+    {
+      "router": "TF-IDF",
+      "n": 77,
+      "correct": 32,
+      "accuracy_pct": 41.6,
+      "wilson95": [
+        31.2,
+        52.7
+      ],
+      "oracle_violations": 24,
+      "oracle_violation_pct": 31.2
+    }
+  ],
+  "all300": [
+    {
+      "router": "PAGER",
+      "n": 300,
+      "correct": 300,
+      "accuracy_pct": 100.0,
+      "wilson95": [
+        98.7,
+        100.0
+      ],
+      "oracle_violations": 0,
+      "oracle_violation_pct": 0.0
+    },
+    {
+      "router": "Random",
+      "n": 300,
+      "correct": 61,
+      "accuracy_pct": 20.3,
+      "wilson95": [
+        16.2,
+        25.2
+      ],
+      "oracle_violations": 157,
+      "oracle_violation_pct": 52.3
+    },
+    {
+      "router": "Round-Robin",
+      "n": 300,
+      "correct": 60,
+      "accuracy_pct": 20.0,
+      "wilson95": [
+        15.9,
+        24.9
+      ],
+      "oracle_violations": 156,
+      "oracle_violation_pct": 52.0
+    },
+    {
+      "router": "Rule-Based",
+      "n": 300,
+      "correct": 210,
+      "accuracy_pct": 70.0,
+      "wilson95": [
+        64.6,
+        74.9
+      ],
+      "oracle_violations": 30,
+      "oracle_violation_pct": 10.0
+    },
+    {
+      "router": "TF-IDF",
+      "n": 300,
+      "correct": 120,
+      "accuracy_pct": 40.0,
+      "wilson95": [
+        34.6,
+        45.6
+      ],
+      "oracle_violations": 90,
+      "oracle_violation_pct": 30.0
+    }
+  ],
+  "non_dev223": [
+    {
+      "router": "PAGER",
+      "n": 223,
+      "correct": 223,
+      "accuracy_pct": 100.0,
+      "wilson95": [
+        98.3,
+        100.0
+      ],
+      "oracle_violations": 0,
+      "oracle_violation_pct": 0.0
+    },
+    {
+      "router": "Random",
+      "n": 223,
+      "correct": 42,
+      "accuracy_pct": 18.8,
+      "wilson95": [
+        14.2,
+        24.5
+      ],
+      "oracle_violations": 117,
+      "oracle_violation_pct": 52.5
+    },
+    {
+      "router": "Round-Robin",
+      "n": 223,
+      "correct": 48,
+      "accuracy_pct": 21.5,
+      "wilson95": [
+        16.6,
+        27.4
+      ],
+      "oracle_violations": 109,
+      "oracle_violation_pct": 48.9
+    },
+    {
+      "router": "Rule-Based",
+      "n": 223,
+      "correct": 155,
+      "accuracy_pct": 69.5,
+      "wilson95": [
+        63.2,
+        75.2
+      ],
+      "oracle_violations": 22,
+      "oracle_violation_pct": 9.9
+    },
+    {
+      "router": "TF-IDF",
+      "n": 223,
+      "correct": 88,
+      "accuracy_pct": 39.5,
+      "wilson95": [
+        33.3,
+        46.0
+      ],
+      "oracle_violations": 66,
+      "oracle_violation_pct": 29.6
+    }
+  ],
+  "per_task_accuracy": {
+    "PAGER": {
+      "1": "30/30",
+      "2": "30/30",
+      "3": "30/30",
+      "4": "30/30",
+      "5": "30/30",
+      "6": "30/30",
+      "7": "30/30",
+      "8": "30/30",
+      "9": "30/30",
+      "10": "30/30"
+    },
+    "Random": {
+      "1": "9/30",
+      "2": "9/30",
+      "3": "8/30",
+      "4": "4/30",
+      "5": "5/30",
+      "6": "4/30",
+      "7": "5/30",
+      "8": "4/30",
+      "9": "11/30",
+      "10": "2/30"
+    },
+    "Round-Robin": {
+      "1": "6/30",
+      "2": "6/30",
+      "3": "6/30",
+      "4": "6/30",
+      "5": "6/30",
+      "6": "6/30",
+      "7": "6/30",
+      "8": "6/30",
+      "9": "6/30",
+      "10": "6/30"
+    },
+    "Rule-Based": {
+      "1": "30/30",
+      "2": "30/30",
+      "3": "30/30",
+      "4": "30/30",
+      "5": "0/30",
+      "6": "0/30",
+      "7": "30/30",
+      "8": "30/30",
+      "9": "0/30",
+      "10": "30/30"
+    },
+    "TF-IDF": {
+      "1": "30/30",
+      "2": "30/30",
+      "3": "0/30",
+      "4": "0/30",
+      "5": "0/30",
+      "6": "0/30",
+      "7": "0/30",
+      "8": "30/30",
+      "9": "0/30",
+      "10": "30/30"
+    }
+  },
+  "pager_overhead_ms": {
+    "n": 300,
+    "mean": 152.0,
+    "p50": 140.3,
+    "p95": 265.8,
+    "p99": 292.2,
+    "max": 309.7,
+    "mean_capable_agents": 1.1,
+    "queries_with_more_than_one_capable": 30
+  },
+  "analyzer_feature_agreement_with_oracle": {
+    "contains_pii": "300/300",
+    "sensitivity": "300/300"
+  },
+  "note": "Query text = instruction field only. Oracle violation = oracle P1/P2/P3 check (experiments/oracle.py), independent of the QueryAnalyzer and OPA."
+}
