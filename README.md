@@ -220,13 +220,15 @@ PAGER/
 
 ## Evaluation
 
-PAGER is evaluated on **MedAgentBench** (75 questions sampled from 300, balanced across 10 task types):
+PAGER is evaluated on **MedAgentBench** (a 77-query development sample from its 300 tasks, 7 or 8 per task type; Experiments 1 and 4 also run all 300 tasks):
 
 | Experiment | Description |
 |-----------|-------------|
-| **Exp 1** | PAGER vs 4 baselines (random, round-robin, rule-based, embedding) |
+| **Exp 1** | PAGER vs 4 baselines (random, round-robin, rule-based, TF-IDF) |
 | **Exp 2** | Ablation: PAGER-NoPolicy vs PAGER-NoConflict vs PAGER-Full |
 | **Exp 3** | Strategy comparison across 5 conflict resolution strategies + weight sensitivity |
+| **Exp 4** | Adversarial agent pool (300 tasks): PAGER, PAGER without the gate, and gated vs ungated baselines (`experiments/run_adversarial.py`) |
+| **Held-out** | 20 paraphrased Task 5 and 9 queries written after the patterns were frozen (`experiments/run_tier2_heldout.py`) |
 
 **Success criteria:**
 - Policy Compliance Rate: 100%
@@ -267,9 +269,10 @@ ls data/medagentbench/
 ## Citation
 
 ```bibtex
-@article{chintham2026pager,
-  title={PAGER: Policy-Aware Routing and Conflict Resolution for Enterprise Multi-Agent Systems},
-  author={Chintham, Siva Kumar},
+@inproceedings{chintham2026pager,
+  title={{PAGER}: Policy-Aware Routing and Agent Selection for Multi-Agent Systems},
+  author={Chintham, Siva Kumar and Aarella, Seema Gangaiah and Prasad, Atul and Basu, Shomik and Potla, Sai Srinivas Choudary and Bundela, Pratik and Deshpande, Akshay and Subrayappa, Shiva Kumar Devalokam},
+  booktitle={19th IEEE International Symposium on Embedded Multicore/Many-core Systems-on-Chip (MCSoC)},
   year={2026}
 }
 ```
