@@ -1,7 +1,8 @@
 """PolicyEvaluationResult data model.
 
 Represents the structured output of PolicyEngine — which agents passed
-all policies, which were denied and why, and soft hints for ConflictResolver.
+all policies, which were denied and why, and soft hints (recorded, not currently
+used by the ConflictResolver).
 """
 
 from datetime import datetime, timezone
@@ -20,10 +21,10 @@ class PolicyViolation(BaseModel):
 
 
 class SoftHint(BaseModel):
-    """A soft policy preference hint for ConflictResolver.
+    """A soft policy preference hint (cost or latency).
 
-    Soft hints do not deny agents — they signal ConflictResolver to
-    prefer agents that satisfy cost or latency thresholds when resolving ties.
+    Soft hints do not deny agents. They are recorded in the result and are not
+    currently used by the ConflictResolver.
     """
 
     model_config = {"frozen": True}
@@ -57,7 +58,7 @@ class PolicyEvaluationResult(BaseModel):
     # --- Soft guidance for ConflictResolver ---
     soft_hints: list[SoftHint] = Field(
         default_factory=list,
-        description="Cost/SLA preference hints — do not deny agents, guide selection",
+        description="Cost/SLA preference hints: do not deny agents; recorded only, not used for selection",
     )
 
     # --- Full audit record ---
