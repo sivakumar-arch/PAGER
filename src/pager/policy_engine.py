@@ -32,7 +32,7 @@ class PolicyEngine:
     Loads all .rego files from specified policy directories at init.
     Evaluates each (agent, policy) pair using OPA CLI and collects:
       - Hard violations  → deny the agent entirely
-      - Soft hints       → guide ConflictResolver (cost/SLA preferences)
+      - Soft hints       → recorded in the result; the ConflictResolver does not currently use them
 
     Usage:
         engine = PolicyEngine(policy_dirs=["policies/hipaa"])
