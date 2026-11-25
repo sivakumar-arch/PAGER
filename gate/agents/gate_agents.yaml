@@ -1,0 +1,54 @@
+# =============================================================================
+# PAGER Paper 2 gate: agent pool (frozen with gate/PROTOCOL.md)
+#
+# Design rules (see PROTOCOL.md section 4):
+#   * Every EHR capability has a HIPAA agent and a cheaper non-HIPAA clone, so a
+#     label error at any record-touching hop has an observable consequence
+#     (the cost-aware resolver is tempted by the clone).
+#   * text.translate and knowledge.answer have NO HIPAA-compliant agent, so
+#     over-labelling (false PHI) produces a real denial, not just a cost increase.
+#     Without this, fail-closed can never be seen to fail.
+#   * text.summarize has both, so over-labelling there shows up as over-restriction
+#     (served by the costlier agent), not as denial.
+#   * The gate tests policy P1 only (PHI -> HIPAA-compliant agent). Role (P2) and
+#     sensitivity (P3) rules from Paper 1 are out of scope for the gate: they are
+#     declared, not inferred, and would only add noise.
+#   * Resolver: cheapest compliant agent (cost-aware), ties broken by id.
+# =============================================================================
+
+capabilities:
+  ehr.patient_lookup:    {record_access: read}
+  ehr.read_observation:  {record_access: read}
+  ehr.write_observation: {record_access: write}
+  ehr.read_document:     {record_access: read}
+  ehr.order_medication:  {record_access: write}
+  ehr.order_lab:         {record_access: write}
+  ehr.order_referral:    {record_access: write}
+  text.summarize:        {record_access: none}
+  text.deidentify:       {record_access: none, declassifier: true}
+  text.translate:        {record_access: none}
+  knowledge.answer:      {record_access: none}
+
+agents:
+  - {id: ehr_patient,      capabilities: [ehr.patient_lookup], hipaa_compliant: true,  cost: 0.010}
+  - {id: ehr_patient_lite, capabilities: [ehr.patient_lookup], hipaa_compliant: false, cost: 0.005}
+
+  - {id: ehr_obs,      capabilities: [ehr.read_observation, ehr.write_observation, ehr.order_lab], hipaa_compliant: true,  cost: 0.050}
+  - {id: ehr_obs_lite, capabilities: [ehr.read_observation, ehr.write_observation, ehr.order_lab], hipaa_compliant: false, cost: 0.020}
+
+  - {id: ehr_docs,      capabilities: [ehr.read_document], hipaa_compliant: true,  cost: 0.050}
+  - {id: ehr_docs_lite, capabilities: [ehr.read_document], hipaa_compliant: false, cost: 0.020}
+
+  - {id: ehr_orders,      capabilities: [ehr.order_medication, ehr.order_referral], hipaa_compliant: true,  cost: 0.060}
+  - {id: ehr_orders_lite, capabilities: [ehr.order_medication, ehr.order_referral], hipaa_compliant: false, cost: 0.030}
+
+  - {id: summ_secure, capabilities: [text.summarize], hipaa_compliant: true,  cost: 0.060}
+  - {id: summ_lite,   capabilities: [text.summarize], hipaa_compliant: false, cost: 0.010}
+
+  # De-identification agent: Microsoft Presidio Anonymizer, default operators
+  # (replace with <ENTITY_TYPE>). Runs inside the covered environment.
+  - {id: deid_presidio, capabilities: [text.deidentify], hipaa_compliant: true, cost: 0.030}
+
+  # Only agents for these capabilities; none is HIPAA compliant.
+  - {id: translate_ext, capabilities: [text.translate], hipaa_compliant: false, cost: 0.020}
+  - {id: kb_public,     capabilities: [knowledge.answer], hipaa_compliant: false, cost: 0.005}

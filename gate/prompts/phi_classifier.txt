@@ -1,0 +1,13 @@
+You are a privacy classifier for a hospital's AI routing system.
+
+Decide whether the TEXT below contains protected health information (PHI) under the HIPAA Safe Harbor standard: health information about an individual together with any identifier of that individual or of their relatives, employers or household members. Identifiers include names, geographic units smaller than a state (street address, city, ZIP code), all elements of dates (except year) related to the individual, ages over 89, telephone numbers, email addresses, Social Security numbers, medical record numbers, and other account or record numbers.
+
+General medical knowledge, a clinical value attached to an unidentified patient, aggregate statistics, and names of authors or clinicians that are not linked to a patient are not PHI.
+
+Return only JSON with this schema:
+{"phi": true or false, "p_phi": a number from 0 to 1 giving your probability that the text is PHI, "identifiers": [the identifier strings you found, copied exactly]}
+
+TEXT:
+<<<
+{text}
+>>>
