@@ -8,6 +8,7 @@ from __future__ import annotations
 
 import json
 import sys
+import urllib.error
 import urllib.request
 from dataclasses import dataclass, field
 from importlib import metadata
@@ -122,13 +123,17 @@ class OllamaClient:
         self.cache, self.url = cache, url
         self._verified = False
 
-    def _post(self, path: str, payload: dict | None = None, timeout: int = 900) -> dict:
+    def _post(self, path: str, payload: dict | None = None, timeout: int = 1800) -> dict:
         data = None if payload is None else json.dumps(payload).encode()
         req = urllib.request.Request(self.url + path, data=data,
                                      headers={"Content-Type": "application/json"},
                                      method="GET" if payload is None else "POST")
-        with urllib.request.urlopen(req, timeout=timeout) as r:
-            return json.loads(r.read())
+        try:
+            with urllib.request.urlopen(req, timeout=timeout) as r:
+                return json.loads(r.read())
+        except urllib.error.HTTPError as e:      # show Ollama's own error message, then stop
+            body = e.read().decode("utf-8", "replace")
+            raise RuntimeError(f"Ollama {path} returned HTTP {e.code}: {body}") from None
 
     def verify_model(self) -> str:
         tags = self._post("/api/tags")
@@ -161,7 +166,8 @@ class OllamaClient:
                 msg = resp.get("message", {})
                 content = msg.get("content", "")
                 attempt = {"content": content, "thinking": msg.get("thinking"), "model": resp.get("model"),
-                           "eval_count": resp.get("eval_count"), "total_duration_ns": resp.get("total_duration")}
+                           "eval_count": resp.get("eval_count"), "total_duration_ns": resp.get("total_duration"),
+                           "done_reason": resp.get("done_reason")}
                 parsed = _parse(content, validate)
                 attempt["parsed_ok"] = parsed is not None
                 attempts.append(attempt)

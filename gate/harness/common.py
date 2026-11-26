@@ -27,8 +27,8 @@ PRESIDIO_ENTITIES = [
 
 # PINNING.md
 OLLAMA_URL = "http://localhost:11434"
-LLM_MODEL = "gemma4:31b"
-LLM_MODEL_ID = "92808281a855"
+LLM_MODEL = "gemma4:31b-it-q8_0"
+LLM_MODEL_ID = "ac97b596ee1f"     # pinned by the ID shown in `ollama list`, not only the tag
 LLM_SEED = 20261126
 LLM_TEMPERATURE = 0
 PIN_VERSIONS = {

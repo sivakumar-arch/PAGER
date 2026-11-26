@@ -27,5 +27,7 @@ def capture(model_digest: str | None = None) -> dict:
         "git_dirty": bool(_run(["git", "status", "--porcelain", "--untracked-files=no"])),
         "ollama_version": _run(["ollama", "--version"]),
         "ollama_model_digest": model_digest,
+        "ollama_ps": _run(["ollama", "ps"]),                       # GPU/CPU split of the loaded model
+        "gpu_wired_limit_mb": _run(["sysctl", "-n", "iogpu.wired_limit_mb"]),
         "pip_freeze": (_run([sys.executable, "-m", "pip", "freeze"]) or "").splitlines(),
     }
