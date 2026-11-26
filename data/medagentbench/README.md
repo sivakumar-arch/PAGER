@@ -11,9 +11,9 @@ Dataset files are **not tracked in git**. Download and place them in this direct
 
 ## Source
 
-**MedAgentBench**: [https://github.com/gersteinlab/MedAgentBench](https://github.com/gersteinlab/MedAgentBench)
+**MedAgentBench**: [https://github.com/stanfordmlgroup/MedAgentBench](https://github.com/stanfordmlgroup/MedAgentBench)
 
-Gersteinlab, Yale University.
+Jiang, Y., Black, K. C., Geng, G., Park, D., Zou, J., Ng, A. Y., and Chen, J. H. MedAgentBench: A Virtual EHR Environment to Benchmark Medical LLM Agents. NEJM AI, 2025. Stanford University; MIT License.
 
 ## PAGER Evaluation Sample
 

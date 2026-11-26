@@ -254,7 +254,7 @@ PAGER is evaluated on **MedAgentBench** — a benchmark of 300 structured EHR qu
 | `test_data_v2.json` | 300 MedAgentBench evaluation questions |
 | `funcs_v1.json` | FHIR API function definitions |
 
-**Source**: [MedAgentBench](https://github.com/gersteinlab/MedAgentBench) — Gersteinlab, Yale University.
+**Source**: [MedAgentBench](https://github.com/stanfordmlgroup/MedAgentBench), Jiang et al., NEJM AI 2025 (Stanford University; MIT License).
 
 ```bash
 # After downloading, verify placement:
