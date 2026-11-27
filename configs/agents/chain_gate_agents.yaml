@@ -1,0 +1,195 @@
+# =============================================================================
+# PAGER-Chain agent registry: the gate agent pool in Paper 1's Agent format
+#
+# Transcribed from the frozen gate/agents/gate_agents.yaml. id, capabilities,
+# hipaa_compliant and cost_per_query must match it exactly (checked by
+# tests/chain/test_registry_config.py). The other Agent fields are fixed, neutral
+# values shared by every agent. They do not affect the cost-aware strategy. Under
+# the latency- or quality-aware strategies every agent ties, so Paper 1's tie rule
+# (agent id) decides; those strategies are not meaningful on this pool until real
+# latency and quality figures exist.
+# Roles are empty, so Paper 1's role policy imposes no constraint.
+# =============================================================================
+
+capabilities:
+  ehr.patient_lookup: {record_access: read}
+  ehr.read_observation: {record_access: read}
+  ehr.write_observation: {record_access: write}
+  ehr.read_document: {record_access: read}
+  ehr.order_medication: {record_access: write}
+  ehr.order_lab: {record_access: write}
+  ehr.order_referral: {record_access: write}
+  text.summarize: {record_access: none}
+  text.deidentify: {record_access: none, declassifier: true}
+  text.translate: {record_access: none}
+  knowledge.answer: {record_access: none}
+
+agents:
+  - id: ehr_patient
+    name: "EHR Patient"
+    capabilities: ["ehr.patient_lookup"]
+    hipaa_compliant: true
+    gdpr_compliant: false
+    authorized_roles: []
+    data_access_level: 2
+    cost_per_query: 0.01
+    avg_latency_ms: 100.0
+    quality_score: 0.80
+    endpoint: "mock://ehr_patient"
+    max_concurrent: 100
+
+  - id: ehr_patient_lite
+    name: "EHR Patient Lite"
+    capabilities: ["ehr.patient_lookup"]
+    hipaa_compliant: false
+    gdpr_compliant: false
+    authorized_roles: []
+    data_access_level: 2
+    cost_per_query: 0.005
+    avg_latency_ms: 100.0
+    quality_score: 0.80
+    endpoint: "mock://ehr_patient_lite"
+    max_concurrent: 100
+
+  - id: ehr_obs
+    name: "EHR Obs"
+    capabilities: ["ehr.read_observation", "ehr.write_observation", "ehr.order_lab"]
+    hipaa_compliant: true
+    gdpr_compliant: false
+    authorized_roles: []
+    data_access_level: 2
+    cost_per_query: 0.05
+    avg_latency_ms: 100.0
+    quality_score: 0.80
+    endpoint: "mock://ehr_obs"
+    max_concurrent: 100
+
+  - id: ehr_obs_lite
+    name: "EHR Obs Lite"
+    capabilities: ["ehr.read_observation", "ehr.write_observation", "ehr.order_lab"]
+    hipaa_compliant: false
+    gdpr_compliant: false
+    authorized_roles: []
+    data_access_level: 2
+    cost_per_query: 0.02
+    avg_latency_ms: 100.0
+    quality_score: 0.80
+    endpoint: "mock://ehr_obs_lite"
+    max_concurrent: 100
+
+  - id: ehr_docs
+    name: "EHR Docs"
+    capabilities: ["ehr.read_document"]
+    hipaa_compliant: true
+    gdpr_compliant: false
+    authorized_roles: []
+    data_access_level: 2
+    cost_per_query: 0.05
+    avg_latency_ms: 100.0
+    quality_score: 0.80
+    endpoint: "mock://ehr_docs"
+    max_concurrent: 100
+
+  - id: ehr_docs_lite
+    name: "EHR Docs Lite"
+    capabilities: ["ehr.read_document"]
+    hipaa_compliant: false
+    gdpr_compliant: false
+    authorized_roles: []
+    data_access_level: 2
+    cost_per_query: 0.02
+    avg_latency_ms: 100.0
+    quality_score: 0.80
+    endpoint: "mock://ehr_docs_lite"
+    max_concurrent: 100
+
+  - id: ehr_orders
+    name: "EHR Orders"
+    capabilities: ["ehr.order_medication", "ehr.order_referral"]
+    hipaa_compliant: true
+    gdpr_compliant: false
+    authorized_roles: []
+    data_access_level: 2
+    cost_per_query: 0.06
+    avg_latency_ms: 100.0
+    quality_score: 0.80
+    endpoint: "mock://ehr_orders"
+    max_concurrent: 100
+
+  - id: ehr_orders_lite
+    name: "EHR Orders Lite"
+    capabilities: ["ehr.order_medication", "ehr.order_referral"]
+    hipaa_compliant: false
+    gdpr_compliant: false
+    authorized_roles: []
+    data_access_level: 2
+    cost_per_query: 0.03
+    avg_latency_ms: 100.0
+    quality_score: 0.80
+    endpoint: "mock://ehr_orders_lite"
+    max_concurrent: 100
+
+  - id: summ_secure
+    name: "Summ Secure"
+    capabilities: ["text.summarize"]
+    hipaa_compliant: true
+    gdpr_compliant: false
+    authorized_roles: []
+    data_access_level: 2
+    cost_per_query: 0.06
+    avg_latency_ms: 100.0
+    quality_score: 0.80
+    endpoint: "mock://summ_secure"
+    max_concurrent: 100
+
+  - id: summ_lite
+    name: "Summ Lite"
+    capabilities: ["text.summarize"]
+    hipaa_compliant: false
+    gdpr_compliant: false
+    authorized_roles: []
+    data_access_level: 2
+    cost_per_query: 0.01
+    avg_latency_ms: 100.0
+    quality_score: 0.80
+    endpoint: "mock://summ_lite"
+    max_concurrent: 100
+
+  - id: deid_presidio
+    name: "Deid Presidio"
+    capabilities: ["text.deidentify"]
+    hipaa_compliant: true
+    gdpr_compliant: false
+    authorized_roles: []
+    data_access_level: 2
+    cost_per_query: 0.03
+    avg_latency_ms: 100.0
+    quality_score: 0.80
+    endpoint: "mock://deid_presidio"
+    max_concurrent: 100
+
+  - id: translate_ext
+    name: "Translate Ext"
+    capabilities: ["text.translate"]
+    hipaa_compliant: false
+    gdpr_compliant: false
+    authorized_roles: []
+    data_access_level: 2
+    cost_per_query: 0.02
+    avg_latency_ms: 100.0
+    quality_score: 0.80
+    endpoint: "mock://translate_ext"
+    max_concurrent: 100
+
+  - id: kb_public
+    name: "Kb Public"
+    capabilities: ["knowledge.answer"]
+    hipaa_compliant: false
+    gdpr_compliant: false
+    authorized_roles: []
+    data_access_level: 2
+    cost_per_query: 0.005
+    avg_latency_ms: 100.0
+    quality_score: 0.80
+    endpoint: "mock://kb_public"
+    max_concurrent: 100

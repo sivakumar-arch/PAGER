@@ -1,0 +1,20 @@
+# =============================================================================
+# PAGER-Chain configuration (Paper 2)
+# =============================================================================
+
+pager_chain:
+  agent_config: "configs/agents/chain_gate_agents.yaml"
+  policy_dirs:
+    - "policies/chain"
+
+  # Label policy (gate protocol section 6): PROP | REDETECT | SRC | SRC-FC
+  label_policy: "SRC-FC"
+
+  # Resolver strategy through Paper 1's ConflictResolver:
+  #   cost_aware | latency_aware | quality_aware | weighted | round_robin
+  # cost_aware is the default because the gate used it.
+  resolver_strategy: "cost_aware"
+  resolver_weights:
+    cost_weight: 0.4
+    latency_weight: 0.3
+    quality_weight: 0.3
